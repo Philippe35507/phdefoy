@@ -1,24 +1,82 @@
 ---
 import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
-import PolybeImage from '../assets/Polybe/Polybe-Histoire-Cover.jpg';
 import Layout from '../layouts/BlogPost.astro';
-import { Image } from 'astro:assets';
 ---
 
 <Layout
-	title="About me"
-	description="Lorem ipsum dolor sit amet"
-	pubDate={new Date('August 08 2024')}
-	heroImage={AboutHeroImage.src}
+  title="Philippe de Foy – Mes livres"   
+  pageTitle="Mes livres"                 
+  description="Présentation rapide"
+  pubDate={new Date('August 08 2024')}
+  heroImage={AboutHeroImage.src}
 >
-	<h2></h2>
-	<p></p>
-	
-	<Image 
-		src={PolybeImage} 
-		alt="Hannibal et ses éléphants de guerre"
-		class="my-image"
-	/>
-	
-	<p></p>
+  <!-- On remplace le titre du layout par le nôtre -->
+  <h2></h2>
+  <p class="intro">
+    Découvrez mes ouvrages publiés, disponibles en librairie et en ligne.
+  </p>
+
+  <div class="books">
+    <div class="book">
+      <a href="/blog/espagnol_a1">
+        <img src="/images/esp/EspagnolA1.jpg" 
+             alt="Couverture du livre L'Espagnol pour les Débutants" 
+             class="book-cover" />
+      </a>
+      <p><em>L'Espagnol pour les Débutants</em></p>
+    </div>
+
+    <div class="book">
+      <a href="/blog/un-oeuf-par-jour">
+        <img src="/images/oeuf/oeuf.jpg" 
+             alt="Couverture du livre Un œuf par jour" 
+             class="book-cover" />
+      </a>
+      <p><em>Un œuf par jour</em></p>
+    </div>
+	<div class="book">
+		<a href="/blog/one-egg-a-day/">
+		  <img src="/images/oeuf/egg.png"
+			   alt="Couverture du livre One Egg a Day"
+			   class="book-cover" />
+		</a>
+		<p><em>One Egg a Day</em></p>
+	  </div>
+  </div>
 </Layout>
+
+<style>
+  /* cache le gros titre injecté par le Layout */
+  h1 {
+    display: none;
+  }
+
+  .intro {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: #444;
+  }
+
+  .books { 
+    display: flex; 
+    gap: 2rem; 
+    margin-top: 1.5rem; 
+    flex-wrap: wrap; 
+  }
+  .book { 
+    text-align: center; 
+    max-width: 150px; 
+  }
+  .book-cover { 
+    width: 100%; 
+    height: auto; 
+    border-radius: 6px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+  }
+  .book-cover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+  }
+</style>
