@@ -54,7 +54,7 @@ const {
         border-radius: 12px;
         box-shadow: var(--box-shadow);
         max-width: 100%;
-        height: auto;
+        height: auto;   
       }
       .prose {
         width: 720px;
@@ -108,28 +108,28 @@ const {
 /* Titre principal de l’article */
 .title h1 {
   margin: 0 0 0.5em;
-  font-size: clamp(1.6rem, 2vw + 1rem, 2.2rem); /* ↓ un peu plus petit qu'avant */
+  font-size: clamp(1.6rem, 2vw + 1rem, 2.5rem);
   font-weight: 700;
   line-height: 1.2;
 }
 
-/* Sous-titres dans le contenu (slot Markdown) */
+/* Sous-titres dans le contenu */
 :global(.prose h2) {
-  font-size: 1.8rem;   /* ↑ plus grand */
+  font-size: 1.8rem;
   margin-top: 1.6rem;
   margin-bottom: 0.9rem;
   line-height: 1.3;
 }
 
 :global(.prose h3) {
-  font-size: 1.45rem;  /* ↑ plus grand */
+  font-size: 1.45rem;
   margin-top: 1.3rem;
   margin-bottom: 0.7rem;
   line-height: 1.3;
 }
 
 :global(.prose h4) {
-  font-size: 1.2rem;   /* ↑ un peu plus grand */
+  font-size: 1.2rem;
   margin-top: 1.1rem;
   margin-bottom: 0.6rem;
   line-height: 1.35;
@@ -137,10 +137,10 @@ const {
 
     </style>
   </head>
-  <body>
+  <body class="blog">
     <Header />
     <main>
-      <article>
+      <article class="blog-post">
         <!-- ❌ On supprime l'ancien <h1>{pageTitle}</h1> ici pour éviter le doublon -->
 
         <div class="hero-image">
@@ -153,6 +153,10 @@ const {
                   alt={heroImageAlt || `Couverture : ${title}`}
                   width="1020"
                   height="510"
+                  loading="eager"
+                  decoding="async"
+                  fetchpriority="high"
+                  sizes="(max-width: 768px) 90vw, 720px"
                 />
                 <span class="badge-amazon">Voir sur Amazon</span>
               </a>
@@ -162,6 +166,10 @@ const {
                 alt={heroImageAlt || `Couverture : ${title}`}
                 width="1020"
                 height="510"
+                loading="eager"
+                decoding="async"
+                fetchpriority="high"
+                sizes="(max-width: 768px) 90vw, 720px"
               />
             )
           )}

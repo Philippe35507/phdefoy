@@ -1,8 +1,4 @@
-/*
-  The CSS in this style tag is based off of Bear Blog's default CSS.
-  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
-  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
- */
+
 
 :root {
 	--font-sans: "Atkinson", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
@@ -57,7 +53,7 @@ h4,
 h5,
 h6 {
 	margin: 0 0 0.5rem 0;
-	color: rgb(var(--black));
+	color: inherit; 
 	line-height: 1.2;
 }
 h1 {
@@ -154,3 +150,33 @@ hr {
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
+/* Couleurs & tailles des titres pour les articles */
+body.blog .prose h1{
+/* ACCENT en hex → on ne met PAS rgb() autour */
+color: var(--accent) !important;
+  }
+  
+  body.blog .prose h2 {
+	/* ACCENT en hex → on ne met PAS rgb() autour */
+	color: var(--accent) !important;
+	font-size: 1.8rem;
+  }
+  
+  body.blog .prose h3 {
+	color: rgb(var(--gray-dark)) !important; /* triplet RGB → OK */
+	font-size: 1.45rem;
+  }
+  
+  body.blog .prose h4 {
+	color: rgb(var(--gray)) !important; /* triplet RGB → OK */
+	font-size: 1.2rem;
+  }
+  
+  /* Liens dans les titres */
+  body.blog h2 a,
+  body.blog h3 a,
+  body.blog h4 a {
+	color: inherit !important;
+	text-decoration: none;
+  }
+  
