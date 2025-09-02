@@ -5,6 +5,7 @@
  */
 
 :root {
+	--font-sans: "Atkinson", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 	--accent: #2337ff;
 	--accent-dark: #000d8a;
 	--black: 15, 18, 25;

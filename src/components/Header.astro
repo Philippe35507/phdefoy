@@ -29,9 +29,7 @@ import HeaderLink from './HeaderLink.astro';
 </header>
 
 <style>
-  /* Import Google Fonts pour une meilleure typographie */
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
-
+ 
   :root {
     --dark-bg: #12141f;
     --dark-bg-hover: #1a1c2b;
@@ -92,7 +90,7 @@ import HeaderLink from './HeaderLink.astro';
     margin: 0;
     font-size: clamp(1.25rem, 3vw, 1.5rem);
     font-weight: 700;
-    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    font-family: var(--font-sans);
     letter-spacing: -0.02em;
   }
 
@@ -143,7 +141,7 @@ import HeaderLink from './HeaderLink.astro';
     padding: 0.5em 1em;
     color: var(--dark-text);
     font-weight: 500;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    font-family: var(--font-sans);
     border-radius: 10px;
     text-decoration: none;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
