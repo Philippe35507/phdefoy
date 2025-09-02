@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /protected/
+
+Sitemap: https://phdefoy.com/sitemap-index.xml

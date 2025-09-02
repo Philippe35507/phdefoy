@@ -1,0 +1,2 @@
+astro dev
+netlify deploy --build --prod

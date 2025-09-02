@@ -1,0 +1,380 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+
+  <body class="page-bg">
+    <Header />
+    <main>
+      <section class="welcome-container">
+        <h1>
+          <span class="icon-books" aria-hidden="true">📚</span>
+          Dialogues à télécharger
+        </h1>
+
+        <div class="intro"></div>
+
+        <div class="downloads-grid">
+          <!-- A1 -->
+          <div class="download-card level-a1">
+            <div class="card-content">
+              <h3>Espagnol niveau A1</h3>
+              <button id="btn-a1" class="download-btn" aria-label="Télécharger les dialogues Espagnol A1">
+                Télécharger
+              </button>
+              <div id="download-container-a1" class="download-container" aria-live="polite"></div>
+            </div>
+          </div>
+
+          <!-- A2 -->
+          <div class="download-card level-a2">
+            <div class="card-content">
+              <h3>Espagnol niveau A2</h3>
+              <button id="btn-a2" class="download-btn" aria-label="Télécharger les dialogues Espagnol A2">
+                Télécharger
+              </button>
+              <div id="download-container-a2" class="download-container" aria-live="polite"></div>
+            </div>
+          </div>
+
+          <!-- B1 -->
+          <div class="download-card level-b1">
+            <div class="card-content">
+              <h3>Espagnol niveau B1</h3>
+              <button id="btn-b1" class="download-btn" aria-label="Télécharger les dialogues Espagnol B1">
+                Télécharger
+              </button>
+              <div id="download-container-b1" class="download-container" aria-live="polite"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <style>
+        /* Import Google Fonts pour une meilleure typographie */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+        body.page-bg {
+          min-height: 100vh;
+          background: linear-gradient(135deg, #12141f 0%, #1a1c2b 40%, #23254a 100%);
+          margin: 0;
+          font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+        }
+
+        main { padding-top: 0; margin-top: -20px; }
+
+        .welcome-container {
+          max-width: 800px;
+          margin: 2rem auto 0;
+          padding: 3rem 2rem;
+          text-align: center;
+          color: #f8fafc;
+        }
+
+        h1 {
+          font-size: clamp(2rem, 5vw, 3rem);
+          color: #f8fafc;
+          font-weight: 700;
+          letter-spacing: -0.02em;
+          margin-bottom: 1rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 1rem;
+        }
+
+        .icon-books {
+          font-size: clamp(3rem, 8vw, 5rem);
+          filter: drop-shadow(0 4px 12px rgba(79, 142, 247, 0.3));
+          animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+          0%, 100% { transform: translateY(0px); }
+          50% { transform: translateY(-10px); }
+        }
+
+        .intro {
+          font-size: 1.25rem;
+          color: #cbd5e1;
+          margin: 2rem 0 3rem 0;
+          font-weight: 500;
+        }
+
+        .downloads-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+          gap: 2rem;
+          max-width: 900px;
+          margin: 0 auto;
+        }
+
+        .download-card {
+          background: rgba(30, 41, 59, 0.6);
+          backdrop-filter: blur(10px);
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          border-radius: 16px;
+          padding: 2rem 1.5rem;
+          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          position: relative;
+          overflow: hidden;
+        }
+
+        .download-card::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          height: 3px;
+          background: linear-gradient(90deg, var(--level-color), var(--level-color-light));
+          opacity: 0.8;
+        }
+
+        .level-a1 { --level-color: #3b82f6; --level-color-light: #60a5fa; }
+        .level-a2 { --level-color: #10b981; --level-color-light: #34d399; }
+        .level-b1 { --level-color: #f59e0b; --level-color-light: #fbbf24; }
+
+        .download-card:hover {
+          transform: translateY(-8px);
+          background: rgba(30, 41, 59, 0.8);
+          border-color: rgba(255, 255, 255, 0.2);
+          box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3),
+                      0 10px 10px -5px rgba(0, 0, 0, 0.1),
+                      0 0 0 1px rgba(255, 255, 255, 0.05);
+        }
+
+        .card-content {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 1.5rem;
+        }
+
+        .download-card h3 {
+          font-size: 1.25rem;
+          font-weight: 600;
+          color: #f1f5f9;
+          margin: 0;
+          letter-spacing: -0.01em;
+        }
+
+        .download-btn {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0.75rem 2rem;
+          background: linear-gradient(135deg, var(--level-color), var(--level-color-light));
+          color: white;
+          text-decoration: none;
+          border-radius: 12px;
+          font-weight: 600;
+          font-size: 1rem;
+          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          border: none;
+          cursor: pointer;
+          min-width: 140px;
+          letter-spacing: 0.01em;
+        }
+
+        .download-btn:hover,
+        .download-btn:focus {
+          transform: translateY(-2px);
+          box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.3);
+          filter: brightness(1.1);
+          outline: none;
+        }
+
+        .download-btn:active { transform: translateY(0); }
+
+        .download-btn:disabled {
+          opacity: 0.6;
+          cursor: not-allowed;
+          transform: none;
+        }
+
+        /* ÉTAT CHARGEMENT : spinner sur le bouton */
+        .download-btn.loading {
+          position: relative;
+          opacity: 0.9;
+        }
+        .download-btn.loading::after {
+          content: "";
+          display: inline-block;
+          width: 14px;
+          height: 14px;
+          margin-left: 8px;
+          border-radius: 9999px;
+          border: 2px solid rgba(255, 255, 255, 0.6);
+          border-top-color: #ffffff;
+          animation: spin 0.8s linear infinite;
+          vertical-align: -2px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        .download-container {
+          margin-top: 1rem;
+          padding: 1rem;
+          background: rgba(16, 185, 129, 0.1);
+          border: 1px solid rgba(16, 185, 129, 0.3);
+          border-radius: 8px;
+          display: none;
+          animation: fadeIn 0.5s ease-in-out;
+          width: 100%;
+          text-align: center;
+        }
+
+        .download-container.show { display: block; }
+
+        .download-container a {
+          color: #10b981;
+          text-decoration: none;
+          font-weight: 600;
+        }
+
+        .download-container a:hover { text-decoration: underline; }
+
+        .timer-text {
+          color: #94a3b8;
+          font-size: 0.875rem;
+          margin-top: 0.5rem;
+        }
+
+        @keyframes fadeIn {
+          from { opacity: 0; transform: translateY(-10px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+          .welcome-container { margin: 1rem auto 0; padding: 2rem 1rem; }
+          .downloads-grid { grid-template-columns: 1fr; gap: 1.5rem; max-width: 400px; }
+          .download-card { padding: 1.5rem 1rem; }
+          .intro { font-size: 1.125rem; margin: 1.5rem 0 2rem 0; }
+        }
+
+        @media (max-width: 480px) {
+          main { margin-top: -10px; }
+          .welcome-container { padding: 1.5rem 0.75rem; }
+          .downloads-grid { max-width: 100%; }
+        }
+      </style>
+
+      <script is:inline>
+        document.addEventListener('DOMContentLoaded', function () {
+          function setupDownloadButton(btnId, containerId, filePath, fileName) {
+            const btn = document.getElementById(btnId);
+            const container = document.getElementById(containerId);
+            if (!btn || !container) return;
+
+            let isActive = false;
+            let timer = null;
+
+            btn.addEventListener('click', function () {
+              if (isActive) return;
+              isActive = true;
+
+              btn.disabled = true;
+              btn.classList.add('loading');
+              btn.setAttribute('aria-busy', 'true');
+              btn.textContent = 'Préparation...';
+
+              // Délai 3s avant d'afficher le lien
+              setTimeout(showDownloadLink, 3000);
+            });
+
+            function showDownloadLink() {
+              const link = document.createElement('a');
+              // ⚠️ Astuce : si ton fichier comporte des espaces, tu peux aussi renommer le fichier ou utiliser %20 (déjà fait ci-dessous)
+              link.href = filePath;
+              link.download = fileName;
+              link.textContent = '📁 ' + fileName;
+
+              // Anti clic droit
+              link.addEventListener('contextmenu', (e) => {
+                e.preventDefault();
+                alert('Clic droit désactivé sur ce lien.');
+              });
+
+              const timerDiv = document.createElement('div');
+              timerDiv.className = 'timer-text';
+
+              container.innerHTML = '';
+              container.appendChild(document.createTextNode('Téléchargement disponible : '));
+              container.appendChild(link);
+              container.appendChild(document.createElement('br'));
+              container.appendChild(timerDiv);
+              container.classList.add('show');
+
+              // Fin de l'état chargement
+              btn.classList.remove('loading');
+              btn.removeAttribute('aria-busy');
+              btn.disabled = false;
+              btn.textContent = 'Nouveau lien';
+
+              // Focus lien
+              link.setAttribute('tabindex', '-1');
+              link.focus({ preventScroll: true });
+
+              // Compte à rebours 5 minutes
+              let timeLeft = 300;
+              timer = setInterval(() => {
+                const minutes = Math.floor(timeLeft / 60);
+                const seconds = timeLeft % 60;
+                timerDiv.textContent = `Expire dans : ${minutes}:${seconds.toString().padStart(2, '0')}`;
+                timeLeft--;
+                if (timeLeft < 0) {
+                  clearInterval(timer);
+                  hideDownloadLink();
+                }
+              }, 1000);
+            }
+
+            function hideDownloadLink() {
+              container.classList.remove('show');
+              container.innerHTML = '';
+              btn.textContent = 'Télécharger';
+              isActive = false;
+              if (timer) { clearInterval(timer); timer = null; }
+            }
+          }
+
+          // Active les trois boutons (URLs avec espaces encodés)
+          setupDownloadButton(
+            'btn-a1', 'download-container-a1',
+            '/protected/audio/espagnol/Dialogues%20ESP%20niveau%20A1.zip',
+            'Dialogues ESP niveau A1.zip'
+          );
+          setupDownloadButton(
+            'btn-a2', 'download-container-a2',
+            '/protected/audio/espagnol/Dialogues%20ESP%20niveau%20A2.zip',
+            'Dialogues ESP niveau A2.zip'
+          );
+          setupDownloadButton(
+            'btn-b1', 'download-container-b1',
+            '/protected/audio/espagnol/Dialogues%20ESP%20niveau%20B1.zip',
+            'Dialogues ESP niveau B1.zip'
+          );
+
+          // Protection basique Inspect / View source
+          document.addEventListener('keydown', function (e) {
+            if (e.key === 'F12' ||
+                (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'C' || e.key === 'J')) ||
+                (e.ctrlKey && e.key === 'U')) {
+              e.preventDefault();
+            }
+          });
+        });
+      </script>
+    </main>
+    <Footer />
+  </body>
+</html>

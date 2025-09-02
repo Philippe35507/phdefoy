@@ -1,0 +1,286 @@
+---
+import { SITE_TITLE } from '../consts';
+import HeaderLink from './HeaderLink.astro';
+---
+
+<header>
+  <nav>
+    <div class="nav-center">
+      <div class="internal-links">
+        <HeaderLink href="/">Home</HeaderLink>
+        <HeaderLink href="/blog">Blog</HeaderLink>
+        <HeaderLink href="/about">About</HeaderLink>
+      </div>
+      
+      <div class="nav-center">
+        <h2><a href="/">{SITE_TITLE}</a></h2>
+      </div>
+
+      <div class="nav-center">
+        <a href="https://x.com/phdefoy" target="_blank" rel="noopener" aria-label="Follow Philippe de Foy on X" class="x-logo-link">
+          <span class="sr-only">Follow Philippe de Foy on X</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="32" height="32" aria-hidden="true" focusable="false" role="img">
+            <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" fill="currentColor"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<style>
+  /* Import Google Fonts pour une meilleure typographie */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+  :root {
+    --dark-bg: #12141f;
+    --dark-bg-hover: #1a1c2b;
+    --dark-text: #e0e3f7;
+    --dark-text-secondary: #b8bcc8;
+    --accent: #4f8ef7;
+    --accent-hover: #3a74f6;
+    --accent-glow: rgba(79, 142, 247, 0.3);
+  }
+
+  header {
+    background: linear-gradient(135deg, var(--dark-bg) 0%, #0f1119 100%);
+    padding: 0 1.2em;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.4), 0 1px 0 rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  nav {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.2em;
+    min-height: 64px;
+  }
+
+  /* Conteneurs gauche, centre et droite */
+  .nav-left,
+  .nav-center,
+  .nav-right {
+    display: flex;
+    align-items: center;
+  }
+
+  /* On donne un minimum de largeur au centre pour laisser la place au logo */
+  .nav-center {
+    flex: 0 0 auto;
+    justify-content: center;
+    flex-grow: 1;
+  }
+
+  /* Le titre à gauche, fixe */
+  .nav-left {
+    flex: 0 0 auto;
+  }
+
+  /* Liens internes à droite, alignés à droite */
+  .nav-right {
+    flex: 0 0 auto;
+  }
+
+  h2 {
+    margin: 0;
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
+    font-weight: 700;
+    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  h2 a {
+    background: linear-gradient(135deg, var(--accent) 0%, #6366f1 50%, #8b5cf6 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    padding: 0.4em 0.8em;
+    border-radius: 12px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-block;
+    position: relative;
+    font-weight: 600;
+  }
+
+  h2 a::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, var(--accent) 0%, #6366f1 50%, #8b5cf6 100%);
+    border-radius: 12px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+  }
+
+  h2 a:hover,
+  h2 a:focus {
+    -webkit-text-fill-color: white;
+    transform: translateY(-1px);
+    outline: none;
+  }
+
+  h2 a:hover::before,
+  h2 a:focus::before {
+    opacity: 1;
+  }
+
+  .internal-links {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+  }
+
+  .internal-links a {
+    padding: 0.5em 1em;
+    color: var(--dark-text);
+    font-weight: 500;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 0.95rem;
+    white-space: nowrap;
+    letter-spacing: -0.01em;
+    position: relative;
+    border: 1px solid transparent;
+  }
+
+  .internal-links a::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, var(--accent), var(--accent-hover));
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+  }
+
+  .internal-links a:hover,
+  .internal-links a:focus {
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px var(--accent-glow);
+    border-color: var(--accent);
+    outline: none;
+  }
+
+  .internal-links a:hover::before,
+  .internal-links a:focus::before {
+    opacity: 1;
+  }
+
+  .x-logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em;
+    border-radius: 12px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--dark-text-secondary);
+    border: 1px solid transparent;
+    position: relative;
+  }
+
+  .x-logo-link::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, var(--accent), var(--accent-hover));
+    border-radius: 12px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+  }
+
+  .x-logo-link:hover,
+  .x-logo-link:focus {
+    color: white;
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 8px 25px var(--accent-glow);
+    border-color: var(--accent);
+    outline: none;
+  }
+
+  .x-logo-link:hover::before,
+  .x-logo-link:focus::before {
+    opacity: 1;
+  }
+
+  .x-logo-link svg {
+    transition: all 0.3s ease;
+    width: 28px;
+    height: 28px;
+  }
+
+  .x-logo-link svg path {
+    transition: fill 0.3s ease;
+  }
+
+  .x-logo-link:hover svg path,
+  .x-logo-link:focus svg path {
+    fill: currentColor;
+  }
+
+  .sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0,0,0,0) !important;
+    border: 0 !important;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 720px) {
+    nav {
+      justify-content: space-between;
+      gap: 0.8em;
+      min-height: 60px;
+    }
+    
+    .internal-links {
+      gap: 0.25em;
+    }
+    
+    .internal-links a {
+      padding: 0.4em 0.7em;
+      font-size: 0.9rem;
+    }
+    
+    h2 {
+      font-size: 1.2rem;
+    }
+    
+    .x-logo-link svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .internal-links {
+      display: none;
+    }
+    
+    .nav-center {
+      flex-grow: 0;
+    }
+    
+    nav {
+      justify-content: center;
+      gap: 2em;
+    }
+  }
+</style>
