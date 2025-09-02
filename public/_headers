@@ -1,3 +1,3 @@
 /audio/*
   Referer-Policy: strict-origin-when-cross-origin
-  Access-Control-Allow-Origin: https://tonsite.netlify.app
+  Access-Control-Allow-Origin: https://phdefoy.com
