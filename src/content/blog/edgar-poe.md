@@ -7,7 +7,7 @@ heroImageAlt: "Présentation de la vie et des oeuvres de Edgar Allan Poe"
 ---
 
 
-Dans les brumes glaciales d'un Baltimore de janvier 1809 naît celui qui deviendra l'architecte suprême de l'angoisse littéraire. Edgar Allan Poe, orphelin précoce au destin tragique, forge dans la douleur personnelle une œuvre d'une beauté sombre et d'une modernité saisissante qui résonne encore aujourd'hui dans nos consciences troublées.
+Dans les brumes glaciales d'un Baltimore de janvier 1809 naît celui qui deviendra l'architecte suprême de l'angoisse littéraire. [Edgar Allan Poe](https://fr.wikipedia.org/wiki/Edgar_Allan_Poe), orphelin précoce au destin tragique, forge dans la douleur personnelle une œuvre d'une beauté sombre et d'une modernité saisissante qui résonne encore aujourd'hui dans nos consciences troublées.
 
 ## L'Enfance Brisée, Matrice du Génie
 

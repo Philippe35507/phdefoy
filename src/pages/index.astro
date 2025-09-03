@@ -3,6 +3,8 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+const blogPost = await Astro.glob('../content/blog/texte-homepage.md');
+const { Content } = blogPost[0];
 ---
 
 <!doctype html>
@@ -14,6 +16,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
   <body class="page-bg">
     <Header />
     <main>
+      <!-- Section Downloads -->
       <section class="welcome-container">
         <h1>
           <span class="icon-books" aria-hidden="true">📚</span>
@@ -57,6 +60,12 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
           </div>
         </div>
       </section>
+      <!-- Section Article de Blog -->
+      <section class="blog-section">
+        <div class="blog-container">
+        <Content />
+        </div>
+        </section>
 
       <style>
           body.page-bg {
@@ -68,6 +77,78 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 
         main { padding-top: 0; margin-top: -20px; }
 
+        /* ===== STYLES POUR LA SECTION BLOG ===== */
+        .blog-section {
+          max-width: 900px;
+          margin: 2rem auto;
+          padding: 0 2rem;
+          color: #f8fafc;
+        }
+
+        .blog-container {
+          background: rgba(30, 41, 59, 0.6);
+          backdrop-filter: blur(10px);
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          border-radius: 16px;
+          padding: 3rem;
+          margin-bottom: 4rem;
+          line-height: 1.7;
+        }
+
+        /* Styles pour le contenu Markdown */
+        .blog-container :global(h1) {
+          font-size: clamp(2rem, 5vw, 2.5rem);
+          color: #f8fafc;
+          font-weight: 700;
+          letter-spacing: -0.02em;
+          margin-bottom: 1.5rem;
+          text-align: center;
+          background: linear-gradient(135deg, #60a5fa, #34d399);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+        }
+
+        .blog-container :global(h2) {
+          font-size: 1.5rem;
+          color: #60a5fa;
+          font-weight: 600;
+          margin-top: 2.5rem;
+          margin-bottom: 1rem;
+          border-left: 4px solid #60a5fa;
+          padding-left: 1rem;
+        }
+
+        .blog-container :global(p) {
+          margin-bottom: 1.5rem;
+          color: #cbd5e1;
+          font-size: 1.1rem;
+        }
+
+        .blog-container :global(strong) {
+          color: #f1f5f9;
+          font-weight: 600;
+        }
+
+        .blog-container :global(em) {
+          color: #94a3b8;
+          font-style: italic;
+        }
+
+        /* Style pour la phrase finale en italique */
+        .blog-container :global(p:last-child) {
+          text-align: center;
+          font-style: italic;
+          color: #10b981;
+          font-size: 1.2rem;
+          margin-top: 2rem;
+          padding: 1.5rem;
+          background: rgba(16, 185, 129, 0.1);
+          border: 1px solid rgba(16, 185, 129, 0.3);
+          border-radius: 12px;
+        }
+
+        /* ===== STYLES EXISTANTS POUR LES DOWNLOADS ===== */
         .welcome-container {
           max-width: 800px;
           margin: 2rem auto 0;
@@ -76,7 +157,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
           color: #f8fafc;
         }
 
-        h1 {
+        .welcome-container h1 {
           font-size: clamp(2rem, 5vw, 3rem);
           color: #f8fafc;
           font-weight: 700;
@@ -252,6 +333,23 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 
         /* Responsive design */
         @media (max-width: 768px) {
+          .blog-container {
+            padding: 2rem 1.5rem;
+            margin-bottom: 3rem;
+          }
+          
+          .blog-container :global(h1) {
+            font-size: 1.8rem;
+          }
+          
+          .blog-container :global(h2) {
+            font-size: 1.3rem;
+          }
+          
+          .blog-container :global(p) {
+            font-size: 1rem;
+          }
+          
           .welcome-container { margin: 1rem auto 0; padding: 2rem 1rem; }
           .downloads-grid { grid-template-columns: 1fr; gap: 1.5rem; max-width: 400px; }
           .download-card { padding: 1.5rem 1rem; }
@@ -260,6 +358,15 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 
         @media (max-width: 480px) {
           main { margin-top: -10px; }
+          
+          .blog-section {
+            padding: 0 1rem;
+          }
+          
+          .blog-container {
+            padding: 1.5rem 1rem;
+          }
+          
           .welcome-container { padding: 1.5rem 0.75rem; }
           .downloads-grid { max-width: 100%; }
         }
@@ -290,7 +397,6 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 
             function showDownloadLink() {
               const link = document.createElement('a');
-              // ⚠️ Astuce : si ton fichier comporte des espaces, tu peux aussi renommer le fichier ou utiliser %20 (déjà fait ci-dessous)
               link.href = filePath;
               link.download = fileName;
               link.textContent = '📁 ' + fileName;
@@ -344,7 +450,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
             }
           }
 
-          // Active les trois boutons (URLs avec espaces encodés)
+          // Active les trois boutons
           setupDownloadButton(
             'btn-a1', 'download-container-a1',
             '/protected/audio/espagnol/Dialogues%20ESP%20niveau%20A1.zip',
@@ -361,7 +467,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
             'Dialogues ESP niveau B1.zip'
           );
 
-          // Protection basique Inspect / View source
+          // Protection basique
           document.addEventListener('keydown', function (e) {
             if (e.key === 'F12' ||
                 (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'C' || e.key === 'J')) ||

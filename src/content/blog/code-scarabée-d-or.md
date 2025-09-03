@@ -6,7 +6,7 @@ heroImage: "/images/poe/scarabee-d-or-2.png"
 heroImageAlt: "Nouvelle Le Scarabée d'Or de Edgar Allan Poe : méthode employée pour déchiffrer le message secret du capitaine Kidd"
 ---
 
-Dans "Le Scarabée d'or", Edgar Allan Poe offre à ses lecteurs une véritable masterclass de cryptographie. La méthode employée par William Legrand pour déchiffrer le message secret du capitaine Kidd constitue l'un des passages les plus techniques et fascinants de la littérature du XIXe siècle.
+Dans [Le Scarabée d'or](https://fr.wikipedia.org/wiki/Le_Scarab%C3%A9e_d%27or), Edgar Allan Poe offre à ses lecteurs une véritable masterclass de cryptographie. La méthode employée par William Legrand pour déchiffrer le message secret du capitaine Kidd constitue l'un des passages les plus techniques et fascinants de la littérature du XIXe siècle.
 
 ## Le Message Crypté Original
 

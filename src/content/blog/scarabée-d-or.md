@@ -7,7 +7,7 @@ heroImageAlt: "Illustration de la nouvelle Le Scarabée d'Or de Edgar Allan Poe"
 ---
 
 
-Dans l'univers littéraire d'Edgar Allan Poe, "Le Scarabée d'or" (*The Gold-Bug*, 1843) occupe une place singulière. Loin des atmosphères gothiques et des terreurs psychologiques qui font sa renommée, cette nouvelle nous plonge dans une aventure fascinante mêlant cryptographie, déduction logique et chasse au trésor. Plus qu'un simple divertissement, cette œuvre marque un tournant décisif dans l'histoire de la littérature policière.
+Dans l'univers littéraire d'Edgar Allan Poe, [Le Scarabée d'or](https://fr.wikipedia.org/wiki/Le_Scarab%C3%A9e_d%27or) (*The Gold-Bug*, 1843) occupe une place singulière. Loin des atmosphères gothiques et des terreurs psychologiques qui font sa renommée, cette nouvelle nous plonge dans une aventure fascinante mêlant cryptographie, déduction logique et chasse au trésor. Plus qu'un simple divertissement, cette œuvre marque un tournant décisif dans l'histoire de la littérature policière.
 
 ## L'énigme du parchemin mystérieux
 
