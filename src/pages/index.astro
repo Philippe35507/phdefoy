@@ -3,9 +3,19 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
-const blogPost = await Astro.glob('../content/blog/texte-homepage.md');
-const { Content } = blogPost[0];
+
+// Interface pour typer le module Markdown
+interface MarkdownModule {
+  Content: any;
+  frontmatter?: any;
+}
+
+// Importer le contenu Markdown avec la nouvelle API
+const blogPosts = import.meta.glob<MarkdownModule>('../content/blog/texte-homepage.md');
+const blogPostModule = await blogPosts['../content/blog/texte-homepage.md']();
+const { Content } = blogPostModule;
 ---
+
 
 <!doctype html>
 <html lang="fr">

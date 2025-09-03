@@ -12,7 +12,7 @@ Quand on évoque [Robert Louis Stevenson](/blog/stevenson/), les esprits se tour
 ## Contexte Historique : L'Écosse Déchirée du XVIIIe Siècle
 Pour comprendre toute la richesse de "Kidnapped", il faut d'abord saisir le contexte
 historique dans lequel Stevenson plonge son récit. L'action se déroule en 1751, quelques
-années après la bataille de Culloden (1746) qui marqua la fin définitive des espoirs jacobites
+années après la [bataille de Culloden](https://carnet-dhistoire.fr/anecdotes/bataille-culloden/) (1746) qui marqua la fin définitive des espoirs jacobites
 de restaurer les Stuart sur le trône britannique.
 
 L'Écosse de cette époque est une nation meurtrie, partagée entre les Highlands rebelles et
