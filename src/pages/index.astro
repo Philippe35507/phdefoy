@@ -390,17 +390,17 @@ const { Content } = blogPostModule;
     <Footer />
 
          <!-- ✅ Bannière cookies (HTML) -->
-    <div id="cookie-banner" hidden>
-      <span>Ce site utilise des cookies de mesure (Google Analytics) uniquement si vous acceptez.</span>
-      <span class="actions">
-        <button id="accept-cookies">Accepter</button>
-        <button id="decline-cookies">Refuser</button>
-      </span>
-    </div>
-
-    <!-- ✅ Scripts (dans CET ordre): consent → GA → downloads -->
-    <script src="/scripts/consent.js" defer></script>
-    <script src="/scripts/ga-init.js" defer></script>
-    <script src="/scripts/downloads.js" defer></script>
+         <div id="cookie-banner" hidden>
+           <span>Ce site utilise des cookies de mesure (Google Analytics) uniquement si vous acceptez.</span>
+           <span class="actions">
+             <button id="accept-cookies">Accepter</button>
+             <button id="decline-cookies">Refuser</button>
+           </span>
+         </div>
+         
+         <!-- ✅ Scripts consent → GA → downloads -->
+         <script src="/scripts/consent.js" defer></script>
+         <script src="/scripts/ga-init.js" defer></script>
+         <script src="/scripts/downloads.js" defer></script>
   </body>
 </html>
