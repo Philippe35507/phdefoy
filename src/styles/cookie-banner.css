@@ -1,0 +1,27 @@
+#cookie-banner {
+    position: fixed;
+    inset: auto 0 0 0; /* bottom:0; left:0; right:0 */
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.95rem;
+    z-index: 9999;
+  }
+  
+  #cookie-banner .actions {
+    display: inline-flex;
+    gap: 0.5rem;
+    margin-left: 1rem;
+  }
+  
+  #cookie-banner button {
+    border: none;
+    padding: 0.5rem 0.9rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  #cookie-banner #accept-cookies { background: #4caf50; color: #fff; }
+  #cookie-banner #decline-cookies { background: #f44336; color: #fff; }
+  

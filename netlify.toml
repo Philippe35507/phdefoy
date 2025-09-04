@@ -1,39 +1,36 @@
-# netlify.toml — config Netlify pour site Astro + GA4 lazy + headers de sécurité
+# netlify.toml — Astro + GA4 lazy (sans inline) + headers sécurité
 
 [build]
-  # Si tu utilises npm scripts : "npm run build"
   command = "npm run build"
   publish = "dist"
 
 [build.environment]
-  # Optionnel : forcer Node LTS sur Netlify
   NODE_VERSION = "20"
 
-#############################################
-## HEADERS GLOBAUX (appliqués à tout le site)
-#############################################
+# -----------------------------------------
+# HEADERS GLOBAUX
+# -----------------------------------------
 [[headers]]
   for = "/*"
   [headers.values]
-    # CSP minimale compatible avec GA4 lazy + styles inline (bannière)
-    # ⚠️ Ajuste si tu ajoutes d'autres services (YouTube, polices Google, CDN images, etc.)
-    Content-Security-Policy = "default-src 'self'; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://region1.analytics.google.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; base-uri 'self'; frame-ancestors 'self'"
+    # CSP sans inline (aucun 'unsafe-inline' / pas de hash / pas de nonce)
+    # ⚠️ Si tu ajoutes YouTube, polices Google, cartes, etc., on étendra la CSP.
+    Content-Security-Policy = "default-src 'self'; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://region1.analytics.google.com; img-src 'self' data: https:; style-src 'self'; font-src 'self' data:; base-uri 'self'; frame-ancestors 'self'; upgrade-insecure-requests"
 
     # Sécurité & confidentialité utiles
+    Strict-Transport-Security = "max-age=15552000; includeSubDomains" # HSTS phase 2 (~180 jours)
+    Cross-Origin-Opener-Policy = "same-origin"                        # COOP
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
     Referrer-Policy = "strict-origin-when-cross-origin"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "1; mode=block"
 
-    # (Optionnel) Cache basique pour HTML (Netlify gère déjà bien le static hashing)
-    # Cache-Control = "public, max-age=0, must-revalidate"
-
-################################################
-## HEADERS SPÉCIFIQUES AU répertoire /audio/*
-################################################
+# -----------------------------------------
+# HEADERS SPÉCIFIQUES /audio/*
+# -----------------------------------------
 [[headers]]
   for = "/audio/*"
   [headers.values]
-    # CORS : n’autorise que ton domaine à lire ces ressources
     Access-Control-Allow-Origin = "https://phdefoy.com"
     Access-Control-Allow-Methods = "GET, HEAD, OPTIONS"

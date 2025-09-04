@@ -10,8 +10,8 @@ type BlogData = CollectionEntry<'blog'>['data'];
 type ExtraProps = {
   heroImageLink?: string;
   heroImageAlt?: string;
-  pageTitle?: string;   // ✅ titre visible dans la page
-  hideTitle?: boolean;  // ✅ option pour masquer le titre
+  pageTitle?: string;
+  hideTitle?: boolean;
 };
 
 type Props = BlogData & ExtraProps;
@@ -32,117 +32,20 @@ const {
 <html lang="fr">
   <head>
     <BaseHead
-      title={title}                
+      title={title}
       description={description}
       image={heroImage}
       imageAlt={heroImageAlt}
       ogType="article"
     />
-    <style>
-      main {
-        width: calc(100% - 2em);
-        max-width: 100%;
-        margin: 0;
-      }
-      .hero-image {
-        max-width: clamp(560px, 80vw, 720px);
-        margin: 0 auto 1rem;
-      }
-      .hero-image img {
-        display: block;
-        margin: 0 auto;
-        border-radius: 12px;
-        box-shadow: var(--box-shadow);
-        max-width: 100%;
-        height: auto;   
-      }
-      .prose {
-        width: 720px;
-        max-width: calc(100% - 2em);
-        margin: auto;
-        padding: 1em;
-        color: rgb(var(--gray-dark));
-      }
-      
-      .title {
-        margin-bottom: 1em;
-        padding: 1em 0;
-        text-align: center;
-        line-height: 1;
-      }
- 
-      .date {
-        margin-bottom: 0.5em;
-        color: rgb(var(--gray));
-      }
-      .last-updated-on {
-        font-style: italic;
-      }
-      .badge-amazon {
-        position: absolute;
-        right: 16px;
-        top: 16px;
-        background: #ff9900;
-        color: #222;
-        font-weight: bold;
-        padding: 4px 10px;
-        border-radius: 6px;
-        font-size: 0.95em;
-        box-shadow: 0 2px 6px #e5e5e5;
-        z-index: 2;
-        transition: opacity 0.2s;
-        pointer-events: none;
-        opacity: 0.9;
-        display: inline-flex;
-        align-items: center;
-        white-space: nowrap;
-      }
-      .hero-image-link:hover .badge-amazon {
-        opacity: 1;
-      }
-      .hero-image-link {
-        position: relative;
-        display: block;
-      }
-
-/* Titre principal de l’article */
-.title h1 {
-  margin: 0 0 0.5em;
-  font-size: clamp(1.6rem, 2vw + 1rem, 2.5rem);
-  font-weight: 700;
-  line-height: 1.2;
-}
-
-/* Sous-titres dans le contenu */
-:global(.prose h2) {
-  font-size: 1.8rem;
-  margin-top: 1.6rem;
-  margin-bottom: 0.9rem;
-  line-height: 1.3;
-}
-
-:global(.prose h3) {
-  font-size: 1.45rem;
-  margin-top: 1.3rem;
-  margin-bottom: 0.7rem;
-  line-height: 1.3;
-}
-
-:global(.prose h4) {
-  font-size: 1.2rem;
-  margin-top: 1.1rem;
-  margin-bottom: 0.6rem;
-  line-height: 1.35;
-}
-
-    </style>
+    <!-- ✅ CSS chargés tôt -->
+    <link rel="stylesheet" href="/styles/cookie-banner.css" />
+    <link rel="stylesheet" href="/styles/blog-post.css" />
   </head>
   <body class="blog">
     <Header />
     <main>
       <article class="blog-post">
-        <!-- ❌ On supprime l'ancien <h1>{pageTitle}</h1> ici pour éviter le doublon -->
-
         <div class="hero-image">
           {heroImage && (
             heroImageLink ? (
@@ -187,7 +90,6 @@ const {
                 )}
               </div>
 
-              <!-- ✅ Un seul H1 : on affiche pageTitle s'il existe, sinon title -->
               <h1>{pageTitle ?? title}</h1>
               <hr />
             </div>
@@ -198,5 +100,18 @@ const {
       </article>
     </main>
     <Footer />
+
+    <!-- ✅ Bannière cookies -->
+    <div id="cookie-banner" hidden>
+      <span>Ce site utilise des cookies de mesure (Google Analytics) uniquement si vous acceptez.</span>
+      <span class="actions">
+        <button id="accept-cookies">Accepter</button>
+        <button id="decline-cookies">Refuser</button>
+      </span>
+    </div>
+
+    <!-- ✅ JS externes (sans inline) -->
+    <script src="/scripts/consent.js" defer></script>
+    <script src="/scripts/ga-init.js" defer></script>
   </body>
 </html>
