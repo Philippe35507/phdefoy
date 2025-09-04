@@ -1,3 +1,4 @@
+// Garde-fou anti double init si le script est inclus deux fois par erreur
 if (window.__downloadsInit) { /* déjà initialisé */ }
 else { window.__downloadsInit = true; }
 
@@ -20,11 +21,11 @@ else { window.__downloadsInit = true; }
         btn.setAttribute('aria-busy', 'true');
         btn.textContent = 'Préparation...';
 
-        setTimeout(showDownloadLink, 3000); // mets 3000ms si tu veux garder le délai
+        setTimeout(showDownloadLink, 3000); // remets 3000 si tu veux garder l’attente
       });
 
       function showDownloadLink() {
-        // s'assurer que le conteneur est visible
+        // rendre visible même si hidden
         container.hidden = false;
         container.removeAttribute('hidden');
 
@@ -33,55 +34,37 @@ else { window.__downloadsInit = true; }
         link.download = fileName;
         link.textContent = '📁 ' + fileName;
 
-        // Anti clic droit basique
+        // Anti clic droit (basique)
         link.addEventListener('contextmenu', (e) => {
           e.preventDefault();
           alert('Clic droit désactivé sur ce lien.');
         });
 
-        // ⬇️ Track + téléchargement fiable
+        // ---- TRACK GA4 + TÉLÉCHARGEMENT FIABLE ----
         link.addEventListener('click', (e) => {
-          const href = link.href;
+          // Si GA n’est pas chargé (consent refusé ou pas prêt) → on laisse le navigateur télécharger
+          if (typeof window.gtag !== 'function') return;
 
-          // si GA pas prêt, on tente d'attendre un petit peu ; sinon on télécharge quand même
-          const sendAndGo = () => {
-            if (!window.gtag) {
-              // GA pas chargé → on n’empêche pas l’utilisateur
-              return window.location.href = href;
-            }
-            let navigated = false;
-            const go = () => { if (!navigated) { navigated = true; window.location.href = href; } };
-
-            try {
-              window.gtag('event', 'file_download', {
-                file_name: fileName,
-                file_path: filePath,
-                file_type: 'zip',
-                transport_type: 'beacon',
-                event_callback: go
-              });
-              // Fallback au cas où event_callback ne se déclenche pas
-              setTimeout(go, 800);
-            } catch {
-              go();
-            }
-          };
-
-          // Empêche la nav immédiate → on envoie l’event d’abord
           e.preventDefault();
+          const href = link.href;
+          let navigated = false;
+          const go = () => { if (!navigated) { navigated = true; window.location.href = href; } };
 
-          if (window.gtag) return sendAndGo();
-
-          // Attend jusqu’à 1,2s que GA arrive, puis envoie l’event (sinon on télécharge)
-          let waited = 0;
-          const iv = setInterval(() => {
-            waited += 100;
-            if (window.gtag || waited >= 1200) {
-              clearInterval(iv);
-              sendAndGo();
-            }
-          }, 100);
+          try {
+            window.gtag('event', 'file_download', {
+              file_name: fileName,
+              file_path: filePath,
+              file_type: 'zip',
+              transport_type: 'beacon',
+              event_callback: go
+            });
+            // filet de sécurité
+            setTimeout(go, 800);
+          } catch {
+            go();
+          }
         });
+        // -------------------------------------------
 
         const timerDiv = document.createElement('div');
         timerDiv.className = 'timer-text';
@@ -93,13 +76,13 @@ else { window.__downloadsInit = true; }
         container.appendChild(timerDiv);
         container.classList.add('show');
 
-        // Fin de l'état chargement
+        // Fin état chargement
         btn.classList.remove('loading');
         btn.removeAttribute('aria-busy');
         btn.disabled = false;
         btn.textContent = 'Nouveau lien';
 
-        // Focus lien
+        // Focus lien (sans scroll)
         link.setAttribute('tabindex', '-1');
         try { link.focus({ preventScroll: true }); } catch {}
 
@@ -122,6 +105,7 @@ else { window.__downloadsInit = true; }
         container.innerHTML = '';
         btn.textContent = 'Télécharger';
         isActive = false;
+        if (timer) { clearInterval(timer); timer = null; }
       }
     }
 
@@ -152,7 +136,7 @@ else { window.__downloadsInit = true; }
     });
   }
 
-  // Compatible avec tous les timings de chargement
+  // Compatible avec tous les timings
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init, { once: true });
   } else {

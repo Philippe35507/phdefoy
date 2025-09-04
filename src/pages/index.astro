@@ -2,6 +2,7 @@
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+import cookieBannerCssUrl from '../styles/cookie-banner.css?url';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 
 // Interface pour typer le module Markdown
@@ -21,6 +22,10 @@ const { Content } = blogPostModule;
 <html lang="fr">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+
+      <!-- ✅ Ajoute la CSS de la bannière -->
+      <link rel="stylesheet" href={cookieBannerCssUrl} />
+
   </head>
 
   <body class="page-bg">
@@ -384,6 +389,16 @@ const { Content } = blogPostModule;
       </style>
     </main>
     <Footer />
+
+          <!-- ✅ Bannière cookies -->
+          <div id="cookie-banner" hidden>
+            <span>Ce site utilise des cookies de mesure (Google Analytics) uniquement si vous acceptez.</span>
+            <span class="actions">
+              <button id="accept-cookies">Accepter</button>
+              <button id="decline-cookies">Refuser</button>
+            </span>
+          </div>
+
           <!-- ✅ JS externe (downloads) -->
           <script src="/scripts/consent.js" defer ></script>
           <script src="/scripts/ga-init.js" defer></script>
