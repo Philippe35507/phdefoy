@@ -30,3 +30,10 @@
   [headers.values]
     Access-Control-Allow-Origin = "https://phdefoy.com"
     Access-Control-Allow-Methods = "GET, HEAD, OPTIONS"
+
+
+[[headers]]
+  for = "/protected/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+
