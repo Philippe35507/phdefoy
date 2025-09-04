@@ -1,0 +1,50 @@
+name: Generate Daily Fiction Post
+
+on:
+  schedule:
+    # 17:00 UTC ≈ 19:00 Europe/Madrid (été). Ajuste si besoin.
+    - cron: "0 17 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate-post:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Europe/Madrid
+      BLOG_DIR: src/content/blog/ia
+      IMAGES_DIR: public/images/ia
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Generate post
+        env:
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: npx tsx scripts/generate-daily-fiction.ts
+
+      - name: Commit & push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add src/content/blog/ia/ public/images/ia/
+          if git diff --staged --quiet; then
+            echo "Aucun changement"; exit 0
+          fi
+          git commit -m "🤖 Billet fiction auto — $(date +'%Y-%m-%d')"
+          git push
+
+      - name: Trigger Netlify deploy
+        if: success()
+        run: curl -X POST -d '{}' "$NETLIFY_BUILD_HOOK"
+        env:
+          NETLIFY_BUILD_HOOK: ${{ secrets.NETLIFY_BUILD_HOOK }}
