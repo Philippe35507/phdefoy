@@ -112,17 +112,17 @@ else { window.__downloadsInit = true; }
     // Active les trois boutons
     setupDownloadButton(
       'btn-a1', 'download-container-a1',
-      '/protected/audio/espagnol/Dialogues%20ESP%20niveau%20A1.zip',
+      '/protected/audio/espagnol/dialogues-esp-a1.zip',
       'Dialogues ESP niveau A1.zip'
     );
     setupDownloadButton(
       'btn-a2', 'download-container-a2',
-      '/protected/audio/espagnol/Dialogues%20ESP%20niveau%20A2.zip',
+      '/protected/audio/espagnol/dialogues-esp-a2.zip',
       'Dialogues ESP niveau A2.zip'
     );
     setupDownloadButton(
       'btn-b1', 'download-container-b1',
-      '/protected/audio/espagnol/Dialogues%20ESP%20niveau%20B1.zip',
+      '/protected/audio/espagnol/dialogues-esp-b1.zip',
       'Dialogues ESP niveau B1.zip'
     );
 
