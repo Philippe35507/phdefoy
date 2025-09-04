@@ -13,13 +13,9 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    # CSP sans inline (aucun 'unsafe-inline' / pas de hash / pas de nonce)
-    # ⚠️ Si tu ajoutes YouTube, polices Google, cartes, etc., on étendra la CSP.
-    Content-Security-Policy = "default-src 'self'; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://region1.analytics.google.com; img-src 'self' data: https:; style-src 'self'; font-src 'self' data:; base-uri 'self'; frame-ancestors 'self'; upgrade-insecure-requests"
-
-    # Sécurité & confidentialité utiles
-    Strict-Transport-Security = "max-age=15552000; includeSubDomains" # HSTS phase 2 (~180 jours)
-    Cross-Origin-Opener-Policy = "same-origin"                        # COOP
+    Content-Security-Policy = "default-src 'self'; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://region1.analytics.google.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; base-uri 'self'; frame-ancestors 'self'; upgrade-insecure-requests"
+    Strict-Transport-Security = "max-age=15552000; includeSubDomains"
+    Cross-Origin-Opener-Policy = "same-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
     Referrer-Policy = "strict-origin-when-cross-origin"
     X-Content-Type-Options = "nosniff"
