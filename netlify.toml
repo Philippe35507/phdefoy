@@ -1,36 +1,39 @@
+# netlify.toml — config Netlify pour site Astro + GA4 lazy + headers de sécurité
+
 [build]
+  # Si tu utilises npm scripts : "npm run build"
   command = "npm run build"
   publish = "dist"
 
-# Headers globaux
+[build.environment]
+  # Optionnel : forcer Node LTS sur Netlify
+  NODE_VERSION = "20"
+
+#############################################
+## HEADERS GLOBAUX (appliqués à tout le site)
+#############################################
 [[headers]]
   for = "/*"
   [headers.values]
-    X-Frame-Options = "DENY"
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "strict-origin-when-cross-origin"
-    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
-    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
-    Content-Security-Policy = "default-src 'self'; font-src 'self' data:; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; connect-src 'self' https:; frame-src https:"
+    # CSP minimale compatible avec GA4 lazy + styles inline (bannière)
+    # ⚠️ Ajuste si tu ajoutes d'autres services (YouTube, polices Google, CDN images, etc.)
+    Content-Security-Policy = "default-src 'self'; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://region1.analytics.google.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; base-uri 'self'; frame-ancestors 'self'"
 
-# Audio : CORS + perf
+    # Sécurité & confidentialité utiles
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
+
+    # (Optionnel) Cache basique pour HTML (Netlify gère déjà bien le static hashing)
+    # Cache-Control = "public, max-age=0, must-revalidate"
+
+################################################
+## HEADERS SPÉCIFIQUES AU répertoire /audio/*
+################################################
 [[headers]]
   for = "/audio/*"
   [headers.values]
-    Referrer-Policy = "strict-origin-when-cross-origin"
-    Access-Control-Allow-Origin = "*"
+    # CORS : n’autorise que ton domaine à lire ces ressources
+    Access-Control-Allow-Origin = "https://phdefoy.com"
     Access-Control-Allow-Methods = "GET, HEAD, OPTIONS"
-    Access-Control-Expose-Headers = "Content-Disposition"
-    Cross-Origin-Resource-Policy = "cross-origin"
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/fonts/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-    Access-Control-Allow-Origin = "*"
-
-[[headers]]
-  for = "/images/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
