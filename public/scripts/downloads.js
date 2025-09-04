@@ -1,13 +1,15 @@
-// Garde-fou anti double init si le script est inclus deux fois par erreur
-if (window.__downloadsInit) { /* déjà initialisé */ }
-else { window.__downloadsInit = true; }
+// downloads.js — anti-double init + GA4 safe + nom de fichier identique
 
 (function () {
-  // Helper: déclenche un download en honorant le "download" filename
+  // ❗ Empêche toute double initialisation si le script est inclus deux fois
+  if (window.__downloadsInit) return;
+  window.__downloadsInit = true;
+
+  // Déclenche un download en honorant l'attribut "download" (nom de fichier)
   function triggerDownload(href, name) {
     const a = document.createElement('a');
     a.href = href;
-    a.download = name;     // <-- garantit le nom "Dialogues ESP niveau X.zip"
+    a.download = name;
     a.rel = 'noopener';
     a.target = '_self';
     document.body.appendChild(a);
@@ -33,7 +35,7 @@ else { window.__downloadsInit = true; }
         btn.setAttribute('aria-busy', 'true');
         btn.textContent = 'Préparation...';
 
-        setTimeout(showDownloadLink, 3000); // remets 3000 si tu veux garder l’attente
+        setTimeout(showDownloadLink, 3000); // remets 3000 si tu veux l'attente
       });
 
       function showDownloadLink() {
@@ -47,20 +49,29 @@ else { window.__downloadsInit = true; }
         link.download = fileName; // utilisé quand on ne bloque pas la nav
         link.textContent = '📁 ' + fileName;
 
-        // Anti clic droit (basique)
+        // Anti-clic droit (basique)
         link.addEventListener('contextmenu', (e) => {
           e.preventDefault();
           alert('Clic droit désactivé sur ce lien.');
         });
 
-        // ---- TRACK GA4 + TÉLÉCHARGEMENT FIABLE (nom identique) ----
+        // ---- GA4 + Téléchargement FIABLE (sans double) ----
         link.addEventListener('click', (e) => {
-          // Si GA n’est pas chargé (consent refusé ou pas prêt) → laisser le navigateur gérer (honore l’attribut download)
+          // Si GA n’est pas chargé (consent refusé/pas prêt), on laisse le navigateur gérer (honore "download")
           if (typeof window.gtag !== 'function') return;
 
-          // Sinon on traque puis on déclenche un download programmatique qui honore le nom voulu
+          // Sinon, on traque puis on déclenche le download programmatique (même nom de fichier)
           e.preventDefault();
-          const go = () => triggerDownload(href, fileName);
+
+          let fired = false;
+          const go = () => {
+            if (fired) return;         // évite double appel
+            fired = true;
+            triggerDownload(href, fileName);
+          };
+
+          // filet de sécurité si event_callback ne revient pas
+          const safety = setTimeout(go, 1500);
 
           try {
             window.gtag('event', 'file_download', {
@@ -68,15 +79,14 @@ else { window.__downloadsInit = true; }
               file_path: filePath,
               file_type: 'zip',
               transport_type: 'beacon',
-              event_callback: go
+              event_callback: () => { clearTimeout(safety); go(); }
             });
-            // filet de sécurité si event_callback ne revient pas
-            setTimeout(go, 800);
           } catch {
+            clearTimeout(safety);
             go();
           }
         });
-        // -----------------------------------------------------------
+        // ----------------------------------------------------
 
         const timerDiv = document.createElement('div');
         timerDiv.className = 'timer-text';
