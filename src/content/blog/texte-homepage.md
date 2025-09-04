@@ -40,7 +40,7 @@ L'espagnol, avec sa structure grammaticale différente du français, offre un ex
 
 ## Par où commencer votre aventure hispanophone ?
 
-L'apprentissage de l'espagnol n'a jamais été aussi accessible. Grâce aux méthodes modernes qui combinent technologie et pédagogie éprouvée, vous pouvez progresser à votre rythme, selon vos objectifs et votre emploi du temps.
+[L'apprentissage de l'espagnol](/blog/espagnol_a1) n'a jamais été aussi accessible. Grâce aux méthodes modernes qui combinent technologie et pédagogie éprouvée, vous pouvez progresser à votre rythme, selon vos objectifs et votre emploi du temps.
 
 L'important est de commencer par les bases solides : la prononciation, les structures grammaticales essentielles, et surtout, un vocabulaire pratique que vous pourrez utiliser dès les premiers jours.
 
