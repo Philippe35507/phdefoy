@@ -22,6 +22,14 @@
     cursor: pointer;
   }
   
-  #cookie-banner #accept-cookies { background: #4caf50; color: #fff; }
-  #cookie-banner #decline-cookies { background: #f44336; color: #fff; }
-  
+/* Boutons avec contraste AA/AAA */
+#accept-cookies { background: #1b5e20; color: #fff; }   /* contrast ~7.87:1 */
+#accept-cookies:hover { background: #124117; }
+#decline-cookies { background: #b71c1c; color: #fff; }  /* contrast ~6.57:1 */
+#decline-cookies:hover { background: #7f1515; }
+
+/* Focus visible accessible */
+#cookie-banner button:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
