@@ -1,5 +1,5 @@
 if (window.__downloadsInit) { /* déjà initialisé */ }
-else { window.__downloadsInit = true; /* ... le code existant ensuite ... */ }
+else { window.__downloadsInit = true; }
 
 (function () {
   function init() {
@@ -20,18 +20,67 @@ else { window.__downloadsInit = true; /* ... le code existant ensuite ... */ }
         btn.setAttribute('aria-busy', 'true');
         btn.textContent = 'Préparation...';
 
-        setTimeout(showDownloadLink, 3000);
+        setTimeout(showDownloadLink, 3000); // mets 3000ms si tu veux garder le délai
       });
 
       function showDownloadLink() {
+        // s'assurer que le conteneur est visible
+        container.hidden = false;
+        container.removeAttribute('hidden');
+
         const link = document.createElement('a');
-        link.href = filePath;
+        link.href = encodeURI(filePath);
         link.download = fileName;
         link.textContent = '📁 ' + fileName;
 
+        // Anti clic droit basique
         link.addEventListener('contextmenu', (e) => {
           e.preventDefault();
           alert('Clic droit désactivé sur ce lien.');
+        });
+
+        // ⬇️ Track + téléchargement fiable
+        link.addEventListener('click', (e) => {
+          const href = link.href;
+
+          // si GA pas prêt, on tente d'attendre un petit peu ; sinon on télécharge quand même
+          const sendAndGo = () => {
+            if (!window.gtag) {
+              // GA pas chargé → on n’empêche pas l’utilisateur
+              return window.location.href = href;
+            }
+            let navigated = false;
+            const go = () => { if (!navigated) { navigated = true; window.location.href = href; } };
+
+            try {
+              window.gtag('event', 'file_download', {
+                file_name: fileName,
+                file_path: filePath,
+                file_type: 'zip',
+                transport_type: 'beacon',
+                event_callback: go
+              });
+              // Fallback au cas où event_callback ne se déclenche pas
+              setTimeout(go, 800);
+            } catch {
+              go();
+            }
+          };
+
+          // Empêche la nav immédiate → on envoie l’event d’abord
+          e.preventDefault();
+
+          if (window.gtag) return sendAndGo();
+
+          // Attend jusqu’à 1,2s que GA arrive, puis envoie l’event (sinon on télécharge)
+          let waited = 0;
+          const iv = setInterval(() => {
+            waited += 100;
+            if (window.gtag || waited >= 1200) {
+              clearInterval(iv);
+              sendAndGo();
+            }
+          }, 100);
         });
 
         const timerDiv = document.createElement('div');
@@ -44,14 +93,17 @@ else { window.__downloadsInit = true; /* ... le code existant ensuite ... */ }
         container.appendChild(timerDiv);
         container.classList.add('show');
 
+        // Fin de l'état chargement
         btn.classList.remove('loading');
         btn.removeAttribute('aria-busy');
         btn.disabled = false;
         btn.textContent = 'Nouveau lien';
 
+        // Focus lien
         link.setAttribute('tabindex', '-1');
-        link.focus({ preventScroll: true });
+        try { link.focus({ preventScroll: true }); } catch {}
 
+        // Compte à rebours 5 minutes
         let timeLeft = 300;
         timer = setInterval(() => {
           const minutes = Math.floor(timeLeft / 60);
@@ -73,7 +125,7 @@ else { window.__downloadsInit = true; /* ... le code existant ensuite ... */ }
       }
     }
 
-    // Active les trois boutons (laisse tel quel si c’est bien ces IDs)
+    // Active les trois boutons
     setupDownloadButton(
       'btn-a1', 'download-container-a1',
       '/protected/audio/espagnol/Dialogues%20ESP%20niveau%20A1.zip',
@@ -90,7 +142,7 @@ else { window.__downloadsInit = true; /* ... le code existant ensuite ... */ }
       'Dialogues ESP niveau B1.zip'
     );
 
-    // Protection basique
+    // Protection basique (optionnel)
     document.addEventListener('keydown', function (e) {
       if (e.key === 'F12' ||
           (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'C' || e.key === 'J')) ||
@@ -100,7 +152,7 @@ else { window.__downloadsInit = true; /* ... le code existant ensuite ... */ }
     });
   }
 
-  // ✅ Fonctionne quel que soit le moment de chargement
+  // Compatible avec tous les timings de chargement
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init, { once: true });
   } else {
