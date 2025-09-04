@@ -3,6 +3,18 @@ if (window.__downloadsInit) { /* déjà initialisé */ }
 else { window.__downloadsInit = true; }
 
 (function () {
+  // Helper: déclenche un download en honorant le "download" filename
+  function triggerDownload(href, name) {
+    const a = document.createElement('a');
+    a.href = href;
+    a.download = name;     // <-- garantit le nom "Dialogues ESP niveau X.zip"
+    a.rel = 'noopener';
+    a.target = '_self';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+  }
+
   function init() {
     function setupDownloadButton(btnId, containerId, filePath, fileName) {
       const btn = document.getElementById(btnId);
@@ -30,8 +42,9 @@ else { window.__downloadsInit = true; }
         container.removeAttribute('hidden');
 
         const link = document.createElement('a');
-        link.href = encodeURI(filePath);
-        link.download = fileName;
+        const href = encodeURI(filePath);
+        link.href = href;
+        link.download = fileName; // utilisé quand on ne bloque pas la nav
         link.textContent = '📁 ' + fileName;
 
         // Anti clic droit (basique)
@@ -40,15 +53,14 @@ else { window.__downloadsInit = true; }
           alert('Clic droit désactivé sur ce lien.');
         });
 
-        // ---- TRACK GA4 + TÉLÉCHARGEMENT FIABLE ----
+        // ---- TRACK GA4 + TÉLÉCHARGEMENT FIABLE (nom identique) ----
         link.addEventListener('click', (e) => {
-          // Si GA n’est pas chargé (consent refusé ou pas prêt) → on laisse le navigateur télécharger
+          // Si GA n’est pas chargé (consent refusé ou pas prêt) → laisser le navigateur gérer (honore l’attribut download)
           if (typeof window.gtag !== 'function') return;
 
+          // Sinon on traque puis on déclenche un download programmatique qui honore le nom voulu
           e.preventDefault();
-          const href = link.href;
-          let navigated = false;
-          const go = () => { if (!navigated) { navigated = true; window.location.href = href; } };
+          const go = () => triggerDownload(href, fileName);
 
           try {
             window.gtag('event', 'file_download', {
@@ -58,13 +70,13 @@ else { window.__downloadsInit = true; }
               transport_type: 'beacon',
               event_callback: go
             });
-            // filet de sécurité
+            // filet de sécurité si event_callback ne revient pas
             setTimeout(go, 800);
           } catch {
             go();
           }
         });
-        // -------------------------------------------
+        // -----------------------------------------------------------
 
         const timerDiv = document.createElement('div');
         timerDiv.className = 'timer-text';
@@ -109,7 +121,7 @@ else { window.__downloadsInit = true; }
       }
     }
 
-    // Active les trois boutons
+    // Active les trois boutons (URLs slugifiées, noms lisibles)
     setupDownloadButton(
       'btn-a1', 'download-container-a1',
       '/protected/audio/espagnol/dialogues-esp-a1.zip',

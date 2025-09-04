@@ -36,5 +36,6 @@
   for = "/protected/*"
   [headers.values]
     X-Robots-Tag = "noindex, nofollow, noarchive"
+    # Content-Disposition = "attachment;
    
 
