@@ -1,27 +1,26 @@
 (function () {
-    // Affiche la bannière si aucun choix encore enregistré
-    var consent = localStorage.getItem("consent");
-    var banner = document.getElementById("cookie-banner");
-    if (!banner) return; // au cas où le HTML n'est pas chargé sur certaines pages
-    if (!consent) banner.hidden = false;
-  
-    var btnAccept = document.getElementById("accept-cookies");
-    var btnDecline = document.getElementById("decline-cookies");
-  
-    if (btnAccept) {
-      btnAccept.addEventListener("click", function () {
-        localStorage.setItem("consent", "granted");
-        banner.hidden = true;
-        // Recharge pour que ga-init.js puisse charger GA4
-        location.reload();
-      });
-    }
-  
-    if (btnDecline) {
-      btnDecline.addEventListener("click", function () {
-        localStorage.setItem("consent", "denied");
-        banner.hidden = true;
-      });
-    }
-  })();
-  
+  const banner = document.getElementById('cookie-banner');
+  if (!banner) return;
+
+  const btnAccept  = document.getElementById('accept-cookies');
+  const btnDecline = document.getElementById('decline-cookies');
+
+  const show = () => { banner.hidden = false; banner.removeAttribute('hidden'); };
+  const hide = () => { banner.hidden = true;  banner.setAttribute('hidden', ''); };
+
+  // 1er passage : pas de choix → on affiche
+  const current = localStorage.getItem('consent');
+  if (!current) show();
+
+  // Accepté → stocke + recharge (pour charger GA)
+  btnAccept?.addEventListener('click', () => {
+    localStorage.setItem('consent', 'granted');
+    location.reload();
+  });
+
+  // Refusé → stocke + masque (GA ne sera pas chargé)
+  btnDecline?.addEventListener('click', () => {
+    localStorage.setItem('consent', 'denied');
+    hide();
+  });
+})();
