@@ -1,3 +1,6 @@
+if (window.__downloadsInit) { /* déjà initialisé */ }
+else { window.__downloadsInit = true; /* ... le code existant ensuite ... */ }
+
 (function () {
   function init() {
     function setupDownloadButton(btnId, containerId, filePath, fileName) {
