@@ -7,28 +7,19 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { formatInTimeZone } from "date-fns-tz";
 import Anthropic from "@anthropic-ai/sdk";
+import type { Message } from "@anthropic-ai/sdk/resources/messages.mjs";
 import OpenAI from "openai";
-
-console.log("🚀 Boot generate-daily-fiction.ts");
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// --- Réglages par défaut (surchargables via .env) ---
+// --- Réglages par défaut ---
 const BLOG_DIR = process.env.BLOG_DIR || "src/content/blog/ia";
 const IMAGES_DIR = process.env.IMAGES_DIR || "public/images/ia";
 const TIMEZONE = process.env.TZ || "Europe/Madrid";
 
 // --- Types utilitaires ---
-type OpenAIImageSize =
-  | "1792x1024"
-  | "auto"
-  | "1024x1024"
-  | "1536x1024"
-  | "1024x1536"
-  | "256x256"
-  | "512x512"
-  | "1024x1792";
+type OpenAIImageSize = "1024x1024"  | "1792x1024";
 
 type ClaudeResponse = {
   title: string;
@@ -38,69 +29,173 @@ type ClaudeResponse = {
   markdown: string;
 };
 
-// --- Clients API ---
-const anthropic = new Anthropic({ apiKey: process.env.CLAUDE_API_KEY });
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-
-// --- Genres au hasard ---
-const GENRES = [
-  "suspense domestique à la Mary Higgins Clark",
-  "thriller psychologique contemporain",
-  "science-fiction proche (near future)",
-  "fantastique discret à la Borges",
-  "polar noir urbain",
-  "aventure à la Jules Verne moderne",
-  "anticipation techno-politique",
-  "conte dystopique minimaliste",
-  "mystère à huis clos",
-  "romanesque grand public façon bestseller",
+// --- Liste fixe de 3 romans ---
+const FIXED_NOVELS = [
+  {
+    title: "La Nuit des temps",
+    author: "René Barjavel",
+    genre: "Science-fiction / Romance tragique",
+    year: "1968",
+    themes: [
+      "civilisation perdue",
+      "amour éternel",
+      "guerre",
+      "pacifisme",
+      "tragédie"
+    ],
+    context: "Sous la glace de l’Antarctique, une expédition découvre une civilisation vieille de 900 000 ans et les derniers amants de ce monde englouti : Éléa et Païkan. Leur histoire mêle science-fiction et drame universel.",
+    impact: "Roman culte de la SF française, couronné par le prix des Libraires en 1969. Symbole de l’écriture poétique et humaniste de Barjavel, il reste une référence majeure de la littérature d’anticipation francophone."
+  }
+ 
 ];
+
+// Sujet aléatoire simplifié
+function pickRandomNovel() {
+  return FIXED_NOVELS[Math.floor(Math.random() * FIXED_NOVELS.length)];
+}
+
+// Clients API
+const anthropic = new Anthropic({
+  apiKey: (process.env.CLAUDE_API_KEY || process.env.ANTHROPIC_API_KEY || "").trim(),
+});
+
+const openai = new OpenAI({
+  apiKey: (process.env.OPENAI_API_KEY || "").trim(),
+});
+
+// Modèles
+const CLAUDE_MODEL = (process.env.CLAUDE_MODEL || "claude-3-5-sonnet-20241022").trim();
+const IMAGE_MODEL = (process.env.IMAGE_MODEL || "dall-e-3").trim();
+const IMAGE_QUALITY = (process.env.IMAGE_QUALITY || "standard").trim();
+const DEFAULT_IMAGE_SIZE: OpenAIImageSize = (process.env.IMAGE_SIZE as OpenAIImageSize) || "1024x1024";
 
 function ensureDir(p: string) {
   if (!fs.existsSync(p)) fs.mkdirSync(p, { recursive: true });
 }
 
 function slugify(title: string) {
-  return title
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
+  return title.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")
+    .replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"");
 }
 
 function todayISO(date = new Date()) {
   return formatInTimeZone(date, TIMEZONE, "yyyy-MM-dd");
 }
 
+// Instructions simplifiées pour Claude
+function buildUserPrompt(novel: typeof FIXED_NOVELS[0]): string {
+  return `Rédige un article de blog engageant sur "${novel.title}" de ${novel.author}.
+
+L'article doit :
+- Faire environ 800-1000 mots
+- Commencer par un titre H1 informatif
+- Avoir une introduction claire qui présente l'œuvre
+- Analyser les thèmes principaux : ${novel.themes.join(", ")}
+- Situer l'œuvre dans son contexte historique (publié en ${novel.year})
+- Examiner la résonance actuelle du livre
+- Conclure de manière réfléchie
+- Adopter un ton accessible et informé
+
+Écris un article de qualité qui éclaire le lecteur sur cette œuvre majeure.
+
+À la fin de ta réponse, ajoute sur une ligne séparée uniquement :
+{"title":"[titre exact]","description":"[description SEO 150 caractères]","hero_prompt":"[description artistique pour image de couverture]","inline_prompt":"[description pour illustration du livre]"}`;
+}
+
+// Utilitaires retry Anthropic
+function sleep(ms: number) { return new Promise((r) => setTimeout(r, ms)); }
+
+async function callAnthropicWithRetry(
+  args: Parameters<typeof anthropic.messages.create>[0],
+  retries = 3
+): Promise<Message> {
+  let attempt = 0;
+  
+  while (attempt <= retries) {
+    try {
+      return (await anthropic.messages.create({
+        ...args,
+        stream: false
+      })) as Message;
+    } catch (e: any) {
+      const shouldRetry = [408, 429, 500, 502, 503, 504].includes(e?.status);
+      
+      if (!shouldRetry || attempt >= retries) throw e;
+      
+      const delay = Math.min(1000 * Math.pow(2, attempt), 10000);
+      console.warn(`⏳ Retry Claude dans ${delay}ms (tentative ${attempt + 1})`);
+      await sleep(delay);
+      attempt++;
+    }
+  }
+  throw new Error("Max retries exceeded");
+}
+
+// Génération image corrigée
 async function generateImageToFile(
   prompt: string,
   outPath: string,
-  size: OpenAIImageSize = "512x512"
+  size: OpenAIImageSize = DEFAULT_IMAGE_SIZE
 ) {
-  const res = await openai.images.generate({
-    model: "gpt-image-1",
-    prompt,
-    size,           // 1024x1024 pour hero, 512x512 pour inline
-    quality: "low", // ✅ baisse le coût
-  });
-  const b64 = res.data?.[0]?.b64_json;
-  if (!b64) throw new Error("Image generation failed (no b64_json).");
-  const buf = Buffer.from(b64, "base64");
-  ensureDir(path.dirname(outPath));
-  fs.writeFileSync(outPath, buf);
-}
+  try {
+    console.log(`🎨 Génération image: ${prompt.slice(0, 50)}...`);
+    
+    const response = await openai.images.generate({
+      model: IMAGE_MODEL,
+      prompt: prompt,
+      size: size,
+      quality: IMAGE_QUALITY as "standard" | "hd",
+      n: 1,
+      response_format: "b64_json"
+    });
 
-function isOpenAIForbidden(e: any) {
-  return e?.status === 403 || e?.code === "invalid_request_error";
+    const imageData = response.data?.[0];
+    if (!imageData) {
+      throw new Error("Aucune donnée d'image retournée");
+    }
+
+    let buffer: Buffer;
+
+    if (imageData.b64_json) {
+      // Format base64
+      console.log("📦 Traitement image base64...");
+      buffer = Buffer.from(imageData.b64_json, 'base64');
+    } else if (imageData.url) {
+      // Format URL (fallback)
+      console.log(`📥 Téléchargement image: ${imageData.url.slice(0, 50)}...`);
+      const fetchResponse = await fetch(imageData.url);
+      if (!fetchResponse.ok) {
+        throw new Error(`Erreur téléchargement: ${fetchResponse.status} ${fetchResponse.statusText}`);
+      }
+      const arrayBuffer = await fetchResponse.arrayBuffer();
+      buffer = Buffer.from(arrayBuffer);
+    } else {
+      throw new Error("Ni b64_json ni url disponible dans la réponse");
+    }
+    
+    ensureDir(path.dirname(outPath));
+    fs.writeFileSync(outPath, buffer);
+    
+    console.log(`✅ Image sauvée: ${outPath} (${(buffer.length / 1024).toFixed(1)}KB)`);
+    return true;
+    
+  } catch (error: any) {
+    console.error(`❌ Erreur génération image:`, {
+      message: error.message,
+      status: error.status,
+      code: error.code,
+      type: error.type,
+      response: error.response?.data
+    });
+    return false;
+  }
 }
 
 async function safeGenerateImage(prompt: string, outPath: string, size: OpenAIImageSize) {
   try {
-    await generateImageToFile(prompt, outPath, size);
-    return true;
+    return await generateImageToFile(prompt, outPath, size);
   } catch (e: any) {
-    console.warn("⚠️ Image OpenAI indisponible:", e?.status || e?.code, e?.error?.message || e?.message);
+    console.warn("⚠️ Image OpenAI indisponible:", e?.message);
     return false;
   }
 }
@@ -112,156 +207,118 @@ function injectInlineImage(markdown: string, inlineImageRel: string, alt: string
   return markdown + imgMd;
 }
 
-async function callClaudeForStory(genre: string): Promise<ClaudeResponse> {
-  const system = `Tu es un écrivain professionnel qui produit des nouvelles efficaces et grand public.`;
+function stripLeadingH1(markdown: string) {
+  return markdown.replace(/^#\s+.*\r?\n(?:\r?\n)*/m, "");
+}
 
-  const user = `Écris une nouvelle originale en **français** dans le genre: "${genre}".
+// Appel Claude simplifié
+async function callClaudeForStory(novel: typeof FIXED_NOVELS[0]): Promise<ClaudeResponse> {
+  const system = `Tu es un critique littéraire passionné qui écrit des articles de blog engageants. Ton style est accessible, chaleureux et expert.`;
+  
+  const user = buildUserPrompt(novel);
 
-Contraintes IMPÉRATIVES :
-- Longueur : **entre 1 200 et 1 600 mots** (ne pas rester en dessous de 1 200).
-- Style : fluide, accessible, immersif ; narration claire (grand public).
-- Structure Markdown :
-  1) "# Titre"
-  2) un paragraphe d'introduction
-  3) 3 à 5 sections "## ..."
-  4) une conclusion
-- Zéro front-matter dans la sortie.
-- Pas de contenu offensant ; public adulte non explicite.
-- 100 % original, pas de copier-coller, pas de révélations méta-modèle.
-
-À la **toute fin**, fournis **un objet JSON strict** sur une seule ligne, sans texte avant/après :
-{"title":"...","description":"(<=160 car.)","hero_prompt":"(visuel large, cinématique)","inline_prompt":"(visuel scène clé)"}
-
-Rappels :
-- "description" = pitch court et alléchant (<=160 caractères).
-- Ne **raccourcis pas** la nouvelle pour caser le JSON : la nouvelle doit **dépasser 1 200 mots** avant le JSON.`;
-
-  // 1) Première passe : histoire complète + JSON meta
-  const msg = await anthropic.messages.create({
-    model: "claude-3-7-sonnet-20250219",
-    max_tokens: 7000, // marge de sortie 1200–1600 mots
-    temperature: 0.8,
-    top_p: 0.9,
+  const msg = await callAnthropicWithRetry({
+    model: CLAUDE_MODEL,
+    max_tokens: 4000,
+    temperature: 0.7,
     system,
-    messages: [{ role: "user", content: user }],
+    messages: [{
+      role: "user",
+      content: user
+    }]
   });
 
-  const fullFirst =
-    msg.content?.map((c: any) => ("text" in c ? (c as any).text : "")).join("\n") ?? "";
+  const full = msg.content?.map((c) => ("text" in c ? c.text : "")).join("\n") ?? "";
 
-  const jsonMatch = fullFirst.match(/\{[\s\S]*\}\s*$/);
-  if (!jsonMatch) throw new Error("JSON introuvable en fin de réponse Claude.");
-  const meta = JSON.parse(jsonMatch[0]) as {
-    title: string;
-    description: string;
-    hero_prompt: string;
-    inline_prompt: string;
-  };
-
-  const markdownInitial = fullFirst.replace(jsonMatch[0], "").trim();
-  const hasH1 = /^#\s+.+/m.test(markdownInitial);
-  const titleLine = `# ${meta.title}\n\n`;
-  let finalMd = hasH1 ? markdownInitial : titleLine + markdownInitial;
-
-  // 2) Filet de sécurité : si trop court, demander un complément
-  const wordCount = finalMd.split(/\s+/).filter(Boolean).length;
-
-  if (wordCount < 1100) {
-    const extend = await anthropic.messages.create({
-      model: "claude-3-7-sonnet-20250219",
-      max_tokens: 3000,
-      temperature: 0.7,
-      system,
-      messages: [
-        {
-          role: "user",
-          content:
-            `Complète la nouvelle précédente pour atteindre **entre 1 300 et 1 500 mots** au total.
-- Continue naturellement à partir de la dernière section, sans revenir en arrière.
-- N'ajoute **pas** de titre ni de front-matter, **pas** de JSON, uniquement du **Markdown** (sections/paragraphes).
-- Garde le ton et le rythme cohérents.`,
-        },
-      ],
-    });
-
-    const extra =
-      extend.content?.map((c: any) => ("text" in c ? (c as any).text : "")).join("\n") ??
-      "";
-    finalMd = (finalMd + "\n\n" + extra).trim();
+  // Extraction des métadonnées
+  let meta: any, article: string;
+  
+  try {
+    // Cherche la ligne JSON à la fin
+    const lines = full.split('\n');
+    const jsonLine = lines[lines.length - 1];
+    
+    if (jsonLine.trim().startsWith('{') && jsonLine.trim().endsWith('}')) {
+      meta = JSON.parse(jsonLine.trim());
+      article = lines.slice(0, -1).join('\n').trim();
+    } else {
+      throw new Error("JSON non trouvé");
+    }
+  } catch {
+    // Fallback: extraction basique
+    const h1Match = full.match(/^#\s+(.+)$/m);
+    const title = h1Match ? h1Match[1].trim() : `${novel.title} - Analyse critique`;
+    
+    meta = {
+      title,
+      description: `Analyse passionnante de ${novel.title} de ${novel.author}, chef-d'œuvre de ${novel.genre}.`,
+      hero_prompt: `Couverture artistique du livre ${novel.title}, style vintage littéraire`,
+      inline_prompt: `Illustration symbolique des thèmes de ${novel.title}`
+    };
+    article = full;
   }
 
-  // 3) Retour standardisé
   return {
     title: meta.title,
-    description: (meta.description || "").slice(0, 160),
-    hero_prompt: meta.hero_prompt,
-    inline_prompt: meta.inline_prompt,
-    markdown: finalMd,
+    description: meta.description?.slice(0, 160) || `Article sur ${novel.title}`,
+    hero_prompt: meta.hero_prompt || `Couverture artistique ${novel.title}`,
+    inline_prompt: meta.inline_prompt || `Illustration ${novel.title}`,
+    markdown: article,
   };
 }
 
+// Main
 async function main() {
-  const genre = GENRES[Math.floor(Math.random() * GENRES.length)];
+  const novel = pickRandomNovel();
   const dateStr = todayISO();
-  console.log(`🖊️  Génération en cours — genre: ${genre}`);
+  
+  console.log("🚀 Génération article littéraire");
+  console.log(`📚 Roman sélectionné: "${novel.title}" de ${novel.author} (${novel.year})`);
 
-  // --- Récupérer l'histoire (story) ---
-  const story = await callClaudeForStory(genre);
+  const story = await callClaudeForStory(novel);
 
-  // --- Préparer noms de fichiers / chemins ---
-  const slug = slugify(story.title) || `nouvelle-${dateStr}`;
+  const slug = slugify(story.title) || `${slugify(novel.title)}-${dateStr}`;
   const heroFile = `${slug}-hero.png`;
   const inlineFile = `${slug}-inline.png`;
   const heroAbs = path.join(IMAGES_DIR, heroFile);
   const inlineAbs = path.join(IMAGES_DIR, inlineFile);
 
-  // --- Générer images (éco) ---
-  console.log("🎨 Génération images (OpenAI, low cost)...");
+  console.log(`🎨 Génération images (modèle: ${IMAGE_MODEL})...`);
+  const okHero = await safeGenerateImage(story.hero_prompt, heroAbs, "1792x1024");
+  const okInline = await safeGenerateImage(story.inline_prompt, inlineAbs, "1024x1024");
 
-  // Essaye de générer, sinon fallback
-  const okHero = await safeGenerateImage(story.hero_prompt, heroAbs, "1024x1024");
-  const okInline = await safeGenerateImage(story.inline_prompt, inlineAbs, "512x512");
-  
-  // Si échec, utilise un placeholder local
   const heroRel = okHero
-    ? `/${path.posix.join("images", "ia", heroFile)}`
-    : `/images/placeholders/hero-1024.png`;
-  
+    ? `/${path.posix.join("images","ia",heroFile)}`
+    : `/images/placeholders/hero-1792.png`;
+
   const inlineRel = okInline
-    ? `/${path.posix.join("images", "ia", inlineFile)}`
-    : `/images/placeholders/inline-512.png`;
-  
+    ? `/${path.posix.join("images","ia",inlineFile)}`
+    : `/images/placeholders/inline-1024.png`;
 
-  // --- Injecter image dans le corps ---
-  const mdWithImg = injectInlineImage(
-    story.markdown,
-    inlineRel,
-    `Illustration: ${story.title}`
-  );
+  // Nettoyage et injection image
+  const cleanedMd = stripLeadingH1(story.markdown);
+  const mdWithImg = injectInlineImage(cleanedMd, inlineRel, `Illustration: ${story.title}`);
 
-  // --- Front-matter YAML ---
   const frontmatter =
     `---\n` +
     `title: "${story.title.replace(/"/g, '\\"')}"\n` +
     `description: "${story.description.replace(/"/g, '\\"')}"\n` +
     `pubDate: "${dateStr}"\n` +
     `heroImage: "${heroRel}"\n` +
-    `heroImageAlt: "Illustration originale: ${story.title.replace(/"/g, '\\"')}"\n` +
+    `heroImageAlt: "Illustration: ${story.title.replace(/"/g, '\\"')}"\n` +
     `---\n\n`;
 
-  // --- Écrire le fichier markdown ---
   ensureDir(BLOG_DIR);
   const fileName = `${dateStr}-${slug}.md`;
   const outPath = path.join(BLOG_DIR, fileName);
   fs.writeFileSync(outPath, frontmatter + mdWithImg, "utf8");
 
   console.log(`✅ Article généré: ${outPath}`);
-  console.log(`🖼  Hero: ${heroRel}`);
-  console.log(`🖼  Inline: ${inlineRel}`);
-  console.log(`💰 Estimation coût images : ~0.02 USD / article (1024 low + 512 low)`);
+  console.log(`🖼 Hero: ${heroRel} (${okHero ? 'OK' : 'PLACEHOLDER'})`);
+  console.log(`🖼 Inline: ${inlineRel} (${okInline ? 'OK' : 'PLACEHOLDER'})`);
+  console.log(`📖 Roman: ${novel.title} (${novel.genre})`);
 }
 
-// Lance toujours le script quand on l'appelle avec `npm run generate:blog`
 main().catch((e) => {
   console.error("💥 Échec:", e);
   process.exit(1);
