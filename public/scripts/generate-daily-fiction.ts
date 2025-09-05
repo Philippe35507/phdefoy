@@ -32,15 +32,21 @@ type ClaudeResponse = {
 // --- Liste fixe de romans ---
 const FIXED_NOVELS = [
   {
-    title: "La Nuit des temps",
-    author: "René Barjavel",
-    genre: "Science-fiction / Romance tragique",
-    year: "1968",
-    themes: ["civilisation perdue", "amour éternel", "guerre", "pacifisme", "tragédie"],
+    title: "Rendez-vous avec Rama",
+    author: "Arthur C. Clarke",
+    genre: "Science-fiction / Hard-SF / Exploration spatiale",
+    year: "1973",
+    themes: [
+      "exploration",
+      "mystère",
+      "rencontre avec l'altérité",
+      "ingénierie colossale",
+      "humilité scientifique"
+    ],
     context:
-      "Sous la glace de l’Antarctique, une expédition découvre une civilisation vieille de 900 000 ans et les derniers amants de ce monde englouti : Éléa et Païkan. Leur histoire mêle science-fiction et drame universel.",
+      "Au XXIe siècle, un gigantesque cylindre artificiel traverse le système solaire. Baptisé Rama, il devient l’objet d’une mission d’exploration qui révèle un monde intérieur complexe, silencieux et indifférent à l’humanité.",
     impact:
-      "Roman culte de la SF française, couronné par le prix des Libraires en 1969. Symbole de l’écriture poétique et humaniste de Barjavel, il reste une référence majeure de la littérature d’anticipation francophone."
+      "Lauréat des prix Hugo, Nebula et Locus, le roman est considéré comme l’un des chefs-d’œuvre de la hard-SF. Il a popularisé l’idée des habitats spatiaux cylindriques et marqué durablement l’imaginaire de l’archéologie cosmique."
   }
 ];
 
