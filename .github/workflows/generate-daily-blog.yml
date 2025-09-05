@@ -2,22 +2,35 @@ name: Generate Daily Fiction Post
 
 on:
   schedule:
-    - cron: "00 17 * * *"   # 17:00 UTC (19:00 Europe/Madrid en été)
+    - cron: "00 17 * * *"  # 17:00 UTC ≈ 19:00 Europe/Madrid (été)
   workflow_dispatch:
 
 permissions:
-  contents: write  # nécessaire pour le commit+push avec GITHUB_TOKEN (recommandé)
+  contents: write
 
 jobs:
   generate-post:
     runs-on: ubuntu-latest
     env:
-      TZ: Atlantic/Canary         # n'influence pas l'heure du cron, seulement les commandes "date"
+      TZ: Atlantic/Canary
       BLOG_DIR: src/content/blog/ia
       IMAGES_DIR: public/images/ia
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Sanity check – list tree
+        run: |
+          pwd
+          git status --porcelain
+          echo "Top-level:"
+          ls -la
+          echo "public/:"
+          ls -la public || true
+          echo "public/scripts/:"
+          ls -la public/scripts || true
+          echo "Git sees the TS file?"
+          git ls-files public/scripts/generate-daily-fiction.ts || echo "⚠️ Not tracked by Git"
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -32,7 +45,7 @@ jobs:
         env:
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: npx tsx scripts/generate-daily-fiction.ts
+        run: npx tsx public/scripts/generate-daily-fiction.ts
 
       - name: Check for changes and commit
         run: |
