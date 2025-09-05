@@ -50,7 +50,7 @@ Notre société de consommation, avec ses divertissements omniprésents et sa qu
 
 ## Une œuvre qui nous interpelle encore
 
-"Le Meilleur des mondes" n'est pas qu'une simple dystopie divertissante. C'est un miroir déformant mais révélateur de nos sociétés, une invitation à questionner nos valeurs et nos choix collectifs. Si Huxley nous présente un futur cauchemardesque, c'est pour nous inciter à rester vigilants face aux dérives potentielles de nos propres innovations.
+"Le Meilleur des mondes" n'est pas qu'une simple dystopie divertissante, c'est un miroir déformant mais révélateur de nos sociétés, une invitation à questionner nos valeurs et nos choix collectifs. Si Huxley nous présente un futur cauchemardesque, c'est pour nous inciter à rester vigilants face aux dérives potentielles de nos propres innovations.
 
 La force du roman réside dans sa capacité à nous faire réfléchir sur ce que nous sommes prêts à sacrifier au nom du confort et de la stabilité. Dans un monde où la technologie progresse plus vite que notre réflexion éthique, "Le Meilleur des mondes" nous rappelle l'importance de préserver ce qui fait notre humanité : notre capacité à choisir, à ressentir pleinement, et parfois même à souffrir.
 
