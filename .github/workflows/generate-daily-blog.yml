@@ -2,14 +2,17 @@ name: Generate Daily Fiction Post
 
 on:
   schedule:
-  - cron: "59 20 * * *"
+    - cron: "00 17 * * *"   # 17:00 UTC (19:00 Europe/Madrid en été)
   workflow_dispatch:
+
+permissions:
+  contents: write  # nécessaire pour le commit+push avec GITHUB_TOKEN (recommandé)
 
 jobs:
   generate-post:
     runs-on: ubuntu-latest
     env:
-      TZ: Atlantic/Canary
+      TZ: Atlantic/Canary         # n'influence pas l'heure du cron, seulement les commandes "date"
       BLOG_DIR: src/content/blog/ia
       IMAGES_DIR: public/images/ia
     steps:
