@@ -19,7 +19,7 @@ const IMAGES_DIR = process.env.IMAGES_DIR || "public/images/ia";
 const TIMEZONE = process.env.TZ || "Europe/Madrid";
 
 // --- Types utilitaires ---
-type OpenAIImageSize = "1024x1024"  | "1792x1024";
+type OpenAIImageSize = "1024x1024" | "1024x1536" | "1536x1024" | "1024x1792" | "1792x1024";
 
 type ClaudeResponse = {
   title: string;
@@ -29,24 +29,19 @@ type ClaudeResponse = {
   markdown: string;
 };
 
-// --- Liste fixe de 3 romans ---
+// --- Liste fixe de romans ---
 const FIXED_NOVELS = [
   {
     title: "La Nuit des temps",
     author: "René Barjavel",
     genre: "Science-fiction / Romance tragique",
     year: "1968",
-    themes: [
-      "civilisation perdue",
-      "amour éternel",
-      "guerre",
-      "pacifisme",
-      "tragédie"
-    ],
-    context: "Sous la glace de l’Antarctique, une expédition découvre une civilisation vieille de 900 000 ans et les derniers amants de ce monde englouti : Éléa et Païkan. Leur histoire mêle science-fiction et drame universel.",
-    impact: "Roman culte de la SF française, couronné par le prix des Libraires en 1969. Symbole de l’écriture poétique et humaniste de Barjavel, il reste une référence majeure de la littérature d’anticipation francophone."
+    themes: ["civilisation perdue", "amour éternel", "guerre", "pacifisme", "tragédie"],
+    context:
+      "Sous la glace de l’Antarctique, une expédition découvre une civilisation vieille de 900 000 ans et les derniers amants de ce monde englouti : Éléa et Païkan. Leur histoire mêle science-fiction et drame universel.",
+    impact:
+      "Roman culte de la SF française, couronné par le prix des Libraires en 1969. Symbole de l’écriture poétique et humaniste de Barjavel, il reste une référence majeure de la littérature d’anticipation francophone."
   }
- 
 ];
 
 // Sujet aléatoire simplifié
@@ -56,26 +51,43 @@ function pickRandomNovel() {
 
 // Clients API
 const anthropic = new Anthropic({
-  apiKey: (process.env.CLAUDE_API_KEY || process.env.ANTHROPIC_API_KEY || "").trim(),
+  apiKey: (process.env.CLAUDE_API_KEY || process.env.ANTHROPIC_API_KEY || "").trim()
 });
 
 const openai = new OpenAI({
-  apiKey: (process.env.OPENAI_API_KEY || "").trim(),
+  apiKey: (process.env.OPENAI_API_KEY || "").trim()
 });
 
 // Modèles
-const CLAUDE_MODEL = (process.env.CLAUDE_MODEL || "claude-3-5-sonnet-20241022").trim();
-const IMAGE_MODEL = (process.env.IMAGE_MODEL || "dall-e-3").trim();
-const IMAGE_QUALITY = (process.env.IMAGE_QUALITY || "standard").trim();
-const DEFAULT_IMAGE_SIZE: OpenAIImageSize = (process.env.IMAGE_SIZE as OpenAIImageSize) || "1024x1024";
+const CLAUDE_MODEL = (process.env.CLAUDE_MODEL || "claude-3-7-sonnet-20250219").trim();
+const IMAGE_MODEL = (process.env.IMAGE_MODEL || "gpt-image-1").trim();
 
+let IMAGE_QUALITY = (process.env.IMAGE_QUALITY || "medium").trim();
+if (IMAGE_QUALITY.toLowerCase() === "low") IMAGE_QUALITY = "medium";
+
+// --- Helpers tailles images ---
+function getPortraitSize(model: string): "1024x1536" | "1024x1792" {
+  if (model.includes("gpt-image-1")) return "1024x1536"; // portrait GPT-Image-1
+  return "1024x1792"; // portrait DALL·E 3
+}
+
+function getLandscapeSize(model: string): "1536x1024" | "1792x1024" {
+  if (model.includes("gpt-image-1")) return "1536x1024"; // paysage GPT-Image-1
+  return "1792x1024"; // paysage DALL·E 3
+}
+
+// Utils
 function ensureDir(p: string) {
   if (!fs.existsSync(p)) fs.mkdirSync(p, { recursive: true });
 }
 
 function slugify(title: string) {
-  return title.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")
-    .replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"");
+  return title
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
 }
 
 function todayISO(date = new Date()) {
@@ -102,26 +114,22 @@ L'article doit :
 {"title":"[titre exact]","description":"[description SEO 150 caractères]","hero_prompt":"[description artistique pour image de couverture]","inline_prompt":"[description pour illustration du livre]"}`;
 }
 
-// Utilitaires retry Anthropic
-function sleep(ms: number) { return new Promise((r) => setTimeout(r, ms)); }
+// Retry Anthropic
+function sleep(ms: number) {
+  return new Promise((r) => setTimeout(r, ms));
+}
 
 async function callAnthropicWithRetry(
   args: Parameters<typeof anthropic.messages.create>[0],
   retries = 3
 ): Promise<Message> {
   let attempt = 0;
-  
   while (attempt <= retries) {
     try {
-      return (await anthropic.messages.create({
-        ...args,
-        stream: false
-      })) as Message;
+      return (await anthropic.messages.create({ ...args, stream: false })) as Message;
     } catch (e: any) {
-      const shouldRetry = [408, 429, 500, 502, 503, 504].includes(e?.status);
-      
+      const shouldRetry = [408, 429, 500, 502, 503, 504, 529].includes(e?.status);
       if (!shouldRetry || attempt >= retries) throw e;
-      
       const delay = Math.min(1000 * Math.pow(2, attempt), 10000);
       console.warn(`⏳ Retry Claude dans ${delay}ms (tentative ${attempt + 1})`);
       await sleep(delay);
@@ -131,62 +139,43 @@ async function callAnthropicWithRetry(
   throw new Error("Max retries exceeded");
 }
 
-// Génération image corrigée
-async function generateImageToFile(
-  prompt: string,
-  outPath: string,
-  size: OpenAIImageSize = DEFAULT_IMAGE_SIZE
-) {
+// Génération image
+async function generateImageToFile(prompt: string, outPath: string, size: OpenAIImageSize) {
   try {
-    console.log(`🎨 Génération image: ${prompt.slice(0, 50)}...`);
-    
+    console.log(`🎨 Génération image: ${prompt.slice(0, 80)}... [${size}]`);
     const response = await openai.images.generate({
       model: IMAGE_MODEL,
-      prompt: prompt,
-      size: size,
-      quality: IMAGE_QUALITY as "standard" | "hd",
-      n: 1,
-      response_format: "b64_json"
+      prompt,
+      size,
+      quality: IMAGE_QUALITY as "medium" | "hd",
+      n: 1
     });
 
-    const imageData = response.data?.[0];
-    if (!imageData) {
-      throw new Error("Aucune donnée d'image retournée");
-    }
+    const imageData: any = response.data?.[0];
+    if (!imageData) throw new Error("Aucune donnée d'image retournée");
+
+    const b64: string | undefined = imageData.b64_json || imageData.b64;
+    const url: string | undefined = imageData.url;
 
     let buffer: Buffer;
-
-    if (imageData.b64_json) {
-      // Format base64
-      console.log("📦 Traitement image base64...");
-      buffer = Buffer.from(imageData.b64_json, 'base64');
-    } else if (imageData.url) {
-      // Format URL (fallback)
-      console.log(`📥 Téléchargement image: ${imageData.url.slice(0, 50)}...`);
-      const fetchResponse = await fetch(imageData.url);
-      if (!fetchResponse.ok) {
-        throw new Error(`Erreur téléchargement: ${fetchResponse.status} ${fetchResponse.statusText}`);
-      }
+    if (b64) {
+      buffer = Buffer.from(b64, "base64");
+    } else if (url) {
+      console.log(`📥 Téléchargement image: ${url.slice(0, 70)}...`);
+      const fetchResponse = await fetch(url);
+      if (!fetchResponse.ok) throw new Error(`Erreur téléchargement: ${fetchResponse.status}`);
       const arrayBuffer = await fetchResponse.arrayBuffer();
       buffer = Buffer.from(arrayBuffer);
     } else {
-      throw new Error("Ni b64_json ni url disponible dans la réponse");
+      throw new Error("Ni b64 ni url disponible");
     }
-    
+
     ensureDir(path.dirname(outPath));
     fs.writeFileSync(outPath, buffer);
-    
     console.log(`✅ Image sauvée: ${outPath} (${(buffer.length / 1024).toFixed(1)}KB)`);
     return true;
-    
   } catch (error: any) {
-    console.error(`❌ Erreur génération image:`, {
-      message: error.message,
-      status: error.status,
-      code: error.code,
-      type: error.type,
-      response: error.response?.data
-    });
+    console.error("❌ Erreur génération image:", error.message);
     return false;
   }
 }
@@ -211,10 +200,9 @@ function stripLeadingH1(markdown: string) {
   return markdown.replace(/^#\s+.*\r?\n(?:\r?\n)*/m, "");
 }
 
-// Appel Claude simplifié
+// Appel Claude
 async function callClaudeForStory(novel: typeof FIXED_NOVELS[0]): Promise<ClaudeResponse> {
-  const system = `Tu es un critique littéraire passionné qui écrit des articles de blog engageants. Ton style est accessible, chaleureux et expert.`;
-  
+  const system = `Tu es un critique littéraire passionné qui écrit des articles de blog engageants.`;
   const user = buildUserPrompt(novel);
 
   const msg = await callAnthropicWithRetry({
@@ -222,37 +210,26 @@ async function callClaudeForStory(novel: typeof FIXED_NOVELS[0]): Promise<Claude
     max_tokens: 4000,
     temperature: 0.7,
     system,
-    messages: [{
-      role: "user",
-      content: user
-    }]
+    messages: [{ role: "user", content: user }]
   });
 
   const full = msg.content?.map((c) => ("text" in c ? c.text : "")).join("\n") ?? "";
-
-  // Extraction des métadonnées
   let meta: any, article: string;
-  
+
   try {
-    // Cherche la ligne JSON à la fin
-    const lines = full.split('\n');
+    const lines = full.split("\n");
     const jsonLine = lines[lines.length - 1];
-    
-    if (jsonLine.trim().startsWith('{') && jsonLine.trim().endsWith('}')) {
+    if (jsonLine.trim().startsWith("{") && jsonLine.trim().endsWith("}")) {
       meta = JSON.parse(jsonLine.trim());
-      article = lines.slice(0, -1).join('\n').trim();
-    } else {
-      throw new Error("JSON non trouvé");
-    }
+      article = lines.slice(0, -1).join("\n").trim();
+    } else throw new Error("JSON non trouvé");
   } catch {
-    // Fallback: extraction basique
     const h1Match = full.match(/^#\s+(.+)$/m);
     const title = h1Match ? h1Match[1].trim() : `${novel.title} - Analyse critique`;
-    
     meta = {
       title,
-      description: `Analyse passionnante de ${novel.title} de ${novel.author}, chef-d'œuvre de ${novel.genre}.`,
-      hero_prompt: `Couverture artistique du livre ${novel.title}, style vintage littéraire`,
+      description: `Analyse passionnante de ${novel.title} de ${novel.author}.`,
+      hero_prompt: `Illustration portrait du livre ${novel.title}, style littéraire`,
       inline_prompt: `Illustration symbolique des thèmes de ${novel.title}`
     };
     article = full;
@@ -261,9 +238,9 @@ async function callClaudeForStory(novel: typeof FIXED_NOVELS[0]): Promise<Claude
   return {
     title: meta.title,
     description: meta.description?.slice(0, 160) || `Article sur ${novel.title}`,
-    hero_prompt: meta.hero_prompt || `Couverture artistique ${novel.title}`,
-    inline_prompt: meta.inline_prompt || `Illustration ${novel.title}`,
-    markdown: article,
+    hero_prompt: meta.hero_prompt,
+    inline_prompt: meta.inline_prompt,
+    markdown: article
   };
 }
 
@@ -271,9 +248,10 @@ async function callClaudeForStory(novel: typeof FIXED_NOVELS[0]): Promise<Claude
 async function main() {
   const novel = pickRandomNovel();
   const dateStr = todayISO();
-  
+
   console.log("🚀 Génération article littéraire");
   console.log(`📚 Roman sélectionné: "${novel.title}" de ${novel.author} (${novel.year})`);
+  console.log(`🧠 Modèle Claude: ${CLAUDE_MODEL} | 🖼 Modèle image: ${IMAGE_MODEL}/${IMAGE_QUALITY}`);
 
   const story = await callClaudeForStory(novel);
 
@@ -283,19 +261,18 @@ async function main() {
   const heroAbs = path.join(IMAGES_DIR, heroFile);
   const inlineAbs = path.join(IMAGES_DIR, inlineFile);
 
-  console.log(`🎨 Génération images (modèle: ${IMAGE_MODEL})...`);
-  const okHero = await safeGenerateImage(story.hero_prompt, heroAbs, "1792x1024");
+  console.log("🎨 Génération images...");
+  const okHero = await safeGenerateImage(story.hero_prompt, heroAbs, getPortraitSize(IMAGE_MODEL));
   const okInline = await safeGenerateImage(story.inline_prompt, inlineAbs, "1024x1024");
 
   const heroRel = okHero
-    ? `/${path.posix.join("images","ia",heroFile)}`
-    : `/images/placeholders/hero-1792.png`;
+    ? `/${path.posix.join("images", "ia", heroFile)}`
+    : `/images/placeholders/hero-portrait.png`;
 
   const inlineRel = okInline
-    ? `/${path.posix.join("images","ia",inlineFile)}`
+    ? `/${path.posix.join("images", "ia", inlineFile)}`
     : `/images/placeholders/inline-1024.png`;
 
-  // Nettoyage et injection image
   const cleanedMd = stripLeadingH1(story.markdown);
   const mdWithImg = injectInlineImage(cleanedMd, inlineRel, `Illustration: ${story.title}`);
 
@@ -314,8 +291,8 @@ async function main() {
   fs.writeFileSync(outPath, frontmatter + mdWithImg, "utf8");
 
   console.log(`✅ Article généré: ${outPath}`);
-  console.log(`🖼 Hero: ${heroRel} (${okHero ? 'OK' : 'PLACEHOLDER'})`);
-  console.log(`🖼 Inline: ${inlineRel} (${okInline ? 'OK' : 'PLACEHOLDER'})`);
+  console.log(`🖼 Hero: ${heroRel} (${okHero ? "OK" : "PLACEHOLDER"})`);
+  console.log(`🖼 Inline: ${inlineRel} (${okInline ? "OK" : "PLACEHOLDER"})`);
   console.log(`📖 Roman: ${novel.title} (${novel.genre})`);
 }
 
