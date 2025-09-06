@@ -4,6 +4,7 @@
 import "dotenv/config";
 import fs from "fs";
 import path from "path";
+import sharp from "sharp";
 import { fileURLToPath } from "url";
 import { formatInTimeZone } from "date-fns-tz";
 import Anthropic from "@anthropic-ai/sdk";
@@ -30,6 +31,31 @@ type ClaudeResponse = {
   inline_prompt: string;
   markdown: string;
 };
+
+async function writeImageSet(
+  outDir: string,
+  baseName: string,
+  srcBuffer: Buffer,
+  maxWidth = 1600
+) {
+  ensureDir(outDir);
+  const pngPath  = path.join(outDir, `${baseName}.png`);
+  const webpPath = path.join(outDir, `${baseName}.webp`);
+  const avifPath = path.join(outDir, `${baseName}.avif`);
+
+  const img = sharp(srcBuffer, { failOn: "none" }).withMetadata();
+  const meta = await img.metadata();
+  const resized = (meta.width ?? 0) > maxWidth ? img.resize({ width: maxWidth }) : img;
+
+  // PNG compressé (on garde PNG comme format “source” pour compatibilité)
+  await resized.png({ compressionLevel: 9, palette: true }).toFile(pngPath);
+  // WEBP
+  await resized.webp({ quality: 82, effort: 5 }).toFile(webpPath);
+  // AVIF
+  await resized.avif({ quality: 60, effort: 4 }).toFile(avifPath);
+
+  return { pngPath, webpPath, avifPath };
+}
 
 const NOVELS: Novel[] = novelsData as Novel[];
 
@@ -234,40 +260,88 @@ async function main() {
   console.log(`📚 Roman sélectionné: "${novel.title}" de ${novel.author}`);
   console.log(`🧠 Modèle Claude: ${CLAUDE_MODEL} | 🖼 Modèle image: ${IMAGE_MODEL}/${IMAGE_QUALITY}`);
 
-  // --- MODE DRY-RUN ---
-  if (process.env.DRY_RUN === "true") {
-    console.log("⚠️ Mode DRY-RUN activé — aucun appel API ne sera fait.");
+// --- MODE DRY-RUN ---
+if (process.env.DRY_RUN === "true") {
+  console.log("⚠️ Mode DRY-RUN activé — aucun appel API ne sera fait.");
 
-    const fakeStory: ClaudeResponse = {
-      title: `${novel.title} (TEST)`,
-      description: `Article fictif pour test sur ${novel.title}`,
-      hero_prompt: "Une image fictive (hero)",
-      inline_prompt: "Une image fictive (inline)",
-      markdown: `# ${novel.title}\n\nCeci est un **test local**. Aucun appel API effectué.`
-    };
+  const fakeStory: ClaudeResponse = {
+    title: `${novel.title} (TEST)`,
+    description: `Article fictif pour test sur ${novel.title}`,
+    hero_prompt: "Placeholder hero",
+    inline_prompt: "Placeholder inline",
+    markdown: `# ${novel.title}\n\nCeci est un **test local**. Aucun appel API effectué.`
+  };
 
-    const slug = slugify(fakeStory.title) || `${slugify(novel.title)}-${dateStr}`;
-    const heroRel = `/images/placeholders/hero-portrait.png`;
-    const inlineRel = `/images/placeholders/inline-1024.png`;
+  const slug = slugify(fakeStory.title) || `${slugify(novel.title)}-${dateStr}`;
 
-    const frontmatter =
-      `---\n` +
-      `title: "${fakeStory.title.replace(/"/g, '\\"')}"\n` +
-      `description: "${fakeStory.description.replace(/"/g, '\\"')}"\n` +
-      `pubDate: "${dateStr}"\n` +
-      `heroImage: "${heroRel}"\n` +
-      `heroImageAlt: "Illustration: ${fakeStory.title.replace(/"/g, '\\"')}"\n` +
-      `---\n\n`;
+  // Bases & sous-dossiers (on veut /images/ia/<base>/<base>.{png,webp,avif})
+  const heroBaseName   = `${dateStr}-${slug}-hero`;
+  const inlineBaseName = `${dateStr}-${slug}-inline`;
+  const heroDirAbs     = path.resolve(IMAGES_DIR, heroBaseName);
+  const inlineDirAbs   = path.resolve(IMAGES_DIR, inlineBaseName);
 
-    ensureDir(BLOG_DIR);
-    const fileName = `${dateStr}-${slug}.md`;
-    const outPath = path.join(BLOG_DIR, fileName);
-    fs.writeFileSync(outPath, frontmatter + fakeStory.markdown, "utf8");
+  const heroRelPng   = `/${path.posix.join("images", "ia", heroBaseName,   `${heroBaseName}.png`)}`;
+  const inlineRelPng = `/${path.posix.join("images", "ia", inlineBaseName, `${inlineBaseName}.png`)}`;
 
-    console.log(`✅ [DRY-RUN] Article simulé: ${outPath}`);
-    process.exit(0);
+  console.log("📁 IMAGES_DIR:", path.resolve(IMAGES_DIR));
+  console.log("📁 heroDirAbs:", heroDirAbs);
+  console.log("📁 inlineDirAbs:", inlineDirAbs);
+
+  // Placeholders locaux (si absents, on génère un PNG 1×1 transparent)
+  const heroPlaceholderAbs   = path.join(process.cwd(), "public", "images", "placeholders", "hero-portrait.png");
+  const inlinePlaceholderAbs = path.join(process.cwd(), "public", "images", "placeholders", "inline-1024.png");
+
+  function readOrDummy(absPath: string) {
+    try {
+      return fs.readFileSync(absPath);
+    } catch {
+      console.warn("⚠️ Placeholder introuvable, génération d’un PNG 1×1:", absPath);
+      return Buffer.from(
+        "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQYV2NgYGD4DwABAgEAz1G9TwAAAABJRU5ErkJggg==",
+        "base64"
+      );
+    }
   }
-  // --- FIN DRY-RUN ---
+
+  try {
+    const heroBuf   = readOrDummy(heroPlaceholderAbs);
+    const inlineBuf = readOrDummy(inlinePlaceholderAbs);
+
+    // ⬇️ Écrit les triplets PNG+WEBP+AVIF dans les sous-dossiers
+    await writeImageSet(heroDirAbs,   heroBaseName,   heroBuf);
+    await writeImageSet(inlineDirAbs, inlineBaseName, inlineBuf);
+
+    console.log("🧪 [DRY-RUN] Images factices écrites :");
+    console.log("   -", path.join(heroDirAbs,   `${heroBaseName}.png`));
+    console.log("   -", path.join(inlineDirAbs, `${inlineBaseName}.png`));
+  } catch (e: any) {
+    console.error("❌ [DRY-RUN] Échec écriture images factices:", e?.message);
+  }
+
+  // Frontmatter (le composant <Picture> servira AVIF/WEBP si présents)
+  const frontmatter =
+    `---\n` +
+    `title: "${fakeStory.title.replace(/"/g, '\\"')}"\n` +
+    `description: "${fakeStory.description.replace(/"/g, '\\"')}"\n` +
+    `pubDate: "${dateStr}"\n` +
+    `heroImage: "${heroRelPng}"\n` +
+    `heroImageAlt: "Illustration: ${fakeStory.title.replace(/"/g, '\\"')}"\n` +
+    `---\n\n`;
+
+  // Inline : on injecte un <picture> HTML pointant vers ...inline.png
+  const cleanedMd = stripLeadingH1(fakeStory.markdown);
+  const mdWithImg = injectInlineImage(cleanedMd, inlineRelPng, `Illustration: ${fakeStory.title}`);
+
+  ensureDir(BLOG_DIR);
+  const fileName = `${dateStr}-${slug}.md`;
+  const outPath = path.join(BLOG_DIR, fileName);
+  fs.writeFileSync(outPath, frontmatter + mdWithImg, "utf8");
+
+  console.log(`✅ [DRY-RUN] Article simulé: ${outPath}`);
+  process.exit(0);
+}
+// --- FIN DRY-RUN ---
+
 
   const story = await callClaudeForStory(novel);
 ;

@@ -2,7 +2,7 @@
 title: "La Nuit des temps de René Barjavel : Quand l'amour défie l'apocalypse"
 description: "Découvrez l'analyse de ce chef-d'œuvre de science-fiction française où l'amour éternel et la critique de notre civilisation s'entremêlent dans une vision prophé"
 pubDate: "2025-09-05"
-heroImage: "/images/ia/la-nuit-des-temps-de-rene-barjavel-quand-l-amour-defie-l-apocalypse-hero.png"
+heroImage: "/images/ia/la-nuit-des-temps-de-rene-barjavel-quand-l-amour-defie-l-apocalypse-hero/la-nuit-des-temps-de-rene-barjavel-quand-l-amour-defie-l-apocalypse-hero.png"
 heroImageAlt: "Illustration: La Nuit des temps de René Barjavel : Quand l'amour défie l'apocalypse"
 ---
 
@@ -13,7 +13,7 @@ L’histoire commence dans l’Antarctique, où une équipe internationale de sc
 
 Ce qui frappe d’emblée dans le récit de Barjavel, c’est sa capacité à rendre crédible cette rencontre impossible entre deux époques. L’auteur déploie un talent remarquable pour décrire à la fois l’émerveillement des scientifiques modernes et le dépaysement d’Eléa face à notre monde. Le personnage de Simon, scientifique français qui devient le lien privilégié avec Eléa, incarne notre propre fascination pour cette femme venue du fond des âges.
 
-![Illustration: La Nuit des temps de René Barjavel : Quand l'amour défie l'apocalypse](/images/ia/la-nuit-des-temps-de-rene-barjavel-quand-l-amour-defie-l-apocalypse-inline.png)
+![Illustration: La Nuit des temps de René Barjavel : Quand l'amour défie l'apocalypse](/images/ia/la-nuit-des-temps-de-rene-barjavel-quand-l-amour-defie-l-apocalypse-inline/la-nuit-des-temps-de-rene-barjavel-quand-l-amour-defie-l-apocalypse-inline.png)
 
 ## L’amour éternel comme fil conducteur
 Au cœur de “La Nuit des temps” se trouve une histoire d’amour bouleversante entre Eléa et Païkan, son compagnon resté en suspension. Leur relation transcende littéralement le temps, devenant une métaphore puissante de l’amour éternel. Barjavel traite ce thème avec une sensibilité rare, nous faisant ressentir toute la force et la fragilité de ce sentiment.

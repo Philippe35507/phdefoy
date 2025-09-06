@@ -4,6 +4,9 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
+import Picture from "../components/Picture.astro";
+
+const { frontmatter } = Astro.props; // heroImage, heroImageAlt dans le frontmatter
 
 type BlogData = CollectionEntry<'blog'>['data'];
 
@@ -51,28 +54,16 @@ const {
             heroImageLink ? (
               <a href={heroImageLink} target="_blank" rel="noopener sponsored noreferrer"
                 class="hero-image-link" aria-label={`Voir le livre sur Amazon`}>
-                <img
+                <Picture
                   src={heroImage}
                   alt={heroImageAlt || `Couverture : ${title}`}
-                  width="1020"
-                  height="510"
-                  loading="eager"
-                  decoding="async"
-                  fetchpriority="high"
-                  sizes="(max-width: 768px) 90vw, 720px"
                 />
                 <span class="badge-amazon">Voir sur Amazon</span>
               </a>
             ) : (
-              <img
+              <Picture
                 src={heroImage}
                 alt={heroImageAlt || `Couverture : ${title}`}
-                width="1020"
-                height="510"
-                loading="eager"
-                decoding="async"
-                fetchpriority="high"
-                sizes="(max-width: 768px) 90vw, 720px"
               />
             )
           )}

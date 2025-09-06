@@ -1,0 +1,11 @@
+---
+const { src, alt } = Astro.props as { src: string; alt?: string };
+const base = src.replace(/\.(png|jpe?g)$/i, "");
+const ext  = (src.match(/\.(png|jpe?g)$/i)?.[0] ?? ".png");
+---
+<picture>
+  <source srcset={`${base}.avif`} type="image/avif" />
+  <source srcset={`${base}.webp`} type="image/webp" />
+  <img src={`${base}${ext}`} alt={alt ?? ""} loading="lazy" decoding="async" />
+</picture>
+

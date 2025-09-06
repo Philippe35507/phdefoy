@@ -2,7 +2,7 @@
 title: "Comment les maîtres du suspense littéraire manipulent nos émotions"
 description: "Découvrez les techniques psychologiques et narratives utilisées par les grands auteurs de suspense pour créer cette tension addictive qui nous tient en haleine "
 pubDate: "2025-09-05"
-heroImage: "/images/ia/les-maitres-du-suspense-litteraire-comment-ils-manipulent-nos-emotions-hero.png"
+heroImage: "/images/ia/les-maitres-du-suspense-litteraire-comment-ils-manipulent-nos-emotions-hero/les-maitres-du-suspense-litteraire-comment-ils-manipulent-nos-emotions-hero.png"
 heroImageAlt: "Illustration symbolique: Les Maîtres du Suspense Littéraire : Comment Ils Manipulent Nos Émotions"
 ---
 
