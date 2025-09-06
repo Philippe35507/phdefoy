@@ -7,7 +7,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "generate:blog": "tsx public/scripts/generate-daily-fiction.ts"
+    "blog": "tsx src/data/scripts/generate-daily-fiction.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.61.0",

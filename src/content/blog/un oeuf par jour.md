@@ -50,6 +50,18 @@ Pour la santé oculaire, les caroténoïdes du jaune d'œuf sont comme des passa
 
 Sur le plan métabolique, les protéines d'œuf agissent sur l'appétit comme un système de messagerie sophistiqué. Elles déclenchent l'envoi de plusieurs messages de satiété vers le cerveau : libération d'hormones, ralentissement de la vidange gastrique, activation de récepteurs nerveux. Cette communication multiple explique pourquoi un petit-déjeuner aux œufs "tient au corps" plus longtemps qu'un petit-déjeuner sucré.
 
+### Un gros œuf contient :
+
+* Tous les neuf acides aminés essentiels dans un profil optimal
+
+* Plus de 20% de la valeur quotidienne de sélénium, important pour la fonction cognitive
+
+* Plus de 30% de la valeur quotidienne de vitamine D
+
+* 13 vitamines et minéraux essentiels
+
+* 6 grammes de protéines de haute qualité
+
 ## Les influences cachées de l'industrie
 
 L'analyse la plus révélatrice sur l'évolution de la recherche nutritionnelle a été publiée en 2019 dans l'_American Journal of Lifestyle Medicine_ par l'équipe du médecin Neal Barnard. Ces chercheurs ont analysé 153 études sur les œufs et le cholestérol publiées entre 1950 et 2019, en s'intéressant particulièrement aux sources de financement.
@@ -72,7 +84,15 @@ Si la réhabilitation scientifique de l'œuf concerne la population générale, 
 
 Cependant, les essais contrôlés randomisés, considérés comme l'étalon-or en recherche médicale, apportent des éléments rassurants. Une revue systématique publiée en 2017 dans le _Canadian Journal of Diabetes_ analyse l'ensemble des études d'intervention chez les personnes diabétiques. Les résultats sont remarquablement cohérents : la consommation de 6 à 12 œufs par semaine n'affecte aucun marqueur de risque cardiovasculaire majeur chez les diabétiques.
 
-Environ 15 à 25% de la population présente également une sensibilité particulière au cholestérol alimentaire. Ces "hyper-répondeurs" voient leur cholestérol sanguin s'élever de façon plus marquée en réponse aux apports alimentaires. Cependant, cette augmentation concerne généralement à la fois le LDL et le HDL, maintenant un rapport global favorable.
+### Un Thermostat Biologique Sophistiqué
+
+Pour comprendre pourquoi les œufs ne sont pas le danger qu'on croyait, il faut saisir le fonctionnement du mécanisme de régulation hépatique. Le foie fonctionne comme un thermostat sophistiqué : quand l'apport de cholestérol alimentaire augmente, le foie tend généralement à réduire sa propre production via un système complexe de rétrocontrôle.
+
+Cette régulation varie significativement d'un individu à l'autre. Environ 15 à 25% de la population montre une sensibilité accrue à l'apport alimentaire - les fameux "hyper-répondeurs". Cependant, même chez ces individus, les recherches récentes montrent que l'augmentation du cholestérol concerne principalement les particules LDL larges (moins athérogènes) et les particules HDL (protectrices)
+
+### La Distinction Fondamentale
+
+La recherche moderne a établi une distinction cruciale que Keys avait pourtant observée mais qui fut perdue dans la traduction médiatique : la différence entre le cholestérol que nous mangeons et celui qui circule dans notre sang. La majorité du cholestérol sanguin (environ 75-80%) est produite par le foie lui-même, stimulé principalement par les graisses saturées et trans, non par le cholestérol alimentaire.
 
 ## Recommandations pratiques
 
@@ -93,3 +113,5 @@ Dans un contexte de multiplication des produits transformés, l'œuf illustre la
 Cette réhabilitation valide également la sagesse des populations qui intégraient spontanément l'œuf dans leur alimentation depuis des millénaires. Cette convergence entre tradition culinaire et science moderne montre la voie d'une synthèse féconde, qui réconcilie l'expérience collective avec les apports de la recherche contemporaine.
 
 ![oeuf](/images/oeuf/oeuf.jpg)
+
+

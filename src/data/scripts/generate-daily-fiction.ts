@@ -1,4 +1,4 @@
-// public/scripts/generate-daily-fiction.ts
+// src/data/scripts/generate-daily-fiction.ts
 // Node >= 18, TS/ESM
 
 import "dotenv/config";
@@ -9,17 +9,19 @@ import { formatInTimeZone } from "date-fns-tz";
 import Anthropic from "@anthropic-ai/sdk";
 import type { Message } from "@anthropic-ai/sdk/resources/messages.mjs";
 import OpenAI from "openai";
+import novelsData from "./fixed-novels.json"; // [{ "title": "...", "author": "..." }]
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+interface Novel {
+  title: string;
+  author: string;
+}
 
-// --- Réglages par défaut ---
-const BLOG_DIR = process.env.BLOG_DIR || "src/content/blog/ia";
-const IMAGES_DIR = process.env.IMAGES_DIR || "public/images/ia";
-const TIMEZONE = process.env.TZ || "Europe/Madrid";
-
-// --- Types utilitaires ---
-type OpenAIImageSize = "1024x1024" | "1024x1536" | "1536x1024" | "1024x1792" | "1792x1024";
+type OpenAIImageSize =
+  | "1024x1024"
+  | "1024x1536"
+  | "1536x1024"
+  | "1024x1792"
+  | "1792x1024";
 
 type ClaudeResponse = {
   title: string;
@@ -29,37 +31,17 @@ type ClaudeResponse = {
   markdown: string;
 };
 
-// --- Liste fixe de romans ---
-const FIXED_NOVELS = [
-  {
-    title: "Rendez-vous avec Rama",
-    author: "Arthur C. Clarke",
-    genre: "Science-fiction / Hard-SF / Exploration spatiale",
-    year: "1973",
-    themes: [
-      "exploration",
-      "mystère",
-      "rencontre avec l'altérité",
-      "ingénierie colossale",
-      "humilité scientifique"
-    ],
-    context:
-      "Au XXIe siècle, un gigantesque cylindre artificiel traverse le système solaire. Baptisé Rama, il devient l’objet d’une mission d’exploration qui révèle un monde intérieur complexe, silencieux et indifférent à l’humanité.",
-    impact:
-      "Lauréat des prix Hugo, Nebula et Locus, le roman est considéré comme l’un des chefs-d’œuvre de la hard-SF. Il a popularisé l’idée des habitats spatiaux cylindriques et marqué durablement l’imaginaire de l’archéologie cosmique."
-  }
-];
+const NOVELS: Novel[] = novelsData as Novel[];
 
-// Sujet aléatoire simplifié
-function pickRandomNovel() {
-  return FIXED_NOVELS[Math.floor(Math.random() * FIXED_NOVELS.length)];
+// Sujet aléatoire
+function pickRandomNovel(): Novel {
+  return NOVELS[Math.floor(Math.random() * NOVELS.length)];
 }
 
 // Clients API
 const anthropic = new Anthropic({
   apiKey: (process.env.CLAUDE_API_KEY || process.env.ANTHROPIC_API_KEY || "").trim()
 });
-
 const openai = new OpenAI({
   apiKey: (process.env.OPENAI_API_KEY || "").trim()
 });
@@ -67,26 +49,26 @@ const openai = new OpenAI({
 // Modèles
 const CLAUDE_MODEL = (process.env.CLAUDE_MODEL || "claude-3-7-sonnet-20250219").trim();
 const IMAGE_MODEL = (process.env.IMAGE_MODEL || "gpt-image-1").trim();
-
 let IMAGE_QUALITY = (process.env.IMAGE_QUALITY || "medium").trim();
 if (IMAGE_QUALITY.toLowerCase() === "low") IMAGE_QUALITY = "medium";
 
-// --- Helpers tailles images ---
-function getPortraitSize(model: string): "1024x1536" | "1024x1792" {
-  if (model.includes("gpt-image-1")) return "1024x1536"; // portrait GPT-Image-1
-  return "1024x1792"; // portrait DALL·E 3
-}
+// Contexte exécution
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const BLOG_DIR = process.env.BLOG_DIR || "src/content/blog/ia";
+const IMAGES_DIR = process.env.IMAGES_DIR || "public/images/ia";
+const TIMEZONE = process.env.TZ || "Europe/Madrid";
 
-function getLandscapeSize(model: string): "1536x1024" | "1792x1024" {
-  if (model.includes("gpt-image-1")) return "1536x1024"; // paysage GPT-Image-1
-  return "1792x1024"; // paysage DALL·E 3
+// Tailles images
+function getPortraitSize(model: string): "1024x1536" | "1024x1792" {
+  if (model.includes("gpt-image-1")) return "1024x1536";
+  return "1024x1792";
 }
 
 // Utils
 function ensureDir(p: string) {
   if (!fs.existsSync(p)) fs.mkdirSync(p, { recursive: true });
 }
-
 function slugify(title: string) {
   return title
     .toLowerCase()
@@ -95,36 +77,31 @@ function slugify(title: string) {
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
 }
-
 function todayISO(date = new Date()) {
   return formatInTimeZone(date, TIMEZONE, "yyyy-MM-dd");
 }
 
-// Instructions simplifiées pour Claude
-function buildUserPrompt(novel: typeof FIXED_NOVELS[0]): string {
+// Prompt Claude — uniquement title/author
+function buildUserPrompt(novel: Novel): string {
   return `Rédige un article de blog engageant sur "${novel.title}" de ${novel.author}.
 
-L'article doit :
-- Faire environ 800-1000 mots
+Exigences :
+- 800–1000 mots
 - Commencer par un titre H1 informatif
-- Avoir une introduction claire qui présente l'œuvre
-- Analyser les thèmes principaux : ${novel.themes.join(", ")}
-- Situer l'œuvre dans son contexte historique (publié en ${novel.year})
-- Examiner la résonance actuelle du livre
-- Conclure de manière réfléchie
-- Adopter un ton accessible et informé
-
-Écris un article de qualité qui éclaire le lecteur sur cette œuvre majeure.
+- Introduction claire présentant l’œuvre et son intérêt
+- Analyse structurée (intrigue, enjeux, style, réception)
+- Mise en perspective : pourquoi (re)lire ce livre aujourd’hui ?
+- Conclusion synthétique et mémorable
+- Ton accessible, informé, sans jargon
 
 À la fin de ta réponse, ajoute sur une ligne séparée uniquement :
 {"title":"[titre exact]","description":"[description SEO 150 caractères]","hero_prompt":"[description artistique pour image de couverture]","inline_prompt":"[description pour illustration du livre]"}`;
 }
 
-// Retry Anthropic
+// Retry Claude
 function sleep(ms: number) {
   return new Promise((r) => setTimeout(r, ms));
 }
-
 async function callAnthropicWithRetry(
   args: Parameters<typeof anthropic.messages.create>[0],
   retries = 3
@@ -167,7 +144,6 @@ async function generateImageToFile(prompt: string, outPath: string, size: OpenAI
     if (b64) {
       buffer = Buffer.from(b64, "base64");
     } else if (url) {
-      console.log(`📥 Téléchargement image: ${url.slice(0, 70)}...`);
       const fetchResponse = await fetch(url);
       if (!fetchResponse.ok) throw new Error(`Erreur téléchargement: ${fetchResponse.status}`);
       const arrayBuffer = await fetchResponse.arrayBuffer();
@@ -185,7 +161,6 @@ async function generateImageToFile(prompt: string, outPath: string, size: OpenAI
     return false;
   }
 }
-
 async function safeGenerateImage(prompt: string, outPath: string, size: OpenAIImageSize) {
   try {
     return await generateImageToFile(prompt, outPath, size);
@@ -195,19 +170,19 @@ async function safeGenerateImage(prompt: string, outPath: string, size: OpenAIIm
   }
 }
 
+// Helpers Markdown
 function injectInlineImage(markdown: string, inlineImageRel: string, alt: string) {
   const imgMd = `\n\n![${alt}](${inlineImageRel})\n\n`;
   const idx = markdown.indexOf("\n## ");
   if (idx !== -1) return markdown.slice(0, idx) + imgMd + markdown.slice(idx);
   return markdown + imgMd;
 }
-
 function stripLeadingH1(markdown: string) {
   return markdown.replace(/^#\s+.*\r?\n(?:\r?\n)*/m, "");
 }
 
 // Appel Claude
-async function callClaudeForStory(novel: typeof FIXED_NOVELS[0]): Promise<ClaudeResponse> {
+async function callClaudeForStory(novel: Novel): Promise<ClaudeResponse> {
   const system = `Tu es un critique littéraire passionné qui écrit des articles de blog engageants.`;
   const user = buildUserPrompt(novel);
 
@@ -234,9 +209,9 @@ async function callClaudeForStory(novel: typeof FIXED_NOVELS[0]): Promise<Claude
     const title = h1Match ? h1Match[1].trim() : `${novel.title} - Analyse critique`;
     meta = {
       title,
-      description: `Analyse passionnante de ${novel.title} de ${novel.author}.`,
-      hero_prompt: `Illustration portrait du livre ${novel.title}, style littéraire`,
-      inline_prompt: `Illustration symbolique des thèmes de ${novel.title}`
+      description: `Analyse de ${novel.title} de ${novel.author}.`,
+      hero_prompt: `Illustration littéraire du livre ${novel.title}`,
+      inline_prompt: `Visuel symbolique inspiré de ${novel.title}`
     };
     article = full;
   }
@@ -256,10 +231,46 @@ async function main() {
   const dateStr = todayISO();
 
   console.log("🚀 Génération article littéraire");
-  console.log(`📚 Roman sélectionné: "${novel.title}" de ${novel.author} (${novel.year})`);
+  console.log(`📚 Roman sélectionné: "${novel.title}" de ${novel.author}`);
   console.log(`🧠 Modèle Claude: ${CLAUDE_MODEL} | 🖼 Modèle image: ${IMAGE_MODEL}/${IMAGE_QUALITY}`);
 
+  // --- MODE DRY-RUN ---
+  if (process.env.DRY_RUN === "true") {
+    console.log("⚠️ Mode DRY-RUN activé — aucun appel API ne sera fait.");
+
+    const fakeStory: ClaudeResponse = {
+      title: `${novel.title} (TEST)`,
+      description: `Article fictif pour test sur ${novel.title}`,
+      hero_prompt: "Une image fictive (hero)",
+      inline_prompt: "Une image fictive (inline)",
+      markdown: `# ${novel.title}\n\nCeci est un **test local**. Aucun appel API effectué.`
+    };
+
+    const slug = slugify(fakeStory.title) || `${slugify(novel.title)}-${dateStr}`;
+    const heroRel = `/images/placeholders/hero-portrait.png`;
+    const inlineRel = `/images/placeholders/inline-1024.png`;
+
+    const frontmatter =
+      `---\n` +
+      `title: "${fakeStory.title.replace(/"/g, '\\"')}"\n` +
+      `description: "${fakeStory.description.replace(/"/g, '\\"')}"\n` +
+      `pubDate: "${dateStr}"\n` +
+      `heroImage: "${heroRel}"\n` +
+      `heroImageAlt: "Illustration: ${fakeStory.title.replace(/"/g, '\\"')}"\n` +
+      `---\n\n`;
+
+    ensureDir(BLOG_DIR);
+    const fileName = `${dateStr}-${slug}.md`;
+    const outPath = path.join(BLOG_DIR, fileName);
+    fs.writeFileSync(outPath, frontmatter + fakeStory.markdown, "utf8");
+
+    console.log(`✅ [DRY-RUN] Article simulé: ${outPath}`);
+    process.exit(0);
+  }
+  // --- FIN DRY-RUN ---
+
   const story = await callClaudeForStory(novel);
+;
 
   const slug = slugify(story.title) || `${slugify(novel.title)}-${dateStr}`;
   const heroFile = `${slug}-hero.png`;
@@ -299,7 +310,7 @@ async function main() {
   console.log(`✅ Article généré: ${outPath}`);
   console.log(`🖼 Hero: ${heroRel} (${okHero ? "OK" : "PLACEHOLDER"})`);
   console.log(`🖼 Inline: ${inlineRel} (${okInline ? "OK" : "PLACEHOLDER"})`);
-  console.log(`📖 Roman: ${novel.title} (${novel.genre})`);
+  console.log(`📖 Roman: ${novel.title}`);
 }
 
 main().catch((e) => {

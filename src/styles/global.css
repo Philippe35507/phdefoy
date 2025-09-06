@@ -163,12 +163,14 @@ color: var(--accent) !important;
   }
   
   body.blog .prose h3 {
-	color: rgb(var(--gray-dark)) !important; /* triplet RGB → OK */
+	/* ACCENT en hex → on ne met PAS rgb() autour */
+	color: var(--accent) !important;
 	font-size: 1.45rem;
   }
   
   body.blog .prose h4 {
-	color: rgb(var(--gray)) !important; /* triplet RGB → OK */
+	/* ACCENT en hex → on ne met PAS rgb() autour */
+    color: var(--accent) !important;
 	font-size: 1.2rem;
   }
   
