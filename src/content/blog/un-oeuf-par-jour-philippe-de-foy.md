@@ -1,4 +1,3 @@
-
 ---
 title: "Un Oeuf par Jour"
 description: "Comment la science moderne a réhabilité un aliment diabolisé"

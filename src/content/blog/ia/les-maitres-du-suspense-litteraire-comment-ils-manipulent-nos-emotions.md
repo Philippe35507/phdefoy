@@ -8,13 +8,14 @@ heroImageAlt: "Illustration symbolique: Les Maîtres du Suspense Littéraire : C
 
 
 
+
 ## Introduction
 
 Le suspense littéraire, cet art subtil de maintenir le lecteur en haleine, représente l'une des formes narratives les plus captivantes de la littérature contemporaine. Contrairement à d'autres genres, le suspense ne se contente pas de raconter une histoire – il crée une expérience immersive où chaque page tournée devient un acte presque physique, guidé par une curiosité insatiable. Les grands auteurs de suspense ne sont pas simplement des conteurs, mais de véritables architectes d'émotions qui construisent, brique par brique, des édifices narratifs où le lecteur se retrouve délicieusement piégé.
 
 Ce qui distingue les maîtres du genre, c'est leur capacité à jouer avec nos mécanismes psychologiques fondamentaux : l'anticipation, la peur, la curiosité et ce besoin viscéral de résolution. De Gillian Flynn à Harlan Coben, en passant par les pionniers comme Patricia Highsmith ou Stephen King, ces auteurs ont développé des techniques narratives sophistiquées pour manipuler nos émotions avec une précision chirurgicale. Leur objectif ? Nous maintenir dans cet état délicieux d'incertitude où l'on ne peut s'empêcher de continuer à lire, même quand l'horloge indique qu'il est bien trop tard pour commencer un nouveau chapitre.
 
-![Illustration: Les Maîtres du Suspense Littéraire : Comment Ils Manipulent Nos Émotions](/images/ia/les-maitres-du-suspense-litteraire-comment-ils-manipulent-nos-emotions-inline.png)
+![Illustration: Les Maîtres du Suspense Littéraire : Comment Ils Manipulent Nos Émotions](/images/ia/les-maitres-du-suspense-litteraire-comment-ils-manipulent-nos-emotions-inline/les-maitres-du-suspense-litteraire-comment-ils-manipulent-nos-emotions-inline.png)
 
 ## Les mécanismes psychologiques du suspense
 

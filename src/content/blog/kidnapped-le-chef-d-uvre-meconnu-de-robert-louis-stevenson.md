@@ -1,12 +1,11 @@
 ---
 title: "Kidnapped : Le Chef-d'Œuvre Méconnu de Robert Louis Stevenson"
-description: "Ce roman d'aventure et d'apprentissage, ancré dans l'histoire tumultueuse de
-l'Écosse du XVIIIe siècle, révèle toute la maturité littéraire de Stevenson et sa capacité
-unique à mêler fiction palpitante et réalité historique."
+description: "Ce roman d'aventure et d'apprentissage, ancré dans l'histoire tumultueuse de"
 pubDate: "Sep 01 2025"
 heroImage: "/images/stevenson/kidnapped.png"
 heroImageAlt: "Couverture du roman Kidnapped de Robert Louis Stevenson."
 ---
+
 
 Quand on évoque [Robert Louis Stevenson](/blog/stevenson/), les esprits se tournent immédiatement vers "L'Île au Trésor" ou "Dr Jekyll et Mr Hyde". Pourtant, "Kidnapped" (1886), traduit en français sous le titre "Enlevé", mérite amplement sa place parmi les plus grandes œuvres de l'auteur écossais. Ce roman d'aventure et d'apprentissage, ancré dans l'histoire tumultueuse de l'Écosse du XVIIIe siècle, révèle toute la maturité littéraire de Stevenson et sa capacité unique à mêler fiction palpitante et réalité historique.
 ## Contexte Historique : L'Écosse Déchirée du XVIIIe Siècle

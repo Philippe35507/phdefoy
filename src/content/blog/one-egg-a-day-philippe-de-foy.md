@@ -1,11 +1,12 @@
 ---
 title: "One Egg a Day"
 description: "The Incredible Rehabilitation of the Egg: When Science Backtracks"
-pubDate: 'Aug 17 2025'
+pubDate: "Aug 17 2025"
 heroImage: "/images/egg.png"
 heroImageLink: "https://www.amazon.com/dp/B0FMLV2Z6X"
 heroImageAlt: "Cover representing eggs"
 ---
+
 
 
 Picture this: your grandparents ate their fried eggs without a second thought, your parents counted egg yolks the way others count cigarettes, and you, today, are discovering that all this caution was likely nothing more than overzealous advice. The egg, a symbol of simplicity and completeness, spent half a century under suspicion only to return, in the 21st century, to our plates with renewed legitimacy.

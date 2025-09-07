@@ -1,120 +1,90 @@
 ---
-import { Image } from 'astro:assets';
-import { getCollection } from 'astro:content';
 import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
-import Header from '../../components/Header.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
+import { SITE_TITLE } from '../../consts';
+import { getCollection } from 'astro:content';
 
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-);
+const allPosts = await getCollection('blog');
+
+// tri du plus récent au plus ancien
+const posts = allPosts.sort((a, b) => {
+  const da = (a.data as any).pubDate ? new Date((a.data as any).pubDate).getTime() : 0;
+  const db = (b.data as any).pubDate ? new Date((b.data as any).pubDate).getTime() : 0;
+  return db - da;
+});
+
+// URL finale 
+const hrefFor = (p) => `/${p.id.replace(/^ia\//, "")}`;
 ---
 
-<!doctype html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<style>
-			main {
-				width: 960px;
-			}
-			ul {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 2rem;
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-			}
-			ul li {
-				width: calc(50% - 1rem);
-			}
-			ul li * {
-				text-decoration: none;
-				transition: 0.2s ease;
-			}
-			ul li:first-child {
-				width: 100%;
-				margin-bottom: 1rem;
-				text-align: center;
-			}
-			ul li:first-child img {
-				width: 100%;
-			}
-			ul li:first-child .title {
-				font-size: 2.369rem;
-			}
-			ul li img {
-				margin-bottom: 0.5rem;
-				border-radius: 12px;
-			}
-			ul li a {
-				display: block;
-			}
-			.title {
-				margin: 0;
-				color: rgb(var(--black));
-				line-height: 1;
-			}
-			.date {
-				margin: 0;
-				color: rgb(var(--gray));
-			}
-			ul li a:hover h4,
-			ul li a:hover .date {
-				color: rgb(var(--accent));
-			}
-			ul a:hover img {
-				box-shadow: var(--box-shadow);
-			}
-			@media (max-width: 720px) {
-				ul {
-					gap: 0.5em;
-				}
-				ul li {
-					width: 100%;
-					text-align: center;
-				}
-				ul li:first-child {
-					margin-bottom: 0;
-				}
-				ul li:first-child .title {
-					font-size: 1.563em;
-				}
-			}
-		</style>
-	</head>
-		<body>
-		<Header />
-		<main>
-			<section>
-				<ul>
-					{
-					  posts.map((post, i) => (
-						<li>
-						  <a href={`/blog/${post.id}/`}>
-							{post.data.heroImage && (
-							  <Image
-								width={720}
-								height={360}
-								src={post.data.heroImage}
-								alt=""
-								loading={i === 0 ? 'eager' : 'lazy'}
-								decoding="async"
-								fetchpriority={i === 0 ? 'high' : 'auto'}
-							  />
-							)}
-							<h4 class="title">{post.data.title}</h4>
-							<p class="date"><FormattedDate date={post.data.pubDate} /></p>
-						  </a>
-						</li>
-					  ))
-					}
-				  </ul>
-			</section>
-		</main>
-		<Footer />
-	</body>
+<html lang="fr">
+  <head>
+    <BaseHead title={`${SITE_TITLE} — Blog`} description="Tous les articles" />
+  </head>
+  <body>
+    <Header />
+    <main class="container">
+      <h1>Derniers articles</h1>
+
+      {posts.length === 0 ? (
+        <p>Aucun article pour le moment.</p>
+      ) : (
+        <ul class="post-list">
+          {posts.map((p) => (
+            <li class="post-item">
+              <a class="post-link" href={hrefFor(p)}>
+                {p.data.heroImage && (
+                  <img
+                    src={p.data.heroImage}
+                    alt={p.data.heroImageAlt || p.data.title}
+                    loading="lazy"
+                    decoding="async"
+                    width="640"
+                    height="360"
+                  />
+                )}
+                <h3>{p.data.title}</h3>
+                <div class="meta">
+                  <FormattedDate date={(p.data as any).pubDate} />
+                </div>
+              </a>
+            </li>
+          ))}
+        </ul>
+      )}
+    </main>
+    <Footer />
+
+    <style>
+      .container { max-width: 1100px; margin: 2rem auto; padding: 0 1rem; }
+
+      /* grille responsive : 1 → 2 → 3 colonnes */
+      .post-list {
+        list-style: none; padding: 0; margin: 0;
+        display: grid; gap: 1.25rem;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+      }
+      @media (min-width: 640px) {
+        .post-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      }
+      @media (min-width: 1024px) {
+        .post-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      }
+
+      .post-item {
+        background: rgba(0, 0, 0, 0.04);
+        border-radius: 12px;
+        overflow: hidden;
+        transition: transform .15s ease;
+      }
+      .post-item:hover { transform: translateY(-3px); }
+
+      .post-link { display: block; text-decoration: none; color: inherit; }
+      .post-link img { width: 100%; height: auto; display: block; aspect-ratio: 16/9; object-fit: cover; }
+      .post-link h3 { margin: .75rem 1rem .25rem; font-size: 1.05rem; line-height: 1.35; }
+      .meta { margin: 0 1rem 1rem; color: #64748b; font-size: .9rem; }
+    </style>
+  </body>
 </html>

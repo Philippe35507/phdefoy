@@ -6,6 +6,7 @@ heroImage: "/images/ia/paprika-quand-les-reves-devorent-la-realite-hero/paprika-
 heroImageAlt: "Illustration: Paprika : quand les rêves dévorent la réalité"
 ---
 
+
 Dans un monde où la technologie brouille de plus en plus les frontières entre le réel et le virtuel, le roman "Paprika" de Yasutaka Tsutsui résonne avec une étonnante actualité. Publié au Japon en 1993 et traduit en français seulement en 2011, ce chef-d'œuvre de la science-fiction japonaise nous plonge dans les abysses de l'inconscient avec une audace rare. Avant même de devenir un film d'animation acclamé sous la direction de Satoshi Kon, "Paprika" s'imposait déjà comme une œuvre littéraire visionnaire explorant les dérives potentielles de la manipulation des rêves. Embarquons ensemble dans ce voyage halluciné où le cauchemar et la réalité s'entremêlent jusqu'à la confusion totale.
 
 

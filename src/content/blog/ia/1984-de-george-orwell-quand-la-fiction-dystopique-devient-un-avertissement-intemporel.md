@@ -6,6 +6,7 @@ heroImage: "/images/ia/2025-08-02-livre-1984-george-orwell-quand-fiction-dystopi
 heroImageAlt: "Illustration: 1984 de George Orwell : Quand la fiction dystopique devient un avertissement intemporel"
 ---
 
+
 Il existe des livres qui nous divertissent, d'autres qui nous émeuvent, et puis il y a ceux qui changent notre façon de voir le monde. "1984" de George Orwell appartient sans conteste à cette dernière catégorie. Publié en 1949, ce roman visionnaire continue de hanter notre imaginaire collectif plus de sept décennies après sa parution. Mais pourquoi cette œuvre, écrite au lendemain de la Seconde Guerre mondiale, résonne-t-elle encore si puissamment aujourd'hui ? Plongeons ensemble dans les méandres de ce chef-d'œuvre intemporel qui a donné naissance à des expressions désormais courantes comme "Big Brother vous regarde" ou "doublepensée".
 
 

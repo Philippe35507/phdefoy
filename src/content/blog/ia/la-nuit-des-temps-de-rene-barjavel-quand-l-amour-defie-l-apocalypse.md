@@ -6,6 +6,7 @@ heroImage: "/images/ia/la-nuit-des-temps-de-rene-barjavel-quand-l-amour-defie-l-
 heroImageAlt: "Illustration: La Nuit des temps de René Barjavel : Quand l'amour défie l'apocalypse"
 ---
 
+
 Avez-vous déjà rêvé de découvrir une civilisation perdue, technologiquement avancée mais tragiquement disparue ? C’est précisément ce que nous offre René Barjavel dans son chef-d’œuvre de science-fiction française, “La Nuit des temps”, publié en 1968. Roman captivant où l’amour transcende les millénaires, ce livre nous plonge dans une réflexion profonde sur notre humanité et notre rapport à la technologie. Découvrons ensemble pourquoi cette œuvre continue de fasciner les lecteurs plus de cinquante ans après sa publication.
 
 ## Une découverte qui bouleverse l’humanité

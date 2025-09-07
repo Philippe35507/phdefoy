@@ -6,6 +6,7 @@ heroImage: "/images/ia/2025-09-07-le-silmarillion-voyage-aux-origines-de-la-myth
 heroImageAlt: "Illustration: Le Silmarillion : Voyage aux origines de la mythologie de Tolkien"
 ---
 
+
 ## Introduction
 
 Publié à titre posthume en 1977, "Le Silmarillion" représente l'aboutissement de toute une vie de création pour J.R.R. Tolkien. Bien moins connu que "Le Hobbit" ou "Le Seigneur des Anneaux", ce recueil de récits mythologiques constitue pourtant la pierre angulaire de tout l'univers imaginé par l'auteur britannique. Édité et compilé par son fils Christopher Tolkien, "Le Silmarillion" nous plonge dans les premiers âges de la Terre du Milieu, des millénaires avant les aventures de Frodon. À travers une succession de récits épiques, l'œuvre dévoile la cosmogonie complète de cet univers, depuis sa création jusqu'aux événements qui façonneront le monde tel que nous le connaissons dans les récits ultérieurs. Véritable Bible de la Terre du Milieu, "Le Silmarillion" est une œuvre ambitieuse, complexe, mais d'une richesse incomparable.

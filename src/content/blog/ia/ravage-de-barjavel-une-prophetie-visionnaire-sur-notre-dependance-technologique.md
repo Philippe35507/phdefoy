@@ -6,6 +6,7 @@ heroImage: "/images/ia/2025-03-08-rené-barjavel-ravage-dependance-technologique
 heroImageAlt: "Illustration: Ravage de Barjavel : Une prophétie visionnaire sur notre dépendance technologique"
 ---
 
+
 Avez-vous déjà imaginé ce qui se passerait si, du jour au lendemain, l'électricité venait à disparaître ? C'est précisément cette question vertigineuse qu'explore René Barjavel dans son chef-d'œuvre dystopique "Ravage", publié en 1943. Roman visionnaire qui continue de nous interpeller près de 80 ans après sa parution, "Ravage" nous plonge dans un futur où la catastrophe révèle autant les faiblesses que les forces de l'humanité. Plongeons ensemble dans cette œuvre fascinante qui, par bien des aspects, semble avoir anticipé nos préoccupations contemporaines.
 
 

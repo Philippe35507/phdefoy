@@ -6,6 +6,7 @@ heroImage: "/images/ia/2025-09-06-l-etranger-d-albert-camus-l-absurde-au-c-ur-de
 heroImageAlt: "Illustration: L'Étranger d'Albert Camus : L'absurde au cœur de la condition humaine"
 ---
 
+
 Dans le panthéon des œuvres littéraires qui ont marqué le XXe siècle, "L'Étranger" d'Albert Camus occupe une place singulière. Publié en 1942 en pleine Seconde Guerre mondiale, ce court roman est devenu l'une des pierres angulaires de la littérature existentialiste et absurde. À travers le personnage de Meursault, Camus nous invite à une réflexion profonde sur l'indifférence, la société et le sens de l'existence. Plus de 80 ans après sa publication, cette œuvre continue de fasciner les lecteurs par sa puissance évocatrice et son questionnement philosophique toujours d'actualité.
 
 

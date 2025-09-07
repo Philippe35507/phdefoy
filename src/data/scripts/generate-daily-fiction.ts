@@ -66,6 +66,13 @@ function slugify(title: string) {
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
 }
+function slugifyLite(s: string) {
+  return s
+    .toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
 function todayISO(date = new Date()) {
   return formatInTimeZone(date, TIMEZONE, "yyyy-MM-dd");
 }
@@ -319,7 +326,7 @@ async function main() {
 
     const slug = slugify(fakeStory.title) || `${slugify(novel.title)}-${dateStr}`;
 
-    // Bases & sous-dossiers (version courte Windows)
+    // Bases & sous-dossiers (pour images)
     const { heroBase, inlineBase } = makeBaseNames(dateStr, slug);
     const heroBaseName = heroBase;
     const inlineBaseName = inlineBase;
@@ -379,7 +386,11 @@ async function main() {
     const mdWithImgDry = injectInlineImage(cleanedMdDry, inlineRelPng, `Illustration: ${fakeStory.title}`);
 
     ensureDir(BLOG_DIR);
-    const fileNameDry = `${dateStr}-${slug}.md`;
+
+    // === Variante B : NOM DE FICHIER = titre.md (sans date) ===
+    const cleanSlug = slugifyLite(fakeStory.title || novel.title);
+    const fileNameDry = `${cleanSlug}.md`;
+
     const outPathDry = path.join(BLOG_DIR, fileNameDry);
     fs.writeFileSync(outPathDry, frontmatterDry + mdWithImgDry, "utf8");
 
@@ -398,10 +409,10 @@ async function main() {
     story.description ||= `Analyse de ${novel.title} de ${novel.author}.`;
   }
 
-  const slug = slugify(story.title) || `${slugify(novel.title)}-${dateStr}`;
+  const slug = slugify(story.title) || `${slugify(novel.title)}-${todayISO()}`;
 
-  // Bases & sous-dossiers (version courte Windows)
-  const { heroBase, inlineBase } = makeBaseNames(dateStr, slug);
+  // Bases & sous-dossiers (pour images)
+  const { heroBase, inlineBase } = makeBaseNames(todayISO(), slug);
   const heroBaseName = heroBase;
   const inlineBaseName = inlineBase;
 
@@ -435,14 +446,18 @@ async function main() {
     `---\n` +
     `title: "${story.title.replace(/"/g, '\\"')}"\n` +
     `description: "${story.description.replace(/"/g, '\\"')}"\n` +
-    `pubDate: "${dateStr}"\n` +
-    `heroImage: "${heroRel}"\n` + // PNG du sous-dossier ou placeholder
+    `pubDate: "${todayISO()}"\n` +
+    `heroImage: "${heroRel}"\n` +
     `heroImageAlt: "Illustration: ${story.title.replace(/"/g, '\\"')}"\n` +
     `---\n\n`;
 
   ensureDir(BLOG_DIR);
-  const fileName = `${dateStr}-${slug}.md`;
+
+  // === Variante B : NOM DE FICHIER = titre.md (sans date) ===
+  const cleanSlug = slugifyLite(story.title || novel.title);
+  const fileName = `${cleanSlug}.md`;
   const outPath = path.join(BLOG_DIR, fileName);
+
   fs.writeFileSync(outPath, frontmatter + mdWithImg, "utf8");
 
   console.log(`✅ Article généré: ${outPath}`);

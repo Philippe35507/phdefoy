@@ -1,11 +1,12 @@
 ---
 title: "Polybe : l'otage grec qui a percé les secrets de Rome"
-description: 'En 168 avant J.-C., un aristocrate grec nommé Polybe est emmené à Rome comme otage politique. Cette captivité dorée va transformer sa vie et changer notre compréhension du pouvoir.'
-pubDate: 'Aug 07 2025'
+description: "En 168 avant J.-C., un aristocrate grec nommé Polybe est emmené à Rome comme otage politique. Cette captivité dorée va transformer sa vie et changer notre compréhension du pouvoir."
+pubDate: "Aug 07 2025"
 heroImage: "/images/polybe/Polybe_anacyclose.png"
 heroImageLink: "https://www.amazon.fr/dp/B0FHHSZCD9"
 heroImageAlt: "Illustration du cycle politique selon Polybe"
 ---
+
 
 En 168 avant J.-C., un aristocrate grec nommé [Polybe](https://www.amazon.fr/Histoire-LAscension-Conqu%C3%AAte-Monde-M%C3%A9diterran%C3%A9en-ebook/dp/B0FHHSZCD9/ref=sr_1_7?sr=8-7) est emmené à Rome comme otage politique. Cette captivité dorée va transformer sa vie et changer notre compréhension du pouvoir. Pendant dix-sept ans, cet homme d'État achéen observe de l'intérieur la machine romaine, devient l'ami de Scipion Émilien, assiste à la chute de Carthage. De cette expérience unique naîtront les Histoires, une œuvre révolutionnaire qui explique comment Rome a conquis le monde en moins de soixante ans. Mais Polybe ne se contente pas de raconter : il analyse, théorise, forge les concepts qui nourriront Machiavel, Montesquieu et les pères fondateurs américains. De l'anacyclose à la constitution mixte, de l'équilibre des pouvoirs aux cycles politiques, ses intuitions résonnent encore dans nos débats contemporains. Voici l'histoire d'un captif devenu maître à penser, d'un témoin transformé en visionnaire politique.
 

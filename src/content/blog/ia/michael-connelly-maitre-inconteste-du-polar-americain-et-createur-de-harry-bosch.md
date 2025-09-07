@@ -6,6 +6,7 @@ heroImage: "/images/ia/2025-08-12-michael-connelly-maitre-inconteste-du-polar-am
 heroImageAlt: "Illustration symbolique: Michael Connelly : Maître incontesté du polar américain et créateur de Harry Bosch"
 ---
 
+
 Dans l'univers du polar américain contemporain, un nom s'impose comme une référence incontournable : Michael Connelly. Ancien journaliste devenu romancier à succès, Connelly a su captiver des millions de lecteurs à travers le monde grâce à ses intrigues policières minutieusement construites et ses personnages complexes, au premier rang desquels figure le désormais célèbre inspecteur Harry Bosch.
 
 Ce qui distingue Connelly de nombreux auteurs du genre, c'est sa capacité à mêler réalisme brut et profondeur psychologique, fruit de ses années passées à couvrir les affaires criminelles pour le Los Angeles Times. Son expérience journalistique transparaît dans chacun de ses romans, conférant à ses récits une authenticité et une crédibilité qui ont fait sa renommée.

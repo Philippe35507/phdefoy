@@ -6,6 +6,7 @@ heroImage: "/images/ia/2025-09-07-station-eleven-quand-l-effondrement-revele-not
 heroImageAlt: "Illustration: Station Eleven : Quand l'effondrement révèle notre humanité"
 ---
 
+
 Dans un monde littéraire saturé de dystopies post-apocalyptiques, *Station Eleven* d'Emily St. John Mandel se distingue par sa délicatesse et sa profondeur. Publié en 2014, ce roman a conquis la critique internationale et s'est imposé comme une œuvre majeure de la littérature contemporaine. Au-delà du simple récit de survie après l'effondrement de la civilisation, Mandel tisse une tapisserie narrative complexe qui explore les liens entre art, mémoire et résilience humaine. À travers ses personnages marquants et sa structure narrative audacieuse, *Station Eleven* nous invite à réfléchir sur ce qui définit véritablement notre humanité lorsque tout s'écroule.
 
 
