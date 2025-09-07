@@ -2,14 +2,11 @@
 title: "1984 de George Orwell : Quand la fiction dystopique devient un avertissement intemporel"
 description: "Découvrez pourquoi le chef-d'œuvre d'Orwell sur la surveillance, le totalitarisme et la manipulation du langage reste d'une actualité saisissante."
 pubDate: "2025-08-02"
-heroImage: "/images/placeholders/hero-1792.png"
+heroImage: "/images/ia/2025-08-02-livre-1984-george-orwell-quand-fiction-dystopique-devient-avertissement-intemporel-hero/2025-08-02-livre-1984-george-orwell-quand-fiction-dystopique-devient-avertissement-intemporel-hero.png"
 heroImageAlt: "Illustration: 1984 de George Orwell : Quand la fiction dystopique devient un avertissement intemporel"
 ---
 
 Il existe des livres qui nous divertissent, d'autres qui nous émeuvent, et puis il y a ceux qui changent notre façon de voir le monde. "1984" de George Orwell appartient sans conteste à cette dernière catégorie. Publié en 1949, ce roman visionnaire continue de hanter notre imaginaire collectif plus de sept décennies après sa parution. Mais pourquoi cette œuvre, écrite au lendemain de la Seconde Guerre mondiale, résonne-t-elle encore si puissamment aujourd'hui ? Plongeons ensemble dans les méandres de ce chef-d'œuvre intemporel qui a donné naissance à des expressions désormais courantes comme "Big Brother vous regarde" ou "doublepensée".
-
-
-![Illustration: 1984 de George Orwell : Quand la fiction dystopique devient un avertissement intemporel](/images/placeholders/inline-1024.png)
 
 
 ## Une plongée dans l'univers étouffant d'Oceania
@@ -39,6 +36,9 @@ En réduisant la complexité du langage, le Parti limite la complexité de la pe
 ### La fragilité de la liberté individuelle
 
 Au cœur du roman se trouve la lutte désespérée de Winston pour préserver son humanité. Sa relation interdite avec Julia, ses tentatives d'écriture d'un journal intime, son questionnement sur l'histoire véritable – tous ces actes de rébellion minuscules témoignent de cette quête de liberté individuelle. La tragédie de "1984" réside dans la démonstration implacable de la fragilité de cette liberté face à un système totalitaire.
+
+
+![Illustration: 1984 de George Orwell : Quand la fiction dystopique devient un avertissement intemporel](/images/ia/2025-08-02-livre-1984-george-orwell-quand-fiction-dystopique-devient-avertissement-intemporel-inline/2025-08-02-livre-1984-george-orwell-quand-fiction-dystopique-devient-avertissement-intemporel-inline.png)
 
 ## Un livre ancré dans son époque mais tourné vers l'avenir
 

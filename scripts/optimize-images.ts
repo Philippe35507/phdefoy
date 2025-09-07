@@ -1,13 +1,13 @@
-if (process.env.DRY_RUN === "true") {
-  console.log("⏭️ DRY_RUN détecté — on saute l’optimisation.");
-  process.exit(0);
-}
-
 // scripts/optimize-images.ts
 import fs from "fs";
 import path from "path";
 import sharp from "sharp";
 import { formatInTimeZone } from "date-fns-tz";
+
+if (process.env.DRY_RUN === "true") {
+  console.log("⏭️ DRY_RUN détecté — on saute l’optimisation.");
+  process.exit(0);
+}
 
 const TIMEZONE = process.env.TZ || "Europe/Madrid";
 const TODAY = formatInTimeZone(new Date(), TIMEZONE, "yyyy-MM-dd");
@@ -44,16 +44,13 @@ async function writeTriple(
   const meta = await img.metadata();
   const resized = (meta.width ?? 0) > MAX_WIDTH ? img.resize({ width: MAX_WIDTH }) : img;
 
-  // 1) PNG/JPG ré-encodé (on standardise en PNG optimisé pour rester simple)
+  // 1) PNG optimisé
   await resized.png({ compressionLevel: 9, palette: true }).toFile(pngPath);
-
   // 2) WEBP
   await resized.webp({ quality: QUALITY_WEBP, effort: 5 }).toFile(webpPath);
-
   // 3) AVIF
   await resized.avif({ quality: QUALITY_AVIF, effort: 4 }).toFile(avifPath);
 
-  // Petite note si l'original était JPG, on a maintenant un PNG optimisé comme "source"
   return { pngPath, webpPath, avifPath };
 }
 
@@ -65,7 +62,12 @@ async function optimizeFromRoot(absFile: string) {
   const outDir = path.join(dir, base); // .../ia/2025-09-07-rama-hero
 
   const buf = await fs.promises.readFile(absFile);
-  await writeTriple(buf, outDir, base, ext);
+  try {
+    await writeTriple(buf, outDir, base, ext);
+  } catch (e: any) {
+    console.error("❌ Sharp a échoué pour:", absFile, "-", e?.message);
+    return;
+  }
 
   // Supprime l'original à la racine
   await fs.promises.unlink(absFile).catch(() => {});
@@ -75,51 +77,52 @@ async function optimizeFromRoot(absFile: string) {
 // Optimise un fichier déjà en sous-dossier : <...>/<base>/<quelquechose>.png
 // On normalise pour produire <base>.png|webp|avif dans ce même dossier.
 async function optimizeInSubdir(absFile: string) {
-    const dir = path.dirname(absFile);           // .../ia/<base>
-    const folderName = path.basename(dir);       // <base> attendu
-    const ext = path.extname(absFile).toLowerCase() as ".png" | ".jpg" | ".jpeg";
-    const base = folderName;
-  
-    const basePng  = path.join(dir, `${base}.png`);
-    const baseWebp = path.join(dir, `${base}.webp`);
-    const baseAvif = path.join(dir, `${base}.avif`);
-  
-    // 1) Si le triplet existe déjà, on SKIP silencieusement
-    const hasAll =
-      fs.existsSync(basePng) &&
-      fs.existsSync(baseWebp) &&
-      fs.existsSync(baseAvif);
-  
-    if (hasAll) {
-      // Option: dé-commente si tu veux un log discret
-      // console.log("✔️  Déjà optimisé:", path.join(dir, `${base}.*`));
-      return;
-    }
-  
-    // 2) Sinon, on (re)génère proprement à partir du fichier rencontré
-    const buf = await fs.promises.readFile(absFile);
-    await writeTriple(buf, dir, base, ext);
-  
-    // 3) Nettoie les fichiers qui ne suivent pas la convention
-    const entries = await fs.promises.readdir(dir);
-    for (const name of entries) {
-      const p = path.join(dir, name);
-      const st = await fs.promises.stat(p).catch(() => null);
-      if (st && st.isFile()) {
-        const keep =
-          name.toLowerCase() === `${base}.png` ||
-          name.toLowerCase() === `${base}.webp` ||
-          name.toLowerCase() === `${base}.avif`;
-        if (!keep) await fs.promises.unlink(p).catch(() => {});
-      }
-    }
-  
-    console.log("🗜️  Optimisé (sous-dossier):", path.join(dir, `${base}.*`));
-  }  
+  const dir = path.dirname(absFile);           // .../ia/<base>
+  const folderName = path.basename(dir);       // <base> attendu
+  const ext = path.extname(absFile).toLowerCase() as ".png" | ".jpg" | ".jpeg";
+  const base = folderName;
 
-// Util pour nettoyer une RegExp à partir d'un baseName
-function escapeRegExp(s: string) {
-  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const basePng  = path.join(dir, `${base}.png`);
+  const baseWebp = path.join(dir, `${base}.webp`);
+  const baseAvif = path.join(dir, `${base}.avif`);
+
+  // 1) Si le triplet existe déjà, on SKIP silencieusement
+  const hasAll =
+    fs.existsSync(basePng) &&
+    fs.existsSync(baseWebp) &&
+    fs.existsSync(baseAvif);
+
+  if (hasAll) {
+    // console.log("✔️  Déjà optimisé:", path.join(dir, `${base}.*`));
+    return;
+  }
+
+  // 2) Sinon, on (re)génère proprement à partir du fichier rencontré
+  const buf = await fs.promises.readFile(absFile);
+  try {
+    await writeTriple(buf, dir, base, ext);
+  } catch (e: any) {
+    console.error("❌ Sharp a échoué pour:", absFile, "-", e?.message);
+    return;
+  }
+
+  // 3) Nettoie les fichiers qui ne suivent pas la convention
+  const entries = await fs.promises.readdir(dir);
+  for (const name of entries) {
+    const p = path.join(dir, name);
+    const st = await fs.promises.stat(p).catch(() => null);
+    if (st && st.isFile()) {
+      const keep =
+        name.toLowerCase() === `${base}.png` ||
+        name.toLowerCase() === `${base}.webp` ||
+        name.toLowerCase() === `${base}.avif` ||
+        name.toLowerCase() === "readme.md" ||
+        name === ".gitkeep";
+      if (!keep) await fs.promises.unlink(p).catch(() => {});
+    }
+  }
+
+  console.log("🗜️  Optimisé (sous-dossier):", path.join(dir, `${base}.*`));
 }
 
 // Parcours récursif
@@ -160,7 +163,6 @@ async function walk(current: string) {
     }
   }
 }
-
 
 async function main() {
   const root = path.resolve(SRC_DIR);

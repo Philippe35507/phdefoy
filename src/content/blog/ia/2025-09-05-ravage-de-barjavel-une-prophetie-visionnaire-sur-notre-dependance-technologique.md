@@ -2,14 +2,11 @@
 title: "Ravage de Barjavel : Une prophétie visionnaire sur notre dépendance technologique"
 description: "Découvrez comment ce roman dystopique de 1943 anticipe nos préoccupations actuelles sur la fragilité de notre civilisation hyperconnectée."
 pubDate: "2025-08-03"
-heroImage: "/images/barjavel/rené-barjavel-ravage-1.png"
+heroImage: "/images/ia/2025-03-08-rené-barjavel-ravage-dependance-technologique-hero/2025-03-08-rené-barjavel-ravage-dependance-technologique-hero.png"
 heroImageAlt: "Illustration: Ravage de Barjavel : Une prophétie visionnaire sur notre dépendance technologique"
 ---
 
 Avez-vous déjà imaginé ce qui se passerait si, du jour au lendemain, l'électricité venait à disparaître ? C'est précisément cette question vertigineuse qu'explore René Barjavel dans son chef-d'œuvre dystopique "Ravage", publié en 1943. Roman visionnaire qui continue de nous interpeller près de 80 ans après sa parution, "Ravage" nous plonge dans un futur où la catastrophe révèle autant les faiblesses que les forces de l'humanité. Plongeons ensemble dans cette œuvre fascinante qui, par bien des aspects, semble avoir anticipé nos préoccupations contemporaines.
-
-
-![Illustration: Ravage de Barjavel : Une prophétie visionnaire sur notre dépendance technologique](/images/barjavel/rené-barjavel-ravage-2.png)
 
 
 ## Une apocalypse technologique dans la France de 2052
@@ -35,6 +32,8 @@ Cette vision peut sembler réactionnaire, mais elle pose des questions essentiel
 Pour comprendre pleinement "Ravage", il est crucial de le replacer dans son contexte historique. Publié en 1943, en pleine Occupation allemande, le roman porte les marques de son époque. La France traversait alors une période de pénurie, de rationnement et de retour forcé à des méthodes plus traditionnelles. La "Révolution nationale" prônée par le régime de Vichy valorisait le retour à la terre et aux valeurs traditionnelles.
 
 Cependant, réduire "Ravage" à une simple œuvre de propagande serait une erreur. Barjavel transcende le contexte immédiat pour livrer une réflexion universelle sur la relation entre l'homme, la nature et la technologie. Son œuvre s'inscrit davantage dans la tradition des grands récits d'anticipation, aux côtés de ceux de Jules Verne ou H.G. Wells, qu'elle ne se cantonne à l'idéologie d'un moment.
+
+![Illustration: Ravage de Barjavel : Une prophétie visionnaire sur notre dépendance technologique](/images/ia/2025-03-08-rené-barjavel-ravage-dependance-technologique-inline/2025-03-08-rené-barjavel-ravage-dependance-technologique-inline.png)
 
 ## Une résonance troublante avec notre époque
 
