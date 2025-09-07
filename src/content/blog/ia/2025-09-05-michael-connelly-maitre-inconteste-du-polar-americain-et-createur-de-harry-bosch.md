@@ -1,8 +1,8 @@
 ---
 title: "Michael Connelly : Maître incontesté du polar américain et créateur de Harry Bosch"
 description: "Découvrez l'univers de Michael Connelly, ancien journaliste devenu maître du polar, son détective emblématique Harry Bosch et son impact majeur sur la littératu"
-pubDate: "2025-08-03"
-heroImage: "/images/placeholders/hero-1792.png"
+pubDate: "2025-08-12"
+heroImage: "/images/ia/michael-connelly-maitre-du-polar-hero/michael-connelly-maitre-du-polar-hero.png"
 heroImageAlt: "Illustration symbolique: Michael Connelly : Maître incontesté du polar américain et créateur de Harry Bosch"
 ---
 
@@ -13,7 +13,7 @@ Ce qui distingue Connelly de nombreux auteurs du genre, c'est sa capacité à m�
 Plongeons dans l'univers de cet écrivain majeur qui a redéfini les codes du polar américain et dont l'influence continue de s'étendre bien au-delà de la littérature.
 
 
-![Illustration: Michael Connelly : Maître incontesté du polar américain et créateur de Harry Bosch](/images/placeholders/inline-1024.png)
+![Illustration: Michael Connelly : Maître incontesté du polar américain et créateur de Harry Bosch](/images/ia/michael-connelly-maitre-du-polar-inline/michael-connelly-maitre-du-polar-inline.png)
 
 
 ## Des débuts journalistiques aux bestsellers internationaux

@@ -1,16 +1,12 @@
 ---
 title: "Rendez-vous avec Rama : Quand l'inconnu cosmique rencontre l'humanité"
 description: "Découvrez pourquoi le chef-d'œuvre de Clarke sur l'exploration d'un vaisseau alien reste, 50 ans après, une méditation fascinante sur notre place dans l'univers"
-pubDate: "2025-09-06"
+pubDate: "2025-08-15"
 heroImage: "/images/ia/rendez-vous-avec-rama-quand-l-inconnu-cosmique-rencontre-l-humanite-hero/rendez-vous-avec-rama-quand-l-inconnu-cosmique-rencontre-l-humanite-hero.png"
 heroImageAlt: "Illustration: Rendez-vous avec Rama : Quand l'inconnu cosmique rencontre l'humanité"
 ---
 
 Dans l'immensité du cosmos, certaines rencontres changent à jamais notre perception de l'univers et de notre place en son sein. C'est précisément ce que propose Arthur C. Clarke dans son chef-d'œuvre "Rendez-vous avec Rama", publié en 1973 et récompensé par les prestigieux prix Hugo, Nebula et Campbell. Ce roman, pierre angulaire de la science-fiction dite "hard", nous invite à bord d'un mystérieux vaisseau extraterrestre traversant notre système solaire, et transforme cette exploration en une méditation profonde sur notre humanité face à l'inconnu. Près de cinquante ans après sa publication, cette œuvre continue de fasciner et d'interroger les lecteurs du monde entier.
-
-
-![Illustration: Rendez-vous avec Rama : Quand l'inconnu cosmique rencontre l'humanité](/images/ia/rendez-vous-avec-rama-quand-l-inconnu-cosmique-rencontre-l-humanite-inline/rendez-vous-avec-rama-quand-l-inconnu-cosmique-rencontre-l-humanite-inline.png)
-
 
 ## Un cylindre mystérieux nommé Rama
 
@@ -19,6 +15,8 @@ L'intrigue de "Rendez-vous avec Rama" est d'une élégante simplicité. En 2131,
 Le commandant Bill Norton et son équipage découvrent alors un monde intérieur vertigineux : un cylindre creux de 50 kilomètres de long et 16 kilomètres de diamètre, dont la surface interne forme un paysage complet avec une "mer" circulaire, des structures énigmatiques et des mécanismes dont la fonction reste mystérieuse. À mesure que Rama s'approche du Soleil, le monde artificiel s'éveille progressivement, offrant aux explorateurs humains un spectacle à la fois fascinant et inquiétant.
 
 La force du récit réside dans cette exploration méthodique d'un environnement totalement étranger, où chaque découverte soulève plus de questions qu'elle n'apporte de réponses. Clarke excelle à nous faire partager l'émerveillement des astronautes face à des technologies et des concepts qui dépassent l'entendement humain.
+
+![Illustration: Rendez-vous avec Rama : Quand l'inconnu cosmique rencontre l'humanité](/images/ia/rendez-vous-avec-rama-quand-l-inconnu-cosmique-rencontre-l-humanite-inline/rendez-vous-avec-rama-quand-l-inconnu-cosmique-rencontre-l-humanite-inline.png)
 
 ## Une science-fiction d'exploration intellectuelle
 

@@ -6,8 +6,6 @@ import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import Picture from "../components/Picture.astro";
 
-const { frontmatter } = Astro.props; // heroImage, heroImageAlt dans le frontmatter
-
 type BlogData = CollectionEntry<'blog'>['data'];
 
 type ExtraProps = {
@@ -24,12 +22,37 @@ const {
   description,
   pubDate,
   updatedDate,
-  heroImage,
+  heroImage: heroImageRaw,
   heroImageLink,
   heroImageAlt,
   pageTitle,
   hideTitle
 } = Astro.props as Props;
+
+// --- Normalisation & heuristiques pour compat ancien/nouveau ---
+
+// Convertit "public/..." en "/..." ; laisse http(s) intact ; ajoute "/" si besoin
+function normalize(src?: string | null) {
+  if (!src) return null;
+  if (src.startsWith("http://") || src.startsWith("https://")) return src;
+  const s = src.replace(/^public\//, ""); // Astro sert /public à la racine
+  return s.startsWith("/") ? s : `/${s}`;
+}
+
+const FALLBACK = "/images/placeholders/hero-portrait.png";
+
+const heroImage = normalize(heroImageRaw) ?? FALLBACK;
+const alt = heroImageAlt ?? (title ? `Illustration : ${title}` : "Illustration");
+
+// Heuristique :
+// - Nouveaux articles IA : PNG sous /images/ia/...  => <Picture> (AVIF/WEBP/PNG)
+// - Anciens articles     : extension libre (.jpg/.png) & chemins variés => <img> simple
+const isPng = /\.png$/i.test(heroImage);
+const isUnderIA = heroImage.includes("/images/ia/");
+const usePicture = isPng && isUnderIA;
+
+// Pour <picture>, on part de la base sans extension
+const pictureBase = usePicture ? heroImage.replace(/\.png$/i, "") : null;
 ---
 
 <html lang="fr">
@@ -38,7 +61,7 @@ const {
       title={title}
       description={description}
       image={heroImage}
-      imageAlt={heroImageAlt}
+      imageAlt={alt}
       ogType="article"
     />
     <!-- ✅ CSS chargés tôt -->
@@ -50,23 +73,40 @@ const {
     <main>
       <article class="blog-post">
         <div class="hero-image">
-          {heroImage && (
+          {
             heroImageLink ? (
-              <a href={heroImageLink} target="_blank" rel="noopener sponsored noreferrer"
-                class="hero-image-link" aria-label={`Voir le livre sur Amazon`}>
-                <Picture
-                  src={heroImage}
-                  alt={heroImageAlt || `Couverture : ${title}`}
-                />
+              <a
+                href={heroImageLink}
+                target="_blank"
+                rel="noopener sponsored noreferrer"
+                class="hero-image-link"
+                aria-label={`Voir le livre sur Amazon`}
+              >
+                {
+                  usePicture ? (
+                    <picture>
+                      <source srcset={`${pictureBase}.avif`} type="image/avif" />
+                      <source srcset={`${pictureBase}.webp`} type="image/webp" />
+                      <img src={`${pictureBase}.png`} alt={alt} loading="lazy" decoding="async" />
+                    </picture>
+                  ) : (
+                    <img src={heroImage} alt={alt} loading="lazy" decoding="async" />
+                  )
+                }
                 <span class="badge-amazon">Voir sur Amazon</span>
               </a>
             ) : (
-              <Picture
-                src={heroImage}
-                alt={heroImageAlt || `Couverture : ${title}`}
-              />
+              usePicture ? (
+                <picture>
+                  <source srcset={`${pictureBase}.avif`} type="image/avif" />
+                  <source srcset={`${pictureBase}.webp`} type="image/webp" />
+                  <img src={`${pictureBase}.png`} alt={alt} loading="lazy" decoding="async" />
+                </picture>
+              ) : (
+                <img src={heroImage} alt={alt} loading="lazy" decoding="async" />
+              )
             )
-          )}
+          }
         </div>
 
         <div class="prose">

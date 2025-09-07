@@ -2,7 +2,7 @@
 title: "Fahrenheit 451 : Quand brûler des livres devient l'ultime dystopie"
 description: "Découvrez pourquoi le chef-d'œuvre de Ray Bradbury, avec sa vision d'un monde sans livres, résonne aujourd'hui plus que jamais dans notre société d'écrans."
 pubDate: "2025-08-02"
-heroImage: "/images/ia/fahrenheit-451/fahrenheit-451-quand-bruler-des-livres-devient-la-norme-inline.png"
+heroImage: "/images/ia/fahrenheit-451-quand-bruler-des-livres-devient-ultime-dystopie/fahrenheit-451-quand-bruler-des-livres-devient-ultime-dystopie.png"
 heroImageAlt: "Illustration: Fahrenheit 451 : Quand brûler des livres devient l'ultime dystopie"
 ---
 
@@ -33,7 +33,7 @@ Ce qui fait la beauté de "Fahrenheit 451", c'est qu'il n'est pas seulement une 
 
 Cette résistance intellectuelle est incarnée par le personnage de Faber, ancien professeur qui guide Montag dans sa rébellion. Il explique que ce qui compte dans les livres, ce n'est pas leur existence matérielle, mais les vérités qu'ils contiennent : "Les livres ne sont que des réceptacles qui gardent ce que nous y mettons... ce qui importe, c'est ce qu'ils disent."
 
-![Illustration: Fahrenheit 451 : Quand brûler des livres devient l'ultime dystopie](/images/ia/fahrenheit-451/fahrenheit-451-quand-bruler-des-livres-devient-la-norme-inline.png)
+![Illustration: Fahrenheit 451 : Quand brûler des livres devient l'ultime dystopie](/images/ia/fahrenheit-451-quand-bruler-des-livres-devient-ultime-dystopie/fahrenheit-451-quand-bruler-des-livres-devient-ultime-dystopie.png)
 
 ## Un contexte historique révélateur
 

@@ -1,7 +1,7 @@
 ---
 title: "L'Étranger d'Albert Camus : L'absurde au cœur de la condition humaine"
 description: "Analyse du chef-d'œuvre de Camus explorant l'indifférence, l'absurde et la révolte à travers Meursault, un homme jugé pour son authenticité radicale."
-pubDate: "2025-09-06"
+pubDate: "2025-08-03"
 heroImage: "/images/ia/2025-09-06-l-etranger-d-albert-camus-l-absurde-au-c-ur-de-la-condition-38e733-hero/2025-09-06-l-etranger-d-albert-camus-l-absurde-au-c-ur-de-la-condition-38e733-hero.png"
 heroImageAlt: "Illustration: L'Étranger d'Albert Camus : L'absurde au cœur de la condition humaine"
 ---
