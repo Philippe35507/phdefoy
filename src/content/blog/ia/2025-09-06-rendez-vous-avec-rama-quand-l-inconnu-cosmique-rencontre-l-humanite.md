@@ -2,14 +2,14 @@
 title: "Rendez-vous avec Rama : Quand l'inconnu cosmique rencontre l'humanité"
 description: "Découvrez pourquoi le chef-d'œuvre de Clarke sur l'exploration d'un vaisseau alien reste, 50 ans après, une méditation fascinante sur notre place dans l'univers"
 pubDate: "2025-09-06"
-heroImage: "/images/ia/rendez-vous-avec-rama-quand-l-inconnu-cosmique-rencontre-l-humanite-hero.png"
+heroImage: "/images/ia/rendez-vous-avec-rama-quand-l-inconnu-cosmique-rencontre-l-humanite-hero/rendez-vous-avec-rama-quand-l-inconnu-cosmique-rencontre-l-humanite-hero.png"
 heroImageAlt: "Illustration: Rendez-vous avec Rama : Quand l'inconnu cosmique rencontre l'humanité"
 ---
 
 Dans l'immensité du cosmos, certaines rencontres changent à jamais notre perception de l'univers et de notre place en son sein. C'est précisément ce que propose Arthur C. Clarke dans son chef-d'œuvre "Rendez-vous avec Rama", publié en 1973 et récompensé par les prestigieux prix Hugo, Nebula et Campbell. Ce roman, pierre angulaire de la science-fiction dite "hard", nous invite à bord d'un mystérieux vaisseau extraterrestre traversant notre système solaire, et transforme cette exploration en une méditation profonde sur notre humanité face à l'inconnu. Près de cinquante ans après sa publication, cette œuvre continue de fasciner et d'interroger les lecteurs du monde entier.
 
 
-![Illustration: Rendez-vous avec Rama : Quand l'inconnu cosmique rencontre l'humanité](/images/ia/rendez-vous-avec-rama-quand-l-inconnu-cosmique-rencontre-l-humanite-inline.png)
+![Illustration: Rendez-vous avec Rama : Quand l'inconnu cosmique rencontre l'humanité](/images/ia/rendez-vous-avec-rama-quand-l-inconnu-cosmique-rencontre-l-humanite-inline/rendez-vous-avec-rama-quand-l-inconnu-cosmique-rencontre-l-humanite-inline.png)
 
 
 ## Un cylindre mystérieux nommé Rama

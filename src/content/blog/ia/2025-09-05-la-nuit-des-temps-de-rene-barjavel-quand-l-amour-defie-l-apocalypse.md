@@ -30,7 +30,7 @@ Cette civilisation perdue nous interroge : le progrès technique garantit-il le 
 
 Barjavel ne cache pas son message pacifiste. À travers le destin tragique de Gondawa, il nous avertit des dangers de la guerre totale. Ce qui rend ce message particulièrement poignant, c’est qu’il n’est pas délivré sous forme de sermon, mais incarné dans des destins individuels bouleversants. La tragédie de Gondawa est d’abord celle d’Eléa et Païkan, et c’est ce qui la rend universelle et intemporelle.
 
-![Illustration: La Nuit des temps de René Barjavel : Quand l'amour défie l'apocalypse](/images/ia/la-nuit-des-temps-rene-barjavel-2.png)
+![Illustration: La Nuit des temps de René Barjavel : Quand l'amour défie l'apocalypse](/images/ia/la-nuit-des-temps-rene-barjavel-2/la-nuit-des-temps-rene-barjavel-2.png)
 
 ## Une résonance contemporaine saisissante
 Plus de cinquante ans après sa publication, “La Nuit des temps” conserve une étonnante actualité. Les préoccupations écologiques du roman - la fonte des glaces en Antarctique, les bouleversements climatiques - résonnent fortement avec nos inquiétudes contemporaines face au changement climatique.
@@ -44,7 +44,7 @@ Le génie de Barjavel réside dans sa capacité à aborder des thèmes philosoph
 
 Cette clarté stylistique n’est pas synonyme de simplisme. Au contraire, elle permet à l’auteur d’aborder des questions complexes - le sens du progrès, la nature de l’amour, notre rapport au temps - avec une profondeur remarquable. Barjavel prouve qu’on peut être accessible et profond, populaire et exigeant.
 
-![Illustration: La Nuit des temps de René Barjavel : Quand l'amour défie l'apocalypse](/images/ia/la-nuit-des-temps-rene-barjavel-1.png)
+![Illustration: La Nuit des temps de René Barjavel : Quand l'amour défie l'apocalypse](/images/ia/la-nuit-des-temps-rene-barjavel-1/la-nuit-des-temps-rene-barjavel-1.png)
 
 ## Un chef-d’œuvre intemporel
 “La Nuit des temps” n’est pas qu’un roman de science-fiction - c’est une méditation sur ce qui fait notre humanité. À travers l’histoire d’amour d’Eléa et Païkan, Barjavel nous invite à réfléchir sur ce qui, en nous, mérite de traverser les millénaires.

@@ -2,14 +2,11 @@
 title: "Fahrenheit 451 : Quand brûler des livres devient l'ultime dystopie"
 description: "Découvrez pourquoi le chef-d'œuvre de Ray Bradbury, avec sa vision d'un monde sans livres, résonne aujourd'hui plus que jamais dans notre société d'écrans."
 pubDate: "2025-08-02"
-heroImage: "/images/placeholders/hero-1792.png"
+heroImage: "/images/ia/fahrenheit-451/fahrenheit-451-quand-bruler-des-livres-devient-la-norme-inline.png"
 heroImageAlt: "Illustration: Fahrenheit 451 : Quand brûler des livres devient l'ultime dystopie"
 ---
 
 Avez-vous déjà imaginé un monde où posséder un livre est un crime ? Où les pompiers, au lieu d'éteindre les incendies, les allument pour réduire en cendres toute trace de littérature ? C'est l'univers glaçant que Ray Bradbury a créé dans son chef-d'œuvre "Fahrenheit 451", publié en 1953. Ce roman visionnaire continue de nous hanter près de 70 ans après sa publication, et pour cause : il résonne aujourd'hui avec une pertinence troublante. Plongeons ensemble dans cette œuvre fascinante qui a changé ma perception du pouvoir des mots.
-
-
-![Illustration: Fahrenheit 451 : Quand brûler des livres devient l'ultime dystopie](/images/placeholders/inline-1024.png)
 
 
 ## Une dystopie qui nous brûle encore les doigts
@@ -35,6 +32,8 @@ La femme de Montag, Mildred, est complètement déconnectée de la réalité, pr
 Ce qui fait la beauté de "Fahrenheit 451", c'est qu'il n'est pas seulement une critique désespérée. Il offre aussi une vision de la résistance. Les "hommes-livres" que Montag rencontre à la fin du roman ont trouvé une façon de préserver le savoir : chacun mémorise un livre entier, devenant ainsi une bibliothèque vivante. Cette métaphore puissante nous rappelle que les idées peuvent survivre à la destruction de leur support physique.
 
 Cette résistance intellectuelle est incarnée par le personnage de Faber, ancien professeur qui guide Montag dans sa rébellion. Il explique que ce qui compte dans les livres, ce n'est pas leur existence matérielle, mais les vérités qu'ils contiennent : "Les livres ne sont que des réceptacles qui gardent ce que nous y mettons... ce qui importe, c'est ce qu'ils disent."
+
+![Illustration: Fahrenheit 451 : Quand brûler des livres devient l'ultime dystopie](/images/ia/fahrenheit-451/fahrenheit-451-quand-bruler-des-livres-devient-la-norme-inline.png)
 
 ## Un contexte historique révélateur
 

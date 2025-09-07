@@ -1,7 +1,21 @@
+if (process.env.DRY_RUN === "true") {
+  console.log("⏭️ DRY_RUN détecté — on saute l’optimisation.");
+  process.exit(0);
+}
+
 // scripts/optimize-images.ts
 import fs from "fs";
 import path from "path";
 import sharp from "sharp";
+import { formatInTimeZone } from "date-fns-tz";
+
+const TIMEZONE = process.env.TZ || "Europe/Madrid";
+const TODAY = formatInTimeZone(new Date(), TIMEZONE, "yyyy-MM-dd");
+
+// un sous-dossier images valide pour aujourd’hui commence par "YYYY-MM-DD-"
+function isTodayBase(name: string) {
+  return name.startsWith(`${TODAY}-`);
+}
 
 const SRC_DIR = "public/images/ia";
 const MAX_WIDTH = 1600;
@@ -112,32 +126,41 @@ function escapeRegExp(s: string) {
 async function walk(current: string) {
   const entries = await fs.promises.readdir(current, { withFileTypes: true });
 
-  // D'abord traiter les fichiers à la racine pour les déplacer
+  // Si on n’est PAS à la racine SRC_DIR, on vérifie que le dossier courant est bien "du jour"
+  // Exemple de dossier: public/images/ia/<base>
+  if (current !== path.resolve(SRC_DIR)) {
+    const folderName = path.basename(current);
+    if (!isTodayBase(folderName)) {
+      // on saute ce sous-dossier (ancien)
+      return;
+    }
+  }
+
+  // 1) Traiter les fichiers trouvés (seulement PNG/JPG)
   for (const e of entries) {
     if (e.isFile()) {
       const p = path.join(current, e.name);
       if (isPngJpg(p)) {
-        // Si on est à SRC_DIR (racine images/ia), déplacement en sous-dossier <base>
         if (current === path.resolve(SRC_DIR)) {
+          // Fichier à la racine -> on le range dans son sous-dossier <base>/<base>.*
           await optimizeFromRoot(p);
         } else {
-          // On est déjà dans un sous-dossier
+          // Fichier déjà en sous-dossier du JOUR -> on (re)génère si besoin
           await optimizeInSubdir(p);
         }
       }
     }
   }
 
-  // Ensuite descendre dans les dossiers
+  // 2) Descendre dans les sous-dossiers (mais "du jour" uniquement grâce au test plus haut)
   for (const e of entries) {
     if (e.isDirectory()) {
       const p = path.join(current, e.name);
-      // On évite de re-traiter un dossier qui vient d'être créé à partir d'un fichier de la racine,
-      // mais comme on (re)génère simplement base.* dans chaque sous-dossier, c'est idempotent.
       await walk(p);
     }
   }
 }
+
 
 async function main() {
   const root = path.resolve(SRC_DIR);
