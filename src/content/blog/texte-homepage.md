@@ -2,6 +2,9 @@
 title: "5 raisons qui vont vous convaincre d'apprendre l'espagnol aujourd'hui"
 description: "L'espagnol est l'une des langues les plus faciles à apprendre pour un francophone : les deux langues partagent de nombreuses racines latines, ce qui signifie que vous reconnaîtrez déjà des milliers de mots sans effort."
 pubDate: 'Aug 02 2025'
+heroImage: "/images/esp/EspagnolA1.jpg"
+heroImageLink: "https://www.amazon.fr/dp/B0FLPSRTBB"
+heroImageAlt: "Couverture d'un livre d'apprentissage de l'espagnol A1 représentant une danseuse de Flamenco."
 ---
 
 # 5 raisons qui vont vous convaincre d'apprendre l'espagnol aujourd'hui
