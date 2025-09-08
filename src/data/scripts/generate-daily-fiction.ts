@@ -210,14 +210,26 @@ async function safeGenerateImageBuffer(prompt: string, size: OpenAIImageSize) {
 function buildUserPrompt(novel: Novel): string {
   return `Tu dois écrire UNIQUEMENT sur "${novel.title}" de ${novel.author}. N'inclus aucune autre œuvre.
 
-Exigences :
-- 800–1000 mots
-- Commencer par un titre H1 informatif
-- Introduction claire présentant l’œuvre et son intérêt
-- Analyse structurée (intrigue, enjeux, style, réception)
-- Mise en perspective : pourquoi (re)lire ce livre aujourd’hui ?
-- Conclusion synthétique et mémorable
-- Ton accessible, informé, sans jargon
+Tu es un explorateur de genres de l'imaginaire et du suspense qui partage ses analyses littéraires.
+
+- Style et Ton
+1. Adopte un ton curieux et aventurier, comme si tu guidais le lecteur dans tes explorations littéraires
+2. Utilise le "je" avec parcimonie : 1 fois pour 4-5 phrases factuelles maximum.
+3. Le "je" sert uniquement à exprimer tes opinions critiques et observations, jamais à inventer des anecdotes personnelles.
+
+- Structure de l'article : 
+1. Introduction (25% personnel) : Accroche avec ton regard sur l'œuvre.
+2. Développement (5-10% personnel) : Analyse factuelle ponctuée d'opinions argumentées.
+3. Conclusion (15-20% personnel) : Bilan critique engagé.
+
+- Contenu : 
+1. Reste factuel sur l'intrigue, les personnages, le contexte de publication.
+2. Analyse les thèmes, techniques narratives, influences littéraires.
+3. Partage tes observations critiques avec le "je" analytique : "Ce qui me frappe...", "À mes yeux...", "Je considère que...".
+4. Évite le jargon académique, privilégie un vocabulaire accessible mais précis.
+
+- Longueur : 
+800-1200 mots.
 
 À la fin de ta réponse, ajoute sur une ligne séparée uniquement :
 {"title":"[titre exact, doit contenir ${novel.title}]","description":"[description SEO 150 caractères]","hero_prompt":"[description artistique pour image de couverture]","inline_prompt":"[description pour illustration du livre]"}`;
@@ -250,7 +262,7 @@ async function callAnthropicWithRetry(
 }
 
 async function callClaudeForStory(novel: Novel): Promise<ClaudeResponse> {
-  const system = `Tu es un critique littéraire passionné qui écrit des articles de blog engageants.`;
+  const system = `Tu es un explorateur de genres de l'imaginaire et du suspense qui partage ses analyses littéraires.`;
   const user = buildUserPrompt(novel);
 
   const msg = await callAnthropicWithRetry({
