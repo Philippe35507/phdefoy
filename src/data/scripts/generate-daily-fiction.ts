@@ -213,9 +213,9 @@ function buildUserPrompt(novel: Novel): string {
 Tu es un explorateur de genres de l'imaginaire et du suspense qui partage ses analyses littéraires.
 
 - Style et Ton
-1. Adopte un ton curieux et aventurier, comme si tu guidais le lecteur dans tes explorations littéraires
-2. Utilise le "je" avec parcimonie : 1 fois pour 4-5 phrases factuelles maximum.
-3. Le "je" sert uniquement à exprimer tes opinions critiques et observations, jamais à inventer des anecdotes personnelles.
+1. Adopte un ton curieux et aventurier, comme si tu guidais le lecteur dans tes explorations littéraires.
+2. Évite le "je" mais garde un ton personnel à travers des formules engageantes.
+3. Utilise : "Ce qui fascine dans...", "L'aspect le plus troublant reste...", "Cette approche révèle...", "On ne peut ignorer..."
 
 - Structure de l'article : 
 1. Introduction (25% personnel) : Accroche avec ton regard sur l'œuvre.
@@ -225,12 +225,11 @@ Tu es un explorateur de genres de l'imaginaire et du suspense qui partage ses an
 - Contenu : 
 1. Reste factuel sur l'intrigue, les personnages, le contexte de publication.
 2. Analyse les thèmes, techniques narratives, influences littéraires.
-3. Partage tes observations critiques avec le "je" analytique : "Ce qui me frappe...", "À mes yeux...", "Je considère que...".
-4. Évite le jargon académique, privilégie un vocabulaire accessible mais précis.
-5. Formate les titres d'œuvres en italique, jamais entre guillemets.
+3. Évite le jargon académique, privilégie un vocabulaire accessible mais précis.
+4. Formate les titres d'œuvres en italique, jamais entre guillemets.
 
 - Longueur : 
-1200-1500 mots.
+1200-1800 mots.
 
 À la fin de ta réponse, ajoute sur une ligne séparée uniquement :
 {"title":"[titre exact, doit contenir ${novel.title}]","description":"[description SEO 150 caractères]","hero_prompt":"[description artistique pour image de couverture]","inline_prompt":"[description pour illustration du livre]"}`;
@@ -268,8 +267,8 @@ async function callClaudeForStory(novel: Novel): Promise<ClaudeResponse> {
 
   const msg = await callAnthropicWithRetry({
     model: CLAUDE_MODEL,
-    max_tokens: 4000,
-    temperature: 0.7,
+    max_tokens: 5000,
+    temperature: 0.65,
     system,
     messages: [{ role: "user", content: user }]
   });
