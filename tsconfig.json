@@ -1,13 +1,9 @@
 {
   "extends": "astro/tsconfigs/strict",
-  "include": [".astro/types.d.ts", "**/*"],
-  "exclude": ["dist"],
   "compilerOptions": {
-    "strictNullChecks": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "esModuleInterop": true,
-    "noImplicitAny": false
+    "moduleResolution": "bundler",
+    "module": "ESNext",
+    "types": ["astro/client"]
   }
 }
 

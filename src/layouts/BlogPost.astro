@@ -15,7 +15,8 @@ type ExtraProps = {
   hideTitle?: boolean;
 };
 
-type Props = BlogData & ExtraProps;
+// → on rend draft optionnel côté layout
+type Props = Omit<BlogData, 'draft'> & { draft?: boolean } & ExtraProps;
 
 const {
   title,
@@ -26,8 +27,10 @@ const {
   heroImageLink,
   heroImageAlt,
   pageTitle,
-  hideTitle
+  hideTitle,
+  draft = false, // valeur par défaut (même si non utilisé)
 } = Astro.props as Props;
+
 
 // --- Normalisation & heuristiques pour compat ancien/nouveau ---
 

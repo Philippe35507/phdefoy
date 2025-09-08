@@ -8,8 +8,12 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import type { CollectionEntry } from "astro:content";
 import { getCollection } from "astro:content";
 
-// 1) Récupère tous les posts
-const posts: CollectionEntry<'blog'>[] = await getCollection('blog');
+// 1) Récupère et TRIE les posts (plus récents en premier)
+const toTime = (d: unknown) =>
+  d instanceof Date ? d.getTime() : (new Date(d as string).getTime() || 0);
+
+const posts: CollectionEntry<'blog'>[] = (await getCollection('blog', (p) => !p.data.draft))
+  .sort((a, b) => toTime(b.data.pubDate) - toTime(a.data.pubDate));
 
 // 2) URLs SANS /blog (root) : /<slug>  (id = "ia/mon-fichier" → "mon-fichier")
 const hrefFor = (p: CollectionEntry<'blog'>) => `/${p.id.replace(/^ia\//, "")}`;
@@ -19,8 +23,8 @@ interface MarkdownModule {
   Content: any;
   frontmatter?: any;
 }
-const mdModules = import.meta.glob<MarkdownModule>('../content/blog/texte-homepage.md');
-const mdModule = await mdModules['../content/blog/texte-homepage.md']();
+const mdModules = import.meta.glob<MarkdownModule>('../content/blog/5-raisons-pour-apprendre-espagnol.md');
+const mdModule = await mdModules['../content/blog/5-raisons-pour-apprendre-espagnol.md']();
 const { Content } = mdModule;
 
 // 4) Petite util pour fallback d’image
