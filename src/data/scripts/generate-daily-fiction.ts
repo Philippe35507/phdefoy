@@ -230,7 +230,7 @@ Tu es un explorateur de genres de l'imaginaire et du suspense qui partage ses an
 5. Formate les titres d'œuvres en italique, jamais entre guillemets.
 
 - Longueur : 
-800-1200 mots.
+1200-1500 mots.
 
 À la fin de ta réponse, ajoute sur une ligne séparée uniquement :
 {"title":"[titre exact, doit contenir ${novel.title}]","description":"[description SEO 150 caractères]","hero_prompt":"[description artistique pour image de couverture]","inline_prompt":"[description pour illustration du livre]"}`;
