@@ -1,27 +1,37 @@
 ---
 import BaseHead from '../../components/BaseHead.astro';
+import Canonical from '../../components/Canonical.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
 import { SITE_TITLE } from '../../consts';
-import { getCollection } from 'astro:content';
+
+// ⬇️ importe aussi le type
+import { getCollection, type CollectionEntry } from 'astro:content';
+
+type Post = CollectionEntry<'blog'>;
+
+const cleanId = (id: string) =>
+  id.replace(/^ia\//, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
+
+const hrefFor = (p: Post) => `/${cleanId(p.id)}`;
 
 const allPosts = await getCollection('blog');
 
 // tri du plus récent au plus ancien
-const posts = allPosts.sort((a, b) => {
-  const da = (a.data as any).pubDate ? new Date((a.data as any).pubDate).getTime() : 0;
-  const db = (b.data as any).pubDate ? new Date((b.data as any).pubDate).getTime() : 0;
-  return db - da;
-});
-
-// URL finale 
-const hrefFor = (p) => `/${p.id.replace(/^ia\//, "")}`;
+const posts = allPosts
+  .slice()
+  .sort((a: Post, b: Post) => {
+    const da = (a.data as any).pubDate ? new Date((a.data as any).pubDate).getTime() : 0;
+    const db = (b.data as any).pubDate ? new Date((b.data as any).pubDate).getTime() : 0;
+    return db - da;
+  });
 ---
 
 <html lang="fr">
   <head>
     <BaseHead title={`${SITE_TITLE} — Blog`} description="Tous les articles" />
+    <Canonical />
   </head>
   <body>
     <Header />
@@ -31,10 +41,10 @@ const hrefFor = (p) => `/${p.id.replace(/^ia\//, "")}`;
       {posts.length === 0 ? (
         <p>Aucun article pour le moment.</p>
       ) : (
-        <ul class="post-list">
-          {posts.map((p) => (
-            <li class="post-item">
-              <a class="post-link" href={hrefFor(p)}>
+      <ul class="post-list">
+        {posts.map((p: Post) => (
+          <li class="post-item">
+            <a class="post-link" href={hrefFor(p)}>
                 {p.data.heroImage && (
                   <img
                     src={p.data.heroImage}

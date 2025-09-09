@@ -1,59 +1,63 @@
 ---
 import '../styles/global.css';
 import type { ImageMetadata } from 'astro';
-import blogPlaceholder from '../assets/blog-placeholder-about.jpg';  // Import explicite du placeholder local
+import blogPlaceholder from '../assets/blog-placeholder-about.jpg';
 import { SITE_TITLE } from '../consts';
 
 interface Props {
-  title: string;
-  description: string;
-  image?: ImageMetadata | string;  // accepte un import ou une chaîne URL publique
+  title?: string;
+  description?: string;
+  image?: ImageMetadata | string;
   ogType?: string;
   imageAlt?: string;
 }
 
-// Utilisation du placeholder importé par défaut si aucune image n’est fournie
-const { title, description, image = blogPlaceholder, ogType = 'website', imageAlt } = Astro.props;
+// On ALIAS les props pour éviter tout conflit avec les globals DOM
+const {
+  title:        metaTitle       = SITE_TITLE,
+  description:  metaDescription = '',
+  image         = blogPlaceholder,
+  ogType        = 'website',
+  imageAlt,
+} = Astro.props as Props;
 
-// imagePath : string (public/), ou imageMetadata.src (assets import)
 const imagePath = typeof image === 'string' ? image : image.src;
 
-// Construction des URLs absolues pour les métadonnées
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-const imageURL = new URL(imagePath, Astro.site).toString();
+// Base sûre même en dev (si Astro.site n'est pas défini)
+const baseForUrls = Astro.site ?? Astro.url;
+
+// URLs absolues
+const canonicalURL = new URL(Astro.url.pathname, baseForUrls);
+const imageURL = new URL(imagePath, baseForUrls).toString();
 
 // Texte alternatif dynamique
-const altText = imageAlt || `Couverture : ${title}`;
+const altText = imageAlt ?? `Couverture : ${metaTitle}`;
 ---
 
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="sitemap" href="/sitemap-index.xml" />
-<link rel="alternate" type="application/rss+xml" title={SITE_TITLE} href={new URL('rss.xml', Astro.site)} />
+<link rel="alternate" type="application/rss+xml" title={SITE_TITLE} href={new URL('rss.xml', baseForUrls)} />
 <meta name="generator" content={Astro.generator} />
 
 <link rel="preload" href="/fonts/atkinson-regular.woff" as="font" type="font/woff" crossorigin />
 <link rel="preload" href="/fonts/atkinson-bold.woff" as="font" type="font/woff" crossorigin />
 
-<link rel="canonical" href={canonicalURL} />
-
-<title>{title}</title>
-<meta name="title" content={title} />
-<meta name="description" content={description} />
+<title>{metaTitle}</title>
+<meta name="title" content={metaTitle} />
+<meta name="description" content={metaDescription} />
 
 <!-- Open Graph -->
 <meta property="og:type" content={ogType} />
-<meta property="og:url" content={canonicalURL} />
-<meta property="og:title" content={title} />
-<meta property="og:description" content={description} />
+<meta property="og:title" content={metaTitle} />
+<meta property="og:description" content={metaDescription} />
 <meta property="og:image" content={imageURL} />
 <meta property="og:image:alt" content={altText} />
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:url" content={canonicalURL} />
-<meta name="twitter:title" content={title} />
-<meta name="twitter:description" content={description} />
+<meta name="twitter:title" content={metaTitle} />
+<meta name="twitter:description" content={metaDescription} />
 <meta name="twitter:image" content={imageURL} />
 <meta name="twitter:image:alt" content={altText} />

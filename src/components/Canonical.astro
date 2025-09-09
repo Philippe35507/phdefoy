@@ -1,0 +1,32 @@
+---
+// src/components/Canonical.astro
+// Usage: <Canonical /> ou <Canonical href="https://phdefoy.com/mon-slug/" />
+interface Props {
+  /** Pour forcer une URL canonique précise (optionnel) */
+  href?: string;
+  /** Forcer un trailing slash (par défaut true) */
+  ensureSlash?: boolean;
+}
+const { href, ensureSlash = true } = Astro.props;
+
+// Base absolue (priorité à `site` si défini dans astro.config.*)
+const base = (Astro.site?.href ?? Astro.url?.origin ?? '').replace(/\/+$/, '');
+
+// Pathname courant, sans "index.html"
+let pathname = Astro.url?.pathname ?? '/';
+pathname = pathname.replace(/index\.html?$/i, '');
+
+// Trailing slash cohérent (utile pour SEO & duplication)
+if (ensureSlash && !pathname.endsWith('/')) pathname += '/';
+
+// URL canonique finale
+const canonical = href
+  ? href
+  : base
+    ? `${base}${pathname}`
+    : // repli (dev server sans `site` défini)
+      new URL(pathname, Astro.url).href;
+---
+
+<link rel="canonical" href={canonical} />
+<meta property="og:url" content={canonical} />

@@ -400,8 +400,8 @@ async function main() {
     ensureDir(BLOG_DIR);
 
     // === Variante B : NOM DE FICHIER = titre.md (sans date) ===
-    const cleanSlug = slugifyLite(fakeStory.title || novel.title);
-    const fileNameDry = `${cleanSlug}.md`;
+    const fileSlug = slugifyLite(fakeStory.title || novel.title);
+    const fileNameDry = `${fileSlug}.md`;
 
     const outPathDry = path.join(BLOG_DIR, fileNameDry);
     fs.writeFileSync(outPathDry, frontmatterDry + mdWithImgDry, "utf8");
@@ -466,8 +466,8 @@ async function main() {
   ensureDir(BLOG_DIR);
 
   // === Variante B : NOM DE FICHIER = titre.md (sans date) ===
-  const cleanSlug = slugifyLite(story.title || novel.title);
-  const fileName = `${cleanSlug}.md`;
+  const fileSlug = slugifyLite(story.title || novel.title);
+  const fileName = `${fileSlug}.md`;
   const outPath = path.join(BLOG_DIR, fileName);
 
   fs.writeFileSync(outPath, frontmatter + mdWithImg, "utf8");
