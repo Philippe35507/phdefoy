@@ -1,0 +1,63 @@
+# Harmoniser le slash final (au cas où)
+# /truc/  -> /truc
+/:slug/      /:slug      301!
+
+# Ancien schéma /blog/ia -> racine
+/blog/ia/:slug/   /:slug   301!
+/blog/ia/:slug    /:slug   301!
+
+# Ancien schéma /blog -> racine
+/blog/:slug/      /:slug   301!
+/blog/:slug       /:slug   301!
+
+/blog/ia/2025-09-05-michael-connelly-maitre-inconteste-du-polar-americain-et-createur-de-harry-bosch/  /michael-connelly-maitre-inconteste-du-polar-americain-et-createur-de-harry-bosch  301!
+
+/blog/ia/2025-09-06-l-etranger-d-albert-camus-l-absurde-au-c-ur-de-la-condition-humaine/  /l-etranger-d-albert-camus-l-absurde-au-c-ur-de-la-condition-humaine/  301!
+
+/blog/ia/2025-09-05-1984-de-george-orwell-quand-la-fiction-dystopique-devient-un-avertissement-intemporel/ /1984-de-george-orwell-quand-la-fiction-dystopique-devient-un-avertissement-intemporel
+
+
+/blog/ia/2025-09-05-fahrenheit-451-quand-bruler-des-livres-devient-l-ultime-dystopie/ /fahrenheit-451-quand-bruler-des-livres-devient-l-ultime-dystopie
+
+
+/blog/ia/2025-09-05-la-nuit-des-temps-de-rene-barjavel-quand-l-amour-defie-l-apocalypse/ /la-nuit-des-temps-de-rene-barjavel-quand-l-amour-defie-l-apocalypse
+
+
+/blog/ia/2025-09-05-le-meilleur-des-mondes-d-aldous-huxley-une-dystopie-toujours-d-actualite/ /le-meilleur-des-mondes-d-aldous-huxley-une-dystopie-toujours-d-actualite
+
+
+/blog/ia/2025-09-05-les-maitres-du-suspense-litteraire-comment-ils-manipulent-nos-emotions/ /les-maitres-du-suspense-litteraire-comment-ils-manipulent-nos-emotions
+
+
+/blog/code-scarab%C3%A9e-d-or/ /le-dechiffrement-du-code-du-scarabee-d-or-l-art-de-la-cryptanalyse-selon-legrand
+
+
+/blog/edgar-poe/ /edgar-allan-poe-l-architecte-de-l-ame-en-detresse
+
+
+/blog/espagnol_a1/ /l-espagnol-pour-les-debutants-niveau-a1-philippe-de-foy
+
+
+/blog/kidnapped/ /kidnapped-le-chef-d-uvre-meconnu-de-robert-louis-stevenson
+
+
+/blog/one-egg-a-day/ /one-egg-a-day-philippe-de-foy
+
+
+/blog/polybe/ /polybe-l-otage-grec-qui-a-perce-les-secrets-de-rome
+
+
+/blog/scarab%C3%A9e-d-or/ /le-scarabee-d-or-quand-edgar-allan-poe-revolutionne-le-recit-policier.md
+
+
+/blog/stevenson/ /robert-louis-stevenson-le-maitre-ecossais-de-l-aventure-et-du-mystere
+
+
+/blog/texte-homepage/ /5-raisons-pour-apprendre-espagnol
+
+
+/blog/un-oeuf-par-jour/ /un-oeuf-par-jour-philippe-de-foy
+
+/blog/ia/2025-09-05-la-nuit-des-temps-de-rene-barjavel-une-histoire-d-amour-intemporelle-dans-un-monde-condamne/ /la-nuit-des-temps-de-rene-barjavel-quand-l-amour-defie-l-apocalypse
+
+/blog/ia/2025-09-05-ravage-de-barjavel-une-prophetie-visionnaire-sur-notre-dependance-technologique/ /ravage-de-barjavel-une-prophetie-visionnaire-sur-notre-dependance-technologique

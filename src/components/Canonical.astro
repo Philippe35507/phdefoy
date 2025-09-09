@@ -1,31 +1,41 @@
 ---
-// src/components/Canonical.astro
-// Usage: <Canonical /> ou <Canonical href="https://phdefoy.com/mon-slug/" />
-interface Props {
-  /** Pour forcer une URL canonique précise (optionnel) */
+/**
+ * <Canonical /> — génère:
+ *   <link rel="canonical" ...> + <meta property="og:url" ...>
+ *
+ * Props :
+ * - href?: string        → URL canonique forcée (optionnelle)
+ * - ensureSlash?: boolean
+ *      true  → force un slash final (ex: /article/)
+ *      false → force sans slash final (ex: /article)
+ *      undefined → respecte la forme actuelle d’Astro
+ */
+ interface Props {
   href?: string;
-  /** Forcer un trailing slash (par défaut true) */
   ensureSlash?: boolean;
 }
-const { href, ensureSlash = true } = Astro.props;
+const { href, ensureSlash } = Astro.props;
 
-// Base absolue (priorité à `site` si défini dans astro.config.*)
-const base = (Astro.site?.href ?? Astro.url?.origin ?? '').replace(/\/+$/, '');
+// Récupère la base du site (fonctionne avec Astro.site = string | URL | undefined)
+const siteStr = (Astro.site
+  ? (typeof Astro.site === 'string' ? Astro.site : Astro.site.href)
+  : '') as string;
 
-// Pathname courant, sans "index.html"
-let pathname = Astro.url?.pathname ?? '/';
-pathname = pathname.replace(/index\.html?$/i, '');
+const base = (siteStr || Astro.url.origin).replace(/\/+$/, ''); // enlève le / final éventuel
 
-// Trailing slash cohérent (utile pour SEO & duplication)
-if (ensureSlash && !pathname.endsWith('/')) pathname += '/';
+// Path courant (sans index.html)
+let pathname = (Astro.url.pathname || '/').replace(/index\.html?$/i, '');
 
-// URL canonique finale
-const canonical = href
-  ? href
-  : base
-    ? `${base}${pathname}`
-    : // repli (dev server sans `site` défini)
-      new URL(pathname, Astro.url).href;
+// Ajuste trailingSlash selon la prop
+if (ensureSlash === true && !pathname.endsWith('/')) {
+  pathname += '/';
+}
+if (ensureSlash === false && pathname !== '/' && pathname.endsWith('/')) {
+  pathname = pathname.slice(0, -1);
+}
+
+// URL finale
+const canonical = href ?? `${base}${pathname}`;
 ---
 
 <link rel="canonical" href={canonical} />

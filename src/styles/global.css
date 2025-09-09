@@ -150,29 +150,24 @@ hr {
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
-/* Couleurs & tailles des titres pour les articles */
-body.blog .prose h1{
-/* ACCENT en hex → on ne met PAS rgb() autour */
-color: var(--accent) !important;
-  }
-  
-  body.blog .prose h2 {
-	/* ACCENT en hex → on ne met PAS rgb() autour */
+
+
+/* Titres dans le contenu article */
+body.blog .post-content :is(h1, h2, h3, h4, h5, h6) {
 	color: var(--accent) !important;
-	font-size: 1.8rem;
   }
   
-  body.blog .prose h3 {
-	/* ACCENT en hex → on ne met PAS rgb() autour */
-	color: var(--accent) !important;
-	font-size: 1.45rem;
+  /* Liens dans les titres gardent la couleur du titre */
+  body.blog .post-content :is(h1, h2, h3, h4) a {
+	color: inherit !important;
+	text-decoration: none;
   }
-  
-  body.blog .prose h4 {
-	/* ACCENT en hex → on ne met PAS rgb() autour */
-    color: var(--accent) !important;
-	font-size: 1.2rem;
-  }
+
+/* Couleurs & tailles des titres pour les pages du blog */
+body.blog h1 { color: var(--accent) !important; }
+body.blog h2 { color: var(--accent) !important; font-size: 1.8rem; }
+body.blog h3 { color: var(--accent) !important; font-size: 1.45rem; }
+body.blog h4 { color: var(--accent) !important; font-size: 1.2rem; }
   
   /* Liens dans les titres */
   body.blog h2 a,
