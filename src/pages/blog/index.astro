@@ -33,7 +33,7 @@ const posts = allPosts
     <BaseHead title={`${SITE_TITLE} — Blog`} description="Tous les articles" />
     <Canonical />
   </head>
-  <body class="blog">
+  <body class="blog-index">
     <Header />
     <main class="container">
       <h1>Derniers articles</h1>
@@ -91,10 +91,13 @@ const posts = allPosts
       }
       .post-item:hover { transform: translateY(-3px); }
 
-      .post-link { display: block; text-decoration: none; color: inherit; }
+      .post-link { display: block; text-decoration: none;  color: var(--accent) !important; }
+      .post-link:visited { color: var(--accent) !important; }  
       .post-link img { width: 100%; height: auto; display: block; aspect-ratio: 16/9; object-fit: cover; }
-      .post-link h3 { margin: .75rem 1rem .25rem; font-size: 1.05rem; line-height: 1.35; }
-      .meta { margin: 0 1rem 1rem; color: #64748b; font-size: .9rem; }
+      .post-link:hover { 
+      color: var(--accent-dark, var(--accent)) !important; }
+      .post-link h3 { margin: .4rem 0.3rem .2rem; font-size: 0.9rem; line-height: 1.35; color: inherit !important; opacity: 1; }
+      .meta { margin: 0 0.5rem 0.5rem; color: #3e4043; font-size: .9rem;}
     </style>
   </body>
 </html>

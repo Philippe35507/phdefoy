@@ -100,12 +100,11 @@ main {
   margin-bottom: 0.6rem;
   line-height: 1.35;
 }
-/* Test béton */
-html body.blog h1,
-html body.blog h2,
-html body.blog h3,
-html body.blog h4,
-html body.blog h5,
-html body.blog h6 {
-  color: red !important;
+
+/* Liens dans la liste des articles du blog (/blog) */
+body.blog-index a {
+  color: var(--accent);
+}
+body.blog-index a:hover {
+  color: var(--accent-dark, var(--accent));
 }
