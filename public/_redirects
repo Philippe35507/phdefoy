@@ -1,12 +1,2 @@
-# Harmoniser le slash final (au cas où)
-# /truc/  -> /truc
-/:slug/      /:slug      301!
 
-# Ancien schéma /blog/ia -> racine
-/blog/ia/:slug/   /:slug   301!
-/blog/ia/:slug    /:slug   301!
-
-# Ancien schéma /blog -> racine
-/blog/:slug/      /:slug   301!
-/blog/:slug       /:slug   301!
 
