@@ -162,3 +162,11 @@ body.blog .post-content :is(h1, h2, h3, h4, h5, h6) {
 	color: inherit !important;
 	text-decoration: none;
   }
+
+   /* Titre spécial pour l’index du blog */
+ .blog-index h1 {
+	font-size: 2rem;   /* plus petit que le h1 normal */
+	color: var(--accent);
+	font-weight: 800;    /* optionnel : garde un peu de présence */
+	margin-bottom: 1.5rem; /* optionnel : respiration */
+  }

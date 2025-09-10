@@ -16,7 +16,7 @@ const posts: CollectionEntry<'blog'>[] = (await getCollection('blog', (p) => !p.
   .sort((a, b) => toTime(b.data.pubDate) - toTime(a.data.pubDate));
 
 // 2) URLs SANS /blog (root) : /<slug>  (id = "ia/mon-fichier" → "mon-fichier")
-const hrefFor = (p: CollectionEntry<'blog'>) => `/${p.id.replace(/^ia\//, "")}`;
+const hrefFor = (p: CollectionEntry<'blog'>) => `/${p.id.replace(/^ia\//, "")}/`;
 
 // 3) Import d’un fichier Markdown pour le bloc de texte de la home
 interface MarkdownModule {

@@ -2,20 +2,23 @@
 import type { HTMLAttributes } from 'astro/types';
 type Props = HTMLAttributes<'a'>;
 
-const { href, class: className, ...props } = Astro.props;
+const { href, class: className, ...props } = Astro.props as Props;
 
-// normalise le chemin courant pour supporter 'never'
+// normalise le chemin courant
 const raw = Astro.url.pathname.replace(import.meta.env.BASE_URL, '');
 const pathname = raw !== '/' ? raw.replace(/\/$/, '') : '/';
 
-// actif si correspond exactement ou si la page courante est un sous-chemin
-const isActive =
-  href === pathname ||
-  (href !== '/' && pathname.startsWith(href + '/')) ||
-  (href !== '/' && pathname === href);
----
+// utilitaires
+const norm = (p: string) => (p === '/' ? '/' : p.replace(/\/+$/, ''));
 
-<a href={href} class:list={[className, { active: isActive }]} {...props}>
+// ⚠️ href peut être string | URL | undefined → on force un string
+const hrefStr  = typeof href === 'string' ? href : (href ? href.toString() : '/');
+const hrefNorm = norm(hrefStr);
+
+// actif si exact ou sous-chemin
+const isActive = hrefNorm === pathname || (hrefNorm !== '/' && pathname.startsWith(hrefNorm + '/'));
+---
+<a href={hrefStr} class:list={[className, { active: isActive }]} {...props}>
   <slot />
 </a>
 <style>

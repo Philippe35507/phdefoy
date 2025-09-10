@@ -14,7 +14,7 @@ type Post = CollectionEntry<'blog'>;
 const cleanId = (id: string) =>
   id.replace(/^ia\//, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
 
-const hrefFor = (p: Post) => `/${cleanId(p.id)}`;
+const hrefFor = (p: Post) => `/${cleanId(p.id)}/`;
 
 const allPosts = await getCollection('blog');
 

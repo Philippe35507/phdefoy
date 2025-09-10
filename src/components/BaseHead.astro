@@ -12,7 +12,6 @@ interface Props {
   imageAlt?: string;
 }
 
-// On ALIAS les props pour éviter tout conflit avec les globals DOM
 const {
   title:        metaTitle       = SITE_TITLE,
   description:  metaDescription = '',
@@ -26,8 +25,14 @@ const imagePath = typeof image === 'string' ? image : image.src;
 // Base sûre même en dev (si Astro.site n'est pas défini)
 const baseForUrls = Astro.site ?? Astro.url;
 
+// Toujours forcer un slash final
+let pathname = Astro.url.pathname;
+if (!pathname.endsWith('/')) {
+  pathname += '/';
+}
+
 // URLs absolues
-const canonicalURL = new URL(Astro.url.pathname, baseForUrls);
+const canonicalURL = new URL(pathname, baseForUrls).toString();
 const imageURL = new URL(imagePath, baseForUrls).toString();
 
 // Texte alternatif dynamique
@@ -48,12 +53,17 @@ const altText = imageAlt ?? `Couverture : ${metaTitle}`;
 <meta name="title" content={metaTitle} />
 <meta name="description" content={metaDescription} />
 
+<!-- ✅ Canonical -->
+<link rel="canonical" href={canonicalURL} />
+
 <!-- Open Graph -->
 <meta property="og:type" content={ogType} />
 <meta property="og:title" content={metaTitle} />
 <meta property="og:description" content={metaDescription} />
 <meta property="og:image" content={imageURL} />
 <meta property="og:image:alt" content={altText} />
+<!-- ✅ URL OG -->
+<meta property="og:url" content={canonicalURL} />
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />

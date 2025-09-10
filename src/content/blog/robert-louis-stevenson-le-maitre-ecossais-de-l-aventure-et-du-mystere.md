@@ -55,7 +55,7 @@ La construction narrative de la novella est également remarquable : Stevenson r
 progressivement le mystère, créant une tension dramatique qui culmine avec la révélation
 finale. Cette maîtrise technique influencera durablement le genre du thriller psychologique.
 ## L'Aventure Sous Toutes ses Formes
-Stevenson ne se limite pas à ces deux chefs-d'œuvre. Son roman [Kidnapped](/kidnapped-le-chef-d-uvre-meconnu-de-robert-louis-stevenson) (1886)
+Stevenson ne se limite pas à ces deux chefs-d'œuvre. Son roman [Kidnapped](/kidnapped-le-chef-d-oeuvre-meconnu-de-robert-louis-stevenson/) (1886)
 raconte les aventures de David Balfour dans l'Écosse du XVIIIe siècle, mêlant histoire et
 fiction dans un récit d'apprentissage palpitant. L'auteur y déploie sa connaissance intime de
 l'histoire écossaise et sa capacité à recréer des atmosphères historiques authentiques.
