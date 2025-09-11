@@ -131,7 +131,7 @@
       }
     }
 
-    // Active les trois boutons (URLs slugifiées, noms lisibles)
+    // Active les trois boutons ESP (URLs slugifiées, noms lisibles)
     setupDownloadButton(
       'btn-a1', 'download-container-a1',
       '/protected/audio/espagnol/dialogues-esp-a1.zip',
@@ -146,6 +146,23 @@
       'btn-b1', 'download-container-b1',
       '/protected/audio/espagnol/dialogues-esp-b1.zip',
       'Dialogues ESP niveau B1.zip'
+    );
+
+    // Active les trois boutons RUSSE
+    setupDownloadButton(
+      'btn-russe-a1', 'download-container-russe-a1',
+      '/protected/audio/russe/dialogues-russe-a1.zip',
+      'Dialogues RUSSE niveau A1.zip'
+    );
+    setupDownloadButton(
+      'btn-russe-a2', 'download-container-russe-a2',
+      '/protected/audio/russe/dialogues-russe-a2.zip',
+      'Dialogues RUSSE niveau A2.zip'
+    );
+    setupDownloadButton(
+      'btn-russe-b1', 'download-container-russe-b1',
+      '/protected/audio/russe/dialogues-russe-b1.zip',
+      'Dialogues RUSSE niveau B1.zip'
     );
 
     // Protection basique (optionnel)

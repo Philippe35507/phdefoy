@@ -90,6 +90,44 @@ function imgOrPlaceholder(src?: string) {
         </div>
       </section>
 
+
+      <section class="welcome-container">
+        <div class="downloads-grid">
+          <!-- A1 -->
+          <div class="download-card level-a1">
+            <div class="card-content">
+              <h3>Russe niveau A1</h3>
+              <button id="btn-russe-a1" class="download-btn" aria-label="Télécharger les dialogues Russe A1">
+                Télécharger
+              </button>
+              <div id="download-container-russe-a1" class="download-container" aria-live="polite"></div>
+            </div>
+          </div>
+
+          <!-- A2 -->
+          <div class="download-card level-a2">
+            <div class="card-content">
+              <h3>Russe niveau A2</h3>
+              <button id="btn-russe-a2" class="download-btn" aria-label="Télécharger les dialogues Russe A2">
+                Télécharger
+              </button>
+              <div id="download-container-russe-a2" class="download-container" aria-live="polite"></div>
+            </div>
+          </div>
+
+          <!-- B1 -->
+          <div class="download-card level-b1">
+            <div class="card-content">
+              <h3>Russe niveau B1</h3>
+              <button id="btn-russe-b1" class="download-btn" aria-label="Télécharger les dialogues Russe B1">
+                Télécharger
+              </button>
+              <div id="download-container-russe-b1" class="download-container" aria-live="polite"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- ===== SECTION TEXTE (Markdown dédié à la home) ===== -->
       <section class="blog-section">
         <div class="blog-container">
@@ -188,14 +226,17 @@ function imgOrPlaceholder(src?: string) {
         /* ===== SECTION WELCOME / DOWNLOADS ===== */
         .welcome-container {
           max-width: 800px;
-          margin: 2rem auto 0;
-          padding: 3rem 2rem;
+          margin: 3rem auto 3rem;
+          padding: 0rem 2rem;
+          font-size: 15px;
           text-align: center;
           color: #f8fafc;
         }
         .welcome-container h1 {
           font-size: clamp(2rem, 5vw, 3rem);
-          color: #f8fafc; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 1rem;
+          color: #f8fafc; font-weight: 700; letter-spacing: -0.02em; 
+          margin-top: 4rem;
+          margin-bottom: 2rem;
           display: flex; flex-direction: column; align-items: center; gap: 1rem;
         }
         .icon-books { font-size: clamp(3rem, 8vw, 5rem); filter: drop-shadow(0 4px 12px rgba(79, 142, 247, 0.3)); animation: float 3s ease-in-out infinite; }
@@ -204,7 +245,7 @@ function imgOrPlaceholder(src?: string) {
 
         .downloads-grid {
           display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+          grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
           gap: 2rem;
           max-width: 900px;
           margin: 0 auto;

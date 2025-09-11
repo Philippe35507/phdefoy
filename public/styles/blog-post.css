@@ -108,3 +108,10 @@ body.blog-index a {
 body.blog-index a:hover {
   color: var(--accent-dark, var(--accent));
 }
+
+
+.container {
+	max-width: 1520px;   /* largeur maximale */
+	margin: 0 auto;      /* centre le contenu */
+	padding: 0 1rem;     /* garde une marge intérieure */
+  }
