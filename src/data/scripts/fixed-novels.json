@@ -28,403 +28,917 @@
       "author": "Kazuo Ishiguro"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
+      "title": "Crime et Châtiment",
+      "author": "Fédor Dostoïevski"
+    },
+    {
+      "title": "",
+      "author": ""
+    },
+    {
+      "title": "Alice au Pays des Merveilles",
+      "author": "Lewis Carroll"
+    },
+    {
+      "title": "",
+      "author": ""
+    },
+    {
+      "title": "Le Prince",
+      "author": "Nicolas Machiavel"
+    },
+    {
+      "title": "",
+      "author": ""
+    },
+    {
+      "title": "Madame Bovary",
+      "author": "Gustave Flaubert"
+    },
+    {
+      "title": "",
+      "author": ""
+    },
+    {
+      "title": "Les Hauts de Hurle-vent",
+      "author": "Émilie Brontë"
+    },
+    {
+      "title": "",
+      "author": ""
+    },
+    {
+      "title": "Le Comte de Monte-Cristo",
+      "author": "Alexandre Dumas"
+    },
+    {
+      "title": "",
+      "author": ""
+    },
+    {
+      "title": "L’Affaire Charles Dexter Ward",
+      "author": "Howard Phillips Lovecraft"
+    },
+    {
+      "title": "",
+      "author": ""
+    },
+    {
+      "title": "Les Fleurs du mal",
+      "author": "Charles Baudelaire"
+    },
+    {
+      "title": "",
+      "author": ""
+    }, 
+    {
+      "title": "La Guerre et la Paix",
+      "author": "Léon Tolstoï"
+    },
+    {
+      "title": "",
+      "author": ""
+    }, 
+    {
+      "title": "Contes merveilleux",
+      "author": "Hans Christian Andersen"
+    },
+    {
+      "title": "",
+      "author": ""
+    },  
+    {
+      "title": "Orgueil et Préjugés",
+      "author": "Jane Austen"
+    },
+    {
+      "title": "",
+      "author": ""
+    },  
+    {
+      "title": "Les Trois Mousquetaires",
+      "author": "Alexandre Dumas"
+    }, 
+    {
+      "title": "",
+      "author": ""
+    },  
+    {
       "title": "Books of Blood",
       "author": "Clive Barker"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Les Dépossédés",
       "author": "Ursula K. Le Guin"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Silent Patient",
       "author": "Alex Michaelides"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "American Gods",
       "author": "Neil Gaiman"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "Parable of the Sower",
       "author": "Octavia Butler"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "The Murder of Roger Ackroyd",
       "author": "Agatha Christie"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Poplar Creek Murders",
       "author": "Charles Bosworth Jr."
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "La Route",
       "author": "Cormac McCarthy"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "Interview with the Vampire",
       "author": "Anne Rice"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Annihilation",
       "author": "Jeff VanderMeer"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Memory Police",
       "author": "Yoko Ogawa"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "The Way of Kings",
       "author": "Brandon Sanderson"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Windup Girl",
       "author": "Paolo Bacigalupi"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "We Have Always Lived in the Castle",
       "author": "Shirley Jackson"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Seven Deaths of Evelyn Hardcastle",
       "author": "Stuart Turton"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Recursion",
       "author": "Blake Crouch"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Talented Mr. Ripley",
       "author": "Patricia Highsmith"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "The Fifth Season",
       "author": "N.K. Jemisin"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "La Tétralogie de l'Ammi",
       "author": "Stefan Wul"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "In the Woods",
       "author": "Tana French"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Left Hand of Darkness",
       "author": "Ursula K. Le Guin"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Le Livre de M",
       "author": "Peng Shepherd"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "Good Omens",
       "author": "Terry Pratchett & Neil Gaiman"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Mistborn",
       "author": "Brandon Sanderson"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "Station de transit",
       "author": "Clifford D. Simak"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "The Haunting of Hill House",
       "author": "Shirley Jackson"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Time Machine",
       "author": "H.G. Wells"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Les Villes invisibles",
       "author": "Italo Calvino"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Vampire Chronicles",
       "author": "Anne Rice"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "The Final Empire",
       "author": "Brandon Sanderson"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "La Parabole du semeur",
       "author": "Octavia Butler"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "The Thursday Murder Club",
       "author": "Richard Osman"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Invisible Man",
       "author": "H.G. Wells"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Borne",
       "author": "Jeff VanderMeer"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Hellbound Heart",
       "author": "Clive Barker"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "The Ocean at the End of the Lane",
       "author": "Neil Gaiman"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Power",
       "author": "Naomi Alderman"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "And Then There Were None",
       "author": "Agatha Christie"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "Dark Matter",
       "author": "Blake Crouch"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Les Thanatonautes",
       "author": "Bernard Werber"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "Strangers on a Train",
       "author": "Patricia Highsmith"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Neverwhere",
       "author": "Neil Gaiman"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "Ubik",
       "author": "Philip K. Dick"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "The Great and Secret Show",
       "author": "Clive Barker"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Name of the Wind",
       "author": "Patrick Rothfuss"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "La Planète des singes",
       "author": "Pierre Boulle"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Witching Hour",
       "author": "Anne Rice"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Coraline",
       "author": "Neil Gaiman"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "L'Homme démoli",
       "author": "Alfred Bester"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Big Little Lies",
       "author": "Liane Moriarty"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Graveyard Book",
       "author": "Neil Gaiman"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Hyperion",
       "author": "Dan Simmons"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Cuckoo's Calling",
       "author": "Robert Galbraith"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Le Problème à trois corps",
       "author": "Liu Cixin"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Seven Husbands of Evelyn Hugo",
       "author": "Taylor Jenkins Reid"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Solaris",
       "author": "Stanislas Lem"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Girl with the Dragon Tattoo",
       "author": "Stieg Larsson"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Blindsight",
       "author": "Peter Watts"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "Rebecca",
       "author": "Daphne du Maurier"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "La Main gauche de la nuit",
       "author": "Ursula K. Le Guin"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Snowman",
       "author": "Jo Nesbø"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Flowers for Algernon",
       "author": "Daniel Keyes"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Turn of the Screw",
       "author": "Henry James"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "La Machine à différences",
       "author": "William Gibson & Bruce Sterling"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Devotion of Suspect X",
       "author": "Keigo Higashino"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Le Cycle de Canopée",
       "author": "Pierre Bordage"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "Carmilla",
       "author": "Sheridan Le Fanu"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Mexican Gothic",
       "author": "Silvia Moreno-Garcia"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Maltese Falcon",
       "author": "Dashiell Hammett"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "The Handmaid's Tale",
       "author": "Margaret Atwood"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "Something Wicked This Way Comes",
       "author": "Ray Bradbury"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Never Let Me Go",
       "author": "Kazuo Ishiguro"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Big Sleep",
       "author": "Raymond Chandler"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
       "author": "Robert Louis Stevenson"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "Mystic River",
       "author": "Dennis Lehane"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "The Little Stranger",
       "author": "Sarah Waters"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "Shutter Island",
       "author": "Dennis Lehane"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "The Silence of the Lambs",
       "author": "Thomas Harris"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Poet",
       "author": "Michael Connelly"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Red Dragon",
       "author": "Thomas Harris"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Black Echo",
       "author": "Michael Connelly"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Still Life",
       "author": "Louise Penny"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "Turtles All the Way Down",
       "author": "John Green"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "A Good Girl's Guide to Murder",
       "author": "Holly Jackson"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "One of Us Is Lying",
       "author": "Karen M. McManus"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "The Exorcist",
       "author": "William Peter Blatty"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "Rosemary's Baby",
       "author": "Ira Levin"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Hell House",
       "author": "Richard Matheson"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Stepford Wives",
       "author": "Ira Levin"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "I Am Legend",
       "author": "Richard Matheson"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "Psycho",
       "author": "Robert Bloch"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "The Shrinking Man",
       "author": "Richard Matheson"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "Ghost Story",
       "author": "Peter Straub"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Swan Song",
       "author": "Robert McCammon"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Talisman",
       "author": "Stephen King & Peter Straub"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "Boy's Life",
       "author": "Robert McCammon"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "Bird Box",
       "author": "Josh Malerman"
+    },
+    {
+      "title": "",
+      "author": ""
     },
     {
       "title": "The Broken Earth",
       "author": "N.K. Jemisin"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "The Martian",
       "author": "Andy Weir"
     },
     {
+      "title": "",
+      "author": ""
+    },
+    {
       "title": "World War Z",
       "author": "Max Brooks"
+    },
+    {
+      "title": "",
+      "author": ""
+    },
+    {
+      "title": "The Luminous Dead",
+      "author": "Caitlin Starling"
+    },
+    {
+      "title": "",
+      "author": ""
+    },
+    {
+      "title": "Gone Girl",
+      "author": "Gillian Flynn"
     }
   ]
+  
+  
