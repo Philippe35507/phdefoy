@@ -2,7 +2,7 @@
 title: "One Egg a Day"
 description: "The Incredible Rehabilitation of the Egg: When Science Backtracks"
 pubDate: "Aug 17 2025"
-heroImage: "/images/egg.png"
+heroImage: "/images/oeuf/egg.png"
 heroImageLink: "https://www.amazon.com/dp/B0FMLV2Z6X"
 heroImageAlt: "Cover representing eggs"
 ---

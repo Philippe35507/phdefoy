@@ -73,11 +73,14 @@
           // filet de sécurité si event_callback ne revient pas
           const safety = setTimeout(go, 1500);
 
+          const ext = (filePath.split('.').pop() || '').toLowerCase();
+          const fileType = ext.match(/^[a-z0-9]+$/) ? ext : 'file';
+
           try {
             window.gtag('event', 'file_download', {
               file_name: fileName,
               file_path: filePath,
-              file_type: 'zip',
+              file_type: fileType,
               transport_type: 'beacon',
               event_callback: () => { clearTimeout(safety); go(); }
             });
@@ -163,6 +166,14 @@
       'btn-russe-b1', 'download-container-russe-b1',
       '/protected/audio/russe/dialogues-russe-b1.zip',
       'Dialogues RUSSE niveau B1.zip'
+    );
+
+    // Télécharger les Misérables Tome 1
+    setupDownloadButton(
+      'btn-epub-miserables-t1',
+      'download-container-epub-miserables-t1',
+      '/protected/ebooks/hugo_les_miserables_fantine.epub',
+      'Les Misérables – Tome 1.epub'
     );
 
     // Protection basique (optionnel)
