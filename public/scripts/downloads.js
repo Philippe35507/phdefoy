@@ -175,6 +175,12 @@
       '/protected/ebooks/hugo_les_miserables_fantine.epub',
       'Les Misérables – Tome 1.epub'
     );
+    setupDownloadButton(
+      'btn-pdf-miserables-t1',
+      'download-container-pdf-miserables-t1',
+      '/protected/ebooks/hugo_les_miserables_fantine.pdf',
+      'Les Misérables – Tome 1.pdf'
+    );
 
     // Protection basique (optionnel)
     document.addEventListener('keydown', function (e) {

@@ -5,20 +5,30 @@ pubDate: "Sep 13 2025"
 heroImage: "/images/ia/les-misérables-victor-hugo-épopée-de-la-rédemption-sociale/les-misérables-victor-hugo-épopée-de-la-rédemption-sociale.png"
 heroImageAlt: "Illustration du roman Les Misérables de Victor Hugo"
 ---
-
-<div class="download-card level-epub">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 5px;">
+<div class="download-card level-epub ">
   <div class="card-content">
-    <h3>📖 Epub Les Misérables – Tome 1</h3>
+    <h3>📖 EPUB Les Misérables – Tome 1</h3>
     <button id="btn-epub-miserables-t1" class="download-btn" aria-label="Télécharger Les Misérables – Tome 1 (EPUB)">
       Télécharger
     </button>
     <div id="download-container-epub-miserables-t1" class="download-container" aria-live="polite" hidden></div>
   </div>
 </div>
+<div class="download-card level-epub cards-horizontal">
+  <div class="card-content">
+    <h3>📖 PDF Les Misérables – Tome 1</h3>
+    <button id="btn-pdf-miserables-t1" class="download-btn" aria-label="Télécharger Les Misérables – Tome 1 (PDF)">
+      Télécharger
+    </button>
+    <div id="download-container-pdf-miserables-t1" class="download-container" aria-live="polite" hidden></div>
+  </div>
+</div>
+</div>
 
-Autres tomes diponibles sur le site [ebooksgratuits.com](https://www.ebooksgratuits.com/)
+Autres tomes diponibles sur le site <a href="https://www.ebooksgratuits.com/" target="_blank" rel="noopener">ebooksgratuits.com</a>
 
-Ce qui frappe d'emblée dans *Les Misérables*, c'est cette ambition démesurée qui traverse l'œuvre de Victor Hugo comme un torrent impétueux. Publié en 1862, ce roman-fleuve de plus de 1200 pages ne se contente pas de raconter l'histoire de Jean Valjean : il embrasse tout un siècle, toute une société, toute une humanité en quête de justice. L'aspect le plus saisissant reste cette capacité hugolienne à transformer un fait divers – l'histoire d'un ancien bagnard poursuivi par un policier obsessionnel – en une fresque universelle sur la misère et la rédemption.
+Ce qui frappe d'emblée dans *Les Misérables*, c'est cette ambition démesurée qui traverse l'œuvre de Victor Hugo comme un torrent impétueux. Publié en 1862, ce roman-fleuve de plus de mille deux cents pages ne se contente pas de raconter l'histoire de Jean Valjean : il embrasse tout un siècle, toute une société, toute une humanité en quête de justice. L'aspect le plus saisissant reste cette capacité hugolienne à transformer un fait divers – l'histoire d'un ancien bagnard poursuivi par un policier obsessionnel – en une fresque universelle sur la misère et la rédemption.
 
 Cette approche révèle immédiatement l'ambition titanesque de Victor Hugo : écrire le roman du peuple, celui des déshérités, des exclus, de tous ceux que la société du XIXe siècle rejette dans l'ombre. On ne peut ignorer que *Les Misérables* s'impose comme bien plus qu'une simple œuvre de fiction : c'est un manifeste social déguisé en roman d'aventures, un plaidoyer pour les opprimés habillé en épopée romantique.
 
