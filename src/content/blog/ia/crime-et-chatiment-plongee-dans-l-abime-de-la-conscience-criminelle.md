@@ -44,7 +44,7 @@ Le roman explore également les mécanismes psychologiques de la culpabilité et
 
 La misère sociale et ses conséquences morales constituent un autre axe majeur du roman. À travers le destin tragique de la famille Marmeladov ou la situation désespérée de Raskolnikov lui-même, Dostoïevski dresse un tableau impitoyable de la société russe de son époque, où la pauvreté pousse aux pires compromissions. Cette critique sociale donne au roman une dimension politique qui dépasse le simple cadre du récit criminel.
 
-## Une technique narrative révolutionnaire
+## Une technique narrative novatrice
 
 Sur le plan formel, *Crime et Châtiment* se distingue par une construction narrative novatrice qui influencera profondément la littérature moderne.
 
@@ -68,4 +68,4 @@ Plus de 150 ans après sa publication, *Crime et Châtiment* conserve une puissa
 
 La plongée vertigineuse dans la psyché tourmentée de Raskolnikov nous confronte à nos propres zones d'ombre, à ces pensées inavouables qui parfois nous traversent. C'est peut-être là que réside le génie de Dostoïevski : nous faire reconnaître en nous-mêmes les germes de cette folie raisonnante qui habite son personnage.
 
-*Crime et Châtiment* n'est pas seulement un chef-d'œuvre de la littérature russe ou un classique poussiéreux qu'on étudie par obligation. C'est une œuvre vivante qui continue de nous interroger sur notre humanité, sur nos choix moraux et sur les conséquences de nos actes. Dans ce roman magistral, le suspense ne vient pas tant de la résolution d'une énigme policière que de cette question lancinante : l'âme humaine peut-elle se relever après avoir sombré dans l'abîme?
+*Crime et Châtiment* est une œuvre vivante qui continue de nous interroger sur notre humanité, sur nos choix moraux et sur les conséquences de nos actes. Dans ce roman magistral, le suspense ne vient pas tant de la résolution d'une énigme policière que de cette question lancinante : l'âme humaine peut-elle se relever après avoir sombré dans l'abîme?
