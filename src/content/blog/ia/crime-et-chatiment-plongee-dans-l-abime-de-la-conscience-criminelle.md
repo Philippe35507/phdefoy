@@ -6,11 +6,28 @@ heroImage: "/images/ia/2025-09-14-crime-et-chatiment-plongee-dans-l-abime-de-la-
 heroImageAlt: "Illustration: Crime et Châtiment : Plongée dans l'abîme de la conscience criminelle"
 ---
 
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 5px;">
+<div class="download-card level-epub ">
+  <div class="card-content">
+    <h3>📖 EPUB Crime et Châtiment</h3>
+    <button id="btn-epub-crime-et-châtiment" class="download-btn" aria-label="Télécharger Crime et Châtiment (EPUB)">
+      Télécharger
+    </button>
+    <div id="download-container-epub-crime-et-châtiment" class="download-container" aria-live="polite" hidden></div>
+  </div>
+</div>
+<div class="download-card level-epub cards-horizontal">
+  <div class="card-content">
+    <h3>📖 PDF Crime et Châtiment</h3>
+    <button id="btn-pdf-crime-et-châtiment" class="download-btn" aria-label="Télécharger Crime et Châtiment (PDF)">
+      Télécharger
+    </button>
+    <div id="download-container-pdf-crime-et-châtiment" class="download-container" aria-live="polite" hidden></div>
+  </div>
+</div>
+</div>
+
 Dans les ruelles sombres et suffocantes du Saint-Pétersbourg du XIXe siècle se déroule l'un des plus grands drames psychologiques de la littérature mondiale. *Crime et Châtiment*, publié en 1866, reste l'œuvre la plus emblématique de Fiodor Dostoïevski, un roman qui dépasse largement le cadre du simple récit policier pour devenir une exploration vertigineuse des profondeurs de l'âme humaine. Comment un homme intelligent peut-il basculer dans le crime? Quelles sont les conséquences psychologiques d'un meurtre sur celui qui le commet? Ces questions fondamentales résonnent encore aujourd'hui avec une intensité troublante.
-
-
-<picture><source srcset="/images/ia/2025-09-14-crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-cri-c00eab-inline/2025-09-14-crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-cri-c00eab-inline.avif" type="image/avif" /><source srcset="/images/ia/2025-09-14-crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-cri-c00eab-inline/2025-09-14-crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-cri-c00eab-inline.webp" type="image/webp" /><img src="/images/ia/2025-09-14-crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-cri-c00eab-inline/2025-09-14-crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-cri-c00eab-inline.png" alt="Illustration: Crime et Châtiment : Plongée dans l'abîme de la conscience criminelle" loading="lazy" decoding="async" /></picture>
-
 
 ## Un roman né dans l'adversité
 
@@ -33,6 +50,8 @@ Ce qui fascine dans *Crime et Châtiment*, c'est la manière dont Dostoïevski p
 La narration, principalement focalisée sur Raskolnikov, est ponctuée de moments de fièvre, de délire et de cauchemars qui traduisent son état mental chaotique. Dostoïevski utilise ces passages pour brouiller les frontières entre réalité et hallucination, créant une atmosphère oppressante qui reflète l'étouffement moral du personnage.
 
 L'auteur russe se révèle ici comme un maître du suspense psychologique. Chaque interaction entre Raskolnikov et l'inspecteur Porfiri devient un duel intellectuel haletant, où les non-dits et les sous-entendus créent une tension presque insoutenable. Le lecteur se retrouve suspendu à ces joutes verbales, où chaque mot peut devenir un piège ou un aveu.
+
+<picture><source srcset="/images/ia/2025-09-14-crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-cri-c00eab-inline/2025-09-14-crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-cri-c00eab-inline.avif" type="image/avif" /><source srcset="/images/ia/2025-09-14-crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-cri-c00eab-inline/2025-09-14-crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-cri-c00eab-inline.webp" type="image/webp" /><img src="/images/ia/2025-09-14-crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-cri-c00eab-inline/2025-09-14-crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-cri-c00eab-inline.png" alt="Illustration: Crime et Châtiment : Plongée dans l'abîme de la conscience criminelle" loading="lazy" decoding="async" /></picture>
 
 ## Des thèmes universels qui transcendent le genre
 

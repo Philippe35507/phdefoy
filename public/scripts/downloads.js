@@ -182,6 +182,20 @@
       'Les Misérables – Tome 1.pdf'
     );
 
+     // Télécharger Crime et Châtiment
+     setupDownloadButton(
+      'btn-epub-crime-et-châtiment',
+      'download-container-epub-crime-et-châtiment',
+      '/protected/ebooks/dostoievski_crime_et_chatiment.epub',
+      'Crime et Châtiment.epub'
+    );
+    setupDownloadButton(
+      'btn-pdf-crime-et-châtiment',
+      'download-container-pdf-crime-et-châtiment',
+      '/protected/ebooks/dostoievski_crime_et_chatiment.pdf',
+      'Crime et Châtiment.pdf'
+    );
+    
     // Protection basique (optionnel)
     document.addEventListener('keydown', function (e) {
       if (e.key === 'F12' ||
