@@ -1,7 +1,7 @@
 
 
 :root {
-	--font-sans: "Atkinson", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+	--font-serif: "DejaVu Serif", Georgia, serif;  
 	--accent: #2337ff;
 	--accent-dark: #000d8a;
 	--black: 15, 18, 25;
@@ -13,22 +13,33 @@
 		0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%), 0 16px 32px
 		rgba(var(--gray), 33%);
 }
+
 @font-face {
-	font-family: "Atkinson";
-	src: url("/fonts/atkinson-regular.woff") format("woff");
+	font-family: "DejaVu Serif";
+	src: url("/fonts/dejavu-serif-regular.woff2") format("woff2"),
+		 url("/fonts/dejavu-serif-regular.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
-}
-@font-face {
-	font-family: "Atkinson";
-	src: url("/fonts/atkinson-bold.woff") format("woff");
+  }
+  @font-face {
+	font-family: "DejaVu Serif";
+	src: url("/fonts/dejavu-serif-bold.woff2") format("woff2"),
+		 url("/fonts/dejavu-serif-bold.woff") format("woff");
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
-}
+  }
+ 
+  /* (optionnel) variable de confort */
+  :root {
+	--font-serif-cond: "DejaVu Serif", "DejaVu Serif", Georgia, serif;
+  }
+  
+
+
 body {
-	font-family: "Atkinson", sans-serif;
+	font-family: "DejaVu Serif", Georgia, serif;
 	margin: 0;
 	padding: 0;
 	text-align: left;
@@ -37,8 +48,8 @@ body {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: rgb(var(--gray-dark));
-	font-size: 20px;
-	line-height: 1.7;
+	font-size: 22px;
+	line-height: 1.6;
 }
 main {
 	width: 1000px;  
@@ -85,7 +96,7 @@ p {
 	margin-bottom: 1em;
 }
 .prose p {
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 textarea {
 	width: 100%;
@@ -161,14 +172,28 @@ body.blog .post-content :is(h1, h2, h3, h4, h5, h6) {
   body.blog .post-content :is(h1, h2, h3, h4) a {
 	color: inherit !important;
 	text-decoration: none;
+	margin-top: 2rem;      /* espace au-dessus */
   }
 
    /* Titre spécial pour l’index du blog */
  .blog-index h1 {
-	font-size: 2rem;   /* plus petit que le h1 normal */
+	text-align: center;
+	font-size: 2.5rem;   /* plus petit que le h1 normal */
 	color: var(--accent);
 	font-weight: 800;    /* optionnel : garde un peu de présence */
-	margin-bottom: 1.5rem; /* optionnel : respiration */
+	margin-top: 1rem;      /* espace au-dessus */
+	margin-bottom: 3rem; /* optionnel : respiration */
+  }
+
+  .blog-index h1::after {
+	content: "";
+	display: block;
+	width: 120px;
+	height: 4px;
+	margin: .6rem auto 0;
+	background: linear-gradient(90deg, var(--accent), var(--accent-dark));
+	border-radius: 999px;
+	
   }
 
  /* Carte globale */
@@ -214,3 +239,37 @@ body.blog .post-content :is(h1, h2, h3, h4, h5, h6) {
 	transform: translateY(0);
 	background: #14238a;
   }
+
+  /* COULEUR DE FOND CÔTÉS article de blog */
+   body.blog {
+	background: #d0cdcd; /* couleur uniforme autour de l’article */
+  }
+
+  /* COULEUR DE FOND article de blog */
+   body.blog .post-content {
+	background-color: #e7e5e5;      /* ajuste la teinte ici */
+	border-radius: 12px;
+	padding: 2rem;
+	box-shadow: var(--box-shadow);
+  }
+ 
+  /* COULEUR DE FOND liste des blogs (côtés) */
+   body.blog-index {
+	background: #d0cdcd;
+  }
+  
+  /* COULEUR DE FOND liste des blogs */
+   body.blog-index main {
+	background-color: #e7e5e5;
+	border-radius: 12px;
+	padding: 2rem 1rem 2rem !important; 
+	box-shadow: var(--box-shadow);
+  }
+
+   
+
+  
+  
+
+  
+  

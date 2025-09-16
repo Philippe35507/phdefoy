@@ -115,3 +115,70 @@ body.blog-index a:hover {
 	margin: 0 auto;      /* centre le contenu */
 	padding: 0 1rem;     /* garde une marge intérieure */
   }
+
+/* BLOG INDEX — rapprocher du header & éviter l’effet “gonflé” */
+body.blog-index > main {
+  /* Reprend la largeur du global (comme About) */
+  width: 1000px;
+  max-width: calc(100% - 2em);
+  margin: 0 auto;
+
+  /* Moins d’air que ce que tu avais mis avant */
+  padding: 0.75rem 1rem 1.5rem; /* top | côtés | bas */
+
+  /* Si tu gardes le fond sur l’index, version plus légère */
+  background-color: #e7e5e5;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.06); /* plus discret que var(--box-shadow) */
+  box-sizing: border-box; /* le padding n’élargit pas visuellement */
+}
+
+/* Le titre peut rester centré sans impacter le reste */
+.blog-index h1 {
+  display: block;
+  width: fit-content;
+  margin: 1rem auto 1rem; /* rapproche du haut, mais pas collé */
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Réduire l’espace au-dessus de l’article (sans élargir) */
+body.blog > main {
+  box-sizing: border-box;          /* le padding n’augmente pas la largeur perçue */
+  padding: 2rem 1em 2.5rem !important; /* top | côtés | bas (remplace 3em du global) */
+}
+
+@media (max-width: 720px) {
+  body.blog > main { padding-top: 0.75rem !important; }
+  body.blog .post-content { margin-top: 0; } /* évite les surprises en petit écran */
+}
+
+/* === Article : texte justifié (FR) === */
+body.blog .post-content p {
+  text-align: justify;         /* justification */
+  -webkit-hyphens: auto;       /* césures automatiques */
+  hyphens: auto;               /* nécessite <html lang="fr"> */
+  text-wrap: pretty;           /* (progressif) améliore les retours de ligne */
+}
+
+/* Optionnel : justifier aussi les listes (si tu as des paragraphes longs dedans) */
+body.blog .post-content li { 
+  text-align: justify;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+/* Ne PAS justifier les titres/quotes/code */
+body.blog .post-content :is(h1,h2,h3,h4,h5,h6),
+body.blog .post-content blockquote,
+body.blog .post-content pre,
+body.blog .post-content code {
+  text-align: left;
+}
+
+
+@media (max-width: 680px) {
+  body.blog .post-content p,
+  body.blog .post-content li { text-align: left; }
+}
+

@@ -195,7 +195,21 @@
       '/protected/ebooks/dostoievski_crime_et_chatiment.pdf',
       'Crime et Châtiment.pdf'
     );
-    
+      // Télécharger Alice au Pays des Merveilles
+      setupDownloadButton(
+        'btn-epub-alice-au-pays-des-merveilles',
+        'download-container-epub-alice-au-pays-des-merveilles',
+        '/protected/ebooks/carroll_alice_aux_pays_des_merveilles.epub',
+        'Alice au Pays des Merveilles.epub'
+      );
+      setupDownloadButton(
+        'btn-pdf-alice-au-pays-des-merveilles',
+        'download-container-pdf-alice-au-pays-des-merveilles',
+        '/protected/ebooks/carroll_alice_aux_pays_des_merveilles.pdf',
+        'Alice au Pays des Merveilles.pdf'
+      );
+  
+
     // Protection basique (optionnel)
     document.addEventListener('keydown', function (e) {
       if (e.key === 'F12' ||
