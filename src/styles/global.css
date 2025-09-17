@@ -268,8 +268,24 @@ body.blog .post-content :is(h1, h2, h3, h4, h5, h6) {
 
    
 
+/* /blog/ : largeur conforme au layout global */
+body.blog-index > main {
+	width: 1000px !important;
+	max-width: calc(100% - 2em) !important;
   
+	/* ⇣ centrage horizontal sans toucher haut/bas */
+	margin-left: auto !important;
+	margin-right: auto !important;
   
+	/* ⇣ ajustes ces deux valeurs à l’œil */
+	margin-top: 0.75rem !important;
+	margin-bottom: 2rem !important;
+  
+	box-sizing: border-box;
+  
+	/* espace À L’INTÉRIEUR de la boîte (texte) */
+	padding: 1rem 1.25rem 2rem;
+  }
 
   
   

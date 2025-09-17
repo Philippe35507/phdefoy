@@ -6,7 +6,7 @@ heroImage: "/images/ia/2025-09-16-alice-au-pays-des-merveilles-voyage-litteraire
 heroImageAlt: "Illustration: Alice au Pays des Merveilles : voyage littéraire dans l'absurde victorien"
 ---
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 5px;">
+<div class="download-grid">
 <div class="download-card level-epub ">
   <div class="card-content">
     <h3>📖 EPUB Alice au Pays des Merveilles</h3>

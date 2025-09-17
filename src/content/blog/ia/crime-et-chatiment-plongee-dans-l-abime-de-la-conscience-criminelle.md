@@ -6,7 +6,7 @@ heroImage: "/images/ia/2025-09-14-crime-et-chatiment-plongee-dans-l-abime-de-la-
 heroImageAlt: "Illustration: Crime et Châtiment : Plongée dans l'abîme de la conscience criminelle"
 ---
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 5px;">
+<div class="download-grid">
 <div class="download-card level-epub ">
   <div class="card-content">
     <h3>📖 EPUB Crime et Châtiment</h3>
@@ -18,7 +18,7 @@ heroImageAlt: "Illustration: Crime et Châtiment : Plongée dans l'abîme de la 
 </div>
 <div class="download-card level-epub cards-horizontal">
   <div class="card-content">
-    <h3>📖 PDF Crime et Châtiment</h3>
+    <h3>📖 PDF - Crime et Châtiment</h3>
     <button id="btn-pdf-crime-et-châtiment" class="download-btn" aria-label="Télécharger Crime et Châtiment (PDF)">
       Télécharger
     </button>

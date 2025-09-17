@@ -182,3 +182,100 @@ body.blog .post-content code {
   body.blog .post-content li { text-align: left; }
 }
 
+
+
+
+/* Cartes PDF/EPUB dans l’article — mobile : centrées, sans débordement */
+body.blog .post-content .download-card {
+  /* pas de largeur forcée : se cale à son contenu sans dépasser le parent */
+  width: auto;
+  max-width: min(400px, 100%);
+  margin: 1.25rem auto;      /* centre horizontalement */
+  box-sizing: border-box;     /* padding/bord inclus → pas d’élargissement */
+}
+
+/* Contenu interne : rien ne doit pousser la boîte */
+body.blog .post-content .download-card * {
+  max-width: 100%;
+  overflow-wrap: anywhere;    /* ligne qui casse si nom de fichier trop long */
+  word-break: break-word;
+}
+
+@media (max-width: 720px) {
+  body.blog .post-content .download-card {
+    padding: 0.9rem 1rem;     /* un peu plus compact en latéral */
+    border-width: 3px;        /* bord plus fin = moins “massif” */
+  }
+  .download-btn {
+    display: inline-block;    /* évite d’étirer la carte en bloc plein largeur */
+    max-width: 100%;
+    white-space: normal;      /* le texte du bouton peut revenir à la ligne */
+    text-align: center;
+  }
+}
+
+
+
+
+body.blog .post-content .download-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 12px;
+}
+@media (max-width: 720px) {
+  body.blog .post-content .download-grid { grid-template-columns: 1fr; }
+}
+
+
+/* === MOBILE (≤ 720px) : élargir la colonne de lecture === */
+@media (max-width: 720px) {
+  /* 1) Le conteneur page (article) : un peu moins d’air sur les côtés */
+  body.blog > main {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+
+  /* 2) La box de l’article (fond gris) : réduire le padding horizontal */
+  body.blog .post-content {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+  }
+
+  /* 3) La couche .prose : enlever la contrainte de largeur & le padding interne */
+  /* (elle ajoute aujourd’hui max-width: calc(100% - 2em) + padding: 1em) */
+  body.blog .post-content .prose,
+  body.blog .post-content.prose,
+  .prose {
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+/* Bonus XS (≤ 400px) : encore un chouïa plus large si tu veux */
+@media (max-width: 400px) {
+  body.blog > main {
+    padding-left: 0.4rem !important;
+    padding-right: 0.4rem !important;
+  }
+  body.blog .post-content {
+    padding-left: 0.6rem !important;
+    padding-right: 0.6rem !important;
+  }
+}
+
+/* === Mobile (≤ 720px) : texte d'article justifié === */
+@media (max-width: 720px) {
+  body.blog .post-content p,
+  body.blog .post-content li {
+    text-align: justify;
+    -webkit-hyphens: auto; /* Safari/iOS */
+    hyphens: auto;         /* césures automatiques */
+    text-wrap: pretty;     /* retours de ligne plus doux (progressif) */
+  }
+
+  /* Reste aligné à gauche pour éviter les effets bizarres */
+  body.blog .post-content :is(h1,h2,h3,h4,h5,h6, blockquote, pre, code) {
+    text-align: left;
+  }
+}

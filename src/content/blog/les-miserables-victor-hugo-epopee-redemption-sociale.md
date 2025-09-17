@@ -5,7 +5,7 @@ pubDate: "Sep 13 2025"
 heroImage: "/images/ia/les-misérables-victor-hugo-épopée-de-la-rédemption-sociale/les-misérables-victor-hugo-épopée-de-la-rédemption-sociale.png"
 heroImageAlt: "Illustration du roman Les Misérables de Victor Hugo"
 ---
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 5px;">
+<div class="download-grid">
 <div class="download-card level-epub ">
   <div class="card-content">
     <h3>📖 EPUB Les Misérables – Tome 1</h3>
