@@ -256,14 +256,13 @@ body.blog .post-content .download-grid {
   }
 }
 
-/* Tablettes (portrait & paysage) : PAS de justification */
-@media (min-width: 600px) and (max-width: 1024px) {
+/* === TABLETTE EN PORTRAIT (600–1024px) : PAS de justification === */
+@media screen and (orientation: portrait) and (min-width: 600px) and (max-width: 1024px) {
   body.blog .post-content p,
   body.blog .post-content li {
-    text-align: left !important;     /* annule le justifié de base */
-    text-align-last: auto !important;/* évite l’étirement de dernière ligne */
-    hyphens: manual !important;      /* pas de césures fantaisistes */
+    text-align: left !important;
+    text-align-last: auto !important; /* évite l'étirement de dernière ligne */
+    hyphens: manual !important;
     -webkit-hyphens: manual !important;
   }
 }
-
