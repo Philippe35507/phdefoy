@@ -264,8 +264,8 @@ body.blog .post-content .download-grid {
   }
 }
 
-/* === Mobile (≤ 720px) : texte d'article justifié === */
-@media (max-width: 720px) {
+/* === Mobile (≤ 600px) : texte d'article justifié === */
+@media (max-width: 600px) {
   body.blog .post-content p,
   body.blog .post-content li {
     text-align: justify;
@@ -279,21 +279,3 @@ body.blog .post-content .download-grid {
     text-align: left;
   }
 }
-
-@media (min-width: 721px) and (max-width: 1024px) and (orientation: portrait) {
-  body.blog .post-content p,
-  body.blog .post-content li {
-    text-align: justify !important;
-    text-align-last: left !important; /* la dernière ligne ne s’étire pas */
-    hyphens: auto;
-    -webkit-hyphens: auto;
-    word-break: normal !important;
-    overflow-wrap: break-word !important;
-    text-wrap: normal !important; /* évite les comportements expérimentaux */
-  }
-}
-
-
-
-
-
