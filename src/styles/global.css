@@ -288,4 +288,15 @@ body.blog-index > main {
   }
 
   
-  
+  @media (min-width: 721px) and (max-width: 1024px) {
+	body.blog .post-content p,
+	body.blog .post-content li {
+	  text-align: justify !important;
+	  text-align-last: left !important; /* la dernière ligne ne s’étire pas */
+	  hyphens: auto;
+	  -webkit-hyphens: auto;
+	  word-break: normal !important;
+	  overflow-wrap: break-word !important;
+	  text-wrap: normal !important; /* évite les comportements expérimentaux */
+	}
+  }
