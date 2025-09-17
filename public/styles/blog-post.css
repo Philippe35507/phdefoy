@@ -280,22 +280,16 @@ body.blog .post-content .download-grid {
   }
 }
 
-/* TABLET & MOBILE (≤ 1024px) — neutraliser les <br> parasites dans les paragraphes */
-@media (max-width: 1024px) {
-  body.blog .post-content p {
-    white-space: normal !important;   /* ignore d’éventuels retours "soft" */
-  }
-  body.blog .post-content p br {
-    display: none;                    /* cache les <br> au milieu des phrases */
-  }
-  /* Variante plus douce : ne supprimer que les doublons
-     body.blog .post-content p br + br { display: none; } */
-}
-
-/* REVERT: remettre l’espace normal avant les titres si j’avais réduit trop */
 @media (min-width: 721px) and (max-width: 1024px) {
-  body.blog .post-content :is(p, ul, ol, blockquote) + :is(h2, h3, h4) {
-    margin-top: 2rem; /* valeur “standard” comme sur desktop */
+  body.blog .post-content p,
+  body.blog .post-content li {
+    text-align: justify !important;
+    text-align-last: left !important; /* la dernière ligne ne s’étire pas */
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+    text-wrap: normal !important; /* évite les comportements expérimentaux */
   }
 }
 
