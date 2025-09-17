@@ -316,10 +316,9 @@ body.blog .post-content .download-grid {
   /* 3) Choix du calage : gauche = plus stable en tablette */
   body.blog .post-content p,
   body.blog .post-content li {
-    text-align: justify !important;
-    text-align-last: left !important;  /* dernière ligne non étirée */
-    hyphens: auto !important;
-    -webkit-hyphens: auto !important;
+    text-align: left !important;
+    text-align-last: auto !important;
+    hyphens: manual !important;     /* évite les césures fantaisistes */
   }
 }
 
