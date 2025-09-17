@@ -280,9 +280,32 @@ body.blog .post-content .download-grid {
   }
 }
 
-/* Si des <br> s’invitent dans les phrases, on les neutralise en mobile */
+/* Réduit l'espace uniquement quand un titre suit du texte */
+body.blog .post-content :is(p, ul, ol, blockquote) + :is(h2, h3, h4) {
+  margin-top: 1.1rem; /* au lieu de 2rem dans ce cas précis */
+}
+
+/* Mobile : encore un peu plus serré pour éviter l'effet "trou" */
 @media (max-width: 720px) {
-  body.blog .post-content p br {
-    display: none;                 /* un <br> = aucun saut en mobile */
+  body.blog .post-content :is(p, ul, ol, blockquote) + :is(h2, h3, h4) {
+    margin-top: 0.85rem;
   }
+
+  /* Justification propre (déjà en place, je re-cap) */
+  body.blog .post-content p,
+  body.blog .post-content li {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    text-justify: inter-word;
+    text-wrap: pretty;
+  }
+
+  /* S'il reste des <br> "rogues" dans un paragraphe, on les neutralise en mobile */
+  body.blog .post-content p br { display: none; }
+}
+
+/* Option : un poil moins d'espace entre paragraphes en mobile */
+@media (max-width: 720px) {
+  .prose p { margin-bottom: 1em; } /* si tu étais à 1.2em */
 }
