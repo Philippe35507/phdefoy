@@ -177,14 +177,6 @@ body.blog .post-content code {
 }
 
 
-@media (max-width: 680px) {
-  body.blog .post-content p,
-  body.blog .post-content li { text-align: left; }
-}
-
-
-
-
 /* Cartes PDF/EPUB dans l’article — mobile : centrées, sans débordement */
 body.blog .post-content .download-card {
   /* pas de largeur forcée : se cale à son contenu sans dépasser le parent */
@@ -264,18 +256,14 @@ body.blog .post-content .download-grid {
   }
 }
 
-/* === Mobile (≤ 600px) : texte d'article justifié === */
-@media (max-width: 600px) {
+/* Tablettes (portrait & paysage) : PAS de justification */
+@media (min-width: 600px) and (max-width: 1024px) {
   body.blog .post-content p,
   body.blog .post-content li {
-    text-align: justify;
-    -webkit-hyphens: auto; /* Safari/iOS */
-    hyphens: auto;         /* césures automatiques */
-    text-wrap: pretty;     /* retours de ligne plus doux (progressif) */
-  }
-
-  /* Reste aligné à gauche pour éviter les effets bizarres */
-  body.blog .post-content :is(h1,h2,h3,h4,h5,h6, blockquote, pre, code) {
-    text-align: left;
+    text-align: left !important;     /* annule le justifié de base */
+    text-align-last: auto !important;/* évite l’étirement de dernière ligne */
+    hyphens: manual !important;      /* pas de césures fantaisistes */
+    -webkit-hyphens: manual !important;
   }
 }
+
