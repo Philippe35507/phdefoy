@@ -279,3 +279,10 @@ body.blog .post-content .download-grid {
     text-align: left;
   }
 }
+
+/* Si des <br> s’invitent dans les phrases, on les neutralise en mobile */
+@media (max-width: 720px) {
+  body.blog .post-content p br {
+    display: none;                 /* un <br> = aucun saut en mobile */
+  }
+}
