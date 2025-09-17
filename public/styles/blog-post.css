@@ -153,19 +153,15 @@ body.blog > main {
   body.blog .post-content { margin-top: 0; } /* évite les surprises en petit écran */
 }
 
-/* === Article : texte justifié (FR) === */
-body.blog .post-content p {
-  text-align: justify;         /* justification */
-  -webkit-hyphens: auto;       /* césures automatiques */
-  hyphens: auto;               /* nécessite <html lang="fr"> */
-  text-wrap: pretty;           /* (progressif) améliore les retours de ligne */
-}
-
-/* Optionnel : justifier aussi les listes (si tu as des paragraphes longs dedans) */
-body.blog .post-content li { 
+/* Article : texte justifié robuste (tous appareils) */
+body.blog .post-content p,
+body.blog .post-content li {
   text-align: justify;
-  -webkit-hyphens: auto;
+  text-align-last: left;      /* évite l’étirement de la dernière ligne */
   hyphens: auto;
+  -webkit-hyphens: auto;
+  overflow-wrap: break-word;  /* casse proprement les mots trop longs */
+  word-break: normal;
 }
 
 /* Ne PAS justifier les titres/quotes/code */
@@ -175,7 +171,6 @@ body.blog .post-content pre,
 body.blog .post-content code {
   text-align: left;
 }
-
 
 /* Cartes PDF/EPUB dans l’article — mobile : centrées, sans débordement */
 body.blog .post-content .download-card {
@@ -256,13 +251,4 @@ body.blog .post-content .download-grid {
   }
 }
 
-/* === TABLETTE EN PORTRAIT (600–1024px) : PAS de justification === */
-@media screen and (orientation: portrait) and (min-width: 600px) and (max-width: 1024px) {
-  body.blog .post-content p,
-  body.blog .post-content li {
-    text-align: left !important;
-    text-align-last: auto !important; /* évite l'étirement de dernière ligne */
-    hyphens: manual !important;
-    -webkit-hyphens: manual !important;
-  }
-}
+

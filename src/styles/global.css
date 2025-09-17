@@ -288,3 +288,20 @@ body.blog-index > main {
   }
 
   
+  /* Homepage : texte justifié, version pour Chrome et Opera (sans text-wrap: pretty) */
+body.home p,
+body.home li {
+  text-align: justify;
+  text-align-last: left;      /* évite l’étirement de la dernière ligne */
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  overflow-wrap: break-word;  /* casse proprement les mots trop longs */
+  word-break: normal;
+}
+
+/* Ne pas justifier ces éléments */
+body.home :is(h1,h2,h3,h4,h5,h6, blockquote, pre, code) {
+  text-align: left;
+}
+
+
