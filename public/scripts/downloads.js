@@ -208,7 +208,20 @@
         '/protected/ebooks/carroll_alice_aux_pays_des_merveilles.pdf',
         'Alice au Pays des Merveilles.pdf'
       );
-  
+      // Télécharger Le Prince de Machiavel
+      setupDownloadButton(
+        'btn-epub-machiavel_le_prince',
+        'download-container-epub-machiavel_le_prince',
+        '/protected/ebooks/machiavel_le_prince.epub',
+        'Le Prince de Machiavel.epub'
+      );
+      setupDownloadButton(
+        'btn-pdf-machiavel_le_prince',
+        'download-container-pdf-machiavel_le_prince',
+        '/protected/ebooks/machiavel_le_prince.pdf',
+        'Le Prince de Machiavel.pdf'
+      );
+
 
     // Protection basique (optionnel)
     document.addEventListener('keydown', function (e) {
