@@ -23,8 +23,8 @@ interface MarkdownModule {
   Content: any;
   frontmatter?: any;
 }
-const mdModules = import.meta.glob<MarkdownModule>('../content/blog/5-raisons-pour-apprendre-espagnol.md');
-const mdModule = await mdModules['../content/blog/5-raisons-pour-apprendre-espagnol.md']();
+const mdModules = import.meta.glob<MarkdownModule>('../content/blog/apprendre-espagnol-et-russe-methodes-efficaces-pour-francophones.md');
+const mdModule = await mdModules['../content/blog/apprendre-espagnol-et-russe-methodes-efficaces-pour-francophones.md']();
 const { Content } = mdModule;
 
 // 4) Petite util pour fallback d’image
@@ -46,7 +46,7 @@ function imgOrPlaceholder(src?: string) {
     <main>
       <!-- ===== SECTION WELCOME / DOWNLOADS ===== -->
       <section class="welcome-container">
-        <h1>Bienvenue</h1>
+        <h1>Bienvenue - Cours et ressources pour apprendre l’espagnol et le russe</h1>
         <h2>
           <span class="icon-books" aria-hidden="true">📚</span>
           Choisissez vos audios à télécharger
