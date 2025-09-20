@@ -14,7 +14,7 @@ Par contre, dans les manuels  d’apprentissage, tous les mots (sauf les monosyl
 
 Ainsi, quand la lettre **О** est accentuée, elle se prononce [o], mais quand elle n’a pas l’accent, elle se prononce [a]. On dit alors que la voyelle est "réduite" : elle devient plus faible ou change de son. C’est ce qu’on appelle la *réduction vocalique.*
 
-Exemples : dans le mot **а́том**, l’accent tonique est sur la lettre **-a**, la lettre **-o** sera donc prononcée presque comme le son [a] et plus faiblement. Dans le mot **ко́ма** *(coma)*, l’accent est sur la voyelle **-o**. Cette lettre se prononcera donc normalement [o].
+Exemples : dans le mot **а́том**, l’accent tonique est sur la lettre **-a**, la lettre **-o** sera donc prononcée presque comme le son [a] et plus faiblement.
 
 Si un mot n’a qu’une seule syllabe (ex. **том**, **кот**), la voyelle est toujours accentuée. Dans ce cas, **О** se prononcera toujours [o].
 
@@ -43,9 +43,10 @@ Si un mot n’a qu’une seule syllabe (ex. **том**, **кот**), la voyelle 
 
 📌 **À RETENIR**
 
-- О se prononce [o] uniquement quand elle est accentuée, sinon [a].
+- О se prononce [o] uniquement quand elle est accentuée, sinon plus faiblement et un peu comme le son [a].
 - L’accent tonique (´) change totalement la prononciation.
 - Si un mot n’a qu’une seule syllabe, la voyelle porte forcément l’accent tonique.
+  
 ## LEÇON 2 : LES LETTRES С, Н, Е
 📋 **PRONONCIATION**
 
@@ -90,13 +91,14 @@ Rappel : en russe, les voyelles se prononcent différemment selon qu’elles po
 
 La voyelle **О** se prononce clairement [o] lorsqu’elle est accentuée, mais quand elle n’est pas accentuée, elle « se réduit » et se prononce presque [a]. Par exemple, pour сосна́ (pin) et коме́та (comète), le о non accentué se prononce [a].
 
-La lettre E suit le même schéma : non accentuée, elle se pronoce plus faiblement et presque comme le son [i]. Exemples : сена́т (sénat), стена́ (mur).
+La lettre E suit le même schéma : non accentuée, elle se pronoce plus faiblement et un peu comme le son [i]. Exemples : сена́т (sénat), стена́ (mur).
 
 📌 **À RETENIR**
 
 - С = [s], jamais de son [k].
 - Н = [n], identique au français.
 - Е = [e] si accenté ou pour les mots en une seule syllabe (Exemple : нет) mais se prononce presque [i] si non accentué.
+
 ## LEÇON 3 : LES LETTRES Р, У, Х
 📋 **PRONONCIATION**
 
@@ -138,13 +140,15 @@ La lettre E suit le même schéma : non accentuée, elle se pronoce plus faible
 мона́х = moine\
 хор = chœur
 
-Nous voyons encore l’importance de l’accent tonique. Exemples : охо́та (chasse), роса́ (rosée), мото́р (moteur), l’accent tombe sur la deuxième syllabe. Le О non accentué devient [a], et donc on prononce [akhóta], [rasá], [matо́r].
+Nous voyons encore l’importance de l’accent tonique. 
+Exemples : охо́та (chasse), роса́ (rosée), мото́р (moteur), l’accent tombe sur la deuxième syllabe. Le О non accentué tend à se prononcer [a], et donc on prononce [akhóta], [rasá], [matо́r].
 
 📌 **À RETENIR**
 
 - Р se prononce roulé (comme en espagnol ou italien).
 - У = [ou] 
 - Х = son guttural, proche du *j* espagnol (*José*) ou du *ch* allemand (*Bach*).
+  
 ## LEÇON 4 : LES LETTRES И, Л, В
 📋 **PRONONCIATION**
 
@@ -191,6 +195,7 @@ Nous voyons encore l’importance de l’accent tonique. Exemples : охо́та
 - И = [i] clair, jamais comme « in » français.
 - Л est semblable au « L » français.
 - В = [v] sonore, proche du « v » français.
+  
 ## LEÇON 5 : LES LETTRES Д, Б, Г
 📋 **PRONONCIATION**
 
@@ -233,12 +238,13 @@ Nous voyons encore l’importance de l’accent tonique. Exemples : охо́та
 
 Cependant, à la fin d'un mot ou devant une consonne sourde, ces consonnes sonores se dévoisent et se prononcent comme leurs équivalents sourds : **д** devient [t], **б** devient [p], et **г** devient [k].
 
-Exemples : Le mot хлеб (pain), qui se termine par **-б**, est prononcé [xlep]. Le mot год (année), qui se termine par **-д**, est prononcé [got].
+Exemples : Le mot хлеб (pain), qui se termine par **-б**, est prononcé [xlep]. Le mot год (année), qui se termine par **-д**, est prononcé [гот].
 
 📌 **À RETENIR**
 
 - Д, Б, Г sont des consonnes sonores.
 - Dévoisement (perte de la sonorité) de ces lettres dans certaines positions.
+  
 ## LEÇON 6 : LES LETTRES З, П, Ф
 📋 **PRONONCIATION**
 
@@ -263,7 +269,7 @@ En position finale ou devant une consonne sourde, la lettre **з** peut parfoi
 по́ле = champ\
 парк = parc\
 план = plan\
-пото́м = ensuite
+пото́м = ensuite\
 по́сле = après\
 пра́вда = vérité
 
@@ -272,7 +278,7 @@ En position finale ou devant une consonne sourde, la lettre **з** peut parfoi
 фи́рма = entreprise\
 фо́рма = forme\
 флаг = drapeau\
-фрукт = fruit
+фрукт = fruit\
 футбóл = football, match de football
 
 📌 **À RETENIR**
@@ -281,6 +287,7 @@ En position finale ou devant une consonne sourde, la lettre **з** peut parfoi
 - П = [p] clair, jamais aspiré comme en anglais
 - Ф = [f] identique au français
 - Ces lettres ouvrent beaucoup de mots transparents (internationaux)
+
 ## LEÇON 7 : LES LETTRES Ж, Ш, Ч
 📋 **PRONONCIATION**
 
@@ -293,26 +300,26 @@ En position finale ou devant une consonne sourde, la lettre **з** peut parfoi
 📚 **EXEMPLES AVEC Ж**
 
 муж = mari\
-жена́ = épouse
+жена́ = épouse\
 нож = couteau\
-пирожо́к = petit pâté typique
-дру́жба =amitié
+пирожо́к = petit pâté typique\
+дру́жба =amitié\
 оде́жда = vêtement
 
 📚 **EXEMPLES AVEC Ш**\
-шко́ла = école
-де́душка = grand-père
+шко́ла = école\
+де́душка = grand-père\
 ба́бушка = grand-mère\
 хорошо́ = bien\
-ваш = votre
+ваш = votre\
 каранда́ш = crayon
 
 📚 **EXEMPLES AVEC Ч**\
 час = heure\
 число́ = nombre\
 ча́сто = souvent\
-чу́до = miracle
-вpaч = docteur
+чу́до = miracle\
+вpaч = docteur\
 по́чта = service postal, courrier
 
 📌 **À RETENIR**
@@ -320,6 +327,7 @@ En position finale ou devant une consonne sourde, la lettre **з** peut parfoi
 - Ж = [ʒ], sonore comme le J de *Jour*
 - Ш = [ʃ], dur comme [*ch]* français
 - Ч = [t͡ʃ], bref comme [*tch]* français
+
 ## LEÇON 8 : LES LETTRES Ц, Ы, Й
 📋 **PRONONCIATION**
 
@@ -331,8 +339,8 @@ En position finale ou devant une consonne sourde, la lettre **з** peut parfoi
 
 📚 **EXEMPLES AVEC Ц**\
 цирк = cirque\
-со́лнце = soleil
-ко́нцерт = concert
+со́лнце = soleil\
+ко́нцерт = concert\
 У́лицa = rue
 
 📚 **EXEMPLES AVEC Ы**\
@@ -343,12 +351,12 @@ En position finale ou devant une consonne sourde, la lettre **з** peut parfoi
 
 📚 **EXEMPLES AVEC Й**\
 чай = thé\
-май = ma
-музе́й* = musée
+май = ma\
+музе́й* = musée\
 но́вый* = nouveau\
 ру́сский = russe\
-геро́й = héros
-ка́ждый = chaque
+геро́й = héros\
+ка́ждый = chaque\
 пожа́луйста = s’il vous plaît
 
 📌 **À RETENIR**
@@ -356,6 +364,7 @@ En position finale ou devant une consonne sourde, la lettre **з** peut parfoi
 - Ц = [ts], toujours net, même en fin de mot
 - Ы = son unique, ni *i* ni *u*, à bien distinguer
 - Й = son court semblable à y en français
+  
 ## LEÇON 9 : LES LETTRES Щ, Ь, Э
 📋 **PRONONCIATION**
 
@@ -373,8 +382,8 @@ En position finale ou devant une consonne sourde, la lettre **з** peut parfoi
 📚 **EXEMPLES AVEC Ь (Signe mou)**
 
 день = jour
-учи́тель = professeur 
-пи́сьмо = lettre 
+учи́тель = professeur\
+пи́сьмо = lettre\
 быть = être \
 здесь = ici\
 дочь = fille\
@@ -385,7 +394,7 @@ En position finale ou devant une consonne sourde, la lettre **з** peut parfoi
 📚 **EXEMPLES AVEC Э**\
 э́то = ceci\
 поэ́т = poète\
-экра́н = écran
+экра́н = écran\
 Эта́ж : étage
 
 📌 **À RETENIR**
@@ -394,6 +403,7 @@ En position finale ou devant une consonne sourde, la lettre **з** peut parfoi
 - Ь (signe mou) ne s’entend pas, mais change la prononciation de la consonne qui le précède. Le signe mou sert aussi dans beaucoup de chiffres.
 - Э = voyelle claire [è], différente de Е
 - Э́то = « ceci, c’est »
+  
 ## LEÇON 10 : LES LETTRES Ю, Я, Ё
 📋 **PRONONCIATION**
 
@@ -406,7 +416,7 @@ En position finale ou devant une consonne sourde, la lettre **з** peut parfoi
 📚 **EXEMPLES AVEC** **Ю**\
 лю́ди = les gens\
 любо́вь = amour\
-плюс = plus
+плюс = plus\
 компью́тер = ordinateur\
 я рабо́таю: je travaille
 
@@ -414,9 +424,9 @@ En position finale ou devant une consonne sourde, la lettre **з** peut parfoi
 я = je\
 моя́ = ma\
 Росси́я = Russie\
-язы́к : langue
+язы́к : langue\
 семья́ = famille\
-ку́хня = cuisine
+ку́хня = cuisine\
 неделя́ = semaine\
 земля́ = terre\
 вре́мя = temps\
@@ -428,6 +438,7 @@ En position finale ou devant une consonne sourde, la lettre **з** peut parfoi
 мёд = miel\
 ещё = encore\
 ёж = hérisson
+
 ## LEÇON 11 : LE SIGNE DUR Ъ et L’ALPHABET COMPLET
 🎯 **LE SIGNE DUR**
 
@@ -487,6 +498,6 @@ Voici la liste des consonnes concernées et leur correspondance sourde :
 - La consonne **ж** (comme dans *Journal*) est sonore. Sa consonne sourde est **ш** (comme dans *chaussure*).
 - La consonne **з** (comme dans *Zèbre*) est sonore. Sa consonne sourde est **с** (comme dans *soleil*).
 
-En fin de mot, ces consonnes sonores se prononcent comme leur équivalent sourd. Par exemple, газ se prononce [gas], друг se prononce [druk]. 
+En fin de mot, ces consonnes sonores se prononcent comme leur équivalent sourd. Par exemple, газ se prononce [гас], друг se prononce [друк]. 
 
 Cette règle s'applique également à l'intérieur du mot : une consonne sonore s'assourdit devant une consonne sourde. 
