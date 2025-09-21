@@ -16,26 +16,25 @@
 		rgba(var(--gray), 33%);
 }
 
-/* DejaVu Serif (self-host) */
+
 @font-face {
-	font-family: "DejaVu Serif";
-	src: url("/fonts/dejavu-serif-regular.woff2") format("woff2"),
-	     url("/fonts/dejavu-serif-regular.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
+    font-family: "DejaVu Serif";
+    src: url("/fonts/dejavu-serif-regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
+
 @font-face {
-	font-family: "DejaVu Serif";
-	src: url("/fonts/dejavu-serif-bold.woff2") format("woff2"),
-	     url("/fonts/dejavu-serif-bold.woff") format("woff");
-	font-weight: 700;
-	font-style: normal;
-	font-display: swap;
+    font-family: "DejaVu Serif";  
+    src: url("/fonts/dejavu-serif-bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
  
 body {
-	font-family: "DejaVu Serif", Georgia, serif;
+	font-family: "DejaVu Serif", Georgia, serif !important;
 	margin: 0;
 	padding: 0;
 	text-align: left;

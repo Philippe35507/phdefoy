@@ -6,6 +6,9 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   site: 'https://phdefoy.com',
   trailingSlash: 'always',
+  vite: {
+    assetsInclude: ['**/*.woff2', '**/*.woff']
+  },
   integrations: [mdx(), sitemap()],
   build: {
     inlineStylesheets: 'always' // inline tout le CSS => plus de <link rel="stylesheet"> bloquants
