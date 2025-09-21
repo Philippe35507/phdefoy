@@ -1,7 +1,7 @@
 
 
 :root {
-	--font-serif: "DejaVu Serif", Georgia, serif;  
+	--font-serif: Arial, serif;  
 	--font-body: var(--font-serif);
 	--font-title: var(--font-serif);
 	--accent: #2337ff;
@@ -16,25 +16,8 @@
 		rgba(var(--gray), 33%);
 }
 
-
-@font-face {
-    font-family: "DejaVu Serif";
-    src: url("/fonts/dejavu-serif-regular.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "DejaVu Serif";  
-    src: url("/fonts/dejavu-serif-bold.woff2") format("woff2");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
- 
 body {
-	font-family: "DejaVu Serif", Georgia, serif !important;
+	font-family: Arial, sans-serif ;
 	margin: 0;
 	padding: 0;
 	text-align: left;
