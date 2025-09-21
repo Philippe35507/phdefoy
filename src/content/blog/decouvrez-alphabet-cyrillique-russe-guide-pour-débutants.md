@@ -29,7 +29,6 @@ Si un mot n’a qu’une seule syllabe (ex. **том**, **кот**), la voyelle 
 |О o|<p>[o]</p><p>[a] non accentué</p>|<p>ко́ма    </p><p>а́том</p>|<p>coma </p><p>atome</p>|
 
 📚 **EXEMPLES**
-
 ма́ма = maman\
 кот = chat
 кака́о = cacao\
@@ -42,7 +41,6 @@ Si un mot n’a qu’une seule syllabe (ex. **том**, **кот**), la voyelle 
 кто = qui
 
 📌 **À RETENIR**
-
 - О se prononce [o] uniquement quand elle est accentuée, sinon plus faiblement et un peu comme le son [a].
 - L’accent tonique (´) change totalement la prononciation.
 - Si un mot n’a qu’une seule syllabe, la voyelle porte forcément l’accent tonique.
@@ -94,7 +92,6 @@ La voyelle **О** se prononce clairement [o] lorsqu’elle est accentuée, mai
 La lettre E suit le même schéma : non accentuée, elle se pronoce plus faiblement et un peu comme le son [i]. Exemples : сена́т (sénat), стена́ (mur).
 
 📌 **À RETENIR**
-
 - С = [s], jamais de son [k].
 - Н = [n], identique au français.
 - Е = [e] si accenté ou pour les mots en une seule syllabe (Exemple : нет) mais se prononce presque [i] si non accentué.
@@ -109,9 +106,7 @@ La lettre E suit le même schéma : non accentuée, elle se pronoce plus faible
 |Х x|[kh] guttural|/|
 
 **Р** = [r] roulé. C’est un son qui n’existe pas en français, mais qu’on retrouve en espagnol ou en italien. On fait vibrer la langue contre le palais.
-
 **У** = [ou]. C’est un son clair et ouvert, comme dans « loup ».
-
 **Х** = [kh]. C’est un son guttural qui n’existe pas en français. Il ressemble au « j » espagnol de *José* ou au « ch » allemand de *Bach*.
 
 📚 **EXEMPLES AVEC Р**\
@@ -144,7 +139,6 @@ Nous voyons encore l’importance de l’accent tonique.
 Exemples : охо́та (chasse), роса́ (rosée), мото́р (moteur), l’accent tombe sur la deuxième syllabe. Le О non accentué tend à se prononcer [a], et donc on prononce [akhóta], [rasá], [matо́r].
 
 📌 **À RETENIR**
-
 - Р se prononce roulé (comme en espagnol ou italien).
 - У = [ou] 
 - Х = son guttural, proche du *j* espagnol (*José*) ou du *ch* allemand (*Bach*).
@@ -191,7 +185,6 @@ Exemples : охо́та (chasse), роса́ (rosée), мото́р (moteur), l�
 сове́т = conseil
 
 📌 **À RETENIR**
-
 - И = [i] clair, jamais comme « in » français.
 - Л est semblable au « L » français.
 - В = [v] sonore, proche du « v » français.
@@ -225,7 +218,6 @@ Exemples : охо́та (chasse), роса́ (rosée), мото́р (moteur), l�
 обе́д = déjeuner
 
 📚 **EXEMPLES AVEC** **Г**
-
 где = où\
 го́род = ville\
 гора́ = montagne\
@@ -241,7 +233,6 @@ Cependant, à la fin d'un mot ou devant une consonne sourde, ces consonnes sonor
 Exemples : Le mot хлеб (pain), qui se termine par **-б**, est prononcé [xlep]. Le mot год (année), qui se termine par **-д**, est prononcé [гот].
 
 📌 **À RETENIR**
-
 - Д, Б, Г sont des consonnes sonores.
 - Dévoisement (perte de la sonorité) de ces lettres dans certaines positions.
   
@@ -282,7 +273,6 @@ En position finale ou devant une consonne sourde, la lettre **з** peut parfoi
 футбóл = football, match de football
 
 📌 **À RETENIR**
-
 - З = [z], toujours sonore, sauf à la fin d’un mot ou devant une consonne sourde où elle devient [s]
 - П = [p] clair, jamais aspiré comme en anglais
 - Ф = [f] identique au français
@@ -298,7 +288,6 @@ En position finale ou devant une consonne sourde, la lettre **з** peut parfoi
 |Ч ч|[t͡ʃ]|Lettres TCH de « Tchèque »|
 
 📚 **EXEMPLES AVEC Ж**
-
 муж = mari\
 жена́ = épouse\
 нож = couteau\
@@ -323,7 +312,6 @@ En position finale ou devant une consonne sourde, la lettre **з** peut parfoi
 по́чта = service postal, courrier
 
 📌 **À RETENIR**
-
 - Ж = [ʒ], sonore comme le J de *Jour*
 - Ш = [ʃ], dur comme [*ch]* français
 - Ч = [t͡ʃ], bref comme [*tch]* français
@@ -360,7 +348,6 @@ En position finale ou devant une consonne sourde, la lettre **з** peut parfoi
 пожа́луйста = s’il vous plaît
 
 📌 **À RETENIR**
-
 - Ц = [ts], toujours net, même en fin de mot
 - Ы = son unique, ni *i* ni *u*, à bien distinguer
 - Й = son court semblable à y en français
@@ -375,12 +362,10 @@ En position finale ou devant une consonne sourde, la lettre **з** peut parfoi
 |Э э|[è]|Lettre è de « père »|
 
 📚 **EXEMPLES AVEC Щ**
-
 щу́ка = brochet\
 щётка = brosse
 
 📚 **EXEMPLES AVEC Ь (Signe mou)**
-
 день = jour
 учи́тель = professeur\
 пи́сьмо = lettre\
@@ -398,7 +383,6 @@ En position finale ou devant une consonne sourde, la lettre **з** peut parfoi
 Эта́ж : étage
 
 📌 **À RETENIR**
-
 - Щ = son unique russe, plus doux que Ш
 - Ь (signe mou) ne s’entend pas, mais change la prononciation de la consonne qui le précède. Le signe mou sert aussi dans beaucoup de chiffres.
 - Э = voyelle claire [è], différente de Е
@@ -447,13 +431,11 @@ En position finale ou devant une consonne sourde, la lettre **з** peut parfoi
 Le signe dur est ainsi utilisé pour forcer les voyelles **е, ё, ю, я** à conserver leur son initial [y], leur son "complet".
 
 📚 **EXEMPLES AVEC Ъ**
-
 объе́кт = objet\
 съезд = congrès\
 подъе́зд = entrée d’immeuble
 
 📌 **À RETENIR**
-
 - Ъ ne se prononce jamais
 - Sert à séparer deux sons pour plus de clarté
 - Toujours devant Е, Ё, Ю, Я
@@ -467,7 +449,6 @@ Alphabet russe complet (33 lettres) : А Б В Г Д Е Ё Ж З И Й К Л М 
 \- Consonnes (21) : Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ
 
 \- Signes particuliers (2) :
-
 - Ъ (signe dur)
 - Ь (signe mou)
 
