@@ -229,7 +229,6 @@ Titre de l'article:
 1. Rédige un titre d'article de blog sur [ŒUVRE + AUTEUR] en évitant absolument les constructions suivantes :
 - 'Quand/Lorsque + [concept] + verbe'  
 - 'Comment + [œuvre] + interroge/révèle/explore'
-- Les deux points suivis d'une subordonnée temporelle
 2. Privilégie plutôt ces structures variées :
 - Questions directes ('Pourquoi...?', 'Comment...?','Que nous révèle...?')
 - Formules d'analyse  ('Décryptage de...', 'Analyse de...', 'Plongée dans...','L'art de...')

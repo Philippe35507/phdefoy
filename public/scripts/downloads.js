@@ -222,6 +222,19 @@
         'Le Prince de Machiavel.pdf'
       );
 
+      // Télécharger Le Prince de Machiavel
+      setupDownloadButton(
+        'btn-epub-flaubert_madame_bovary',
+        'download-container-epub-flaubert_madame_bovary',
+        '/protected/ebooks/flaubert_madame_bovary.epub',
+        'Madame Bovary de Gustave Flaubert.epub'
+      );
+      setupDownloadButton(
+        'btn-pdf-flaubert_madame_bovary',
+        'download-container-pdf-flaubert_madame_bovary',
+        '/protected/ebooks/flaubert_madame_bovary.pdf',
+        'Madame Bovary de Gustave Flaubert.pdf'
+      );
 
     // Protection basique (optionnel)
     document.addEventListener('keydown', function (e) {
