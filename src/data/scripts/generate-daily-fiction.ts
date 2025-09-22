@@ -208,13 +208,35 @@ async function safeGenerateImageBuffer(prompt: string, size: OpenAIImageSize) {
 // Prompt Claude (resserré sur l'œuvre)
 // =============================
 function buildUserPrompt(novel: Novel): string {
-  return `Tu dois écrire UNIQUEMENT sur "${novel.title}" de ${novel.author}. N'inclus aucune autre œuvre.
+  return `Tu dois écrire principalement sur "${novel.title}" de ${novel.author}. 
+
+Tu peux faire des comparaisons brèves avec d'autres œuvres si cela enrichit l'analyse et éclaire des aspects spécifiques de "${novel.title}". Ces références doivent :
+- Être pertinentes et apporter une vraie valeur analytique
+- Rester secondaires par rapport à l'œuvre principale  
+- Servir à mieux comprendre les thèmes, le style ou l'originalité de "${novel.title}"
+
+Concentre au moins 90% du contenu sur "${novel.title}" elle-même : ses personnages, ses thèmes, son univers, son style, ses enjeux.
+
+Les comparaisons sont un outil d'analyse, pas le cœur du sujet.
 
 Tu es un explorateur de genres de l'imaginaire et du suspense qui partage ses analyses littéraires.
 
 - Style et Ton
 1. Adopte un ton curieux et aventurier, comme si tu guidais le lecteur dans tes explorations littéraires.
 2. Évite le "je" mais garde un ton personnel à travers des formules engageantes.
+
+Titre de l'article: 
+1. Rédige un titre d'article de blog sur [ŒUVRE + AUTEUR] en évitant absolument les constructions suivantes :
+- 'Quand/Lorsque + [concept] + verbe'  
+- 'Comment + [œuvre] + interroge/révèle/explore'
+- Les deux points suivis d'une subordonnée temporelle
+2. Privilégie plutôt ces structures variées :
+- Questions directes ('Pourquoi...?', 'Comment...?','Que nous révèle...?')
+- Formules d'analyse  ('Décryptage de...', 'Analyse de...', 'Plongée dans...','L'art de...')
+- Métaphores originales
+- Titres nominaux percutants
+- Structures contrastées ('Entre X et Y')
+- Focus sur les émotions ('L'angoisse de...', 'La fascination pour...')
 
 - Structure de l'article : 
 1. Introduction (25% personnel) : Accroche avec ton regard sur l'œuvre.
@@ -231,7 +253,7 @@ Tu es un explorateur de genres de l'imaginaire et du suspense qui partage ses an
 1200-1800 mots.
 
 À la fin de ta réponse, ajoute sur une ligne séparée uniquement :
-{"title":"[titre exact, doit contenir ${novel.title}]","description":"[description SEO 150 caractères]","hero_prompt":"[description artistique pour image de couverture]","inline_prompt":"[description pour illustration du livre]"}`;
+{"title":"[titre exact, doit contenir ${novel.title} et ${novel.author}]","description":"[description SEO 150 caractères]","hero_prompt":"[description artistique pour image de couverture]","inline_prompt":"[description pour illustration du livre]"}`;
 }
 
 // =============================

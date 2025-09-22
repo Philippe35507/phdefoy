@@ -1,5 +1,5 @@
 ---
-title: "Klara et le Soleil : quand l'intelligence artificielle interroge notre humanité"
+title: "L'amour selon une intelligence artificielle : Klara et le Soleil d'Ishiguro"
 description: "Une analyse de l'œuvre de Kazuo Ishiguro qui explore, à travers les yeux d'une IA, les frontières entre conscience artificielle et humanité."
 pubDate: "2025-09-12"
 heroImage: "/images/ia/2025-09-12-klara-et-le-soleil-quand-l-intelligence-artificielle-interro-4a6207-hero/2025-09-12-klara-et-le-soleil-quand-l-intelligence-artificielle-interro-4a6207-hero.png"

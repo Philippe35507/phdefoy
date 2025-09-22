@@ -1,5 +1,5 @@
 ---
-title: "1984 de George Orwell : Quand la fiction dystopique devient un avertissement intemporel"
+title: "1984 de George Orwell : la fiction dystopique devient un avertissement intemporel"
 description: "Découvrez pourquoi le chef-d'œuvre d'Orwell sur la surveillance, le totalitarisme et la manipulation du langage reste d'une actualité saisissante."
 pubDate: "2025-08-02"
 heroImage: "/images/ia/2025-08-02-livre-1984-george-orwell-quand-fiction-dystopique-devient-avertissement-intemporel-hero/2025-08-02-livre-1984-george-orwell-quand-fiction-dystopique-devient-avertissement-intemporel-hero.png"

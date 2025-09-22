@@ -1,5 +1,5 @@
 ---
-title: "Paprika : quand les rêves dévorent la réalité"
+title: "Paprika de Yasutaka Tsutsui : L'invasion des songes"
 description: "Découvrez pourquoi le roman visionnaire de Yasutaka Tsutsui sur la manipulation des rêves reste d'une troublante actualité à l'ère du numérique."
 pubDate: "2025-09-06"
 heroImage: "/images/ia/paprika-quand-les-reves-devorent-la-realite-hero/paprika-quand-les-reves-devorent-la-realite-hero.png"

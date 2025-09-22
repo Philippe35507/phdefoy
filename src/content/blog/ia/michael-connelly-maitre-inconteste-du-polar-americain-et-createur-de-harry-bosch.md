@@ -58,5 +58,3 @@ La longévité de sa carrière et la constance de la qualité de ses écrits té
 Alors que de nouveaux auteurs émergent constamment dans le paysage du polar, l'œuvre de Michael Connelly continue de se distinguer par sa maîtrise narrative et sa capacité à se renouveler tout en restant fidèle à ses fondamentaux. Son influence sur le genre policier semble promise à perdurer bien au-delà de sa carrière.
 
 En définitive, Michael Connelly s'impose comme l'un des maîtres incontestés du polar contemporain, un auteur dont l'œuvre constitue une référence essentielle pour les amateurs du genre et un témoignage précieux sur les mécanismes de la justice et de la société américaine. À travers ses romans, il nous rappelle que le polar, loin d'être un simple divertissement, peut être un puissant vecteur de réflexion sur la condition humaine et les enjeux de notre temps.
-
-<STARTMETA>

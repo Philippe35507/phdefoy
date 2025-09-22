@@ -1,5 +1,5 @@
 ---
-title: "Les Furtifs d'Alain Damasio : Quand l'insaisissable défie le monde surveillé"
+title: "Les Furtifs d'Alain Damasio : Lorsque l'insaisissable défie le monde surveillé"
 description: "Analyse de l'œuvre majeure d'Alain Damasio qui mêle dystopie technologique, créatures fantastiques et révolution linguistique dans une France privatisée."
 pubDate: "2025-09-08"
 heroImage: "/images/ia/2025-09-08-les-furtifs-d-alain-damasio-quand-l-insaisissable-defie-le-m-9da443-hero/2025-09-08-les-furtifs-d-alain-damasio-quand-l-insaisissable-defie-le-m-9da443-hero.png"
