@@ -236,6 +236,23 @@
         'Madame Bovary de Gustave Flaubert.pdf'
       );
 
+   // TéléchargerLL’Affaire Charles Dexter Ward de H.P. Lovecraft
+   setupDownloadButton(
+    'btn-epub-lovecraft_affaire_charles_dexter_ward',
+    'download-container-epub-lovecraft_affaire_charles_dexter_ward',
+    '/protected/ebooks/lovecraft_affaire_charles_dexter_ward.epub',
+    'L’Affaire Charles Dexter Ward de HP Lovecraft.epub'
+  );
+  setupDownloadButton(
+    'btn-pdf-lovecraft_affaire_charles_dexter_ward',
+    'download-container-pdf-lovecraft_affaire_charles_dexter_ward',
+    '/protected/ebooks/lovecraft_affaire_charles_dexter_ward.pdf',
+    'L’Affaire Charles Dexter Ward de HP Lovecraft.pdf'
+  );
+
+      
+
+
     // Protection basique (optionnel)
     document.addEventListener('keydown', function (e) {
       if (e.key === 'F12' ||
