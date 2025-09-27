@@ -250,8 +250,20 @@
     'L’Affaire Charles Dexter Ward de HP Lovecraft.pdf'
   );
 
+  // Télécharger La Guerre et la Paix de Léon Tolstoï
+  setupDownloadButton(
+    'btn-epub-tolstoi_guerre_et_paix_1',
+    'download-container-epub-tolstoi_guerre_et_paix_1',
+    '/protected/ebooks/tolstoi_guerre_et_paix_1.epub',
+    'La Guerre et la Paix de Léon Tolstoï.epub'
+  );
+  setupDownloadButton(
+    'btn-pdf-tolstoi_guerre_et_paix_1',
+    'download-container-pdf-tolstoi_guerre_et_paix_1',
+    '/protected/ebooks/tolstoi_guerre_et_paix_1.pdf',
+    'La Guerre et la Paix de Léon Tolstoï.pdf'
+  );
       
-
 
     // Protection basique (optionnel)
     document.addEventListener('keydown', function (e) {
