@@ -1,11 +1,11 @@
 ---
-import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
+import AboutHeroImage from '../assets/ABOUT-PHOTO.png';
 import Layout from '../layouts/BlogPost.astro';
 ---
 
 <Layout
   title="Philippe de Foy – Mes livres"   
-  pageTitle="Mes livres"                 
+  pageTitle="Mes ouvrages"                 
   description="Présentation rapide"
   pubDate={new Date('August 08 2024')}
   heroImage={AboutHeroImage.src}
@@ -13,7 +13,7 @@ import Layout from '../layouts/BlogPost.astro';
   <!-- On remplace le titre du layout par le nôtre -->
   <h2></h2>
   <p class="intro">
-    Découvrez mes ouvrages publiés, disponibles en ligne.
+    Disponibles en ligne :
   </p>
 
   <div class="books">
@@ -23,7 +23,7 @@ import Layout from '../layouts/BlogPost.astro';
              alt="Couverture du livre L'Espagnol pour les Débutants" 
              class="book-cover" />
       </a>
-      <p><em>L'Espagnol pour les Débutants</em></p>
+      <div class="book-title">L'Espagnol pour les Débutants</div>
     </div>
 
     <div class="book">
@@ -32,7 +32,7 @@ import Layout from '../layouts/BlogPost.astro';
              alt="Couverture du livre Un œuf par jour" 
              class="book-cover" />
       </a>
-      <p><em>Un œuf par jour</em></p>
+      <div class="book-title">Un œuf par jour</div>
     </div>
 	<div class="book">
 		<a href="/one-egg-a-day-philippe-de-foy/">
@@ -40,9 +40,10 @@ import Layout from '../layouts/BlogPost.astro';
 			   alt="Couverture du livre One Egg a Day"
 			   class="book-cover" />
 		</a>
-		<p><em>One Egg a Day</em></p>
+		<div class="book-title">One Egg a Day</div>
 	  </div>
   </div>
+
 </Layout>
 
 <style>
@@ -53,7 +54,7 @@ import Layout from '../layouts/BlogPost.astro';
 
   .intro {
     margin-bottom: 1.5rem;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     color: #444;
   }
 
@@ -62,10 +63,18 @@ import Layout from '../layouts/BlogPost.astro';
     gap: 2rem; 
     margin-top: 1.5rem; 
     flex-wrap: wrap; 
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .book { 
     text-align: center; 
-    max-width: 150px; 
+    max-width: 200px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .book p {
+    text-align: center;
   }
   .book-cover { 
     width: 100%; 
@@ -79,4 +88,16 @@ import Layout from '../layouts/BlogPost.astro';
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0,0,0,0.25);
   }
+
+  .book-title {
+    font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    margin: 0 auto; 
+    font-size: 1.2rem;
+    text-align: center !important;
+    display: block;
+    width: 100%;
+  }
+
+
 </style>
