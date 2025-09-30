@@ -263,8 +263,21 @@
     '/protected/ebooks/tolstoi_guerre_et_paix_1.pdf',
     'La Guerre et la Paix de Léon Tolstoï.pdf'
   );
-      
-
+   
+    // Télécharger Les Trois Mousquetaires de Alexandre Dumas (illustré)
+    setupDownloadButton(
+      'btn-epub-dumas_les_trois_mousquetaires_illustre',
+      'download-container-epub-dumas_les_trois_mousquetaires_illustre',
+      '/protected/ebooks/dumas_les_trois_mousquetaires_illustre.epub',
+      'Les Trois Mousquetaires de Alexandre Dumas (illustré).epub'
+    );
+    setupDownloadButton(
+      'btn-pdf-dumas_les_trois_mousquetaires_illustre',
+      'download-container-pdf-dumas_les_trois_mousquetaires_illustre',
+      '/protected/ebooks/dumas_les_trois_mousquetaires_illustre.pdf',
+      'Les Trois Mousquetaires de Alexandre Dumas (illustré).pdf'
+    );
+  
     // Protection basique (optionnel)
     document.addEventListener('keydown', function (e) {
       if (e.key === 'F12' ||
