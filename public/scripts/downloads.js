@@ -154,18 +154,18 @@
     // Active les trois boutons RUSSE
     setupDownloadButton(
       'btn-russe-a1', 'download-container-russe-a1',
-      '/protected/audio/russe/dialogues-russe-a1.zip',
-      'Dialogues RUSSE niveau A1.zip'
+      '/protected/audio/russe/audio-russe-a1.zip',
+      'Audio RUSSE niveau A1.zip'
     );
     setupDownloadButton(
       'btn-russe-a2', 'download-container-russe-a2',
-      '/protected/audio/russe/dialogues-russe-a2.zip',
-      'Dialogues RUSSE niveau A2.zip'
+      '/protected/audio/russe/audio-russe-a2.zip',
+      'Audio RUSSE niveau A2.zip'
     );
     setupDownloadButton(
       'btn-russe-b1', 'download-container-russe-b1',
-      '/protected/audio/russe/dialogues-russe-b1.zip',
-      'Dialogues RUSSE niveau B1.zip'
+      '/protected/audio/russe/audio-russe-b1.zip',
+      'Audio RUSSE niveau B1.zip'
     );
 
     // Télécharger les Misérables Tome 1
