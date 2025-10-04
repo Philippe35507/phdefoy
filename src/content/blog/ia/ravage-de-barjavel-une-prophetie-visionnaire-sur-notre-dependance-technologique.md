@@ -51,3 +51,11 @@ Par ailleurs, la pandémie récente a brutalement révélé notre fragilité col
 La force de ce roman réside dans son ambivalence : il est à la fois une critique acerbe de la modernité déshumanisante et une célébration des capacités d'adaptation et de renaissance de l'humanité. Il nous rappelle que derrière nos écrans et nos machines se cachent toujours les mêmes aspirations, les mêmes peurs et les mêmes espoirs qui ont animé l'humanité depuis ses origines.
 
 En définitive, "Ravage" demeure une lecture essentielle pour quiconque s'interroge sur notre avenir collectif. Dans un monde où les crises écologiques, énergétiques et sociétales s'accumulent, les questions soulevées par Barjavel n'ont jamais été aussi pertinentes. Ce roman nous invite non pas à craindre l'avenir, mais à le construire en conscience, en gardant à l'esprit notre vulnérabilité fondamentale et notre capacité tout aussi fondamentale à nous réinventer.
+
+## À propos de René Barjavel
+
+René Barjavel est l'une des figures majeures de la science-fiction française du XXe siècle. Né en 1911 à Nyons, dans la Drôme, il a d'abord exercé le métier de journaliste avant de se consacrer à l'écriture romanesque. Dès ses premiers ouvrages, il s'impose comme un visionnaire capable d'anticiper les bouleversements technologiques et leurs conséquences sur l'humanité, tout en conservant une profonde sensibilité humaniste.
+
+Son œuvre explore avec une rare acuité les paradoxes du progrès scientifique. Romans comme *Ravage* (1943), qui imagine l'effondrement de la civilisation moderne, ou *La Nuit des temps* (1968), sommet de romantisme et de science-fiction, témoignent de sa capacité à mêler anticipation rigoureuse et questionnements philosophiques. Barjavel ne se contente pas de projeter le futur : il interroge la nature humaine, l'amour, le temps et notre rapport à la technologie avec une écriture fluide et poétique qui transcende les codes du genre.
+
+Disparu en 1985, René Barjavel a laissé une empreinte indélébile dans la littérature française. Ses romans continuent de fasciner les lecteurs par leur prescience troublante et leur dimension intemporelle. Précurseur de l'écologie littéraire et penseur des dérives du progrès, il demeure une référence incontournable pour quiconque s'intéresse aux rapports entre l'homme, la science et le destin de notre civilisation.
