@@ -277,6 +277,20 @@
       '/protected/ebooks/dumas_les_trois_mousquetaires_illustre.pdf',
       'Les Trois Mousquetaires de Alexandre Dumas (illustré).pdf'
     );
+
+      // Télécharger Orgueil et Préjugés de Jane austen
+      setupDownloadButton(
+        'btn-epub-austen_cinq_filles_de_mrs_bennet',
+        'download-container-epub-austen_cinq_filles_de_mrs_bennet',
+        '/protected/ebooks/austen_cinq_filles_de_mrs_bennet.epub',
+        'Orgueil et Préjugés de Jane austen (Les 5 filles de Mrs Bennet).epub'
+      );
+      setupDownloadButton(
+        'btn-pdf-austen_cinq_filles_de_mrs_bennet',
+        'download-container-pdf-austen_cinq_filles_de_mrs_bennet',
+        '/protected/ebooks/austen_cinq_filles_de_mrs_bennet.pdf',
+        'Orgueil et Préjugés de Jane austen (Les 5 filles de Mrs Bennet).pdf'
+      );
   
     // Protection basique (optionnel)
     document.addEventListener('keydown', function (e) {

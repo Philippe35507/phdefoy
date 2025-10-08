@@ -6,6 +6,29 @@ heroImage: "/images/ia/2025-10-06-orgueil-et-prejuges-comment-jane-austen-a-revo
 heroImageAlt: "Illustration: Orgueil et Préjugés : Comment Jane Austen a révolutionné le roman de mœurs"
 ---
 
+
+<div class="download-grid">
+<div class="download-card level-epub ">
+  <div class="card-content">
+    <h3>📖 Orgueil et Préjugés de Jane austen (Les 5 filles de Mrs Bennet)</h3>
+    <button id="btn-epub-austen_cinq_filles_de_mrs_bennet" class="download-btn" aria-label="Télécharger Orgueil et Préjugés de Jane austen (Les 5 filles de Mrs Bennet) (EPUB)">
+      Télécharger
+    </button>
+    <div id="download-container-epub-austen_cinq_filles_de_mrs_bennet" class="download-container" aria-live="polite" hidden></div>
+  </div>
+</div>
+<div class="download-card level-epub cards-horizontal">
+  <div class="card-content">
+    <h3>📖 Orgueil et Préjugés de Jane austen (Les 5 filles de Mrs Bennet)</h3>
+    <button id="btn-pdf-austen_cinq_filles_de_mrs_bennet" class="download-btn" aria-label="Télécharger Orgueil et Préjugés de Jane austen (Les 5 filles de Mrs Bennet) (PDF)">
+      Télécharger
+    </button>
+    <div id="download-container-pdf-austen_cinq_filles_de_mrs_bennet" class="download-container" aria-live="polite" hidden></div>
+  </div>
+</div>
+</div>
+
+
 Dans le panthéon des classiques littéraires, peu d'œuvres ont su traverser les époques avec autant de grâce et de pertinence qu'*Orgueil et Préjugés*. Publié en 1813, ce chef-d'œuvre de Jane Austen continue de captiver les lecteurs par sa finesse psychologique, son ironie mordante et sa critique sociale subtilement ciselée. Bien plus qu'une simple histoire d'amour, ce roman offre un tableau saisissant de la société anglaise du début du XIXe siècle, tout en explorant des thèmes universels qui résonnent encore aujourd'hui.
 
 
