@@ -58,3 +58,105 @@ La longévité de sa carrière et la constance de la qualité de ses écrits té
 Alors que de nouveaux auteurs émergent constamment dans le paysage du polar, l'œuvre de Michael Connelly continue de se distinguer par sa maîtrise narrative et sa capacité à se renouveler tout en restant fidèle à ses fondamentaux. Son influence sur le genre policier semble promise à perdurer bien au-delà de sa carrière.
 
 En définitive, Michael Connelly s'impose comme l'un des maîtres incontestés du polar contemporain, un auteur dont l'œuvre constitue une référence essentielle pour les amateurs du genre et un témoignage précieux sur les mécanismes de la justice et de la société américaine. À travers ses romans, il nous rappelle que le polar, loin d'être un simple divertissement, peut être un puissant vecteur de réflexion sur la condition humaine et les enjeux de notre temps.
+
+ ## Liste des œuvres principales de Michael Connelly
+
+### Série Harry Bosch (Inspecteur Harry Bosch)
+
+Les Égouts de Los Angeles (The Black Echo) - 1992
+
+La Glace noire (The Black Ice) - 1993
+
+La Blonde en béton (The Concrete Blonde) - 1994
+
+Le Dernier Coyote (The Last Coyote) - 1995
+
+Le Cadavre dans la Rolls (Trunk Music) - 1997
+
+L'Envol des anges (Angels Flight) - 1999
+
+L'Oiseau des ténèbres (A Darkness More Than Night) - 2001
+
+Wonderland Avenue (City of Bones) - 2002
+
+Lumière morte (Lost Light) - 2003
+
+Los Angeles River (The Narrows) - 2004
+
+Deuil interdit (The Closers) - 2005
+
+Echo Park (Echo Park) - 2006
+
+À genoux (The Overlook) - 2007
+
+Le Verdict du plomb (The Brass Verdict) - 2008
+
+Les Neuf Dragons (Nine Dragons) - 2009
+
+Volte-face (The Reversal) - 2010
+
+Ceux qui tombent (The Drop) - 2011
+
+Dans la ville en feu (The Black Box) - 2014
+
+Mariachi Plaza (The Burning Room) - 2014
+
+Jusqu'à l'impensable (The Crossing) - 2015
+
+Sur un mauvais adieu (The Wrong Side of Goodbye) - 2016
+
+Une vérité à deux visages (Two Kinds of Truth) - 2017
+
+Nuit sombre et sacrée (Dark Sacred Night) - 2018
+
+Incendie nocturne (The Night Fire) - 2019
+
+L'Innocence et la loi (The Law of Innocence) - 2020
+
+L'Étoile du désert (Desert Star) - 2022
+
+Sans l'ombre d'un doute (Resurrection Walk) - 2023
+
+À qui sait attendre (The Waiting) - 2024
+
+### Série Mickey Haller (l'Avocat)
+
+La Défense Lincoln (The Lincoln Lawyer) - 2005
+
+Le Verdict du plomb (The Brass Verdict) - 2008
+
+Volte-face (The Reversal) - 2010
+
+Le Cinquième témoin (The Fifth Witness) - 2011
+
+Les Dieux du verdict (The Gods of Guilt) - 2013
+
+L'Innocence et la loi (The Law of Innocence) - 2020
+
+Sans l'ombre d'un doute (Resurrection Walk) - 2023
+
+### Série Renée Ballard
+
+En attendant le jour (The Late Show) - 2017
+
+Nuit sombre et sacrée (Dark Sacred Night) - 2018
+
+Incendie nocturne (The Night Fire) - 2019
+
+Les ténèbres et la nuit (The Dark Hours) - 2021
+
+### Autres romans et nouvelles
+
+Le Poète (The Poet) - 1996
+
+L'Épouvantail (The Scarecrow) - 2009
+
+Darling Lilly (Chasing the Dime) - 2002
+
+Le Coffre oublié (The Safe Man: A Ghost Story) - 2012
+
+Mulholland, vue plongeante (Mulholland Dive) - 2012
+
+Billy Ratcliff, 19 ans (Switchblade) - 2014
+
+Chroniques du crime (Crime Beat: A Decade of Covering Cops and Killers) - 2006
