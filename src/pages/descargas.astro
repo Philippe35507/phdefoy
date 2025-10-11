@@ -1,0 +1,372 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+
+const pageTitle = "Descargas - Recursos de Audio para Aprender Español";
+const pageDescription = "Descarga audios gratuitos para aprender español (niveles A1, A2, B1). Diálogos y ejercicios para mejorar tu comprensión oral.";
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <BaseHead title={pageTitle} description={pageDescription} />
+    <link rel="stylesheet" href="/styles/cookie-banner.css" />
+    <!-- Balises hreflang pour le multilingue -->
+<link rel="alternate" hreflang="fr" href="https://phdefoy.com/" />
+<link rel="alternate" hreflang="es" href="https://phdefoy.com/descargas/" />
+<link rel="alternate" hreflang="x-default" href="https://phdefoy.com/" />
+  </head>
+
+  <body class="page-bg descargas">
+    <Header />
+    <main>
+      <!-- ===== SECTION WELCOME / DOWNLOADS ===== -->
+      <section class="welcome-container">
+        <h1>Descarga tus audios para aprender español</h1>
+        <h2>
+          <span class="icon-books" aria-hidden="true">🎧</span>
+          Elige tu nivel y descarga los diálogos
+        </h2>
+
+        <div class="intro">
+          <p>Mejora tu comprensión oral del español con nuestros audios gratuitos.</p>
+        </div>
+
+        <div class="downloads-grid">
+          <!-- A1 -->
+          <div class="download-card level-a1">
+            <div class="card-content">
+              <h3>Español nivel A1</h3>
+              <p class="level-desc">Principiante</p>
+              <button id="btn-descargas-esp-a1" class="download-btn" aria-label="Descargar los diálogos Español A1">
+                Descargar
+              </button>
+              <div id="download-container-descargas-esp-a1" class="download-container" aria-live="polite"></div>
+            </div>
+          </div>
+
+          <!-- A2 -->
+          <div class="download-card level-a2">
+            <div class="card-content">
+              <h3>Español nivel A2</h3>
+              <p class="level-desc">Elemental</p>
+              <button id="btn-descargas-esp-a2" class="download-btn" aria-label="Descargar los diálogos Español A2">
+                Descargar
+              </button>
+              <div id="download-container-descargas-esp-a2" class="download-container" aria-live="polite"></div>
+            </div>
+          </div>
+
+          <!-- B1 -->
+          <div class="download-card level-b1">
+            <div class="card-content">
+              <h3>Español nivel B1</h3>
+              <p class="level-desc">Intermedio</p>
+              <button id="btn-descargas-esp-b1" class="download-btn" aria-label="Descargar los diálogos Español B1">
+                Descargar
+              </button>
+              <div id="download-container-descargas-esp-b1" class="download-container" aria-live="polite"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== SECTION INFORMATIONS ===== -->
+      <section class="info-section">
+        <div class="info-container">
+          <h2>¿Cómo utilizar estos audios?</h2>
+          <div class="info-grid">
+            <div class="info-card">
+              <span class="info-icon">👂</span>
+              <h3>Escucha activa</h3>
+              <p>Escucha cada diálogo varias veces, primero sin leer el texto.</p>
+            </div>
+            <div class="info-card">
+              <span class="info-icon">📝</span>
+              <h3>Repite y practica</h3>
+              <p>Repite las frases en voz alta para mejorar tu pronunciación.</p>
+            </div>
+            <div class="info-card">
+              <span class="info-icon">🔄</span>
+              <h3>Repetición espaciada</h3>
+              <p>Vuelve a escuchar los audios regularmente para consolidar tu aprendizaje.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <style>
+        /* ===== THEME GLOBAL ===== */
+        body.page-bg {
+          min-height: 100vh;
+          background: linear-gradient(135deg, #12141f 0%, #1a1c2b 40%, #23254a 100%);
+          margin: 0;
+          font-family: var(--font-sans);
+        }
+        main { padding-top: 0; margin-top: -20px; }
+
+        /* ===== SECTION WELCOME / DOWNLOADS ===== */
+        .welcome-container {
+          max-width: 900px;
+          margin: 3rem auto 3rem;
+          padding: 0rem 2rem;
+          font-size: 15px;
+          text-align: center;
+          color: #f8fafc;
+        }
+        .welcome-container h1 {
+          font-size: clamp(2rem, 5vw, 3rem);
+          color: #f8fafc; 
+          font-weight: 700; 
+          letter-spacing: -0.02em; 
+          margin-top: 4rem;
+          margin-bottom: 2rem;
+        }
+        .welcome-container h2 {
+          font-size: clamp(1.5rem, 4vw, 2rem);
+          color: #60a5fa;
+          font-weight: 600;
+          margin-bottom: 2rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 1rem;
+        }
+        .icon-books { 
+          font-size: clamp(3rem, 8vw, 5rem); 
+          filter: drop-shadow(0 4px 12px rgba(79, 142, 247, 0.3)); 
+          animation: float 3s ease-in-out infinite; 
+        }
+        @keyframes float { 
+          0%, 100% { transform: translateY(0px); } 
+          50% { transform: translateY(-10px); } 
+        }
+        .intro { 
+          font-size: 1.15rem; 
+          color: #cbd5e1; 
+          margin: 2rem auto 3rem auto; 
+          font-weight: 400;
+          max-width: 700px;
+          line-height: 1.6;
+        }
+
+        .downloads-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+          gap: 2rem;
+          max-width: 900px;
+          margin: 0 auto;
+        }
+        .download-card {
+          background: rgba(30, 41, 59, 0.6);
+          backdrop-filter: blur(10px);
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          border-radius: 16px;
+          padding: 2rem 1.5rem;
+          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          position: relative;
+          overflow: hidden;
+        }
+        .download-card::before {
+          content: '';
+          position: absolute; 
+          top: 0; 
+          left: 0; 
+          right: 0; 
+          height: 3px;
+          background: linear-gradient(90deg, var(--level-color), var(--level-color-light));
+          opacity: 0.8;
+        }
+        .level-a1 { --level-color: #3b82f6; --level-color-light: #60a5fa; }
+        .level-a2 { --level-color: #10b981; --level-color-light: #34d399; }
+        .level-b1 { --level-color: #f59e0b; --level-color-light: #fbbf24; }
+
+        .download-card:hover {
+          transform: translateY(-8px);
+          background: rgba(30, 41, 59, 0.8);
+          border-color: rgba(255, 255, 255, 0.2);
+          box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3),
+                      0 10px 10px -5px rgba(0, 0, 0, 0.1),
+                      0 0 0 1px rgba(255, 255, 255, 0.05);
+        }
+        .card-content { 
+          display: flex; 
+          flex-direction: column; 
+          align-items: center; 
+          gap: 1rem; 
+        }
+        .download-card h3 { 
+          font-size: 1.25rem; 
+          font-weight: 600; 
+          color: #f1f5f9; 
+          margin: 0; 
+          letter-spacing: -0.01em; 
+        }
+        .level-desc {
+          font-size: 0.9rem;
+          color: #94a3b8;
+          margin: 0;
+        }
+        .download-btn {
+          display: inline-flex; 
+          align-items: center; 
+          justify-content: center;
+          padding: 0.75rem 2rem; 
+          background: linear-gradient(135deg, var(--level-color), var(--level-color-light));
+          color: white; 
+          text-decoration: none; 
+          border-radius: 12px; 
+          font-weight: 600; 
+          font-size: 1rem;
+          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
+          border: none; 
+          cursor: pointer; 
+          min-width: 140px; 
+          letter-spacing: 0.01em;
+        }
+        .download-btn:hover,
+        .download-btn:focus { 
+          transform: translateY(-2px); 
+          box-shadow: 0 12px 20px -5px rgba(0,0,0,.3); 
+          filter: brightness(1.1); 
+          outline: none; 
+        }
+        .download-btn:active { transform: translateY(0); }
+        .download-btn:disabled { 
+          opacity: .6; 
+          cursor: not-allowed; 
+          transform: none; 
+        }
+        .download-btn.loading { 
+          position: relative; 
+          opacity: .9; 
+        }
+        .download-btn.loading::after {
+          content: ""; 
+          display: inline-block; 
+          width: 14px; 
+          height: 14px; 
+          margin-left: 8px; 
+          border-radius: 9999px;
+          border: 2px solid rgba(255,255,255,.6); 
+          border-top-color: #fff; 
+          animation: spin .8s linear infinite; 
+          vertical-align: -2px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        
+        .download-container {
+          margin-top: 1rem; 
+          padding: 1rem; 
+          background: rgba(16,185,129,.1);
+          border: 1px solid rgba(16,185,129,.3); 
+          border-radius: 8px; 
+          display: none; 
+          animation: fadeIn .5s ease-in-out; 
+          width: 100%; 
+          text-align: center;
+        }
+        .download-container.show { display: block; }
+        .download-container a { 
+          color: #10b981; 
+          text-decoration: none; 
+          font-weight: 600; 
+        }
+        .download-container a:hover { text-decoration: underline; }
+        .timer-text { 
+          color: #94a3b8; 
+          font-size: .875rem; 
+          margin-top: .5rem; 
+        }
+        @keyframes fadeIn { 
+          from { opacity: 0; transform: translateY(-10px);} 
+          to {opacity: 1; transform: translateY(0);} 
+        }
+
+        /* ===== SECTION INFORMATIONS ===== */
+        .info-section {
+          max-width: 1000px;
+          margin: 4rem auto 3rem;
+          padding: 0 2rem;
+        }
+        .info-container {
+          background: rgba(30, 41, 59, 0.6);
+          backdrop-filter: blur(10px);
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          border-radius: 16px;
+          padding: 3rem 2rem;
+          text-align: center;
+        }
+        .info-container h2 {
+          font-size: clamp(1.5rem, 4vw, 2rem);
+          color: #60a5fa;
+          font-weight: 600;
+          margin-bottom: 2.5rem;
+        }
+        .info-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 2rem;
+        }
+        .info-card {
+          background: rgba(15, 23, 42, 0.4);
+          border: 1px solid rgba(255, 255, 255, 0.08);
+          border-radius: 12px;
+          padding: 2rem 1.5rem;
+          transition: transform 0.2s ease;
+        }
+        .info-card:hover {
+          transform: translateY(-4px);
+        }
+        .info-icon {
+          font-size: 3rem;
+          display: block;
+          margin-bottom: 1rem;
+        }
+        .info-card h3 {
+          font-size: 1.25rem;
+          color: #f1f5f9;
+          margin-bottom: 0.75rem;
+          font-weight: 600;
+        }
+        .info-card p {
+          font-size: 1rem;
+          color: #cbd5e1;
+          line-height: 1.6;
+          margin: 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+          .welcome-container {
+            padding: 0 1.5rem;
+          }
+          .downloads-grid {
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+          }
+          .info-grid {
+            grid-template-columns: 1fr;
+          }
+        }
+      </style>
+    </main>
+
+    <Footer />
+
+    <!-- Bannière cookies -->
+    <div id="cookie-banner" hidden>
+      <span>Este sitio utiliza cookies de medición (Google Analytics) solo si aceptas.</span>
+      <span class="actions">
+        <button id="accept-cookies">Aceptar</button>
+        <button id="decline-cookies">Rechazar</button>
+      </span>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/scripts/consent.js" defer></script>
+    <script src="/scripts/ga-init.js" defer></script>
+    <script src="/scripts/downloads.js" defer></script>
+  </body>
+</html>

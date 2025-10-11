@@ -33,7 +33,7 @@
         btn.disabled = true;
         btn.classList.add('loading');
         btn.setAttribute('aria-busy', 'true');
-        btn.textContent = 'Préparation...';
+        btn.textContent = 'Please wait...';
 
         setTimeout(showDownloadLink, 3000); // remets 3000 si tu veux l'attente
       });
@@ -95,7 +95,7 @@
         timerDiv.className = 'timer-text';
 
         container.innerHTML = '';
-        container.appendChild(document.createTextNode('Téléchargement disponible : '));
+        container.appendChild(document.createTextNode('Download: '));
         container.appendChild(link);
         container.appendChild(document.createElement('br'));
         container.appendChild(timerDiv);
@@ -105,7 +105,7 @@
         btn.classList.remove('loading');
         btn.removeAttribute('aria-busy');
         btn.disabled = false;
-        btn.textContent = 'Nouveau lien';
+        btn.textContent = 'New link';
 
         // Focus lien (sans scroll)
         link.setAttribute('tabindex', '-1');
@@ -116,7 +116,7 @@
         timer = setInterval(() => {
           const minutes = Math.floor(timeLeft / 60);
           const seconds = timeLeft % 60;
-          timerDiv.textContent = `Expire dans : ${minutes}:${seconds.toString().padStart(2, '0')}`;
+          timerDiv.textContent = `  ${minutes}:${seconds.toString().padStart(2, '0')}`;
           timeLeft--;
           if (timeLeft < 0) {
             clearInterval(timer);
@@ -167,6 +167,40 @@
       '/protected/audio/russe/audio-russe-b1.zip',
       'Audio RUSSE niveau B1.zip'
     );
+// Active les trois boutons ESP (URLs slugifiées, noms lisibles)
+    setupDownloadButton(
+      'btn-a1', 'download-container-a1',
+      '/protected/audio/espagnol/dialogues-esp-a1.zip',
+      'Dialogues ESP niveau A1.zip'
+    );
+    setupDownloadButton(
+      'btn-a2', 'download-container-a2',
+      '/protected/audio/espagnol/dialogues-esp-a2.zip',
+      'Dialogues ESP niveau A2.zip'
+    );
+    setupDownloadButton(
+      'btn-b1', 'download-container-b1',
+      '/protected/audio/espagnol/dialogues-esp-b1.zip',
+      'Dialogues ESP niveau B1.zip'
+    );
+
+    // Active les boutons PAGE DESCARGAS
+    setupDownloadButton(
+      'btn-descargas-esp-a1', 'download-container-descargas-esp-a1',
+      '/protected/audio/español/español-nivel-a1.zip',
+      'Español nivel A1.zip'
+    );
+    setupDownloadButton(
+      'btn-descargas-esp-a2', 'download-container-descargas-esp-a2',
+      '/protected/audio/español/español-nivel-a2.zip',
+      'Español nivel A2.zip'
+    );
+    setupDownloadButton(
+      'btn-descargas-esp-b1', 'download-container-descargas-esp-b1',
+      '/protected/audio/español/español-nivel-b1.zip',
+      'Español nivel B1.zip'
+    );
+
 
     // Télécharger les Misérables Tome 1
     setupDownloadButton(
