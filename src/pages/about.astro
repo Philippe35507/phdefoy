@@ -34,25 +34,40 @@ import Layout from '../layouts/BlogPost.astro';
       </a>
       <div class="book-title">Un œuf par jour</div>
     </div>
-	<div class="book">
-		<a href="/one-egg-a-day-philippe-de-foy/">
-		  <img src="/images/oeuf/egg.png"
-			   alt="Couverture du livre One Egg a Day"
-			   class="book-cover" />
-		</a>
-		<div class="book-title">One Egg a Day</div>
-	  </div>
+    
+    <div class="book">
+      <a href="/one-egg-a-day-philippe-de-foy/">
+        <img src="/images/oeuf/egg.png"
+             alt="Couverture du livre One Egg a Day"
+             class="book-cover" />
+      </a>
+      <div class="book-title">One Egg a Day</div>
+    </div>
   
-  <div class="book">
-		<a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-débutants/">
-		  <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
-			   alt="Couverture du livre Le Russe pour les Débutants Niveau A1"
-			   class="book-cover" />
-		</a>
-		<div class="book-title">Le Russe pour les Débutants</div>
-	  </div>
+    <div class="book">
+      <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-débutants/">
+        <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
+             alt="Couverture du livre Le Russe pour les Débutants Niveau A1"
+             class="book-cover" />
+      </a>
+      <div class="book-title">Le Russe pour les Débutants</div>
+    </div>
   </div>
-  </div>
+
+  <!-- Section Recursos en español -->
+  <section class="recursos-section">
+    <div class="recursos-container">
+      <div class="recursos-content">
+        <span class="recursos-flag" aria-hidden="true">🇪🇸</span>
+        <h3>Recursos en español</h3>
+        <p>¿Hablas español? Descarga audios gratuitos para mejorar tu comprensión oral.</p>
+        <a href="/descargas/" class="recursos-btn" aria-label="Ir a la página de descargas en español">
+          Ver recursos en español
+          <span class="arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
 
 </Layout>
 
@@ -72,10 +87,10 @@ import Layout from '../layouts/BlogPost.astro';
     display: flex; 
     gap: 2rem; 
     margin-top: 1.5rem; 
-    flex-wrap: wrap; 
     flex-wrap: wrap;
     justify-content: center;
   }
+  
   .book { 
     text-align: center; 
     max-width: 200px; 
@@ -83,9 +98,11 @@ import Layout from '../layouts/BlogPost.astro';
     flex-direction: column;
     align-items: center;
   }
+  
   .book p {
     text-align: center;
   }
+  
   .book-cover { 
     width: 100%; 
     height: auto; 
@@ -94,6 +111,7 @@ import Layout from '../layouts/BlogPost.astro';
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     cursor: pointer;
   }
+  
   .book-cover:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0,0,0,0.25);
@@ -109,5 +127,131 @@ import Layout from '../layouts/BlogPost.astro';
     width: 100%;
   }
 
-
+  /* === Section Recursos en español === */
+  .recursos-section {
+    margin: 4rem auto 2rem;
+    padding: 0 1rem;
+  }
+  
+  .recursos-container {
+    background: linear-gradient(135deg, rgba(234, 88, 12, 0.1) 0%, rgba(249, 115, 22, 0.05) 100%);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(249, 115, 22, 0.3);
+    border-radius: 16px;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 12px rgba(234, 88, 12, 0.1);
+  }
+  
+  .recursos-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #ea580c, #f97316);
+    opacity: 0.8;
+  }
+  
+  .recursos-container:hover {
+    border-color: rgba(249, 115, 22, 0.5);
+    box-shadow: 0 8px 24px rgba(234, 88, 12, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  .recursos-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .recursos-flag {
+    font-size: 3rem;
+    display: block;
+    animation: wave 2s ease-in-out infinite;
+    filter: drop-shadow(0 4px 12px rgba(249, 115, 22, 0.3));
+  }
+  
+  @keyframes wave {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(-10deg); }
+    75% { transform: rotate(10deg); }
+  }
+  
+  .recursos-container h3 {
+    font-size: 1.75rem;
+    color: #ea580c;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+  
+  .recursos-container p {
+    font-size: 1.1rem;
+    color: #666;
+    margin: 0;
+    max-width: 600px;
+    line-height: 1.6;
+  }
+  
+  .recursos-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.875rem 2rem;
+    background: linear-gradient(135deg, #ea580c, #f97316);
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    margin-top: 0.5rem;
+    box-shadow: 0 4px 12px rgba(234, 88, 12, 0.3);
+  }
+  
+  .recursos-btn:hover,
+  .recursos-btn:focus {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(234, 88, 12, 0.4);
+    filter: brightness(1.1);
+    outline: none;
+  }
+  
+  .recursos-btn:active {
+    transform: translateY(0);
+  }
+  
+  .arrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  
+  .recursos-btn:hover .arrow {
+    transform: translateX(4px);
+  }
+  
+  /* Responsive */
+  @media (max-width: 640px) {
+    .recursos-section {
+      padding: 0 1rem;
+    }
+    
+    .recursos-container {
+      padding: 2rem 1.5rem;
+    }
+    
+    .recursos-flag {
+      font-size: 2.5rem;
+    }
+    
+    .recursos-container h3 {
+      font-size: 1.5rem;
+    }
+  }
 </style>
