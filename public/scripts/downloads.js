@@ -186,19 +186,19 @@
 
     // Active les boutons PAGE DESCARGAS
     setupDownloadButton(
-      'btn-descargas-esp-a1', 'download-container-descargas-esp-a1',
-      '/protected/audio/español/español-nivel-a1.zip',
-      'Español nivel A1.zip'
+      'btn-descargas-ruso-a1', 'download-container-descargas-ruso-a1',
+      '/protected/audio/descargas/ruso/audio-ruso-nivel-a1.zip',
+      'Ruso nivel A1.zip'
     );
     setupDownloadButton(
-      'btn-descargas-esp-a2', 'download-container-descargas-esp-a2',
-      '/protected/audio/español/español-nivel-a2.zip',
-      'Español nivel A2.zip'
+      'btn-descargas-ruso-a2', 'download-container-descargas-ruso-a2',
+      '/protected/audio/descargas/ruso/audio-ruso-nivel-a2.zip',
+      'Ruso nivel A2.zip'
     );
     setupDownloadButton(
-      'btn-descargas-esp-b1', 'download-container-descargas-esp-b1',
-      '/protected/audio/español/español-nivel-b1.zip',
-      'Español nivel B1.zip'
+      'btn-descargas-ruso-b1', 'download-container-descargas-ruso-b1',
+      '/protected/audio/descargas/ruso/audio-ruso-nivel-b1.zip',
+      'Ruso nivel B1.zip'
     );
 
 
