@@ -6,7 +6,7 @@ heroImage: "/images/ia/2025-09-08-les-furtifs-d-alain-damasio-quand-l-insaisissa
 heroImageAlt: "Illustration: Les Furtifs d'Alain Damasio : Quand l'insaisissable défie le monde surveillé"
 ---
 
-Dans le paysage de la littérature d'anticipation française, *Les Furtifs* d'Alain Damasio se dresse comme une œuvre monumentale. Ce roman publié en 2019 après presque dix ans d'écriture représente une véritable déflagration littéraire. Ce qui me fascine particulièrement dans cette création, c'est sa capacité à fusionner une critique sociale acérée avec une inventivité linguistique stupéfiante, le tout porté par une intrigue haletante.
+Dans le paysage de la littérature d'anticipation française, *Les Furtifs* d'[Alain Damasio](https://www.radiofrance.fr/personnes/alain-damasio) se dresse comme une œuvre monumentale. Ce roman publié en 2019 après presque dix ans d'écriture représente une véritable déflagration littéraire. Ce qui me fascine particulièrement dans cette création, c'est sa capacité à fusionner une critique sociale acérée avec une inventivité linguistique stupéfiante, le tout porté par une intrigue haletante.
 
 
 

@@ -6,7 +6,7 @@ heroImage: "/images/ia/2025-09-28-les-contes-merveilleux-de-hans-christian-ander
 heroImageAlt: "Illustration: Les Contes merveilleux de Hans Christian Andersen : voyages dans l'âme humaine à travers le prisme du fantastique"
 ---
 
-Dans le vaste paysage de la littérature enfantine, peu d'œuvres ont su capturer l'imagination collective avec autant de profondeur que les *Contes merveilleux* de Hans Christian Andersen. Ces récits, qui semblent à première vue destinés aux plus jeunes, révèlent à qui sait les lire une complexité émotionnelle et une richesse symbolique qui transcendent les frontières de l'âge. Contrairement aux contes traditionnels qui se contentent souvent de divertir ou d'instruire, les histoires d'Andersen plongent dans les profondeurs de l'âme humaine, explorant la souffrance, la rédemption et la beauté éphémère de l'existence.
+Dans le vaste paysage de la littérature enfantine, peu d'œuvres ont su capturer l'imagination collective avec autant de profondeur que les *Contes merveilleux* de [Hans Christian Andersen](https://www.flammarion-jeunesse.fr/Auteurs/andersen-hans-christian). Ces récits, qui semblent à première vue destinés aux plus jeunes, révèlent à qui sait les lire une complexité émotionnelle et une richesse symbolique qui transcendent les frontières de l'âge. Contrairement aux contes traditionnels qui se contentent souvent de divertir ou d'instruire, les histoires d'Andersen plongent dans les profondeurs de l'âme humaine, explorant la souffrance, la rédemption et la beauté éphémère de l'existence.
 
 
 ## Un conteur né dans l'adversité

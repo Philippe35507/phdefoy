@@ -7,7 +7,7 @@ heroImageAlt: "Illustration: La Nuit des temps de René Barjavel : Quand l'amour
 ---
 
 
-Avez-vous déjà rêvé de découvrir une civilisation perdue, technologiquement avancée mais tragiquement disparue ? C’est précisément ce que nous offre René Barjavel dans son chef-d’œuvre de science-fiction française, “La Nuit des temps”, publié en 1968. Roman captivant où l’amour transcende les millénaires, ce livre nous plonge dans une réflexion profonde sur notre humanité et notre rapport à la technologie. Découvrons ensemble pourquoi cette œuvre continue de fasciner les lecteurs plus de cinquante ans après sa publication.
+Avez-vous déjà rêvé de découvrir une civilisation perdue, technologiquement avancée mais tragiquement disparue ? C’est précisément ce que nous offre [René Barjavel](https://www.radiofrance.fr/personnes/rene-barjavel) dans son chef-d’œuvre de science-fiction française, “La Nuit des temps”, publié en 1968. Roman captivant où l’amour transcende les millénaires, ce livre nous plonge dans une réflexion profonde sur notre humanité et notre rapport à la technologie. Découvrons ensemble pourquoi cette œuvre continue de fasciner les lecteurs plus de cinquante ans après sa publication.
 
 ## Une découverte qui bouleverse l’humanité
 L’histoire commence dans l’Antarctique, où une équipe internationale de scientifiques détecte un signal mystérieux sous la glace. En forant, ils découvrent une sphère contenant deux corps en suspension - un homme et une femme - conservés depuis 900 000 ans. La femme, Eléa, peut être ramenée à la vie, devenant ainsi le témoin d’une civilisation disparue, Gondawa, technologiquement bien plus avancée que la nôtre.

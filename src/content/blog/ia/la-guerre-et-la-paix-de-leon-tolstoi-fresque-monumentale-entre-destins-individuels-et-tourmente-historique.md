@@ -32,7 +32,7 @@ heroImageAlt: "Illustration: La Guerre et la Paix de Léon Tolstoï : Fresque mo
 Autres livres diponibles sur le site <a href="https://www.ebooksgratuits.com/" target="_blank" rel="noopener">ebooksgratuits.com</a>
 
 
-Dans l'univers littéraire, certaines œuvres se dressent comme des monuments intemporels qui transcendent leur époque pour nous parler encore aujourd'hui avec une force intacte. *La Guerre et la Paix* de Léon Tolstoï fait indéniablement partie de ces créations titanesques. Publiée entre 1865 et 1869, cette fresque monumentale de plus de 1500 pages nous plonge dans la Russie du début du XIXe siècle, entre les guerres napoléoniennes et la vie de l'aristocratie russe. Bien plus qu'un simple roman historique, l'œuvre de Tolstoï est une méditation profonde sur la nature humaine, le sens de l'Histoire et les forces qui gouvernent nos existences.
+Dans l'univers littéraire, certaines œuvres se dressent comme des monuments intemporels qui transcendent leur époque pour nous parler encore aujourd'hui avec une force intacte. *La Guerre et la Paix* de [Léon Tolstoï](https://www.radiofrance.fr/franceculture/podcasts/toute-une-vie-40-figures-de-la-culture/leon-tolstoi-1828-1910-inventeur-du-roman-univers-8461432) fait indéniablement partie de ces créations titanesques. Publiée entre 1865 et 1869, cette fresque monumentale de plus de 1500 pages nous plonge dans la Russie du début du XIXe siècle, entre les guerres napoléoniennes et la vie de l'aristocratie russe. Bien plus qu'un simple roman historique, l'œuvre de Tolstoï est une méditation profonde sur la nature humaine, le sens de l'Histoire et les forces qui gouvernent nos existences.
 
 
 ## Une épopée à l'échelle d'une nation

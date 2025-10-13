@@ -7,7 +7,7 @@ heroImageAlt: "Illustration: Fahrenheit 451 : Quand brûler des livres devient l
 ---
 
 
-Avez-vous déjà imaginé un monde où posséder un livre est un crime ? Où les pompiers, au lieu d'éteindre les incendies, les allument pour réduire en cendres toute trace de littérature ? C'est l'univers glaçant que Ray Bradbury a créé dans son chef-d'œuvre "Fahrenheit 451", publié en 1953. Ce roman visionnaire continue de nous hanter près de 70 ans après sa publication, et pour cause : il résonne aujourd'hui avec une pertinence troublante. Plongeons ensemble dans cette œuvre fascinante qui a changé ma perception du pouvoir des mots.
+Avez-vous déjà imaginé un monde où posséder un livre est un crime ? Où les pompiers, au lieu d'éteindre les incendies, les allument pour réduire en cendres toute trace de littérature ? C'est l'univers glaçant que [Ray Bradbury](https://www.librairie-legendarium.com/contributeur/bradbury-ray/66) a créé dans son chef-d'œuvre "Fahrenheit 451", publié en 1953. Ce roman visionnaire continue de nous hanter près de 70 ans après sa publication, et pour cause : il résonne aujourd'hui avec une pertinence troublante. Plongeons ensemble dans cette œuvre fascinante qui a changé ma perception du pouvoir des mots.
 
 
 ## Une dystopie qui nous brûle encore les doigts

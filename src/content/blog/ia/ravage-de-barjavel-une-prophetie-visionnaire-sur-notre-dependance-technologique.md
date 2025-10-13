@@ -7,7 +7,7 @@ heroImageAlt: "Illustration: Ravage de Barjavel : Une prophétie visionnaire sur
 ---
 
 
-Avez-vous déjà imaginé ce qui se passerait si, du jour au lendemain, l'électricité venait à disparaître ? C'est précisément cette question vertigineuse qu'explore René Barjavel dans son chef-d'œuvre dystopique "Ravage", publié en 1943. Roman visionnaire qui continue de nous interpeller près de 80 ans après sa parution, "Ravage" nous plonge dans un futur où la catastrophe révèle autant les faiblesses que les forces de l'humanité. Plongeons ensemble dans cette œuvre fascinante qui, par bien des aspects, semble avoir anticipé nos préoccupations contemporaines.
+Avez-vous déjà imaginé ce qui se passerait si, du jour au lendemain, l'électricité venait à disparaître ? C'est précisément cette question vertigineuse qu'explore [René Barjavel](https://fr.wikipedia.org/wiki/Ren%C3%A9_Barjavel) dans son chef-d'œuvre dystopique "Ravage", publié en 1943. Roman visionnaire qui continue de nous interpeller près de 80 ans après sa parution, "Ravage" nous plonge dans un futur où la catastrophe révèle autant les faiblesses que les forces de l'humanité. Plongeons ensemble dans cette œuvre fascinante qui, par bien des aspects, semble avoir anticipé nos préoccupations contemporaines.
 
 
 ## Une apocalypse technologique dans la France de 2052

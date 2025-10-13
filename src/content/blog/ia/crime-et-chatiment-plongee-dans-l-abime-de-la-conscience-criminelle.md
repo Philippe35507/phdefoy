@@ -29,7 +29,7 @@ heroImageAlt: "Illustration: Crime et Châtiment : Plongée dans l'abîme de la 
 
 Autres livres diponibles sur le site <a href="https://www.ebooksgratuits.com/" target="_blank" rel="noopener">ebooksgratuits.com</a>
 
-Dans les ruelles sombres et suffocantes du Saint-Pétersbourg du XIXe siècle se déroule l'un des plus grands drames psychologiques de la littérature mondiale. *Crime et Châtiment*, publié en 1866, reste l'œuvre la plus emblématique de Fiodor Dostoïevski, un roman qui dépasse largement le cadre du simple récit policier pour devenir une exploration vertigineuse des profondeurs de l'âme humaine. Comment un homme intelligent peut-il basculer dans le crime? Quelles sont les conséquences psychologiques d'un meurtre sur celui qui le commet? Ces questions fondamentales résonnent encore aujourd'hui avec une intensité troublante.
+Dans les ruelles sombres et suffocantes du Saint-Pétersbourg du XIXe siècle se déroule l'un des plus grands drames psychologiques de la littérature mondiale. *Crime et Châtiment*, publié en 1866, reste l'œuvre la plus emblématique de [Fiodor Dostoïevski](https://www.lepetitlitteraire.fr/auteurs/fedor-dostoievski), un roman qui dépasse largement le cadre du simple récit policier pour devenir une exploration vertigineuse des profondeurs de l'âme humaine. Comment un homme intelligent peut-il basculer dans le crime? Quelles sont les conséquences psychologiques d'un meurtre sur celui qui le commet? Ces questions fondamentales résonnent encore aujourd'hui avec une intensité troublante.
 
 ## Un roman né dans l'adversité
 

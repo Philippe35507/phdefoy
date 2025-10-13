@@ -7,7 +7,7 @@ heroImageAlt: "Illustration: Rendez-vous avec Rama : Quand l'inconnu cosmique re
 ---
 
 
-Dans l'immensité du cosmos, certaines rencontres changent à jamais notre perception de l'univers et de notre place en son sein. C'est précisément ce que propose Arthur C. Clarke dans son chef-d'œuvre "Rendez-vous avec Rama", publié en 1973 et récompensé par les prestigieux prix Hugo, Nebula et Campbell. Ce roman, pierre angulaire de la science-fiction dite "hard", nous invite à bord d'un mystérieux vaisseau extraterrestre traversant notre système solaire, et transforme cette exploration en une méditation profonde sur notre humanité face à l'inconnu. Près de cinquante ans après sa publication, cette œuvre continue de fasciner et d'interroger les lecteurs du monde entier.
+Dans l'immensité du cosmos, certaines rencontres changent à jamais notre perception de l'univers et de notre place en son sein. C'est précisément ce que propose [Arthur C. Clarke](https://www.senscritique.com/liste/les_meilleurs_romans_d_arthur_c_clarke/1484717) dans son chef-d'œuvre "Rendez-vous avec Rama", publié en 1973 et récompensé par les prestigieux prix Hugo, Nebula et Campbell. Ce roman, pierre angulaire de la science-fiction dite "hard", nous invite à bord d'un mystérieux vaisseau extraterrestre traversant notre système solaire, et transforme cette exploration en une méditation profonde sur notre humanité face à l'inconnu. Près de cinquante ans après sa publication, cette œuvre continue de fasciner et d'interroger les lecteurs du monde entier.
 
 ## Un cylindre mystérieux nommé Rama
 

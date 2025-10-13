@@ -32,7 +32,7 @@ Autres livres diponibles sur le site <a href="https://www.ebooksgratuits.com/" t
 
 
 
-Il existe des œuvres qui transcendent leur époque pour s'inscrire dans l'imaginaire collectif et devenir de véritables mythes littéraires. *Les Trois Mousquetaires* d'Alexandre Dumas fait incontestablement partie de ce panthéon. Publié initialement sous forme de feuilleton dans le journal *Le Siècle* entre mars et juillet 1844, ce roman d'aventures a conquis des générations de lecteurs par sa vivacité, ses personnages inoubliables et son intrigue captivante. Plongée dans un chef-d'œuvre où l'épée et l'esprit s'entrechoquent avec une virtuosité rarement égalée.
+Il existe des œuvres qui transcendent leur époque pour s'inscrire dans l'imaginaire collectif et devenir de véritables mythes littéraires. *Les Trois Mousquetaires* de [Alexandre Dumas](https://fr.wikipedia.org/wiki/Alexandre_Dumas) fait incontestablement partie de ce panthéon. Publié initialement sous forme de feuilleton dans le journal *Le Siècle* entre mars et juillet 1844, ce roman d'aventures a conquis des générations de lecteurs par sa vivacité, ses personnages inoubliables et son intrigue captivante. Plongée dans un chef-d'œuvre où l'épée et l'esprit s'entrechoquent avec une virtuosité rarement égalée.
 
 
 

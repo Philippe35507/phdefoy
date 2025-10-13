@@ -29,7 +29,7 @@ heroImageAlt: "Illustration: Alice au Pays des Merveilles : voyage littéraire d
 
 Autres livres diponibles sur le site <a href="https://www.ebooksgratuits.com/" target="_blank" rel="noopener">ebooksgratuits.com</a>
 
-Curieux, curieux et encore plus curieux ! Voilà ce que l'on ressent en tournant les pages de cette œuvre qui défie les lois de la logique et de la raison. *Alice au Pays des Merveilles* de Lewis Carroll n'est pas qu'un simple conte pour enfants, mais une véritable odyssée à travers les méandres de l'absurde et du non-sens, un voyage initiatique qui continue de fasciner lecteurs et critiques plus de 150 ans après sa publication.
+Curieux, curieux et encore plus curieux ! Voilà ce que l'on ressent en tournant les pages de cette œuvre qui défie les lois de la logique et de la raison. *Alice au Pays des Merveilles* de [Lewis Carroll](https://www.radiofrance.fr/franceculture/podcasts/les-nuits-de-france-culture/alice-au-pays-des-merveilles-de-lewis-carroll-ou-l-acces-a-un-monde-imaginaire-1962600) n'est pas qu'un simple conte pour enfants, mais une véritable odyssée à travers les méandres de l'absurde et du non-sens, un voyage initiatique qui continue de fasciner lecteurs et critiques plus de 150 ans après sa publication.
 
 Publié en 1865 sous le pseudonyme de Lewis Carroll (de son vrai nom Charles Lutwidge Dodgson), ce récit emblématique de la littérature victorienne a transcendé les époques pour s'imposer comme une référence incontournable de la littérature fantastique. Mais que se cache-t-il vraiment derrière cette façade de folie organisée et de personnages excentriques ?
 

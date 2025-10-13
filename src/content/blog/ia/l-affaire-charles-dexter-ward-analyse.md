@@ -28,7 +28,7 @@ heroImageAlt: "Illustration: L’Affaire Charles Dexter Ward — Analyse"
 </div>
 
 
-Dans le panthéon des œuvres lovecraftiennes, *L'Affaire Charles Dexter Ward* occupe une place singulière. Ce roman, le plus long jamais écrit par Lovecraft, déploie avec une patience terrifiante l'histoire d'un jeune homme dont la fascination pour un ancêtre pratiquant la sorcellerie le conduira à sa perte. Publié de manière posthume en 1941, ce texte constitue pourtant l'une des explorations les plus abouties des thèmes chers à l'auteur de Providence : la quête de connaissances interdites, la transmission généalogique d'une malédiction, et l'horreur cosmique tapie derrière le voile de la réalité quotidienne.
+Dans le panthéon des œuvres lovecraftiennes, *L'Affaire Charles Dexter Ward* occupe une place singulière. Ce roman, le plus long jamais écrit par [H.P. Lovecraft](https://www.bragelonne.fr/auteurs/h-p-lovecraft/), déploie avec une patience terrifiante l'histoire d'un jeune homme dont la fascination pour un ancêtre pratiquant la sorcellerie le conduira à sa perte. Publié de manière posthume en 1941, ce texte constitue pourtant l'une des explorations les plus abouties des thèmes chers à l'auteur de Providence : la quête de connaissances interdites, la transmission généalogique d'une malédiction, et l'horreur cosmique tapie derrière le voile de la réalité quotidienne.
 
 ## Une intrigue tissée d'ombres et de secrets ancestraux
 

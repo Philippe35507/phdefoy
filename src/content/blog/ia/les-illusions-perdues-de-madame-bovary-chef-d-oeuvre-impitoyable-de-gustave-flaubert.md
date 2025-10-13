@@ -32,7 +32,7 @@ Autres livres diponibles sur le site <a href="https://www.ebooksgratuits.com/" t
 
 
 
-Dans l'histoire littéraire française, peu d'œuvres ont suscité autant de controverses et de fascination que *Madame Bovary*. Ce roman publié en 1857 marque un tournant décisif dans la littérature moderne, tant par son style révolutionnaire que par sa dissection implacable des mœurs provinciales. Flaubert y dépeint l'existence tragique d'Emma Bovary, femme assoiffée de passions et prisonnière d'une réalité trop banale pour ses rêves démesurés.
+Dans l'histoire littéraire française, peu d'œuvres ont suscité autant de controverses et de fascination que *Madame Bovary*. Ce roman publié en 1857 marque un tournant décisif dans la littérature moderne, tant par son style révolutionnaire que par sa dissection implacable des mœurs provinciales. [Gustave Flaubert](https://essentiels.bnf.fr/fr/article/7d580fe3-7121-4275-832e-d7cfc8a75876-flaubert-une-vie-vouee-ecriture) y dépeint l'existence tragique d'Emma Bovary, femme assoiffée de passions et prisonnière d'une réalité trop banale pour ses rêves démesurés.
 
 ## Une héroïne tragique entre rêves et désillusions
 

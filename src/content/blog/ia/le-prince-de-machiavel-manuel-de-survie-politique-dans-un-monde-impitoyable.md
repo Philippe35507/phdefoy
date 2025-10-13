@@ -29,7 +29,7 @@ heroImageAlt: "Illustration: Le Prince de Machiavel : Manuel de survie politique
 
 Autres livres diponibles sur le site <a href="https://www.ebooksgratuits.com/" target="_blank" rel="noopener">ebooksgratuits.com</a>
 
-Dans les méandres de la littérature politique, certaines œuvres traversent les siècles sans perdre une once de leur pertinence. *Le Prince* de Nicolas Machiavel fait indéniablement partie de cette catégorie. Écrit en 1513 mais publié seulement en 1532, cinq ans après la mort de son auteur, ce traité politique compact a bouleversé la conception du pouvoir et continue d'influencer notre compréhension des mécanismes politiques modernes.
+Dans les méandres de la littérature politique, certaines œuvres traversent les siècles sans perdre une once de leur pertinence. *Le Prince* de [Nicolas Machiavel](https://www.les-philosophes.fr/machiavel.html) fait indéniablement partie de cette catégorie. Écrit en 1513 mais publié seulement en 1532, cinq ans après la mort de son auteur, ce traité politique compact a bouleversé la conception du pouvoir et continue d'influencer notre compréhension des mécanismes politiques modernes.
 
 Ce petit ouvrage de moins de cent pages a acquis une réputation sulfureuse qui dépasse largement son contenu réel. L'adjectif "machiavélique" est d'ailleurs entré dans le langage courant pour désigner une personne manipulatrice et sans scrupules. Mais que contient réellement ce texte qui a tant marqué la pensée occidentale? Plongeons dans cette œuvre fascinante qui, loin des royaumes imaginaires, nous offre une exploration sans concession des territoires bien réels du pouvoir.
 

@@ -19,7 +19,7 @@ Ce qui distingue les maîtres du genre, c'est leur capacité à jouer avec nos m
 
 ## Les mécanismes psychologiques du suspense
 
-Le suspense littéraire fonctionne en exploitant plusieurs mécanismes psychologiques profondément ancrés dans notre cerveau. Le premier est l'effet Zeigarnik, du nom de la psychologue Bluma Zeigarnik, qui a démontré que les tâches inachevées restent plus facilement en mémoire que celles qui sont terminées. Les auteurs de suspense utilisent cette tendance naturelle en créant délibérément des situations non résolues qui occupent notre esprit même lorsque nous ne lisons pas.
+Le suspense littéraire fonctionne en exploitant plusieurs mécanismes psychologiques profondément ancrés dans notre cerveau. Le premier est l'[effet Zeigarnik](https://www.psychologies.com/moi/deborde-Zeigarnik-Effect), du nom de la psychologue Bluma Zeigarnik, qui a démontré que les tâches inachevées restent plus facilement en mémoire que celles qui sont terminées. Les auteurs de suspense utilisent cette tendance naturelle en créant délibérément des situations non résolues qui occupent notre esprit même lorsque nous ne lisons pas.
 
 Un autre mécanisme essentiel est la gestion de l'information. Comme l'explique le professeur de psychologie cognitive Keith Oatley, "le suspense se produit lorsque le lecteur en sait plus que le personnage, ou lorsque le personnage en sait plus que le lecteur." Cette asymétrie informationnelle crée une tension cognitive que notre cerveau cherche naturellement à résoudre. Gillian Flynn, auteure de "Gone Girl", est particulièrement habile dans ce domaine, distillant l'information avec parcimonie et utilisant des narrateurs non fiables pour maintenir cette tension.
 
