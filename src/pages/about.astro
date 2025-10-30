@@ -10,13 +10,22 @@ import Layout from '../layouts/BlogPost.astro';
   pubDate={new Date('August 08 2024')}
   heroImage={AboutHeroImage.src}
 >
-  <!-- On remplace le titre du layout par le nôtre -->
+
+<style is:global>
+  .title h1 {
+    padding-top: 1.8rem;
+    font-size: 3rem;
+    text-align: center !important;
+    margin-bottom: 0;
+  }
+</style>
+
   <h2></h2>
   <p class="intro">
-    Disponibles en ligne :
+    Disponibles sur Amazon :
   </p>
-
-  <div class="books">
+  
+   <div class="books">
     <div class="book">
       <a href="/l-espagnol-pour-les-debutants-niveau-a1-philippe-de-foy/">
         <img src="/images/esp/EspagnolA1.jpg" 
@@ -88,9 +97,10 @@ import Layout from '../layouts/BlogPost.astro';
   }
 
   .intro {
-    margin-bottom: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #444;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
   }
 
   .books { 

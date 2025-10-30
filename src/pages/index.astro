@@ -145,7 +145,7 @@ function imgOrPlaceholder(src?: string) {
       */}
       <section class="latest-posts">
         <div class="latest-container">
-          <h2>Derniers articles</h2>
+          <h2 class="derniersarticles">Derniers articles</h2>
 
           <div class="posts-grid">
             {posts.map((p) => (
@@ -322,6 +322,9 @@ function imgOrPlaceholder(src?: string) {
           display: grid;
           grid-template-columns: repeat(3, 1fr);
           gap: 1.25rem;
+        }
+        .derniersarticles {
+          text-align: center;
         }
         .post-card {
           background: rgba(15,23,42,.6);
