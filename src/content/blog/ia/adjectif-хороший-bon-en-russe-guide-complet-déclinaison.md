@@ -6,7 +6,7 @@ heroImage: "/images/russe/Apprendre-le-russe-philippe-de-foy.jpg"
 ---
 
 
-L'adjectif **хоро́ший** (bon, bien) est l'un des adjectifs les plus couramment utilisés en russe. Sa maîtrise est essentielle pour quiconque apprend la langue, car il illustre parfaitement le système de déclinaison des adjectifs russes. Contrairement au français où les adjectifs s'accordent uniquement en genre et en nombre, le russe ajoute une troisième dimension : **les cas grammaticaux**.
+L'adjectif **хоро́ший** (bon, bien) est l'un des adjectifs les plus couramment utilisés en russe. Sa maîtrise est essentielle pour quiconque apprend la langue, car il illustre parfaitement le système de déclinaison des adjectifs russes. Contrairement au français où les adjectifs s'accordent uniquement en genre et en nombre, le russe ajoute un troisième critère : **les cas grammaticaux**.
 
 ## Principe général de la déclinaison
 
@@ -18,9 +18,13 @@ En russe, l'adjectif doit toujours s'accorder avec le nom qu'il qualifie selon t
 
 Cette triple concordance crée un système riche mais cohérent une fois les modèles assimilés.
 
-## Le type de déclinaison de хоро́ший
+## Classification selon le type dur / mou
 
-L'adjectif хоро́ший appartient à la catégorie des **adjectifs "durs"**, c'est-à-dire que sa racine se termine par une consonne dure (ш). Mais cette classification ne suffit pas : il faut également prendre en compte **deux autres critères fondamentaux** :
+L'adjectif хоро́ший appartient à la catégorie des **adjectifs "durs"**, c'est-à-dire que sa racine se termine par une consonne dure (ш). Sa terminaison -ий au nominatif singulier masculin, identique aux adjectifs de type mou, est imposée par une règle orthographique stricte en russe : après les chuintantes dures (ж, ч, ш, щ) et la sifflante ц, la voyelle ы doit être remplacée par и.
+
+## Critères de classification et de déclinaison
+
+Bien que la présence d'un radical dur soit le point de départ de la classification, cette seule caractéristique n'est pas suffisante pour déterminer les terminaisons exactes. Il est nécessaire de considérer **deux autres critères fondamentaux** :
 
 1. **La position de l'accent tonique** (sur le radical ou sur la terminaison)
 2. **La nature de la dernière consonne du radical** (chuintante, gutturale, ou autre)
@@ -29,23 +33,15 @@ Ces deux critères combinés déterminent les terminaisons exactes de l'adjectif
 
 ## Les deux critères décisifs pour la déclinaison
 
-### Critère 1 : Position de l'accent tonique
+### Critère 1 : Nature de la dernière consonne du radical, les consonnes chuintantes (ж, ч, ш, щ)
 
-**Хоро́ший** : L'accent tonique se trouve sur le **radical**, précisément sur la syllabe **-ро́-**.
+**Хоро́ший** : Le radical se termine par **ш**, qui est une **consonne chuintante**. Les consonnes chuintantes en russe sont : **ж, ч, ш, щ**
 
-Cela oppose хоро́ший aux adjectifs dont l'accent tombe sur la terminaison, comme **большо́й** (grand).
+### Critère 2 : Position de l'accent tonique
 
-### Critère 2 : Nature de la dernière consonne du radical
+**Хоро́ший** : L'accent tonique se trouve sur le **radical** de l'adjectif. Ce placement d'accent est typique du groupe majoritaire d'adjectifs, et s'oppose aux adjectifs dont l'accent tombe sur la terminaison, comme par exemple **большо́й** (grand).
 
-**Хоро́ший** : Le radical se termine par **ш**, qui est une **consonne chuintante**.
-
-Les consonnes chuintantes en russe sont : **ж, ч, ш, щ**
-
-Les consonnes gutturales sont : **г, к, х**
-
-Les autres consonnes sont dites **neutres** : **б, в, д, з, л, м, н, п, р, с, т, ф, ц**
-
-**Cette distinction est cruciale** car elle détermine, avec la position de l'accent, quelles voyelles apparaîtront dans les terminaisons.
+**Cette double distinction est cruciale** car elle détermine quelles voyelles apparaîtront dans les terminaisons (Ы → И et О → Е). La présence d'une consonne chuintante à la fin du radical d'un adjectif combinée à une accentuation sur le radical et non sur la terminaison (comme dans хоро́ший, све́жий, горя́чий, etc.), bouleverse les déclinaisons des cas grammaticaux. 
 
 ## Trois types d'adjectifs à comparer
 
@@ -53,12 +49,12 @@ Pour comprendre l'impact de ces deux critères, comparons trois adjectifs "durs"
 
 1. **Хоро́ший** (bon) - radical en chuintante **ш** + accent sur radical
 2. **Большо́й** (grand) - radical en chuintante **ш** + accent sur terminaison
-3. **Ру́сский** (russe) - radical en gutturale **ск** + accent sur radical
+3. **Ру́сский** (russe) - radical en gutturale **к** + accent sur radical
 
 ### Pourquoi ces trois adjectifs ?
 
 - **Хоро́ший vs большо́й** : Même consonne finale (ш), mais accent différent → montre l'effet de la position de l'accent
-- **Хоро́ший vs ру́сский** : Même position d'accent (radical), mais consonnes finales différentes (ш vs ск) → montre l'effet de la nature de la consonne
+- **Хоро́ший vs ру́сский** : Même position d'accent (radical), mais consonnes finales différentes (ш vs к) → montre l'effet de la nature de la consonne
 
 ## Tableau comparatif : хоро́ший vs большо́й vs ру́сский
 
@@ -107,13 +103,13 @@ Quand l'accent tombe **sur le radical**, on écrit obligatoirement :
 ### Après les consonnes gutturales (г, к, х)
 
 Quand l'accent tombe **sur le radical**, on écrit :
-- Génitif : **-ого** (mais prononcé [ово])
+- Génitif : **-ого** 
 - Datif : **-ому**
 - Prépositionnel : **-ом**
 
 **Raison** : Les gutturales n'ont pas cette restriction orthographique, donc on écrit **о** même si cette voyelle est inaccentuée.
 
-### Après les consonnes neutres
+### Après les autres consonnes
 
 Les adjectifs dont le radical se termine par une consonne neutre (comme но́вый, ста́рый) suivent le même modèle que les gutturales :
 - Génitif : **-ого**
@@ -395,7 +391,7 @@ Le superlatif лу́чший se décline également avec les mêmes règles : ra
 
 La déclinaison de хоро́ший ne peut se comprendre qu'en considérant **deux critères simultanés** :
 
-1. **La position de l'accent tonique** sur le radical (хор-**ро́**-) plutôt que sur la terminaison
+1. **La position de l'accent tonique** sur le radical (хоро́-) plutôt que sur la terminaison
 2. **La nature chuintante de la consonne finale** (ш) du radical
 
 Ces deux caractéristiques combinées expliquent pourquoi хоро́ший utilise les terminaisons **-его, -ему, -им, -ем** aux cas obliques masculin/neutre, alors que :
