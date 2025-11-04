@@ -69,7 +69,7 @@ Pour comprendre l'impact de ces deux critères, comparons trois adjectifs "durs"
 | **Instrumental** | хоро́ш**им** | больш**и́м** | ру́сск**им** |
 | **Prépositionnel** | (о) хоро́ш**ем** | (о) больш**о́м** | (о) ру́сск**ом** |
 
-### Observations fondamentales
+### Observations
 
 **1. Хоро́ший vs большо́й** (même chuintante ш, accents différents) :
 
@@ -89,7 +89,7 @@ Pour comprendre l'impact de ces deux critères, comparons trois adjectifs "durs"
 
 → **La nature de la consonne finale** (chuintante vs gutturale) change le е en о dans certaines terminaisons, **même quand l'accent est au même endroit**.
 
-## La règle orthographique fondamentale
+## La règle orthographe à respecter
 
 ### Après les consonnes chuintantes (ж, ч, ш, щ)
 
@@ -115,17 +115,6 @@ Les adjectifs dont le radical se termine par une consonne neutre (comme но́в
 - Génitif : **-ого**
 - Datif : **-ому**
 - Prépositionnel : **-ом**
-
-## Synthèse des règles combinées
-
-| Type d'adjectif | Accent | Consonne finale | Génitif | Datif | Prép. | Exemple |
-|----------------|--------|-----------------|---------|-------|-------|---------|
-| **Type 1** | Radical | Chuintante (ж,ч,ш,щ) | -его | -ему | -ем | хоро́ший |
-| **Type 2** | Terminaison | Chuintante | -о́го | -о́му | -о́м | большо́й |
-| **Type 3** | Radical | Gutturale (г,к,х) | -ого | -ому | -ом | ру́сский |
-| **Type 4** | Radical | Neutre | -ого | -ому | -ом | но́вый |
-
-**Conclusion** : Хоро́ший appartient au **Type 1**, ce qui explique ses terminaisons en **-его, -ему, -ем**.
 
 ## Tableau complet des déclinaisons de хоро́ший
 
@@ -252,30 +241,6 @@ Toujours utilisé avec une préposition (в, на, о, при).
 - Большо́м utilise **-о́м** (accent final)
 - Ру́сском utilise **-ом** (gutturale, même avec accent radical)
 
-## Les règles orthographiques du russe expliquées
-
-### Pourquoi cette différence entre chuintantes et gutturales ?
-
-Le russe possède une **règle orthographique fondamentale** : après les consonnes **ж, ч, ш, щ** (chuintantes), on ne peut pas écrire un **о** ou **ы** non accentué. On doit écrire **е** ou **и** à la place.
-
-**Exemples** :
-- Après ш : on écrit хоро́ш**его** (pas *хоро́шого)
-- Après ч : on écrit горя́ч**его** (pas *горя́чого)
-
-Cette règle ne s'applique **pas** après les gutturales (г, к, х), donc :
-- Après ск : on écrit ру́сск**ого** (forme correcte)
-- Après к : on écrit ре́дк**ого** (forme correcte)
-
-### Quand cette règle s'applique-t-elle ?
-
-Cette règle s'applique **uniquement quand le о ou ы est inaccentué**.
-
-Si l'accent tombe sur la terminaison, on peut écrire **о** ou **ы** même après une chuintante :
-- Большо́го (le **о** est accentué, donc autorisé après ш)
-- Больши́м (le **и** est accentué, donc autorisé après ш)
-
-C'est pourquoi **la position de l'accent ET la nature de la consonne** doivent être considérées ensemble.
-
 ## Autres exemples d'adjectifs selon leur type
 
 ### Type 1 : Chuintante + accent radical (comme хоро́ший)
@@ -312,7 +277,7 @@ C'est pourquoi **la position de l'accent ET la nature de la consonne** doivent �
 - Instrumental : ди́к**им** зве́рем
 - Prépositionnel : о ди́к**ом** зве́ре
 
-### Type 4 : Consonne neutre + accent radical
+### Type 4 : Le cas classique et le plus répandu : consonne autre que chuintante ou gutturale + accent radical
 
 **Но́вый** (nouveau) - accent sur но́-, radical en в :
 - Nominatif : но́вый дом
@@ -327,14 +292,6 @@ C'est pourquoi **la position de l'accent ET la nature de la consonne** doivent �
 - Datif : ста́р**ому** дру́гу
 - Instrumental : ста́р**ым** дру́гом
 - Prépositionnel : о ста́р**ом** дру́ге
-
-## Tableau récapitulatif général
-
-| Radical se termine par | Accent sur radical | Accent sur terminaison |
-|------------------------|-------------------|------------------------|
-| **Chuintante** (ж,ч,ш,щ) | -его, -ему, -им, -ем<br>(хоро́ший) | -о́го, -о́му, -и́м, -о́м<br>(большо́й) |
-| **Gutturale** (г,к,х) | -ого, -ому, -им, -ом<br>(ру́сский) | -о́го, -о́му, -и́м, -о́м<br>(плохо́й) |
-| **Autre consonne** | -ого, -ому, -ым, -ом<br>(но́вый) | -о́го, -о́му, -ы́м, -о́м<br>(молодо́й) |
 
 **Note** : Pour l'instrumental, observez aussi la différence -им vs -ым selon le type de consonne (après chuintante/gutturale : -им ; après autre consonne : -ым ou -им selon des règles orthographiques).
 
