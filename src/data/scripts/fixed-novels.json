@@ -284,19 +284,23 @@
     "author": "Alfred Bester"
   },
   {
+    "title": "Le Capitaine Fracasse",
+    "author": "Théophile Gautier"
+  },
+  {
     "title": "Big Little Lies",
     "author": "Liane Moriarty"
   },
   {
-    "title": "The Graveyard Book",
+    "title": "L'Étrange Vie de Nobody Owens",
     "author": "Neil Gaiman"
   },
   {
-    "title": "Hyperion",
+    "title": "Hypérion",
     "author": "Dan Simmons"
   },
   {
-    "title": "The Cuckoo's Calling",
+    "title": "L'Appel du coucou",
     "author": "Robert Galbraith"
   },
   {
@@ -304,7 +308,7 @@
     "author": "Liu Cixin"
   },
   {
-    "title": "The Seven Husbands of Evelyn Hugo",
+    "title": "Les Sept Maris d'Evelyn Hugo",
     "author": "Taylor Jenkins Reid"
   },
   {
@@ -312,7 +316,7 @@
     "author": "Stanislas Lem"
   },
   {
-    "title": "The Girl with the Dragon Tattoo",
+    "title": "Les Hommes qui n'aimaient pas les femmes",
     "author": "Stieg Larsson"
   },
   {
@@ -328,15 +332,15 @@
     "author": "Ursula K. Le Guin"
   },
   {
-    "title": "The Snowman",
+    "title": "Le Bonhomme de neige",
     "author": "Jo Nesbø"
   },
   {
-    "title": "Flowers for Algernon",
+    "title": "Des fleurs pour Algernon",
     "author": "Daniel Keyes"
   },
   {
-    "title": "The Turn of the Screw",
+    "title": "Le Tour d'écrou",
     "author": "Henry James"
   },
   {
@@ -360,11 +364,11 @@
     "author": "Silvia Moreno-Garcia"
   },
   {
-    "title": "The Maltese Falcon",
+    "title": "Le Faucon maltais",
     "author": "Dashiell Hammett"
   },
   {
-    "title": "The Handmaid's Tale",
+    "title": "La Servante écarlate",
     "author": "Margaret Atwood"
   },
   {
@@ -372,15 +376,15 @@
     "author": "Ray Bradbury"
   },
   {
-    "title": "Never Let Me Go",
+    "title": "Auprès de moi toujours",
     "author": "Kazuo Ishiguro"
   },
   {
-    "title": "The Big Sleep",
+    "title": "Le Grand Sommeil",
     "author": "Raymond Chandler"
   },
   {
-    "title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+    "title": "L'Étrange Cas du Dr Jekyll et de Mr Hyde",
     "author": "Robert Louis Stevenson"
   },
   {
@@ -396,7 +400,7 @@
     "author": "Dennis Lehane"
   },
   {
-    "title": "The Silence of the Lambs",
+    "title": "Le Silence des agneaux",
     "author": "Thomas Harris"
   },
   {
@@ -404,7 +408,7 @@
     "author": "Michel Zévaco"
   },
   {
-    "title": "Red Dragon",
+    "title": "Dragon rouge",
     "author": "Thomas Harris"
   },
   {
@@ -416,7 +420,7 @@
     "author": "Louise Penny"
   },
   {
-    "title": "Turtles All the Way Down",
+    "title": "La Face cachée de Margo",
     "author": "John Green"
   },
   {
@@ -440,15 +444,15 @@
     "author": "Ira Levin"
   },
   {
-    "title": "I Am Legend",
+    "title": "Je suis une légende",
     "author": "Richard Matheson"
   },
   {
-    "title": "Psycho",
+    "title": "Psychose",
     "author": "Robert Bloch"
   },
   {
-    "title": "The Shrinking Man",
+    "title": "L'Homme qui rétrécit",
     "author": "Richard Matheson"
   },
   {
@@ -460,7 +464,7 @@
     "author": "Robert McCammon"
   },
   {
-    "title": "The Talisman",
+    "title": "Le Talisman des territoires",
     "author": "Stephen King & Peter Straub"
   },
   {
@@ -476,7 +480,7 @@
     "author": "N.K. Jemisin"
   },
   {
-    "title": "The Martian",
+    "title": "Seul sur Mars",
     "author": "Andy Weir"
   },
   {
@@ -484,6 +488,5 @@
     "author": "Max Brooks"
   } 
 ]
-
 
 
