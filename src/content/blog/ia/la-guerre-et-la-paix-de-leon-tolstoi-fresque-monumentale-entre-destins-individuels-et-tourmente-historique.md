@@ -1,7 +1,7 @@
 ---
 title: "La Guerre et la Paix de Léon Tolstoï : Fresque monumentale entre destins individuels et tourmente historique"
 description: "Exploration de l'œuvre majeure de Tolstoï mêlant épopée historique et profondeur psychologique, où les destins individuels se tissent dans la grande Histoire."
-pubDate: "2025-09-27"
+pubDate: "2025-12-11"
 heroImage: "/images/ia/2025-09-27-la-guerre-et-la-paix-de-leon-tolstoi-fresque-monumentale-ent-23a31e-hero/2025-09-27-la-guerre-et-la-paix-de-leon-tolstoi-fresque-monumentale-ent-23a31e-hero.png"
 heroImageAlt: "Illustration: La Guerre et la Paix de Léon Tolstoï : Fresque monumentale entre destins individuels et tourmente historique"
 ---

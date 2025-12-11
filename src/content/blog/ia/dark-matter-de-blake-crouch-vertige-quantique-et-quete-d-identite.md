@@ -91,3 +91,5 @@ L'œuvre a également contribué à populariser les concepts de physique quantiq
 Ce qui reste après la lecture, au-delà des rebondissements et des concepts scientifiques fascinants, c'est cette question lancinante que chacun peut se poser : si nous pouvions voir toutes les vies que nous aurions pu mener, serions-nous en paix avec celle que nous avons choisie? Et si la réponse est non, que sommes-nous prêts à faire pour changer notre trajectoire?
 
 Dans un monde où nous sommes constamment incités à nous comparer aux autres et à imaginer des vies alternatives plus satisfaisantes, *Dark Matter* nous rappelle que la valeur de notre existence réside peut-être moins dans ce que nous accomplissons que dans les connexions que nous tissons et dans notre capacité à apprécier le chemin parcouru, avec ses imperfections et ses moments de grâce.
+
+Du même auteur : *[Wyward Pines](/wayward-pines-de-blake-crouch-les-abimes-vertigineux-d-une-realite-fragmentee/)*  et *[Recursion](/recursion-de-blake-crouch-quand-la-memoire-reecrit-la-realite/)*

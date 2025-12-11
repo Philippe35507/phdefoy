@@ -1,7 +1,7 @@
 ---
 title: "Mexican Gothic de Silvia Moreno-Garcia : cauchemar fongique dans le Mexique des années 50"
 description: "Découvrez comment Silvia Moreno-Garcia réinvente le roman gothique à travers une terrifiante mythologie fongique et une critique du colonialisme dans le Mexique"
-pubDate: "2025-12-05"
+pubDate: "2025-10-03"
 heroImage: "/images/ia/2025-12-05-mexican-gothic-de-silvia-moreno-garcia-cauchemar-fongique-da-de3654-hero/2025-12-05-mexican-gothic-de-silvia-moreno-garcia-cauchemar-fongique-da-de3654-hero.png"
 heroImageAlt: "Illustration: Mexican Gothic de Silvia Moreno-Garcia : cauchemar fongique dans le Mexique des années 50"
 ---

@@ -6,7 +6,7 @@ heroImage: "/images/ia/2025-10-16-recursion-de-blake-crouch-quand-la-memoire-ree
 heroImageAlt: "Illustration: Recursion de Blake Crouch : quand la mémoire réécrit la réalité"
 ---
 
-Dans l'univers des thrillers de science-fiction contemporains, certaines œuvres parviennent à combiner avec brio concepts scientifiques complexes et questionnements profondément humains. *Recursion* de [Blake Crouch](https://www.babelio.com/auteur/Blake-Crouch/356655) fait incontestablement partie de cette catégorie d'exception. Publié en 2019, ce roman nous plonge dans une aventure vertigineuse où la mémoire devient une arme à double tranchant capable de réécrire l'existence même.
+Dans l'univers des thrillers de science-fiction contemporains, certaines œuvres parviennent à combiner avec brio concepts scientifiques complexes et questionnements profondément humains. *Recursion* de [Blake Crouch](https://www.babelio.com/auteur/Blake-Crouch/356655), l'auteur de l'auteur de l'excellent *[Dark Matter](/dark-matter-de-blake-crouch-vertige-quantique-et-quete-d-identite/)* et de la trilogie *[Wyward Pines](/wayward-pines-de-blake-crouch-les-abimes-vertigineux-d-une-realite-fragmentee/)*,  fait incontestablement partie de cette catégorie d'exception. Publié en 2019, ce roman nous plonge dans une aventure vertigineuse où la mémoire devient une arme à double tranchant capable de réécrire l'existence même. 
 
 ## Une prémisse fascinante : la maladie du faux souvenir
 
