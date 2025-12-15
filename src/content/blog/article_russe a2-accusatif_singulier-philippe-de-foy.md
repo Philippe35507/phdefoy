@@ -1,0 +1,349 @@
+---
+title: "L'Accusatif Singulier en Russe : Le Guide Complet"
+description: "L'accusatif est sans doute l'un des cas les plus fascinants du russe. Pourquoi ? Parce qu'il présente une particularité unique : sa forme change selon que le nom désigne un être vivant ou un objet inanimé !"
+pubDate: "dec 14 2025"
+heroImageLink: "https://www.amazon.com/dp/B0G5MVCT7B"
+heroImage: "/images/russe/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy.png"
+tags: ["Russe"]
+---
+
+
+L'accusatif est sans doute l'un des cas les plus fascinants du russe. Pourquoi ? Parce qu'il présente une particularité unique : **sa forme change selon que le nom désigne un être vivant ou un objet inanimé !** Cette distinction animé/inanimé, qui peut sembler étrange au premier abord, est en réalité l'une des clés pour maîtriser la grammaire russe.
+
+
+Dans cet article, nous allons explorer en profondeur l'accusatif singulier, ses emplois, ses terminaisons et l'accord des adjectifs. Avec de nombreux exemples concrets, vous comprendrez rapidement comment utiliser ce cas grammatical.
+
+---
+
+## Une règle surprenante : animé ou inanimé ?
+
+Avant toute chose, il faut comprendre la distinction fondamentale qui régit l'accusatif :
+
+### Pour les noms INANIMÉS (objets, idées, concepts)
+
+**Masculins** : l'accusatif = le nominatif (pas de changement !)
+- **дом** → **дом** (la maison)
+- **стол** → **стол** (la table)
+- **музе́й** → **музе́й** (le musée)
+
+**Neutres** : l'accusatif = le nominatif également
+- **окно́** → **окно́** (la fenêtre)
+- **мо́ре** → **мо́ре** (la mer)
+- **зда́ние** → **зда́ние** (le bâtiment)
+
+### Pour les noms ANIMÉS (personnes, animaux)
+
+**Masculins** : l'accusatif prend une terminaison spéciale **-а** ou **-я**
+- **студе́нт** → **студе́нта** (l'étudiant)
+- **врач** → **врача́** (le médecin)
+- **учи́тель** → **учи́теля** (le professeur)
+- **кот** → **кота́** (le chat)
+- **медве́дь** → **медве́дя** (l'ours)
+
+### Pour les féminins (tous sont traités de la même manière)
+
+Les noms féminins changent TOUJOURS à l'accusatif, qu'ils soient animés ou inanimés :
+- Terminaison **-а** → **-у**
+  - **кни́га** → **кни́гу** (le livre)
+  - **сестра́** → **сестру́** (la sœur)
+  - **шко́ла** → **шко́лу** (l'école)
+
+- Terminaison **-я** → **-ю**
+  - **неде́ля** → **неде́лю** (la semaine)
+  - **исто́рия** → **исто́рию** (l'histoire)
+
+- Terminaison **-ь** → **-ь** (pas de changement)
+  - **дверь** → **дверь** (la porte)
+
+---
+
+## Les emplois de l'accusatif : quand l'utiliser ?
+
+### 1. Le complément d'objet direct
+
+C'est l'emploi principal de l'accusatif. Quand quelqu'un **fait** quelque chose **à** quelqu'un ou quelque chose, on utilise l'accusatif.
+
+**Exemples avec des objets (inanimés) :**
+- **Что вы ви́дите?** (Qu'est-ce que vous voyez ?)
+- **Мы ви́дим дом.** (Nous voyons une maison.)
+- **Я чита́ю кни́гу.** (Je lis un livre.)
+- **Мы лю́бим му́зыку.** (Nous aimons la musique.)
+
+**Exemples avec des personnes ou animaux (animés) :**
+- **Кого́ ты зна́ешь?** (Qui connais-tu ?)
+- **Я зна́ю сосе́да.** (Je connais le voisin.)
+- **Он ви́дит студе́нта здесь.** (Il voit l'étudiant ici.)
+- **Она́ ви́дит кота́.** (Elle voit le chat.)
+
+#### Focus spécial : le verbe смо́треть (regarder)
+
+Ce verbe mérite une attention particulière car il fonctionne de deux manières :
+
+**Directement + accusatif** pour les spectacles, films, sports :
+- **Я смотрю́ фильм.** (Je regarde un film.)
+- **Мы смо́трим спекта́кль.** (Nous regardons un spectacle.)
+- **Они́ смо́трят бале́т.** (Ils regardent un ballet.)
+- **Ты смо́тришь футбо́л.** (Tu regardes le football.)
+
+**Avec на + accusatif** pour regarder vers quelque chose ou quelqu'un :
+- **Смотри́ на меня́!** (Regarde-moi !)
+- **Я смотрю́ на у́лицу.** (Je regarde la rue.)
+- **Он смо́трит на часы́.** (Il regarde sa montre.)
+
+### 2. Le mouvement vers un lieu
+
+L'accusatif s'utilise avec les verbes de mouvement et certaines prépositions pour indiquer la **destination** ou la **direction**.
+
+#### Préposition **В** + accusatif : dans, vers l'intérieur
+
+**Куда́ ты идёшь?** (Où vas-tu ?)
+
+Réponses possibles :
+- **Я иду́ в теа́тр.** (Je vais au théâtre.)
+- **Я иду́ в шко́лу.** (Je vais à l'école.)
+- **Я иду́ в кино́.** (Je vais au cinéma.)
+
+**Куда́ она́ е́дет?** (Où va-t-elle ?)
+- **Она́ е́дет в Москву́.** (Elle va à Moscou.)
+
+#### Préposition **НА** + accusatif : sur, à, au
+
+- **Он кладёт кни́гу на стол.** (Il pose le livre sur la table.)
+- **Она́ е́дет на рабо́ту.** (Elle va au travail.)
+- **Мы идём на конце́рт.** (Nous allons au concert.)
+
+#### Préposition **ЧЕ́РЕЗ** + accusatif : à travers, par
+
+- **Мы идём че́рез парк.** (Nous traversons le parc.)
+
+### 3. L'expression du jour de la semaine
+
+Pour indiquer qu'une action ponctuelle a lieu **un jour précis** de la semaine, on utilise **В** + accusatif :
+
+- **Я иду́ в теа́тр в понеде́льник.** (Je vais au théâtre lundi.)
+- **Она́ рабо́тает в суббо́ту.** (Elle travaille samedi.)
+
+---
+
+## Les terminaisons de l'accusatif : tableau récapitulatif
+
+| **Genre** | **Type** | **Nominatif** | **Accusatif** | **Exemple** |
+|-----------|----------|---------------|---------------|-------------|
+| Masculin | Inanimé dur | стол | стол | **Я ви́жу стол** |
+| Masculin | Inanimé mou | музе́й | музе́й | **Он посеща́ет музе́й** |
+| Masculin | Animé dur | студе́нт | студе́нта | **Я зна́ю студе́нта** |
+| Masculin | Animé mou (й) | учи́тель | учи́теля | **Мы лю́бим учи́теля** |
+| Féminin | -а | кни́га | кни́гу | **Я чита́ю кни́гу** |
+| Féminin | -я | неде́ля | неде́лю | **Она́ лю́бит неде́лю** |
+| Féminin | -ь | дверь | дверь | **Он откры́л дверь** |
+| Neutre | -о | окно́ | окно́ | **Мы ви́дим окно́** |
+| Neutre | -е | мо́ре | мо́ре | **Они́ лю́бят мо́ре** |
+| Neutre | -ие | зда́ние | зда́ние | **Я ви́жу зда́ние** |
+
+**Règle importante** : Après les consonnes gutturales (г, к, х), les chuintantes (ж, ш, ч, щ) et la sifflante ц, on écrit toujours **-а** et jamais **-я**.
+
+---
+
+## L'accord des adjectifs à l'accusatif
+
+Les adjectifs doivent s'accorder avec les noms qu'ils qualifient. Et comme pour les noms, la distinction animé/inanimé est cruciale !
+
+### 1. Adjectifs qualifiant des noms masculins INANIMÉS
+
+**Bonne nouvelle** : les adjectifs conservent les terminaisons du nominatif (-ый, -ой, -ий) :
+
+- **но́вый стол** → **но́вый стол** (la nouvelle table)
+- **большо́й дом** → **большо́й дом** (la grande maison)
+- **си́ний каранда́ш** → **си́ний каранда́ш** (le crayon bleu)
+- **после́дний музе́й** → **после́дний музе́й** (le dernier musée)
+
+**Exemple en contexte** :
+- **Я иду́ в но́вый теа́тр.** (Je vais au nouveau théâtre.)
+- **Мы идём че́рез большо́й парк.** (Nous traversons un grand parc.)
+
+### 2. Adjectifs qualifiant des noms masculins ANIMÉS
+
+Ici, les adjectifs changent ! Ils prennent les terminaisons **-ого** ou **-его**.
+
+#### Adjectifs à radical dur : **-ого** (prononcé "-ово")
+
+- **но́вый студе́нт** → **но́вого студе́нта** (le nouvel étudiant)
+- **молодо́й челове́к** → **молодо́го челове́ка** (le jeune homme)
+- **ру́сский учи́тель** → **ру́сского учи́теля** (le professeur russe)
+
+#### Règle spéciale après ж, ч, ш, щ, ц
+
+Après ces consonnes chuintantes et sifflantes, si l'accent n'est **pas** sur la terminaison, on écrit **-его** (et non -ого) :
+
+- **хоро́ший друг** → **хоро́шего дру́га** (un bon ami)
+
+#### Adjectifs à radical mou : **-его** (prononcé "-ево")
+
+- **си́ний кит** → **си́него кита́** (la baleine bleue)
+- **после́дний студе́нт** → **после́днего студе́нта** (le dernier étudiant)
+- **ве́черний по́езд** → **ве́черний по́езд** (le train du soir - inanimé, donc pas de changement)
+
+### 3. Adjectifs qualifiant des noms FÉMININS
+
+Les adjectifs féminins prennent TOUJOURS la terminaison **-ую** ou **-юю** :
+
+#### Radical dur : **-ую**
+
+- **но́вая кни́га** → **но́вую кни́гу** (le nouveau livre)
+- **краси́вая де́вушка** → **краси́вую де́вушку** (la belle jeune fille)
+- **ста́рая шко́ла** → **ста́рую шко́лу** (la vieille école)
+
+#### Radical mou : **-юю**
+
+- **си́няя ру́чка** → **си́нюю ру́чку** (le stylo bleu)
+- **ве́черняя газе́та** → **ве́чернюю газе́ту** (le journal du soir)
+
+**Exemples en contexte** :
+- **Я чита́ю интере́сную кни́гу.** (Je lis un livre intéressant.)
+- **Он ви́дит ста́ршую сестру́.** (Il voit sa sœur aînée.)
+- **Мы слу́шаем кла́ссическую му́зыку.** (Nous écoutons de la musique classique.)
+- **Она́ е́дет на интере́сную вы́ставку.** (Elle va à une exposition intéressante.)
+
+### 4. Adjectifs qualifiant des noms NEUTRES
+
+Comme les noms neutres, les adjectifs neutres **ne changent pas** à l'accusatif :
+
+- **краси́вое дере́во** → **краси́вое дере́во** (le bel arbre)
+- **большо́е окно́** → **большо́е окно́** (la grande fenêtre)
+- **ста́рое зда́ние** → **ста́рое зда́ние** (le vieux bâtiment)
+
+**Exemple** :
+- **Он смо́трит на краси́вое дере́во.** (Il regarde le bel arbre.)
+
+---
+
+## Les adjectifs possessifs à l'accusatif
+
+Les adjectifs possessifs suivent les mêmes règles que les adjectifs qualificatifs :
+
+### Avec **мой, твой, наш, ваш** (mon, ton, notre, votre)
+
+**Masculin inanimé** : pas de changement
+- **мой стол** → **мой стол** (ma table)
+- **твой дом** → **твой дом** (ta maison)
+- **наш парк** → **наш парк** (notre parc)
+
+**Masculin animé** : terminaison **-его**
+- **мой друг** → **моего́ дру́га** (mon ami)
+- **твой брат** → **твоего́ бра́та** (ton frère)
+- **наш учи́тель** → **на́шего учи́теля** (notre professeur)
+
+**Féminin** : terminaison **-ую**
+- **моя́ кни́га** → **мою́ кни́гу** (mon livre)
+- **твоя́ сестра́** → **твою́ сестру́** (ta sœur)
+- **на́ша шко́ла** → **на́шу шко́лу** (notre école)
+
+**Neutre** : pas de changement
+- **моё окно́** → **моё окно́** (ma fenêtre)
+- **твоё де́ло** → **твоё де́ло** (ton affaire)
+- **на́ше ме́сто** → **на́ше ме́сто** (notre place)
+
+### Avec **его́, её, их** (son/sa, leur) - INVARIABLES
+
+Ces trois possessifs **ne changent JAMAIS**, quelle que soit la situation :
+
+- **его́ друг** → **его́ дру́га** (son ami - à lui)
+- **его́ маши́на** → **его́ маши́ну** (sa voiture - à lui)
+- **её брат** → **её бра́та** (son frère - à elle)
+- **её кни́га** → **её кни́гу** (son livre - à elle)
+- **их сын** → **их сы́на** (leur fils)
+- **их ко́мната** → **их ко́мнату** (leur chambre)
+
+---
+
+## Les adjectifs démonstratifs à l'accusatif
+
+### Avec **э́тот, э́та, э́то** (ce, cette)
+
+**Masculin inanimé** : **э́тот** (pas de changement)
+- **э́тот теа́тр** → **э́тот теа́тр** (ce théâtre)
+
+**Masculin animé** : **э́того**
+- **э́тот студе́нт** → **э́того студе́нта** (cet étudiant)
+
+**Féminin** : **э́ту**
+- **э́та карти́на** → **э́ту карти́ну** (cette peinture)
+
+**Neutre** : **э́то** (pas de changement)
+- **э́то окно́** → **э́то окно́** (cette fenêtre)
+
+---
+
+## Tableau récapitulatif : accord des adjectifs
+
+| **Type** | **Masculin inanimé** | **Masculin animé** | **Féminin** | **Neutre** |
+|----------|---------------------|-------------------|------------|-----------|
+| **Qualificatifs** | -ый/-ой/-ий | -ого/-его | -ую/-юю | -ое/-ее |
+| **Possessifs** | мой/твой/наш/ваш | моего́/твоего́/на́шего/ва́шего | мою́/твою́/на́шу/ва́шу | моё/твоё/на́ше/ва́ше |
+| **Démonstratifs** | э́тот | э́того | э́ту | э́то |
+
+---
+
+## Astuces pour mémoriser l'accusatif
+
+### 1. La question : Кого́? vs Что?
+
+Pour savoir si vous devez utiliser l'accusatif, posez-vous ces questions :
+- **Кого́?** (Qui ?) pour les animés
+- **Что?** (Quoi ?) pour les inanimés
+
+Si la réponse correspond au complément d'objet direct, c'est l'accusatif !
+
+### 2. Le test du mouvement
+
+Si vous utilisez un verbe de mouvement (идти́, е́хать, лете́ть, etc.) avec **куда́** (où), c'est l'accusatif :
+- **Куда́ ты идёшь?** → **Я иду́ в магази́н.**
+
+### 3. Masculins inanimés = facile !
+
+Rappelez-vous : pour les masculins inanimés et tous les neutres, **l'accusatif = le nominatif**. Aucun changement à faire !
+
+### 4. La terminaison en -у/-ю pour les féminins
+
+C'est systématique : tous les féminins en -а/-я prennent -у/-ю à l'accusatif. C'est une des règles les plus simples du russe !
+
+---
+
+## Exercices 
+
+Pour bien assimiler l'accusatif, voici quelques phrases à traduire :
+
+1. Je vois la nouvelle maison.
+2. Il connaît le bon professeur.
+3. Nous aimons la musique classique.
+4. Elle va au vieux théâtre.
+5. Vous regardez un film intéressant.
+6. Je pose le livre sur la table.
+7. Ils voient le chat.
+8. Tu vas à Moscou lundi.
+
+**Réponses** :
+1. Я ви́жу но́вый дом.
+2. Он зна́ет хоро́шего учи́теля.
+3. Мы лю́бим кла́ссическую му́зыку.
+4. Она́ идёт в ста́рый теа́тр.
+5. Вы смо́трите интере́сный фильм.
+6. Я кладу́ кни́гу на стол.
+7. Они́ ви́дят кота́.
+8. Ты е́дешь в Москву́ в понеде́льник.
+
+---
+
+
+**Les points essentiels à retenir** :
+
+- ✅ Les masculins inanimés et tous les neutres **ne changent pas** à l'accusatif
+- ✅ Les masculins animés prennent **-а/-я**
+- ✅ Les féminins prennent **-у/-ю** (animés ou inanimés)
+- ✅ Les adjectifs s'accordent selon ces mêmes règles
+- ✅ L'accusatif s'utilise pour le COD, le mouvement vers un lieu, et les jours de la semaine
+
+N'oubliez pas : la clé pour maîtriser l'accusatif, c'est la **pratique régulière**. Lisez, écrivez, parlez russe aussi souvent que possible, et ces formes deviendront bientôt automatiques.
+
+
+*Cet article s'appuie sur les leçons 2 et 3 du manuel "Le Russe pour les Débutants Niveau A2" et propose une approche pédagogique complète de l'accusatif singulier, l'un des six cas grammaticaux du russe.*

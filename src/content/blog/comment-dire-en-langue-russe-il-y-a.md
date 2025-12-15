@@ -25,7 +25,7 @@ Imaginez que vous entrez dans une pièce. En français, vous diriez : « Il y a 
 Utilisez le verbe **стоя́ть** pour tout ce qui possède une base stable, une verticalité naturelle ou qui « se tient » :
 
 -   **Дом стои́т** -- Il y a une maison (un bâtiment est vertical, ancré au sol)
--   **Ваза стои́т на столе́** -- Il y a un vase sur la table
+-   **Ва́за стои́т на столе́** -- Il y a un vase sur la table
 -   **Маши́на стои́т на у́лице** -- Il y a une voiture dans la rue
 -   **Челове́к стои́т у окна́** -- Il y a quelqu'un debout près de la fenêtre
 
