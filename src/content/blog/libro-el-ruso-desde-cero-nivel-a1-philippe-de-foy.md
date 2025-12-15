@@ -1,9 +1,10 @@
 ---
-title: "Descubre El Ruso Desde Cero: tu Puerta de Entrada al Idioma Ruso"
+title: "Descubre El Ruso Desde Cero A1: tu Puerta de Entrada al Idioma Ruso"
 description: "Aprende ruso fácilmente con un método claro y progresivo para principiantes absolutos. Recursos, cursos y consejos para quienes empiezan con motivación."
 pubDate: "Oct 17 2025"
 heroImage: "/images/russe/Libro-el-ruso-desde-cero-nivel-a1-philippe-de-foy.png"
 heroImageLink: "https://www.amazon.es/dp/B0FWJYJVMV"
+tags: ["Russe"]
 ---
 
 

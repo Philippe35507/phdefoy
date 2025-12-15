@@ -2,8 +2,9 @@
 title: "L'aspect des verbes en Russe : guide complet"
 description: "Presque tous les verbes russes existent sous deux formes : l'imperfectif et le perfectif."
 pubDate: "Nov 9 2025"
-heroImageLink: "https://www.amazon.com/dp/B0FTG1N8W3"
-heroImage: "/images/russe/Apprendre-le-russe-philippe-de-foy.jpg"
+heroImageLink: "https://www.amazon.com/dp/B0G5MVCT7B"
+heroImage: "/images/russe/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy.png"
+tags: ["Russe"]
 ---
 
 ## Une seule forme de passé, mais deux façons de voir l'action

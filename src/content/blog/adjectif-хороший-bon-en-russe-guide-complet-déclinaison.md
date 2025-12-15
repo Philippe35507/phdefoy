@@ -2,8 +2,9 @@
 title: "L'adjectif хоро́ший en russe : guide complet de déclinaison"
 description: "L'adjectif **хоро́ший** (bon) est l'un des adjectifs les plus couramment utilisés en russe. Sa maîtrise est essentielle pour quiconque apprend la langue russe."
 pubDate: "Oct 30 2025"
-heroImageLink: "https://www.amazon.com/dp/B0FTG1N8W3"
-heroImage: "/images/russe/Apprendre-le-russe-philippe-de-foy.jpg"
+heroImageLink: "https://www.amazon.com/dp/B0G5MVCT7B"
+heroImage: "/images/russe/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy.png"
+tags: ["Russe"]
 ---
 
 

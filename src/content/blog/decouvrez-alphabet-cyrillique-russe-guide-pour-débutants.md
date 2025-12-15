@@ -4,6 +4,7 @@ description: "Apprenez à maîtriser l'alphabet cyrillique russe grâce à ce gu
 pubDate: "Sep 20 2025"
 heroImageLink: "https://www.amazon.com/dp/B0FTG1N8W3"
 heroImage: "/images/russe/Apprendre-le-russe-pour-les-débutants.png"
+tags: ["Russe"]
 ---
 
 ## LEÇON 1 : LES LETTRES : М, А, Т, К, О.

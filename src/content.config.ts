@@ -12,7 +12,8 @@ const blog = defineCollection({
       heroImage: z.string().optional(),
       heroImageLink: z.string().url().optional(),
       heroImageAlt: z.string().optional(),
-      draft: z.boolean().default(false),   // ← ICI
+      draft: z.boolean().default(false),
+      tags: z.array(z.string()).optional(),
     }),
 });
 
