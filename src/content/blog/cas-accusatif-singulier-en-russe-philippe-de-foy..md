@@ -3,7 +3,7 @@ title: "L'Accusatif Singulier en Russe : Le Guide Complet"
 description: "L'accusatif est sans doute l'un des cas les plus fascinants du russe. Pourquoi ? Parce qu'il présente une particularité unique : sa forme change selon que le nom désigne un être vivant ou un objet inanimé !"
 pubDate: "dec 14 2025"
 heroImageLink: "https://www.amazon.com/dp/B0G5MVCT7B"
-heroImage: "/images/russe/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy.png"
+heroImage: "/images/ia/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy.png" 
 tags: ["Russe"]
 ---
 
