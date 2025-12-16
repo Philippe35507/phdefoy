@@ -3,7 +3,7 @@ title: "Le locatif (prépositionnel) en Russe : votre guide complet pour maîtri
 description: "Parmi les six cas grammaticaux du russe, le locatif (aussi appelé prépositionnel) occupe une place particulière : c'est le seul cas qui ne peut jamais être utilisé seul !"
 pubDate: "Dec 12 2025"
 heroImageLink: "https://www.amazon.com/dp/B0G5MVCT7B"
-heroImage: "/images/russe/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy.png"
+heroImage: "/images/russe/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy.png"
 tags: ["Russe"]
 ---
 

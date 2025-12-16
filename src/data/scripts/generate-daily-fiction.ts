@@ -47,7 +47,7 @@ const BLOG_DIR = process.env.BLOG_DIR || "src/content/blog/ia";
 const IMAGES_DIR = process.env.IMAGES_DIR || "public/images/ia";
 const TIMEZONE = process.env.TZ || "Europe/Madrid";
 
-const CLAUDE_MODEL = (process.env.CLAUDE_MODEL || "claude-3-7-sonnet-20250219").trim();
+const CLAUDE_MODEL = (process.env.CLAUDE_MODEL || "claude-sonnet-4-20250514").trim();
 const IMAGE_MODEL = (process.env.IMAGE_MODEL || "gpt-image-1").trim();
 let IMAGE_QUALITY = (process.env.IMAGE_QUALITY || "medium").trim();
 if (IMAGE_QUALITY.toLowerCase() === "low") IMAGE_QUALITY = "medium";

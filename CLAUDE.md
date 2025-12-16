@@ -49,6 +49,6 @@ Blog posts require:
 ### Environment Variables
 - `CLAUDE_API_KEY` or `ANTHROPIC_API_KEY` - For article generation
 - `OPENAI_API_KEY` - For image generation
-- `CLAUDE_MODEL` - Model to use (default: claude-3-7-sonnet-20250219)
+- `CLAUDE_MODEL` - Model to use (default: claude-sonnet-4-20250514)
 - `IMAGE_MODEL` - Image model (default: gpt-image-1)
 - `DRY_RUN=true` - Test mode without API calls
