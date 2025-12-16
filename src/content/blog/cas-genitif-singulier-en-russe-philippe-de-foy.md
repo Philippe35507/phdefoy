@@ -1,6 +1,6 @@
 ---
 title: "Le Génitif Singulier en Russe : Le Guide Complet pour tout Comprendre"
-description: "L'accusatif est sans doute l'un des cas les plus fascinants du russe. Pourquoi ? Parce qu'il présente une particularité unique : sa forme change selon que le nom désigne un être vivant ou un objet inanimé !"
+description: "Le génitif va vous étonner par sa diversité d'emplois : possession, négation, quantité, et bien plus encore ! C'est véritablement le couteau suisse de la grammaire russe."
 pubDate: "dec 15 2025"
 heroImageLink: "https://www.amazon.com/dp/B0G5MVCT7B"
 heroImage: "/images/ia/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy.png" 
@@ -8,7 +8,7 @@ tags: ["Russe"]
 ---
 
 
-Le génitif est l'un des cas les plus polyvalents et les plus utilisés de la langue russe. Si l'accusatif vous a surpris avec sa distinction animé/inanimé, le génitif va vous fasciner par sa **diversité d'emplois** : possession, négation, quantité, et bien plus encore ! C'est véritablement le couteau suisse de la grammaire russe.
+Le génitif est l'un des cas les plus polyvalents et les plus utilisés de la langue russe. Si l'accusatif vous a surpris avec sa distinction animé/inanimé, le génitif va vous étonner par sa **diversité d'emplois** : possession, négation, quantité, et bien plus encore ! C'est véritablement le couteau suisse de la grammaire russe.
 
 Dans cet article détaillé, nous allons explorer tous les aspects du génitif singulier : ses cinq principaux emplois, ses terminaisons pour chaque genre, et l'accord des adjectifs. 
 
@@ -16,7 +16,7 @@ Dans cet article détaillé, nous allons explorer tous les aspects du génitif s
 
 ## Qu'est-ce que le génitif ?
 
-Le génitif (en russe : **роди́тельный паде́ж**) exprime principalement :
+Le génitif exprime principalement :
 - **La possession** : le livre **de mon frère**
 - **L'appartenance** : la capitale **de la Russie**
 - **La provenance** : **d'où** vient quelque chose
@@ -152,7 +152,7 @@ Cette préposition indique qu'on sort de l'intérieur de quelque chose (opposé 
 
 ### Noms masculins et neutres
 
-**Point important** : Les terminaisons du génitif des noms masculins et neutres sont **identiques** à celles de l'accusatif des noms masculins animés !
+**Point important** : Les terminaisons du génitif des noms masculins et neutres sont **identiques** à celles de [l'accusatif](/cas-accusatif-singulier-en-russe-philippe-de-foy/) des noms masculins animés !
 
 #### Masculins à consonne dure finale : **-а**
 
@@ -523,7 +523,7 @@ Mémorisez ces prépositions qui prennent TOUJOURS le génitif :
 
 ### 5. Le lien avec l'accusatif animé
 
-Pour les masculins et les neutres, génitif = accusatif animé :
+Pour les masculins et les neutres, génitif = [accusatif](/cas-accusatif-singulier-en-russe-philippe-de-foy/) animé :
 - **студе́нт** → Accusatif animé : **студе́нта** = Génitif : **студе́нта**
 
 ---

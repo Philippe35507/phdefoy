@@ -33,12 +33,14 @@ Avant toute chose, il faut comprendre la distinction fondamentale qui régit l'a
 
 ### Pour les noms ANIMÉS (personnes, animaux)
 
-**Masculins** : l'accusatif prend une terminaison spéciale **-а** ou **-я**
+**Masculins** : l'accusatif prend une terminaison spéciale **-а** ou **-я** (ces terminaisons seront les mêmes qu'au [génitif](/cas-genitif-singulier-en-russe-philippe-de-foy/)) :
 - **студе́нт** → **студе́нта** (l'étudiant)
 - **врач** → **врача́** (le médecin)
 - **учи́тель** → **учи́теля** (le professeur)
 - **кот** → **кота́** (le chat)
 - **медве́дь** → **медве́дя** (l'ours)
+
+
 
 ### Pour les féminins (tous sont traités de la même manière)
 
