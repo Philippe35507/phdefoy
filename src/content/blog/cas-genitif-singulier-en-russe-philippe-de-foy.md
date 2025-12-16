@@ -3,7 +3,7 @@ title: "Le Génitif Singulier en Russe : Le Guide Complet pour tout Comprendre"
 description: "Le génitif va vous étonner par sa diversité d'emplois : possession, négation, quantité, et bien plus encore ! C'est véritablement le couteau suisse de la grammaire russe."
 pubDate: "dec 15 2025"
 heroImageLink: "https://www.amazon.com/dp/B0G5MVCT7B"
-heroImage: "/images/ia/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy.png" 
+heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy.png" 
 tags: ["Russe"]
 ---
 
