@@ -2,7 +2,7 @@
 import '../styles/global.css';
 import type { ImageMetadata } from 'astro';
 import blogPlaceholder from '../assets/blog-placeholder-about.jpg';
-import { SITE_TITLE } from '../consts';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
 interface Props {
   title?: string;
@@ -14,7 +14,7 @@ interface Props {
 
 const {
   title:        metaTitle       = SITE_TITLE,
-  description:  metaDescription = '',
+  description:  metaDescription = SITE_DESCRIPTION,
   image         = blogPlaceholder,
   ogType        = 'website',
   imageAlt,

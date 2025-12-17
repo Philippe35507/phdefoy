@@ -16,7 +16,7 @@ Pour parler comme un Russophone, il faut adopter une nouvelle façon de voir l'e
 Une langue de position, pas d'existence
 ---------------------------------------
 
-Imaginez que vous entrez dans une pièce. En français, vous diriez : « Il y a une table, il y a un tableau au mur, il y a un livre sur l'étagère ». En russe, chaque objet réclame son propre verbe selon sa posture physique.
+Imaginez que vous entrez dans une pièce. En français, vous diriez : « Il y a une table, il y a un tableau au mur, il y a un livre sur l'étagère ». En russe, chaque objet réclame son propre verbe selon sa posture physique. On précisera le verbe en utilisant le [locatif](/le-cas-locatif-en-russe-philippe-de-foy-prepositionnel/).
 
 ### Les trois piliers : debout, couché, suspendu
 
