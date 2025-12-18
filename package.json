@@ -8,8 +8,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "add:seo": "tsx scripts/add-seo-slug.ts",
-    "blog": "tsx src/data/scripts/generate-daily-fiction.ts && tsx scripts/optimize-images.ts",
-    "chat": "tsx src/data/scripts/publish-from-chat.ts && tsx scripts/optimize-images.ts"
+    "blog": "tsx src/data/scripts/generate-daily-fiction.ts && tsx scripts/optimize-images.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.61.0",

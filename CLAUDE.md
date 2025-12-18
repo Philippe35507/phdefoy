@@ -17,22 +17,9 @@ npm run build       # Production build
 
 # Generate content
 npm run blog        # Generate daily fiction article (API Claude + OpenAI)
-npm run chat        # Publish article from conversation Claude (OpenAI images)
 npx tsx scripts/optimize-images.ts  # Optimize images only
 npm run add:seo     # Add SEO slugs to content
-
-# Génération via conversation
-/chat               # Commande slash: demande le sujet, génère l'article
 ```
-
-## Génération d'article via conversation Claude
-
-Workflow alternatif utilisant l'abonnement Claude (conversation) au lieu de l'API:
-
-1. Lancer la commande `/chat` dans Claude Code
-2. Saisir le sujet de l'article (n'importe quel thème)
-3. Claude génère l'article et le sauvegarde dans `src/data/scripts/article-input.json`
-4. Lancer `npm run chat` pour publier avec les images OpenAI
 
 ## Architecture
 
