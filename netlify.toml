@@ -48,7 +48,3 @@
   [headers.values]
     Content-Type = "font/woff"
 
-[[headers]]
-  for = "/fonts/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000"
