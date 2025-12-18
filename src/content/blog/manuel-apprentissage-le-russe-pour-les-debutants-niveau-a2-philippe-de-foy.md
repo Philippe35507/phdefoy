@@ -11,11 +11,13 @@ Après avoir acquis les bases du russe au [niveau A1](/decouvrez-alphabet-cyrill
 
 ## Une structure pédagogique claire : 18 leçons progressives
 
-Le manuel est organisé en 18 leçons soigneusement séquencées, suivies de 12 annexes pratiques. Cette structure n'est pas arbitraire : elle reflète une progression logique à travers les différents aspects de la grammaire russe de niveau A2.
+Le manuel est organisé en 18 leçons suivies de 12 annexes. Cette structure n'est pas arbitraire : elle reflète une progression logique à travers les différents aspects de la grammaire russe de niveau A2.
 
 ### Les leçons 1 à 11 : Maîtriser les cas grammaticaux
 
-La première moitié du manuel est entièrement consacrée à l'étude systématique des six cas grammaticaux russes. Contrairement à d'autres manuels qui présentent tous les cas simultanément, cette approche permet d'assimiler chaque cas progressivement. Pour chaque cas grammatical (à l'exception du nominatif pluriel), le manuel consacre deux leçons : une première leçon pour la déclinaison des noms, puis une seconde pour la déclinaison des adjectifs. Cette séparation pédagogique permet d'assimiler les règles progressivement sans surcharge cognitive.
+La première moitié du manuel est entièrement consacrée à l'étude systématique des six cas grammaticaux russes, uniquement au singulier, le pluriel étant étudié au niveau B1. Contrairement à d'autres manuels qui présentent tous les cas simultanément, cette approche permet d'assimiler chaque cas progressivement. 
+
+Pour chaque cas grammatical (à l'exception du nominatif pluriel), le manuel consacre deux leçons : une première leçon pour la déclinaison des noms, puis une seconde pour la déclinaison des adjectifs. Cette séparation pédagogique permet d'assimiler les règles progressivement sans surcharge cognitive.
 
 **Leçon 1 : Le nominatif pluriel**
 
@@ -97,7 +99,7 @@ Exemples d'usage :
 
 **Leçons 8-9 : Le datif singulier**
 
-Le datif exprime le destinataire d'une action (complément d'objet indirect) et s'utilise après certains verbes et prépositions.
+Le [datif](/cas-datif-singulier-en-russe-philippe-de-foy/) exprime le destinataire d'une action (complément d'objet indirect) et s'utilise après certains verbes et prépositions.
 
 Terminaisons des noms masculins et neutres :
 

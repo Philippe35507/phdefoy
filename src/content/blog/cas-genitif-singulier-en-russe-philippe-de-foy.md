@@ -551,11 +551,6 @@ Pour bien assimiler le génitif, traduisez ces phrases :
 7. Для на́шей ма́тери.
 8. Две неде́ли.
 
----
-
-## Conclusion
-
-Le génitif singulier est un cas fondamental et extrêmement polyvalent en russe. Ses cinq emplois principaux en font l'un des cas les plus utilisés au quotidien.
 
 **Les points essentiels à retenir** :
 
@@ -571,6 +566,5 @@ Le génitif peut sembler complexe au début avec ses nombreux emplois, mais c'es
 
 **Сле́дующий шаг : попракти́куйтесь!** (Prochaine étape : entraînez-vous !)
 
----
 
 *Cet article s'appuie sur les leçons 6 et 7 du manuel "Le Russe pour les Débutants Niveau A2" et propose une approche pédagogique complète du génitif singulier, l'un des six cas grammaticaux du russe et certainement l'un des plus utilisés au quotidien.*

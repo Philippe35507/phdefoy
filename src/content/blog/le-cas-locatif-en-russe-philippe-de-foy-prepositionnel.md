@@ -327,10 +327,7 @@ Pour consolider votre apprentissage, voici quelques exercices :
 4. на (convention)
 5. в (pays)
 
-## Conclusion 
-Le cas locatif est absolument incontournable dans la communication quotidienne en russe. Que vous décriviez où vous vous trouvez, ce à quoi vous pensez, ou que vous situiez des événements dans le temps, le locatif sera toujours là.
-
-Sa particularité d'être toujours accompagné d'une préposition en fait paradoxalement un cas plus facile à repérer que d'autres. Une fois que vous avez mémorisé les terminaisons de base et les prépositions principales (**в**, **на**, **о**), vous disposerez d'un outil puissant pour vous exprimer avec précision.
+Que vous décriviez où vous vous trouvez, ce à quoi vous pensez, ou que vous situiez des événements dans le temps, le locatif sera toujours là. Sa particularité d'être toujours accompagné d'une préposition en fait paradoxalement un cas plus facile à repérer que d'autres. Une fois que vous avez mémorisé les terminaisons de base et les prépositions principales (**в**, **на**, **о**), vous disposerez d'un outil puissant pour vous exprimer avec précision.
 
 **Points clés à retenir :**
 ✓ Le locatif ne s'utilise **jamais seul**, toujours avec une préposition
@@ -340,8 +337,5 @@ Sa particularité d'être toujours accompagné d'une préposition en fait parado
 ✓ Attention à la forme archaïque en **-у́** pour certains masculins
 ✓ Les adjectifs s'accordent : **-ом/-ем** (masculin/neutre), **-ой/-ей** (féminin)
 
-Pratiquez régulièrement avec des phrases complètes, et le locatif deviendra rapidement une seconde nature. Bonne continuation dans votre apprentissage du russe !
-
----
 
 *Cet article fait partie de notre série complète sur les cas grammaticaux russes. Consultez également nos guides sur l'accusatif, le génitif, le datif et l'instrumental pour une maîtrise complète du système casuel russe.*

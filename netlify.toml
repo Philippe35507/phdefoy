@@ -47,11 +47,3 @@
   for = "/fonts/*.woff"
   [headers.values]
     Content-Type = "font/woff"
-
----
-title: ""
-pubDate: " 2025"
-heroImageLink: "https://www.amazon.com/dp/B0G5MVCT7B"
-heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy.png" 
-tags: ["Russe"]
----
