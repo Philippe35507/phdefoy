@@ -120,7 +120,7 @@ Phrases typiques :
 
 **Leçons 10-11 : L'instrumental singulier**
 
-L'instrumental exprime le moyen, l'instrument, l'accompagnement, et apparaît après certaines prépositions (**с**, **над**, **под**, **пе́ред**, **за**, **ме́жду**).
+[L'instrumental](/cas-instrumental-singulier-en-russe-philippe-de-foy/)  exprime le moyen, l'instrument, l'accompagnement, et apparaît après certaines prépositions (**с**, **над**, **под**, **пе́ред**, **за**, **ме́жду**).
 
 Formation pour les masculins et neutres :
 

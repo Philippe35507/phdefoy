@@ -1,7 +1,7 @@
 ---
 title: "Le Datif Singulier en Russe : Guide Complet avec Exemples Pratiques"
 description: "Le datif joue un rôle fondamental dans la communication quotidienne en Russe. Ce cas grammatical exprime principalement le destinataire ou le bénéficiaire d'une action."
-pubDate: "dec 18 2025"
+pubDate: "dec 16 2025"
 heroImageLink: "https://www.amazon.com/dp/B0G5MVCT7B"
 heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy.png" 
 tags: ["Russe"]
