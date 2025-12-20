@@ -668,3 +668,56 @@ Maintenant que vous maîtrisez l'instrumental singulier, vous êtes prêt pour :
 **Bonne pratique ! Уда́чи в изуче́нии ру́сского языка́! (Bonne chance dans l'apprentissage du russe !)**
 
 
+  <div class="books">
+    <div class="book">
+      <a href="/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-philippe-de-foy/">
+        <img src="/images/russe/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy.png"
+             alt="Couverture du livre Le Russe pour les Débutants Niveau A2 - Philippe de Foy"
+             class="book-cover" />
+      </a>
+      <div class="book-title">Le Russe pour les Débutants A2</div>
+    </div>
+      </div>
+
+
+  <style>
+ .books { 
+    display: flex; 
+    gap: 2rem; 
+    margin-top: 1.5rem; 
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .book { 
+    text-align: center; 
+    max-width: 140px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .book p {
+    text-align: center;
+  }
+  .book-cover { 
+    width: 100%; 
+    height: auto; 
+    border-radius: 3px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+  }
+  .book-cover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+  }
+  .book-title {
+    font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    margin: 0 auto; 
+    font-size: 1rem;
+    text-align: center !important;
+    line-height: 1.3;
+    display: block;
+    width: 100%;
+  }
+</style>

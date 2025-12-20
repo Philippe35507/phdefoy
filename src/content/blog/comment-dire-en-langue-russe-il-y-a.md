@@ -2,7 +2,6 @@
 title: "Comment traduire « il y a » en Russe "
 description: "Quand on débute en russe, on cherche instinctivement l'équivalent du français « il y a ». Et naturellement, le mot **есть** vient à l'esprit"
 pubDate: "nov 30 2025"
-heroImageLink: "https://www.amazon.com/dp/B0G5MVCT7B"
 heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy.png" 
 tags: ["Russe"]
 ---
@@ -69,3 +68,57 @@ Le mot **есть** n'est pas faux -- il est simplement philosophique plutôt qu
 Mais dès que vous décrivez *où* se trouve concrètement cette voiture, vous basculerez vers **стои́т** : **Маши́на стои́т во дворе́** (La voiture est dans la cour).
 
 Visualisez avant de parler : c'est cette gymnastique mentale qui transformera votre russe mécanique en russe vivant. Car en russe, on ne constate pas simplement qu'une chose existe, on montre comment elle habite l'espace.
+
+  <div class="books">
+    <div class="book">
+      <a href="/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-philippe-de-foy/">
+        <img src="/images/russe/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy.png"
+             alt="Couverture du livre Le Russe pour les Débutants Niveau A2 - Philippe de Foy"
+             class="book-cover" />
+      </a>
+      <div class="book-title">Le Russe pour les Débutants A2</div>
+    </div>
+      </div>
+
+
+  <style>
+ .books { 
+    display: flex; 
+    gap: 2rem; 
+    margin-top: 1.5rem; 
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .book { 
+    text-align: center; 
+    max-width: 140px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .book p {
+    text-align: center;
+  }
+  .book-cover { 
+    width: 100%; 
+    height: auto; 
+    border-radius: 3px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+  }
+  .book-cover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+  }
+  .book-title {
+    font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    margin: 0 auto; 
+    font-size: 1rem;
+    text-align: center !important;
+    line-height: 1.3;
+    display: block;
+    width: 100%;
+  }
+</style>
