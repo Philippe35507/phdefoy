@@ -1,5 +1,5 @@
 ---
-title: "La Rus médiévale : de sa fondation à l'invasion mongole"
+title: "Des Vikings aux Mongols : L'épopée de la Rus' médiévale"
 description: "Au IXe siècle, sur les immenses plaines de l'Est européen, naît un État qui va rayonner pendant quatre siècles : la Rus. Puis, au XIIIe siècle, l'invasion mongole transforme profondément cette civilisation."
 pubDate: "dec 20 2025"
 heroImage: "/images/russe/guerrier-mongol-invasion-mongole-de-la-russie.jpg" 
@@ -8,7 +8,7 @@ tags: ["Russe"]
 ---
 
 
-Au IXe siècle, sur les immenses plaines de l'Est européen, naît un État qui va rayonner pendant quatre siècles : la Русь (Rus' de Kiev). Ses princes tissent des alliances avec toutes les cours d'Europe, ses marchands commercent de la Baltique à Constantinople, et ses villes rivalisent en splendeur avec les capitales occidentales. Puis, au XIIIe siècle, l'invasion mongole transforme profondément cette civilisation. Retour sur une époque fascinante et méconnue de l'histoire européenne.
+Au IXe siècle, sur les immenses plaines de l'Est européen, naît un État qui va rayonner pendant quatre siècles : la **Русь** (Rus' de Kiev). Ses princes tissent des alliances avec toutes les cours d'Europe, ses marchands commercent de la Baltique à Constantinople, et ses villes rivalisent en splendeur avec les capitales occidentales. Puis, au XIIIe siècle, l'invasion mongole transforme profondément cette civilisation. Retour sur une époque fascinante et méconnue de l'histoire européenne.
 
 ## Les origines varègues de la Rus'
 
