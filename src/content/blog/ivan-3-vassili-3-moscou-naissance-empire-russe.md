@@ -1,7 +1,7 @@
 ---
 title: "De vassal mongol à empire russe : Ivan III et la naissance de Moscou"
 description: "Comment Ivan III et Vassili III transforment la principauté de Moscou en empire russe entre 1462 et 1547 : fin du joug mongol, annexions et naissance de l'autocratie."
-pubDate: "dec 22 2025"
+pubDate: "dec 21 2025"
 heroImage: "/images/russe/Ivan-3-devant-église-orthodoxe-moscou.png" 
 heroImageAlt: "Ivan 3 devant église orthodoxe."
 tags: ["Russe"]
