@@ -1,7 +1,7 @@
 ---
 title: "Alexandre Nevski : Le prince qui sauva l'Orthodoxie en s'alliant aux Mongols"
 description: "Alexandre Iaroslavitch naît en 1221 dans une petite ville à cent kilomètres au nord-est de Moscou. Il grandit dans un monde qui se fissure : la Rus' kiévienne, autrefois puissante et unie, se fragmente en principautés rivales."
-pubDate: "2025 12 20"
+pubDate: "2025 12 21"
 heroImage: "/images/russe/Saint-Alexandre-Nevski-mosaïque-cathédrale-sofia.jpg" 
 tags: ["Russe"]
 ---
@@ -11,7 +11,7 @@ Alexandre Iaroslavitch (Алекса́ндр Яросла́вич) naît en 1221
 
 ## Un saint qui s'agenouilla devant les païens
 
-En 1547, l'[Église orthodoxe](https://fr.wikipedia.org/wiki/Christianisme_orthodoxe) russe canonise un prince du XIIIe siècle. Rien d'extraordinaire, sauf que ce saint n'a jamais fondé de monastère, ni vécu en ermite, ni même laissé d'écrits spirituels. Alexandre Nevski (Алекса́ндр Не́вский) doit sa sainteté à des victoires militaires... et à une politique de soumission systématique aux conquérants mongols de la Horde d'Or. Le paradoxe est troublant : comment un homme qui s'incline régulièrement devant les khans « païens » devient-il l'incarnation de la résistance russe ? La réponse tient en une phrase : face à deux envahisseurs, Nevski choisit celui qui menace le moins l'identité de son peuple.
+En 1547, [l'Église orthodoxe russe](https://fr.wikipedia.org/wiki/Christianisme_orthodoxe) canonise un prince du XIIIe siècle. Rien d'extraordinaire, sauf que ce saint n'a jamais fondé de monastère, ni vécu en ermite, ni même laissé d'écrits spirituels. Alexandre Nevski (Алекса́ндр Не́вский) doit sa sainteté à des victoires militaires... et à une politique de soumission systématique aux conquérants mongols de la Horde d'Or. Le paradoxe est troublant : comment un homme qui s'incline régulièrement devant les khans « païens » devient-il l'incarnation de la résistance russe ? La réponse tient en une phrase : face à deux envahisseurs, Nevski choisit celui qui menace le moins l'identité de son peuple.
 
 ## 1240-1242 : La Rus' prise en étau
 
