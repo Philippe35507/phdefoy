@@ -8,7 +8,7 @@ tags: ["Russe"]
 ---
 
 
-Au IXe siècle, sur les immenses plaines de l'Est européen, naît un État qui va rayonner pendant quatre siècles : la **Русь** (Rus' de Kiev). Ses princes tissent des alliances avec toutes les cours d'Europe, ses marchands commercent de la Baltique à Constantinople, et ses villes rivalisent en splendeur avec les capitales occidentales. Puis, au XIIIe siècle, l'invasion mongole transforme profondément cette civilisation. Retour sur une époque fascinante et méconnue de l'histoire européenne.
+Au IXe siècle, sur les immenses plaines de l'Est européen, naît un État qui va rayonner pendant quatre siècles : la **Русь**, appelée en français la [Rus' de Kiev](https://fr.wikipedia.org/wiki/Rus'_de_Kiev). Ses princes tissent des alliances avec toutes les cours d'Europe, ses marchands commercent de la Baltique à Constantinople, et ses villes rivalisent en splendeur avec les capitales occidentales. Puis, au XIIIe siècle, l'invasion mongole transforme profondément cette civilisation. Retour sur une époque fascinante et méconnue de l'histoire européenne.
 
 ## Les origines varègues de la Rus'
 
@@ -46,7 +46,7 @@ En décembre 1237, **Ряза́нь** (Riazan) est la première à tomber après
 
 En 1240, c'est le tour de Kiev, le symbole même de la civilisation russe. Après un siège terrible, la ville tombe. Les chroniqueurs rapportent que la population est presque intégralement massacrée ou réduite en esclavage. La splendide cathédrale Sainte-Sophie survit miraculeusement, mais la ville jadis resplendissante n'est plus qu'un champ de ruines fumantes.
 
-Une seule grande cité échappe à la destruction : **Но́вгород**. Trop au nord, protégée par ses marécages et l'hiver russe, elle négocie sa soumission sans combattre. Son jeune prince, **Алекса́ндр Не́вский** (Alexandre Nevski), devient une figure complexe et controversée : héros national pour avoir vaincu les Suédois sur la **Нева́** (Neva) en 1240 et les chevaliers teutoniques sur le lac gelé de **Чудско́е** (Peïpous) en 1242, il est aussi celui qui accepte de devenir vassal des Mongols pour préserver sa ville. Un choix pragmatique qui sauvera Novgorod.
+Une seule grande cité échappe à la destruction : **Но́вгород**. Trop au nord, protégée par ses marécages et l'hiver russe, elle négocie sa soumission sans combattre. Son jeune prince, **Алекса́ндр Не́вский** ([Alexandre Nevski](/saint-alexandre-nevski-novgorod/)), devient une figure complexe et controversée : héros national pour avoir vaincu les Suédois sur la **Нева́** (Neva) en 1240 et les chevaliers teutoniques sur le lac gelé de **Чудско́е** (Peïpous) en 1242, il est aussi celui qui accepte de devenir vassal des Mongols pour préserver sa ville. Un choix pragmatique qui sauvera Novgorod.
 
 ## La période de vassalité mongole (1240-1480)
 
