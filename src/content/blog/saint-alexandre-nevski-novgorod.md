@@ -7,11 +7,11 @@ tags: ["Russe"]
 ---
 
 
-Alexandre Iaroslavitch (Алекса́ндр Яросла́вич) naît en 1221 dans une petite ville à cent kilomètres au nord-est de Moscou. Il grandit dans un monde qui se fissure : la Rus' kiévienne, autrefois puissante et unie, se fragmente en principautés rivales où les princes passent leur temps à s'entre-tuer pour des héritages et des titres. À treize ans, Alexandre reçoit sa première charge : gouverner Novgorod.
+Alexandre Iaroslavitch (Алекса́ндр Яросла́вич) naît en 1221 dans une petite ville à cent kilomètres au nord-est de Moscou. Il grandit dans un monde qui se fissure : la [Rus' de Kiev](/la-rus-médiévale-fondation-invasion-mongole/), autrefois puissante et unie, s'est fragmentée en principautés rivales où les princes passent leur temps à s'entre-tuer pour des héritages et des titres. À treize ans, Alexandre reçoit sa première charge : gouverner Novgorod.
 
 ## Un saint qui s'agenouilla devant les païens
 
-En 1547, l'Église orthodoxe russe canonise un prince du XIIIe siècle. Rien d'extraordinaire, sauf que ce saint n'a jamais fondé de monastère, ni vécu en ermite, ni même laissé d'écrits spirituels. Alexandre Nevski (Алекса́ндр Не́вский) doit sa sainteté à des victoires militaires... et à une politique de soumission systématique aux conquérants mongols de la Horde d'Or. Le paradoxe est troublant : comment un homme qui s'incline régulièrement devant les khans « païens » devient-il l'incarnation de la résistance russe ? La réponse tient en une phrase : face à deux envahisseurs, Nevski choisit celui qui menace le moins l'identité de son peuple.
+En 1547, l'[Église orthodoxe](https://fr.wikipedia.org/wiki/Christianisme_orthodoxe) russe canonise un prince du XIIIe siècle. Rien d'extraordinaire, sauf que ce saint n'a jamais fondé de monastère, ni vécu en ermite, ni même laissé d'écrits spirituels. Alexandre Nevski (Алекса́ндр Не́вский) doit sa sainteté à des victoires militaires... et à une politique de soumission systématique aux conquérants mongols de la Horde d'Or. Le paradoxe est troublant : comment un homme qui s'incline régulièrement devant les khans « païens » devient-il l'incarnation de la résistance russe ? La réponse tient en une phrase : face à deux envahisseurs, Nevski choisit celui qui menace le moins l'identité de son peuple.
 
 ## 1240-1242 : La Rus' prise en étau
 
@@ -56,3 +56,65 @@ L'Église orthodoxe, elle, n'a jamais oublié que les Mongols l'ont laissée pr�
 ## Conclusion : le pragmatisme d'un prince pris au piège
 
 Alexandre Nevski n'a pas vaincu les Mongols. Il s'est soumis à eux méthodiquement, brutalement quand ses sujets refusaient de le faire. Son génie politique tient en une intuition : dans le monde médiéval, la survie culturelle et religieuse prime sur l'indépendance politique. Les Mongols prenaient l'argent et laissaient l'âme. L'Occident chrétien voulait les deux. Face à ce choix, Nevski a tranché. Novgorod a survécu. L'Église orthodoxe a survécu. La Rus', fragmentée et vassale, a traversé le XIIIe siècle. Le prix à payer – soumission, tribut, humiliation – a semblé supportable aux générations suivantes, qui ont fait de ce prince collaborateur un saint et un symbole de résistance. Le paradoxe ne s'est jamais résolu.
+
+<div class="books">
+     <div class="book">
+      <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-débutants/">
+        <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
+             alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
+             class="book-cover" />
+      </a>
+      <div class="book-title">Le Russe pour les Débutants A1</div>
+    </div>
+    <div class="book">
+      <a href="/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-philippe-de-foy/">
+        <img src="/images/russe/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy.png"
+             alt="Couverture du livre Le Russe pour les Débutants Niveau A2 - Philippe de Foy"
+             class="book-cover" />
+      </a>
+      <div class="book-title">Le Russe pour les Débutants A2</div>
+    </div>
+      </div>
+
+
+  <style>
+ .books { 
+    display: flex; 
+    gap: 2rem; 
+    margin-top: 1.5rem; 
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .book { 
+    text-align: center; 
+    max-width: 140px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .book p {
+    text-align: center;
+  }
+  .book-cover { 
+    width: 100%; 
+    height: auto; 
+    border-radius: 3px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+  }
+  .book-cover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+  }
+  .book-title {
+    font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    margin: 0 auto; 
+    font-size: 1rem;
+    text-align: center !important;
+    line-height: 1.3;
+    display: block;
+    width: 100%;
+  }
+</style>

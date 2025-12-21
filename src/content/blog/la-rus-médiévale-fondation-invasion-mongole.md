@@ -60,8 +60,17 @@ Les princes de Moscou se font les fidèles collecteurs d'impôts pour le compte 
 
 En 1480, **Ива́н III**, surnommé « le Grand », met fin à plus de deux siècles de domination lors de la célèbre « grande halte sur la rivière **Угра́** ». Les deux armées se font face pendant des semaines, puis les Mongols, affaiblis par leurs propres divisions internes, se retirent sans combattre. La Rus est enfin libre.
   
-  
+
+
   <div class="books">
+     <div class="book">
+      <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-débutants/">
+        <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
+             alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
+             class="book-cover" />
+      </a>
+      <div class="book-title">Le Russe pour les Débutants A1</div>
+    </div>
     <div class="book">
       <a href="/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-philippe-de-foy/">
         <img src="/images/russe/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy.png"
