@@ -1,19 +1,19 @@
 ---
 title: "De vassal mongol à empire russe : Ivan III et la naissance de Moscou"
-description: "Comment Ivan III et Vassili III transforment la principauté de Moscou en empire russe entre 1462 et 1547 : fin du joug mongol, annexions et naissance de l'autocratie."
+description: "Comment Ivan III et Vassili III transforment la principauté de Moscou en État russe entre 1462 et 1547 : fin du joug mongol, annexions et naissance de l'autocratie."
 pubDate: "dec 21 2025"
 heroImage: "/images/russe/Ivan-3-devant-église-orthodoxe-moscou.png" 
 heroImageAlt: "Ivan 3 devant église orthodoxe."
 tags: ["Russe"]
 ---
 
-**Comment Ivan III et Vassili III transforment la principauté de Moscou en empire russe entre 1462 et 1547 : fin du joug mongol, annexions et naissance de l'autocratie.**
+**Comment Ivan III et Vassili III transforment la principauté de Moscou en État russe entre 1462 et 1547 : fin du joug mongol, annexions et naissance de l'autocratie.**
 
 En 1480, un grand-prince moscovite décide simplement de ne plus payer tribut aux Mongols. Aucune grande bataille, aucun soulèvement héroïque : juste un refus tranquille qui met fin à deux siècles et demi de domination. Cette audace tranquille d'Ivan III va transformer une principauté périphérique en un empire qui, soixante-dix ans plus tard, s'étendra de la Baltique à l'Oural. Comment ce changement s'opère-t-il ? Par quels moyens un prince vassal devient-il le fondateur d'une dynastie impériale ?
 
 ## Le grand-prince qui refuse de s'agenouiller (1462-1480)
 
-Quand Ива́н III Васи́льевич ([Ivan III Vassiliévitch](https://www.worldhistory.org/trans/fr/1-22591/ivan-iii/)) monte sur le trône de Moscoú (Москва́) en 1462, il hérite d'une principauté déjà puissante mais encore formellement soumise à la Орда́ (Horde), l'État mongol de la Волга́ (Volga). Son père Васи́лий II (Vassili II), surnommé « l'Aveugle » après avoir été capturé et mutilé par ses rivaux, lui a légué un territoire étendu mais une position humiliante : celle d'un vassal qui doit solliciter l'investiture du khan pour régner.
+Quand Ива́н III Васи́льевич ([Ivan III Vassiliévitch](https://www.worldhistory.org/trans/fr/1-22591/ivan-iii/)) monte sur le trône de Moscoú (Москва́) en 1462, il hérite d'une principauté déjà puissante mais encore formellement soumise à la Орда́ ([Horde](/etat-mongol-horde-or-batu/)), l'État mongol de la Волга́ (Volga). Son père Васи́лий II (Vassili II), surnommé « l'Aveugle » après avoir été capturé et mutilé par ses rivaux, lui a légué un territoire étendu mais une position humiliante : celle d'un vassal qui doit solliciter l'investiture du khan pour régner.
 
 Ivan III joue d'abord la prudence. Il continue de verser le tribut, envoie des ambassades à Сара́й (Saraï), la capitale de la Horde. Mais il observe. En 1472, il épouse en secondes noces Зо́я Палеоло́г (Zoé Paléologue), nièce du dernier empereur byzantin. Cette princesse grecque, élevée à Rome après la chute de Константино́поль (Constantinople) en 1453, arrive à Moscou accompagnée d'architectes italiens, de livres et d'une prétention : celle d'être l'héritière de l'empire romain d'Orient. Le mariage change la perspective d'Ivan. Il ne se voit plus comme un prince régional mais comme le successeur des basileus.
 
@@ -24,6 +24,8 @@ En 1476, le khan Ахма́т (Akhmat) exige le tribut habituel. Ivan le fait at
 L'affrontement se prépare sur les rives de la река́ Угра́ (rivière Ougra), affluent de l'Ока́ (Oka), à deux cents kilomètres au sud-ouest de Moscou. Les deux armées se font face de part et d'autre de la rivière pendant plusieurs semaines. Akhmat attend le gel pour traverser, Ivan renforce ses positions. Les chroniques russes racontent que le grand-prince hésite, retourne même brièvement à Moscou, où la population l'accuse de lâcheté. Le métropolite Guéonti lui envoie une lettre cinglante : « Où fuis-tu, souverain ? »
 
 Mais la bataille n'a pas lieu. Le 11 novembre 1480, après des escarmouches sans conséquence, Akhmat ordonne la retraite. Les raisons restent débattues : l'hiver précoce, la menace d'une attaque tatare rivale sur ses arrières, l'absence de fourrage pour la cavalerie mongole. Toujours est-il que la Horde se retire. L'année suivante, Akhmat est assassiné par un rival. Le « joug mongol » (монго́льское и́го), comme l'appelleront plus tard les historiens russes, prend fin non dans un fracas de bataille mais dans un face-à-face où personne ne cligna des yeux.
+
+![Guerriers Mongols à Cheval au galop](/images/russe/Guerriers-mongols-chevaux-au-galop.png)
 
 ## L'avaleur de principautés (1478-1485)
 
@@ -45,7 +47,7 @@ Ivan codifie le Судебник (Soudébnik), recueil de lois promulgué en 149
 
 ## Vassili III : l'autocratie en héritage (1505-1533)
 
-À la mort d'Ivan en 1505, son fils Васи́лий III (Vassili III) poursuit l'œuvre paternelle avec une rigueur accrue. Plus autoritaire encore que son père, il achève la centralisation territoriale. En 1510, il annexe Псков (Pskov), dernière république urbaine du nord, avec les mêmes méthodes qu'à Novgorod : déportation des élites, abolition du vétché. En 1514, après plusieurs campagnes, il arrache Смоле́нск (Smolensk) à la Lituanie, élargissant les frontières vers l'ouest.
+À la mort d'Ivan en 1505, son fils [Васи́лий III](/vassili-3-consolidation-moscou-etat-russe/) (Vassili III) poursuit l'œuvre paternelle avec une rigueur accrue. Plus autoritaire encore que son père, il achève la centralisation territoriale. En 1510, il annexe Псков (Pskov), dernière république urbaine du nord, avec les mêmes méthodes qu'à Novgorod : déportation des élites, abolition du vétché. En 1514, après plusieurs campagnes, il arrache Смоле́нск (Smolensk) à la Lituanie, élargissant les frontières vers l'ouest.
 
 Vassili s'entoure d'un cérémonial encore plus strict. Les ambassadeurs occidentaux – vénitiens, impériaux, polonais – sont frappés par le despotisme qu'ils observent. Сигизму́нд фон Герберште́йн (Sigismund von Herberstein), diplomate du Saint-Empire qui visite Moscou à deux reprises, note dans ses *Записки о Моско́вии* (Notes sur la Moscovie) : « Le pouvoir que ce prince exerce sur ses sujets dépasse celui de tous les monarques du monde. » Les boyards les plus puissants peuvent être disgraciés et exilés sans procès. Le prince règne seul, consulte qui il veut, décide sans contrôle.
 
