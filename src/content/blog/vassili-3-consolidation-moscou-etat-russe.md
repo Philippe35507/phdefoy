@@ -1,7 +1,7 @@
 ---
 title: "Vassili III de Moscou (1505-1533) : le prince qui transforma une principauté en État"
 description: "Comment Vassili III transforma la principauté de Moscou en État russe entre 1462 et 1547 et posa les fondations de l'Enmpire russe."
-pubDate: "dec 22 2025"
+pubDate: "dec 21 2025"
 heroImage: "/images/russe/Portrait-du-prince-vassili-3.png" 
 heroImageAlt: "Vassili 3 Portrait."
 tags: ["Russe"]
@@ -51,7 +51,7 @@ Cet épisode révèle la nature du pouvoir que Vassíli exerce. À Moscou, le gr
 
 Pendant que Vassíli annexe des territoires et renforce son autorité, il construit aussi, au sens littéral. Le Kremlin (Кремль) de Moscou se transforme. Des architectes italiens, venus poursuivre le travail commencé sous Ivan III, édifient de nouvelles églises et fortifications. En 1508, le fossé d'Alévise (Алеви́зов ров) est creusé devant les murailles orientales, transformant le Kremlin en une forteresse imprenable sur une île artificielle.
 
-Les églises se multiplient dans tout le pays. En 1532, à Kolómenkoïe (Коло́менское), près de Moscou, s'élève l'église de l'Ascension (це́рковь Вознесе́ния), chef-d'œuvre architectural dont la flèche en pierre s'élance vers le ciel. La tradition veut que Vassíli l'ait fait construire pour célébrer la naissance de son fils Ivan. Architecture et politique se mêlent : ces églises affirment la puissance du grand-prince et la protection divine dont il bénéficie.
+Les églises se multiplient dans tout le pays. En 1532, à Kolómenkoïe, près de Moscou, s'élève l'église de l'Ascension (це́рковь Вознесе́ния), chef-d'œuvre architectural dont la flèche en pierre s'élance vers le ciel. La tradition veut que Vassíli l'ait fait construire pour célébrer la naissance de son fils Ivan. Architecture et politique se mêlent : ces églises affirment la puissance du grand-prince et la protection divine dont il bénéficie.
 
 Vassíli poursuit aussi l'organisation administrative du territoire. Les terres conquises sont intégrées dans le système des apanages (удéлы) contrôlés par Moscou. Les gouverneurs (намéстники) nommés par le grand-prince administrent les provinces. L'ancien système féodal des principautés autonomes cède la place à une structure centralisée. Chaque réforme, chaque nomination, chaque construction renforce le pouvoir de Moscou et affaiblit les particularismes locaux.
 

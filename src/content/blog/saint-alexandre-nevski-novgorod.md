@@ -1,7 +1,7 @@
 ---
 title: "Alexandre Nevski : Le prince qui sauva l'Orthodoxie en s'alliant aux Mongols"
 description: "Alexandre Iaroslavitch naît en 1221 dans une petite ville à cent kilomètres au nord-est de Moscou. Il grandit dans un monde qui se fissure : la Rus' kiévienne, autrefois puissante et unie, se fragmente en principautés rivales."
-pubDate: "2025 12 21"
+pubDate: "2025 12 20"
 heroImage: "/images/russe/Saint-Alexandre-Nevski-mosaïque-cathédrale-sofia.jpg" 
 tags: ["Russe"]
 ---

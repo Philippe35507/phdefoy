@@ -1,7 +1,7 @@
 ---
 title: "La Horde d'or : l'Etat Mongol qui façonna la Russie"
 description: "De 1240 à 1480, la Horde d'or impose son joug aux princes russes. Yarlyk, tribut, bataille de Koulikovo : l'histoire de l'empire mongol qui façonna la Russie."
-pubDate: "dec 22 2025"
+pubDate: "dec 21 2025"
 heroImage: "/images/russe/Yourte-palatiale-sur-chariot-guerriers-mongols.png" 
 heroImageAlt: "La Horde d'Or - Yourte sur un chariot."
 tags: ["Russe"]
@@ -29,11 +29,11 @@ Cette capitale mobile reflète la nature particulière de l'État mongol. La Hor
 
 ## Le système du joug : yarlyk et tribut
 
-Pour les Russes, cette période entre dans l'histoire sous le nom d'и́го (joug), métaphore de l'attelage qui pèse sur la nuque du bœuf. Le terme dit l'humiliation et le poids du système mis en place par les Mongols. Celui-ci repose sur deux piliers : le yarlyk (ярлы́к) et le tribut.
+Pour les Russes, cette période entre dans l'histoire sous le nom d'[и́го (joug)](https://fr.wikipedia.org/wiki/Joug_tatar), métaphore de l'attelage qui pèse sur la nuque du bœuf. Le terme dit l'humiliation et le poids du système mis en place par les Mongols. Celui-ci repose sur deux piliers : le yarlyk (ярлы́к) et le tribut.
 
 Le yarlyk est un brevet d'investiture, un document scellé par le khan qui autorise un prince à régner sur sa principauté. Sans ce précieux parchemin, aucune légitimité n'est possible. Les princes doivent donc se rendre à Saraï, parfois jusqu'à Karakorum en Mongolie, pour solliciter ou renouveler leur yarlyk. Le voyage prend des mois, traverse des territoires dangereux, et l'issue n'est jamais certaine. À la cour du khan, les princes russes se prosternent selon le rituel mongol, passent entre deux feux purificateurs, rivalisent d'intrigues pour obtenir les faveurs du souverain.
 
-Le plus convoité de tous les yarlyk est celui de grand-prince de Vladimir (вели́кий князь Влади́мирский), qui confère une prééminence sur les autres princes russes. Les khans jouent habilement de cette compétition. Ils accordent le titre tantôt au prince de Tver (Тверь), tantôt à celui de Moscou (Москвá), entretenant une rivalité qui les empêche de s'unir contre la Horde. En 1327, le khan Özbek (Узбе́к) utilise même les troupes du prince moscovite Ivan Kalita (Ива́н Калита́, "Ivan l'Escarcelle") pour écraser une révolte à Tver, récompensant ensuite le prince collaborateur avec le titre de grand-prince.
+Le plus convoité de tous les yarlyk est celui de grand-prince de Vladimir (вели́кий князь Влади́мирский), qui confère une prééminence sur les autres princes russes. Les khans jouent habilement de cette compétition. Ils accordent le titre tantôt au prince de Tver (Тверь), tantôt à celui de Moscou, entretenant une rivalité qui les empêche de s'unir contre la Horde. En 1327, le khan Özbek (Узбе́к) utilise même les troupes du prince moscovite Ivan Kalita (Ива́н Калита́, "Ivan l'Escarcelle") pour écraser une révolte à Tver, récompensant ensuite le prince collaborateur avec le titre de grand-prince.
 
 Le tribut, lui, ponctue la vie quotidienne. Les Mongols imposent le выход (sortie), une taxe annuelle prélevée sur l'ensemble de la population. Au début, des collecteurs mongols, les баска́ки (baskaks), parcourent les terres russes pour recenser les habitants et lever l'impôt. Leur arrogance provoque des révoltes, comme celle de Rostov (Росто́в) en 1262. Progressivement, les khans confient cette tâche ingrate aux princes russes eux-mêmes, qui deviennent les collecteurs du tribut mongol. Cette délégation enrichit les princes les plus efficaces, notamment Moscou, qui prélève sa commission au passage et accumule ainsi les ressources pour sa future ascension.
 
