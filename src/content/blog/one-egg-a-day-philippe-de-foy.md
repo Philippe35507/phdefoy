@@ -15,7 +15,7 @@ But how did a food that has been part of the human diet for millennia become pub
 
 ## The Age of Fear: From the 1970s to 2000
 
-It all began in post-war America. A physiologist named Ancel Keys put forward a seductive idea: if cardiovascular diseases were exploding, it must be because we consumed too much saturated fat and cholesterol. The equation seemed obvious: dietary cholesterol → blood cholesterol → arterial plaques → heart attacks.
+It all began in post-war America. A physiologist named [Ancel Keys ](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm4830a1box.htm)put forward a seductive idea: if cardiovascular diseases were exploding, it must be because we consumed too much saturated fat and cholesterol. The equation seemed obvious: dietary cholesterol → blood cholesterol → arterial plaques → heart attacks.
 
 This “lipid hypothesis” charmed institutions and the media alike. It didn’t matter that Keys himself had acknowledged an essential nuance: the cholesterol we eat doesn’t automatically translate into cholesterol in our blood, because the liver regulates its own production like a thermostat. Nor did it matter that his own experiments showed that most people respond only weakly to dietary cholesterol.
 
@@ -45,17 +45,21 @@ For vision: Egg yolks provide lutein and zeaxanthin, antioxidants that accumulat
 
 For metabolism: Egg proteins send powerful satiety signals to the brain, reducing appetite more effectively than a sugary breakfast. They also help regulate blood sugar by improving insulin sensitivity.
 
+The shift from cage-free to pasture-raised eggs isn't just a matter of ethics; it's a significant boost to nutrient density. Recent studies highlight that eggs from hens allowed to forage naturally contain up to three times more omega-3 fatty acids and double the amount of vitamin E compared to conventional eggs. These fat-soluble vitamins and essential lipids are crucial for cardiovascular protection and cognitive longevity. By prioritizing high-quality sourcing, such as organic or pasture-raised certifications, consumers ensure they are receiving the most potent form of this natural superfood, rich in anti-inflammatory properties that support overall well-being.
+
 ## Caution and Nuance
 
 Of course, the story is not entirely black and white. Some observational studies have suggested an increased risk among diabetics who consume a lot of eggs. But more reliable clinical trials are reassuring. In 2021, a study published in the Journal of Nutrition showed that adding two eggs a day to a plant-based diet had no negative impact on cardiovascular health in people at risk of diabetes.
 
 Another nuance: about 15–25% of people are “hyper-responders,” meaning their blood cholesterol rises more sharply when they eat eggs. Yet this increase usually affects both LDL (“bad”) and HDL (“good”) cholesterol, preserving a favorable balance overall.
 
+Maximizing the health benefits of a daily egg also depends on how it is prepared. Scientific research suggests that cooking methods like poaching or soft-boiling are ideal for preserving the delicate nutrients within the yolk. While heating the egg white is necessary to make the protein nearly 90% digestible and neutralize avidin, keeping the yolk runny prevents the oxidation of cholesterol and protects heat-sensitive antioxidants like lutein and zeaxanthin. Integrating these cooking techniques into a protein-rich breakfast helps maintain stable blood sugar levels and promotes long-lasting satiety, making it an essential tool for metabolic health and weight management.
+
 ## A Lesson in Common Sense
 
 After being demonized and then rehabilitated, the egg today stands as a symbol. A symbol of how fragile nutritional science can turn into dogma. A symbol of the role of economic interests, which capitalized on fear to sell substitutes and medications.
 
-But above all, the egg embodies a simple truth: nature sometimes creates foods so complete that industry cannot improve on them. Packed with high-quality protein, vitamins, choline, and carotenoids—affordable, versatile, and relatively sustainable—the egg deserves to reclaim its rightful place in a balanced diet.
+But above all, the egg embodies a simple truth: nature sometimes creates foods so complete that industry cannot improve on them. Packed with high-quality protein, vitamins, choline, and carotenoids-affordable, versatile, and relatively sustainable-the egg deserves to reclaim its rightful place in a balanced diet.
 
 And perhaps it also reminds us that, in the face of alarmist headlines and ever-changing diet fads, the best compass is a mix of science, culinary tradition, and plain old common sense.
 

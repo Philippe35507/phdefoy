@@ -54,6 +54,14 @@ Alexis meurt le 8 février 1676, à quarante-sept ans. Il laisse un empire consi
 Le surnom de « Très-Paisible » témoigne moins du caractère de son règne que de sa piété personnelle, de sa dévotion orthodoxe, de sa réputation de souverain accessible et juste. Les contemporains le décrivent comme un homme cultivé, parlant plusieurs langues, passionné de livres et de musique. Il sait aussi être cruel quand nécessaire, écrasant les révoltes sans pitié. Son fils Fiódor lui succède, puis son autre fils Pierre transformera radicalement l'empire. Mais les fondations posées par Alexis - l'expansion territoriale, l'ouverture prudente à l'Occident, la consolidation juridique par le code de 1649 - structurent la Russie pour le siècle suivant. Entre les steppes sibériennes et les plaines ukrainiennes, entre tradition orthodoxe et innovations étrangères, le règne d'Alexis Ier incarne les contradictions d'un empire à la croisée des chemins.
 
   <div class="books">
+     <div class="book">
+      <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-débutants/">
+        <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
+             alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
+             class="book-cover" />
+      </a>
+      <div class="book-title">Le Russe pour les Débutants A1</div>
+    </div>
     <div class="book">
       <a href="/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-philippe-de-foy/">
         <img src="/images/russe/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy.png"

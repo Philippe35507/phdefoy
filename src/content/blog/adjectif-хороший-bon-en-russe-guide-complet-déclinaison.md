@@ -360,6 +360,14 @@ Ces deux caractéristiques combinées expliquent pourquoi хоро́ший utili
 Cette analyse systématique basée sur les règles orthographiques du russe est bien plus efficace que la mémorisation mécanique de tableaux. Une fois ces principes maîtrisés, vous pourrez prédire correctement la déclinaison de n'importe quel adjectif russe en identifiant simplement sa structure accentuelle et sa consonne finale.
 
   <div class="books">
+     <div class="book">
+      <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-débutants/">
+        <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
+             alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
+             class="book-cover" />
+      </a>
+      <div class="book-title">Le Russe pour les Débutants A1</div>
+    </div>
     <div class="book">
       <a href="/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-philippe-de-foy/">
         <img src="/images/russe/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy.png"

@@ -419,3 +419,56 @@ Le système des cas grammaticaux, qui peut sembler intimidant au premier abord, 
 La combinaison d'explications grammaticales détaillées, d'exemples nombreux et variés, d'exercices progressifs et de ressources de référence complètes en fait un outil précieux pour quiconque souhaite construire des bases solides en russe. Que vous étudiiez seul ou avec un professeur, ce manuel vous accompagnera dans votre découverte de cette langue riche et fascinante.
 
 Приятного обучения! (Bon apprentissage !)
+
+  <div class="books">
+     <div class="book">
+      <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-débutants/">
+        <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
+             alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
+             class="book-cover" />
+      </a>
+      <div class="book-title">Le Russe pour les Débutants A1</div>
+    </div>
+
+
+  <style>
+ .books { 
+    display: flex; 
+    gap: 2rem; 
+    margin-top: 1.5rem; 
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .book { 
+    text-align: center; 
+    max-width: 140px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .book p {
+    text-align: center;
+  }
+  .book-cover { 
+    width: 100%; 
+    height: auto; 
+    border-radius: 3px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+  }
+  .book-cover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+  }
+  .book-title {
+    font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    margin: 0 auto; 
+    font-size: 1rem;
+    text-align: center !important;
+    line-height: 1.3;
+    display: block;
+    width: 100%;
+  }
+</style>

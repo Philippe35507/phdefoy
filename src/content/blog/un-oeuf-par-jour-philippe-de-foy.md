@@ -11,7 +11,7 @@ heroImageAlt: "Couverture d'un livre représentant des oeufs"
 
 ## La naissance d'une peur collective
 
-L'histoire commence dans l'Amérique de l'après-guerre, avec un physiologiste nommé Ancel Keys et une hypothèse d'une simplicité redoutable. Face à l'explosion des maladies cardiaques dans les pays occidentaux, ce chercheur formula ce qu'on appellerait l' "hypothèse lipidique" : nous consommons trop de graisses saturées et de cholestérol, ce qui élève notre cholestérol sanguin, ce qui bouche nos artères, ce qui provoque crises cardiaques et accidents vasculaires cérébraux.
+L'histoire commence dans l'Amérique de l'après-guerre, avec un physiologiste nommé [Ancel Keys](https://fr.wikipedia.org/wiki/Ancel_Keys) et une hypothèse d'une simplicité redoutable. Face à l'explosion des maladies cardiaques dans les pays occidentaux, ce chercheur formula ce qu'on appellerait l' "hypothèse lipidique" : nous consommons trop de graisses saturées et de cholestérol, ce qui élève notre cholestérol sanguin, ce qui bouche nos artères, ce qui provoque crises cardiaques et accidents vasculaires cérébraux.
 
 Cette théorie séduisait par sa logique apparente. Elle établissait une chaîne causale linéaire facile à comprendre et offrait une solution concrète : modifier son alimentation. Mais dès le départ, cette hypothèse présentait une faille majeure que Keys lui-même avait observée : la distinction entre le cholestérol que nous mangeons et celui qui circule dans notre sang.
 
@@ -101,6 +101,8 @@ Ces recommandations convergent vers un consensus scientifique robuste : une cons
 
 Les recherches menées entre 2021 et 2024 précisent les différences nutritionnelles entre modes d'élevage. Les œufs de poules élevées au pâturage contiennent généralement deux fois plus de caroténoïdes, trois fois plus d'acides gras oméga-3, et un rapport oméga-6/oméga-3 plus favorable que les œufs de poules en cage. Cependant, pour la plupart des nutriments, les différences restent modestes et n'altèrent pas la valeur nutritionnelle globale des œufs conventionnels.
 
+Pour maximiser les bienfaits d'une consommation quotidienne, il est primordial de s'attarder sur la qualité intrinsèque de l'aliment, laquelle dépend directement du mode de vie de la poule. Privilégier des œufs issus de l'agriculture biologique ou de filières garantissant une alimentation riche en graines de lin permet d'obtenir un profil lipidique supérieur, avec une concentration accrue en acides gras oméga-3. Ces nutriments essentiels, combinés aux antioxydants naturels comme la vitamine E plus présents dans les œufs de poules élevées en plein air, renforcent l'action protectrice de l'œuf sur le système cardiovasculaire et la santé cognitive. En choisissant des produits de haute qualité nutritionnelle, le consommateur transforme un geste simple en une véritable stratégie de prévention santé sur le long terme.
+
 ## Leçons pour l'avenir
 
 L'histoire de l'œuf illustre parfaitement comment se construisent et se déconstruisent les croyances nutritionnelles. Elle révèle les mécanismes qui permettent de développer un regard critique face aux discours sur l'alimentation : méfiance envers la simplification excessive, importance de l'accumulation de preuves convergentes, nécessité d'évaluer les sources de financement des études.
@@ -114,3 +116,5 @@ Cette réhabilitation valide également la sagesse des populations qui intégrai
 ![oeuf](/images/oeuf/oeuf.jpg)
 
 
+## L'art de la cuisson pour une assimilation parfaite
+Au-delà de la sélection du produit, la méthode de préparation joue un rôle déterminant dans la biodisponibilité des nutriments. Pour bénéficier pleinement du "cocktail" vitaminique de l'œuf sans en altérer les propriétés, la science culinaire recommande de privilégier les cuissons où le blanc est saisi mais le jaune reste coulant, à l'image de l'œuf à la coque, poché ou mollet. Cette approche permet de rendre les protéines du blanc totalement digestibles tout en préservant la choline et la lutéine du jaune, qui sont sensibles à une chaleur excessive et à l'oxydation. En intégrant l'œuf de cette manière, idéalement au sein d'un petit-déjeuner protéiné associé à des fibres végétales, on optimise la régulation de la glycémie et on favorise une satiété durable, limitant ainsi les pulsions alimentaires au cours de la journée.
