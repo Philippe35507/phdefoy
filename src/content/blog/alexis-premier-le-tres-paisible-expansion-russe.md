@@ -1,0 +1,108 @@
+---
+title: "Alexis Ier le Très-Paisible : l'expansion russe (1645-1676)"
+description: "Comment le tsar Très-Paisible Alexis Ier a conquis la Sibérie et affronté la Pologne pendant 30 ans. L'expansion de la Russie au XVIIe siècle."
+pubDate: "dec 24 2025"
+heroImage: "/images/russe/Alexis-Ier-campagne-de-sibérie.png" 
+tags: ["Russe"]
+---
+
+
+## Le paradoxe du tsar paisible
+
+Comment un souverain surnommé « le Très-Paisible » peut-il présider à trente années de guerres incessantes, de conquêtes territoriales massives et de bouleversements intérieurs ? [Alexis Mikhaïlovitch](https://fr.wikipedia.org/wiki/Alexis_Ier_(tsar_de_Russie)) (Алексе́й Миха́йлович), deuxième tsar de la dynastie Romanov, porte un surnom qui semble contredire son règne. 
+
+Le mot russe Tichaïchi (Тиша́йший) signifie littéralement « le plus paisible », mais désigne aussi une qualité spirituelle, une douceur de caractère qui n'exclut nullement la fermeté politique. En 1645, quand ce jeune homme de seize ans monte sur le trône, la Russie sort à peine des traumatismes du Temps des Troubles. Son père, [Michel Rómanov](/michel-romanov-russie-fondateur-dynastie/), a restauré l'ordre, mais l'empire reste fragile, encerclé d'ennemis, contesté à l'intérieur. Alexis hérite d'un État à reconstruire et choisit deux voies pour affirmer sa puissance : l'expansion vers l'Est, dans les immensités sibériennes, et la confrontation avec la Pologne-Lituanie à l'Ouest.
+
+## Un empire fragile aux mains d'un adolescent
+
+Le 13 juillet 1645, Alexis Mikhaïlovitch devient tsar à la mort de son père. Il n'a que seize ans. Autour de lui, une cour divisée entre boyards (nobles traditionnels) et hommes nouveaux cherche à s'emparer du pouvoir. Le jeune souverain choisit comme mentor Boris Ivanovitch Morozov (Бори́с Ива́нович Морóзов), un boyard cultivé qui domine les premières années du règne. Morózov lance immédiatement des réformes fiscales pour renflouer les caisses épuisées par les décennies de guerre civile. Il augmente les taxes sur le sel, denrée essentielle pour conserver les aliments dans un pays aux hivers rigoureux. En 1648, la colère éclate. À Moscou, une foule envahit le Kremlin, réclame la tête de Morózov et de ses alliés. Les émeutiers incendient des quartiers entiers de la capitale. Alexis doit livrer plusieurs de ses conseillers à la fureur populaire pour sauver Morózov, qu'il exile discrètement.
+
+Cette crise révèle la fragilité du pouvoir tsariste. Pour apaiser tensions et contestations, Alexis convoque en 1648 un [Zemski sobor](/zemski-sobor-assemblée-de-la-terre-russie/) (Земский собóр), une assemblée consultative qui réunit représentants de la noblesse, du clergé, des marchands et même de certaines villes. L'objectif : élaborer un nouveau code des lois. En janvier 1649, le Sobornoïé ouloжénie (Собóрное уложéние) est promulgué. Ce texte de près de mille articles fixe pour deux siècles les structures juridiques de l'empire. Il codifie surtout le servage : désormais, les paysans sont définitivement attachés à la terre et à leur seigneur. Les fugitifs peuvent être recherchés sans limite de temps. Le code fige la société russe dans une hiérarchie rigide, mais donne au tsar les outils légaux pour gouverner son immense territoire.
+
+## La marche vers l'Est : conquérir la Sibérie
+
+Pendant qu'Alexis consolide son pouvoir à Moscou, des hommes armés de mousquets et de rêves de fortune poursuivent la conquête de la Sibérie, lancée depuis le règne d'Ivan le Terrible. Ces cosaques et ces marchands-aventuriers ne cherchent qu'une chose : les fourrures. La zibeline, l'hermine, le renard argenté valent leur pesant d'or sur les marchés européens. Chaque année, des expéditions remontent les fleuves sibériens, fondent des ostrogi (острóги), ces forts de bois palissadés qui deviennent autant de points d'ancrage de l'autorité russe.
+
+En 1648, le cosaque Semion Dejniov (Семён Дежнёв) franchit le détroit séparant l'Asie de l'Amérique, sans même le savoir. Il cherche juste un passage vers des zones de chasse encore vierges. Son exploit ne sera reconnu qu'un siècle plus tard, quand le détroit de Béring portera le nom d'un autre explorateur. En 1652, Erofeï Khabarov (Ерофе́й Хабáров) descend le fleuve Amour avec une troupe de cosaques, s'empare de villages Daours et affronte les troupes de l'empire Qing. Ces escarmouches au bout du monde déclenchent un conflit diplomatique avec la Chine. Pékin proteste contre ces intrusions. Alexis préfère temporiser : la Sibérie peut attendre, la priorité se trouve à l'Ouest.
+
+La conquête sibérienne sous Alexis n'est pas une entreprise planifiée depuis Moscou. Le gouvernement central se contente d'enregistrer les conquêtes, de nommer des voïevody (воево́ды), gouverneurs militaires, dans les nouveaux forts et surtout de collecter le iasak (ясáк), le tribut en fourrures imposé aux populations locales. Les Iakoutes, les Bouriates, les Toungouses se voient contraints de livrer leurs peaux les plus précieuses. Certains résistent, d'autres collaborent, devenant intermédiaires entre l'empire et leurs voisins. En 1676, à la mort d'Alexis, la Russie s'étend jusqu'au Pacifique. Cette expansion colossale s'est faite presque sans que le tsar intervienne directement, portée par l'appât du gain de milliers d'aventuriers.
+
+## La guerre de Treize Ans contre la Pologne-Lituanie
+
+Mais c'est à l'Ouest que se joue le véritable destin du règne d'Alexis. En 1648, les cosaques d'Ukraine, menés par Bogdan Khmelnitski (Богда́н Хмельни́цкий), se révoltent contre la domination polonaise. Khmelnitski, un chef militaire des cosaques zaporogues, inflige défaite sur défaite aux armées polonaises. Mais il sait que son petit État cosaque ne peut survivre seul. Il cherche un protecteur. En 1653, il envoie une ambassade à Moscou, offrant l'allégeance de l'Ukraine au tsar. Alexis hésite. Accepter signifie la guerre avec la Pologne-Lituanie, puissance redoutable qui a occupé Moscou quelques décennies plus tôt. Refuser, c'est abandonner des frères orthodoxes aux mains de seigneurs catholiques.
+
+Le 1er octobre 1653, un nouveau Zemski sobor se réunit à Moscou. Boyards, évêques, marchands débattent pendant des semaines. Finalement, la décision tombe : la Russie accepte la protection des cosaques d'Ukraine. En janvier 1654, à Pereïaslav, Khmelnitski et ses officiers prêtent serment au tsar. Cette Rada (Рáда, assemblée) de Pereïaslav marque l'entrée de l'Ukraine dans l'orbite russe. Les historiens débattent encore du sens exact de cet acte : simple protectorat ou annexion ? Les cosaques pensent conserver leur autonomie, Alexis voit là une soumission définitive.
+
+La guerre éclate immédiatement. Les armées russes envahissent les territoires sous contrôle polonais. En 1654, Smolensk, perdue en 1611, est reprise après un siège de trois mois. Alexis entre triomphalement dans la ville. L'année suivante, les troupes russes prennent Vilnius, capitale de la Lituanie. La victoire semble totale. Mais la Pologne résiste. La Suède, voyant la Pologne affaiblie, envahit à son tour les terres polonaises. Alexis doit jongler entre plusieurs ennemis. En 1656, il se retourne contre la Suède, tentant de s'emparer des ports baltes qui donneraient à la Russie un accès à la mer. Le siège de Riga échoue. La guerre s'enlise.
+
+En Ukraine, la situation se complique. Khmelnitski meurt en 1657. Ses successeurs se déchirent. Certains penchent vers la Pologne, d'autres vers la Russie, d'autres encore rêvent d'indépendance complète. L'Ukraine devient un champ de bataille permanent où Polonais, Russes, Cosaques, Tatars de Crimée et Turcs s'affrontent dans un chaos sanglant. Les villages brûlent, les populations fuient ou sont massacrées. Les cosaques changent d'alliance au gré des circonstances. Alexis doit envoyer armée après armée pour maintenir une autorité précaire.
+
+Le tournant arrive en 1667. Après treize ans de guerre, la Russie et la Pologne signent la trêve d'Androussovo (Андрýсово). La Russie conserve Smolensk, Seversk et surtout la rive gauche du Dniepr avec Kiev, officiellement pour deux ans seulement. En réalité, Kiev ne sera jamais rendue. La Pologne garde la rive droite. L'Ukraine est coupée en deux. Cette partition durera des décennies, chaque rive évoluant différemment. Pour Alexis, c'est une victoire diplomatique majeure : la Russie récupère des territoires perdus depuis le Temps des Troubles et s'impose comme protectrice des orthodoxes.
+
+## Gouverner un empire en ébullition
+
+Pendant ces guerres, Alexis doit gérer les crises intérieures. En 1662, une nouvelle révolte éclate à Moscou. Le gouvernement a émis des pièces de cuivre pour financer la guerre, provoquant une inflation galopante. Le peuple se soulève, marche vers le palais d'été du tsar à Kolomenskoïé. Alexis sort à leur rencontre, promet des réformes. Mais dès que la foule se retire, il fait massacrer les meneurs. Des centaines de Moscovites sont pendus ou exilés. Le tsar paisible sait être impitoyable quand son pouvoir est menacé.
+
+La grande crise du règne reste cependant le Raskol (Раско́л, le Schisme). Le patriarche Nikon (Никóн), nommé en 1652 avec le soutien d'Alexis, entreprend de réformer les rituels orthodoxes pour les aligner sur les pratiques grecques. Il modifie la façon de faire le signe de croix, change certaines formules liturgiques, corrige les livres saints. Pour les fidèles attachés aux vieilles traditions, ces changements sont une trahison. Un groupe de prêtres et de croyants, menés par le protoprêtre Avvakoum, refuse les réformes. Ils deviennent des vieux-croyants. Alexis soutient d'abord Nikon, puis s'oppose à lui sur des questions de pouvoir. Nikon veut que l'Église domine le pouvoir temporel. En 1666, un concile dépose Nikon mais maintient ses réformes. Les vieux-croyants sont persécutés. Avvakoum finira brûlé vif en 1682. Des milliers de croyants fuient vers les frontières de l'empire, refusant de se soumettre.
+
+Alexis se passionne pour les innovations occidentales. Il invite des artisans, des médecins, des ingénieurs étrangers. À Moscou, un quartier entier, la Nemetskaia sloboda (Немéцкая слободá, le quartier allemand), abrite ces étrangers. Le jeune Pierre, fils d'Alexis, y passera son enfance et y puisera son amour pour l'Occident. Le tsar crée un théâtre de cour, assiste à des pièces jouées par des acteurs allemands. Il réorganise l'armée sur le modèle européen, entraînés par des officiers étrangers.
+
+## L'héritage d'un règne contradictoire
+
+Alexis meurt le 8 février 1676, à quarante-sept ans. Il laisse un empire considérablement agrandi : la Sibérie jusqu'au Pacifique, l'Ukraine de la rive gauche, Smolensk reconquise. La population a augmenté, les ressources fiscales se sont développées grâce au commerce des fourrures et à l'expansion agricole vers le sud. Mais cet empire reste fragile, traversé de tensions religieuses, secoué par les révoltes populaires, structuré par un servage de plus en plus oppressant.
+
+Le surnom de « Très-Paisible » témoigne moins du caractère de son règne que de sa piété personnelle, de sa dévotion orthodoxe, de sa réputation de souverain accessible et juste. Les contemporains le décrivent comme un homme cultivé, parlant plusieurs langues, passionné de livres et de musique. Il sait aussi être cruel quand nécessaire, écrasant les révoltes sans pitié. Son fils Fiódor lui succède, puis son autre fils Pierre transformera radicalement l'empire. Mais les fondations posées par Alexis - l'expansion territoriale, l'ouverture prudente à l'Occident, la consolidation juridique par le code de 1649 - structurent la Russie pour le siècle suivant. Entre les steppes sibériennes et les plaines ukrainiennes, entre tradition orthodoxe et innovations étrangères, le règne d'Alexis Ier incarne les contradictions d'un empire à la croisée des chemins.
+
+  <div class="books">
+    <div class="book">
+      <a href="/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-philippe-de-foy/">
+        <img src="/images/russe/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy.png"
+             alt="Couverture du livre Le Russe pour les Débutants Niveau A2 - Philippe de Foy"
+             class="book-cover" />
+      </a>
+      <div class="book-title">Le Russe pour les Débutants A2</div>
+    </div>
+      </div>
+
+
+  <style>
+ .books { 
+    display: flex; 
+    gap: 2rem; 
+    margin-top: 1.5rem; 
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .book { 
+    text-align: center; 
+    max-width: 140px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .book p {
+    text-align: center;
+  }
+  .book-cover { 
+    width: 100%; 
+    height: auto; 
+    border-radius: 3px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+  }
+  .book-cover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+  }
+  .book-title {
+    font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    margin: 0 auto; 
+    font-size: 1rem;
+    text-align: center !important;
+    line-height: 1.3;
+    display: block;
+    width: 100%;
+  }
+</style>
