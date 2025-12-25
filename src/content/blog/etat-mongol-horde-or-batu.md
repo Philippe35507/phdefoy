@@ -19,6 +19,17 @@ Batu ne s'arrête pas. En février 1238, ses cavaliers prennent Vladimir-sur-Kli
 
 La deuxième vague frappe en 1239-1240. Cette fois, c'est le sud qui souffre. Kiev (Ки́ев), la "mère des villes russes", tombe en décembre 1240 après un siège acharné. Les archéologues retrouveront des siècles plus tard des couches de cendres de plusieurs mètres d'épaisseur. De là, Batu poursuit vers l'ouest, traverse la Galicie (Гали́ция), envahit la Pologne et la Hongrie. En 1242, ses avant-gardes atteignent l'Adriatique. Puis, brusquement, l'invasion s'arrête : le grand khan Ögödéi (Угэдэ́й) vient de mourir à Karakorum, et Batu doit en principe rentrer pour participer à l'élection du successeur.
 
+<div style="display: flex; justify-content: center;">
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/7ovRk61lDbs" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+  ></iframe>
+</div>
+
 ## Saraï sur la Volga : capitale d'un empire des steppes
 
 Batu interrompt sa campagne mais, au lieu de rentrer en Mongolie pour l'élection du successeur, il choisit de s'établir définitivement dans les steppes de la Volga. Il établit sa capitale à Saraï (Сара́й, qui signifie "palais" en langue turque), sur la basse Volga, près de l'actuelle Astrakhan (Астрахáнь). Le choix n'est pas arbitraire : le site contrôle les routes commerciales entre l'Asie centrale et l'Europe, entre la mer Caspienne et la mer Noire. En quelques décennies, Saraï devient une métropole cosmopolite où se croisent marchands vénitiens, artisans perses, esclaves russes et nomades turco-mongols.
