@@ -15,6 +15,19 @@ Ses princes tissent des alliances avec toutes les cours d'Europe, ses marchands 
 
 L'histoire commence de façon surprenante, au IXᵉ siècle, sur les immenses fleuves qui traversent les plaines de l'Est européen. Selon la célèbre Chronique des temps passés (Пове́сть временны́х лет), rédigée par les moines du XIIᵉ siècle, les tribus slaves et finno-ougriennes de la région vivaient dans un chaos permanent. Épuisées par leurs querelles incessantes, elles auraient pris une décision audacieuse : faire appel à des guerriers-marchands scandinaves, les Varègues, pour rétablir l'ordre.
 
+
+<div style="display: flex; justify-content: center;">
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/yWjnlmUvEXc" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+  ></iframe>
+</div>
+
+
 En 862, un chef varègue nommé Riourik (Рю́рик) s'installe à Novgorod et fonde une dynastie. Contrairement aux raids vikings qui terrorisaient l'Europe occidentale, ces guerriers du Nord adoptent une stratégie différente : ils s'intègrent aux populations locales, épousent des femmes slaves et fondent un pouvoir stable. Ils comprennent rapidement que la véritable richesse ne réside pas dans le pillage, mais dans le commerce organisé.
 
 Leur grand projet consiste à sécuriser la fameuse route « des Varègues aux Grecs », un gigantesque axe fluvial qui relie la froide mer Baltique à la riche Constantinople. En 882, le successeur de Riourik, le prince Oleg (Оле́г), déplace le centre du pouvoir vers le sud, à Kiev, idéalement située sur les rives du Dniepr. La ville devient rapidement la « mère des villes russes », carrefour commercial entre le monde scandinave, byzantin et oriental.

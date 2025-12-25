@@ -2,7 +2,7 @@
 title: "Ivan le Terrible : l'Opritchnina, quand un génie réformateur sombre dans la terreur"
 description: "Comment Ivan IV transforme la Moscovie en tsarat moderne entre 1547 et 1584 ? De ses réformes brillantes au régime de terreur de l'Opritchnina : parcours du premier tsar de Russie."
 pubDate: "dec 22 2025"
-heroImage: "/images/russe/Ivan-le-Terrible-bataille.png" 
+heroImage: "/images/russe/ivan-4-le-terrible-devant-son-armée.png" 
 heroImageAlt: "Ivan-le-Terrible."
 tags: ["Russe"]
 ---
@@ -30,19 +30,32 @@ Les victoires s'enchaînent. En 1552, après un siège de six semaines, Kazan to
 
 Le 7 août 1560, la tsarine Anastasia Romanovna (Анастаси́я Рома́новна) meurt à trente ans dans des circonstances qui alimentent immédiatement les rumeurs d'empoisonnement. Ivan, qui entretenait avec elle une relation exceptionnellement affectueuse pour l'époque, sombre dans un chagrin qui vire à la paranoïa. Les historiens contemporains comme Andreï Kourbski – alors encore proche du tsar – témoignent d'un changement radical dans son comportement.
 
-Dans les mois qui suivent, Ivan écarte brutalement Adachev et Sylvestre. Le premier est envoyé en exil en Livonie (Ливóния) où il meurt dans des conditions suspectes en 1561. Le second finit ses jours dans un monastère du Nord. Le tsar se convainc que ses anciens conseillers ont comploté pour tuer Anastasia. Cette conviction, sans doute délirante, marque le début d'une descente dans la méfiance systématique.
+Dans les mois qui suivent, Ivan écarte brutalement Adachev et Sylvestre. Le premier est envoyé en exil en Livonie où il meurt dans des conditions suspectes en 1561. Le second finit ses jours dans un monastère du Nord. Le tsar se convainc que ses anciens conseillers ont comploté pour tuer Anastasia. Cette conviction, sans doute délirante, marque le début d'une descente dans la méfiance systématique.
 
 En avril 1564, Kourbski, gouverneur militaire en Livonie et l'un des plus brillants généraux russes, fuit en Lituanie. De là, il adresse à Ivan une lettre cinglante dénonçant l'exécution arbitraire de nombreux boyards. La trahison de son ancien compagnon d'armes confirme Ivan dans sa paranoïa : l'aristocratie tout entière conspire contre lui.
 
+<div style="display: flex; justify-content: center;">
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/Cc2T7s5IKUM" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+  ></iframe>
+</div>
+
 ## La création de l'Opritchnina (décembre 1564-janvier 1565)
 
-Le 3 décembre 1564, Ivan quitte brusquement Moscou avec sa famille, ses trésors et ses icônes favorites. Il s'installe à Alexandrovskaïa sloboda (Алекса́ндровская слобода́), à cent kilomètres au nord-est de la capitale. De là, il envoie deux messages. Le premier, adressé au métropolite et aux boyards, les accuse de trahison et annonce son abdication. Le second, destiné au peuple de Moscou, affirme qu'il ne lui en veut pas et se retire seulement à cause de la perfidie des nobles.
+Le 3 décembre 1564, Ivan quitte brusquement Moscou avec sa famille, ses trésors et ses icônes favorites. Il s'installe à Alexandrovskaïa sloboda, à cent kilomètres au nord-est de la capitale. De là, il envoie deux messages. Le premier, adressé au métropolite et aux boyards, les accuse de trahison et annonce son abdication. Le second, destiné au peuple de Moscou, affirme qu'il ne lui en veut pas et se retire seulement à cause de la perfidie des nobles.
 
 La manœuvre est diaboliquement calculée. Paniqués à l'idée de perdre leur souverain légitime et craignant le chaos, les Moscovites supplient Ivan de revenir. Une délégation conduite par le métropolite Athanase (Афанáсий) se rend à Alexandrovsk. Ivan accepte de reprendre le trône, mais à une condition : pouvoir punir les traîtres à sa guise et réorganiser l'État selon son bon vouloir. Les délégués, pris au piège, acceptent.
 
 En janvier 1565, Ivan institue l'Opritchnina (Опри́чнина). Le terme, dérivé de opritche (о́прич, « à part »), désigne traditionnellement la portion d'héritage réservée à la veuve. Ivan détourne ce concept pour créer un domaine personnel séparé du reste du royaume, la Zemchtchina (Земщи́на). L'Opritchnina comprend les terres les plus riches : régions autour de Moscou, routes commerciales vers le Nord, villes de Viazma, Kozelsk, plusieurs quartiers de la capitale elle-même.
 
 Pour administrer et défendre ce domaine, Ivan recrute les opritchniki (опри́чники), qui deviendront tristement célèbres. Ces hommes, choisis initialement au nombre de mille puis portés à six mille, prêtent un serment terrible : renoncer à leurs liens familiaux, ne servir que le tsar, dénoncer toute conspiration. Ils portent un uniforme noir, attachent à leur selle une tête de chien et un balai – symboles de leur mission : mordre les ennemis du tsar et balayer la trahison.
+
+![Ivan Le Terrible](/images/russe/Ivan-le-Terrible-bataille.png)
 
 ## La terreur s'abat sur la Russie (1565-1572)
 

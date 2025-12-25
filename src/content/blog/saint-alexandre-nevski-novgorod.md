@@ -2,7 +2,7 @@
 title: "Alexandre Nevski : Le prince qui sauva l'Orthodoxie en s'alliant aux Mongols"
 description: "Alexandre Iaroslavitch naît en 1221 dans une petite ville à cent kilomètres au nord-est de Moscou. Il grandit dans un monde qui se fissure : la Rus' kiévienne, autrefois puissante et unie, se fragmente en principautés rivales."
 pubDate: "2025 12 20"
-heroImage: "/images/russe/Saint-Alexandre-Nevski-mosaïque-cathédrale-sofia.jpg" 
+heroImage: "/images/russe/alexandre-nevski-bataille-contre-les-suédois.png" 
 tags: ["Russe"]
 ---
 
@@ -25,7 +25,7 @@ Le 15 juillet 1240, les Suédois remontent la Néva (Нева́) avec une armée
 
 L'attaque a lieu à l'aube. Les Suédois, confiants, n'ont pas posté de sentinelles sérieuses. Alexandre frappe au cœur du campement. La bataille est brève et sanglante. Le prince, selon la chronique de Novgorod, blesse Birger au visage d'un coup de lance. Les Suédois fuient vers leurs navires, laissant leurs morts sur la berge. Alexandre gagne ce jour-là son surnom : Nevski, « celui de la Néva ».
 
-Deux ans plus tard, nouvelle menace à l'ouest. Les chevaliers Teutoniques ont pris Pskov (Псков), la ville-sœur de Novgorod. En avril 1242, Alexandre les affronte sur le lac gelé Peïpous (Чудско́е о́зеро). La « bataille des glaces » devient mythique : les chevaliers lourdement armés s'enfoncent dans la glace brisée et se noient. En réalité, les chroniques évoquent une vingtaine de chevaliers tués, un chiffre modeste. Mais le symbole est puissant : Novgorod repousse l'Occident latin.
+Deux ans plus tard, nouvelle menace à l'ouest. Les chevaliers Teutoniques ont pris Pskov, la ville-sœur de Novgorod. En avril 1242, Alexandre les affronte sur le lac gelé Peïpous (Чудско́е о́зеро). La « bataille des glaces » devient mythique : les chevaliers lourdement armés s'enfoncent dans la glace brisée et se noient. En réalité, les chroniques évoquent une vingtaine de chevaliers tués, un chiffre modeste. Mais le symbole est puissant : Novgorod repousse l'Occident latin.
 
 ## Le choix stratégique : pourquoi la Horde d'Or ?
 
@@ -34,6 +34,8 @@ Entre 1242 et 1252, Alexandre Nevski effectue quatre voyages à Saraï (Сара
 Le calcul d'Alexandre est clair. Les Mongols veulent de l'argent, pas des âmes. Ils exigent le tribut, le recensement, la soumission politique, mais laissent l'Église orthodoxe intacte. Ils exemptent même le clergé d'impôts – un pragmatisme étonnant pour des conquérants. Les chevaliers germaniques et suédois, eux, viennent avec des évêques et des missionnaires. Ils construisent des cathédrales latines sur les ruines des églises orthodoxes. Ils imposent l'obédience à Rome, ce qui signifie, dans l'esprit médiéval, la destruction de l'identité spirituelle russe.
 
 En 1257, les Mongols ordonnent un recensement à Novgorod pour établir l'impôt. La ville, fière de ses libertés, se révolte. Alexandre vient personnellement mater l'insurrection. Il fait crever les yeux aux meneurs, coupe le nez à d'autres. La brutalité est calculée : mieux vaut punir quelques rebelles que laisser les Mongols raser la ville entière. Novgorod paie le tribut. La ville survit.
+
+![SaintAlexandre Nevski](/images/russe/Saint-Alexandre-Nevski-mosaïque-cathédrale-sofia.jpg)
 
 ## Le grand-prince de Vladimir : gérer l'occupation
 

@@ -23,6 +23,17 @@ Boris règne bien au début. Il envoie des jeunes nobles étudier en Europe, enc
 
 Dans les campagnes, on mange l'écorce des arbres, puis l'herbe, puis on ne mange plus. Les paysans fuient les domaines, errent sur les routes. Des bandes de brigands surgissent partout. À Moscou, les cadavres s'entassent dans les rues. Boris ouvre les greniers du tsar, organise des distributions de grain, lance des travaux publics pour employer les affamés. Rien n'y fait. On parle de deux millions de morts — le tiers de la population. Dans un pays profondément orthodoxe, cette catastrophe ne peut être qu'un châtiment divin. Le tsar élu paie pour un crime qu'on lui attribue : le meurtre de l'enfant Dmitri, douze ans plus tôt.
 
+<div style="display: flex; justify-content: center;">
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/SP2ZnZUEq4M" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+  ></iframe>
+</div>
+
 ## Le premier imposteur surgit de Pologne
 
 En 1603, un jeune homme se présente à la cour du magnat polonais Adam Vichnevetski (Адам Ви́шневецкий). Il affirme être le tsarévitch Dmitri, miraculeusement sauvé du massacre d'Ouglitch. L'histoire qu'il raconte tient debout : un serviteur dévoué aurait substitué un autre enfant à sa place. Dmitri se serait caché pendant douze ans avant de fuir en Pologne. Vichnevetski et d'autres nobles polonais voient immédiatement l'opportunité : installer un tsar qui leur devra tout.
