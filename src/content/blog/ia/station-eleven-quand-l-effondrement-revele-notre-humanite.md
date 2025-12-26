@@ -1,5 +1,5 @@
 ---
-title: "L'art après l'apocalypse : Station Eleven de Mandel"
+title: "L'art après l'apocalypse : Station Eleven de Emily St. John Mandel"
 description: "Analyse de ce chef-d'œuvre post-apocalyptique d'Emily St. John Mandel qui explore l'art, la mémoire et la résilience humaine après une pandémie dévastatrice."
 pubDate: "2025-09-07"
 heroImage: "/images/ia/2025-09-07-station-eleven-quand-l-effondrement-revele-notre-humanite-2e6e65-hero/2025-09-07-station-eleven-quand-l-effondrement-revele-notre-humanite-2e6e65-hero.png"
@@ -7,7 +7,7 @@ heroImageAlt: "Illustration: Station Eleven : Quand l'effondrement révèle notr
 ---
 
 
-Dans un monde littéraire saturé de dystopies post-apocalyptiques, *Station Eleven* d'[Emily St. John Mandel](https://www.babelio.com/auteur/Emily-St-John-Mandel/236392) se distingue par sa délicatesse et sa profondeur. Publié en 2014, ce roman a conquis la critique internationale et s'est imposé comme une œuvre majeure de la littérature contemporaine. Au-delà du simple récit de survie après l'effondrement de la civilisation, Mandel tisse une tapisserie narrative complexe qui explore les liens entre art, mémoire et résilience humaine. À travers ses personnages marquants et sa structure narrative audacieuse, *Station Eleven* nous invite à réfléchir sur ce qui définit véritablement notre humanité lorsque tout s'écroule.
+Dans un monde littéraire saturé de dystopies post-apocalyptiques, *Station Eleven* de [Emily St. John Mandel](https://www.babelio.com/auteur/Emily-St-John-Mandel/236392) se distingue par sa délicatesse et sa profondeur. Publié en 2014, ce roman a conquis la critique internationale et s'est imposé comme une œuvre majeure de la littérature contemporaine. Au-delà du simple récit de survie après l'effondrement de la civilisation, Mandel tisse une tapisserie narrative complexe qui explore les liens entre art, mémoire et résilience humaine. À travers ses personnages marquants et sa structure narrative audacieuse, *Station Eleven* nous invite à réfléchir sur ce qui définit véritablement notre humanité lorsque tout s'écroule.
 
 
 <picture><source srcset="/images/ia/2025-09-07-station-eleven-quand-l-effondrement-revele-notre-humanite-2e6e65-inline/2025-09-07-station-eleven-quand-l-effondrement-revele-notre-humanite-2e6e65-inline.avif" type="image/avif" /><source srcset="/images/ia/2025-09-07-station-eleven-quand-l-effondrement-revele-notre-humanite-2e6e65-inline/2025-09-07-station-eleven-quand-l-effondrement-revele-notre-humanite-2e6e65-inline.webp" type="image/webp" /><img src="/images/ia/2025-09-07-station-eleven-quand-l-effondrement-revele-notre-humanite-2e6e65-inline/2025-09-07-station-eleven-quand-l-effondrement-revele-notre-humanite-2e6e65-inline.png" alt="Illustration: Station Eleven : Quand l'effondrement révèle notre humanité" loading="lazy" decoding="async" /></picture>
