@@ -1,6 +1,6 @@
 ---
-title: "Découvrez Le Russe pour les Débutants Niveau A2 : la méthode pour maîtriser le système des cas grammaticaux russes"
-description: "Après avoir acquis les bases du russe au niveau A1, le passage au niveau A2 représente une étape cruciale : c'est précisément à ce moment que les apprenants doivent maîtriser le système des cas grammaticaux russes"
+title: "Manuel Russe A2 : Maîtriser les Cas Grammaticaux"
+description: "Manuel russe A2 avec 18 leçons pour maîtriser les 6 cas grammaticaux. Des exercices corrigés, 12 annexes. Méthode progressive pour francophones. Découvrez-le maintenant !"
 pubDate: "dec 7 2025"
 heroImageLink: "https://www.amazon.com/dp/B0G5MVCT7B"
 heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy.png" 
@@ -295,6 +295,22 @@ Les tournures impersonnelles sont très courantes en russe et permettent d'expri
 
 La dernière leçon propose une série d'exercices récapitulatifs permettant de consolider l'ensemble des connaissances acquises tout au long du manuel.
 
+
+<div style="border: 3px solid #667eea; padding: 25px; border-radius: 10px; background: #f8f9ff; margin: 40px 0;">
+  <h3 style="color: #667eea; margin-top: 0;">📚 Prêt à maîtriser les cas grammaticaux russes ?</h3>
+  <p> Le manuel "Le Russe pour les Débutants A2" vous offre :</p>
+  <ul style="margin: 20px 0;">
+    <li>✅ Une progression logique cas par cas (pas de surcharge cognitive)</li>
+    <li>✅ Des exemples avec <strong>tous les accents toniques marqués</strong></li>
+    <li>✅ Des centaines d'exercices pour automatiser les déclinaisons</li>
+    <li>✅ Les corrigés complets pour vérifier votre compréhension</li>
+  </ul>
+  <p style="text-align: center; margin-top: 25px;">
+    <a href="https://www.amazon.com/dp/B0G5MVCT7B" style="display: inline-block; background: #667eea; color: white; padding: 12px 35px; border-radius: 5px; text-decoration: none; font-weight: bold;">Découvrir le manuel →</a>
+  </p>
+</div>
+
+
 ## Une méthodologie éprouvée
 
 Chaque leçon suit une structure cohérente et progressive :
@@ -419,6 +435,49 @@ Le système des cas grammaticaux, qui peut sembler intimidant au premier abord, 
 La combinaison d'explications grammaticales détaillées, d'exemples nombreux et variés, d'exercices progressifs et de ressources de référence complètes en fait un outil précieux pour quiconque souhaite construire des bases solides en russe. Que vous étudiiez seul ou avec un professeur, ce manuel vous accompagnera dans votre découverte de cette langue riche et fascinante.
 
 Приятного обучения! (Bon apprentissage !)
+
+
+## Questions fréquentes sur le manuel Le Russe pour les Débutants A2
+
+### Dois-je absolument avoir terminé le niveau A1 avant de commencer ?
+
+Oui, ce manuel suppose que vous maîtrisez déjà les bases du russe : l'alphabet cyrillique, la lecture, les conjugaisons au présent et au passé, et le vocabulaire élémentaire (environ 500-700 mots). Si vous débutez complètement, commencez par [le manuel niveau A1](/decouvrez-alphabet-cyrillique-russe-guide-pour-débutants/) qui couvre ces fondamentaux.
+
+### Combien de temps faut-il pour terminer le manuel ?
+
+Cela dépend de votre rythme d'étude. Avec une pratique régulière de 30 à 45 minutes par jour, comptez **3 à 6 mois** pour assimiler les 18 leçons. Certains apprenants motivés terminent en 2-3 mois en y consacrant 1 à 2 heures quotidiennes. L'essentiel est la régularité : mieux vaut 20 minutes chaque jour que 2 heures une fois par semaine.
+
+### Le manuel convient-il aux autodidactes ou faut-il un professeur ?
+
+Le manuel est spécialement conçu pour l'**autodidacte**. Chaque leçon contient des explications grammaticales détaillées, des exemples nombreux, et surtout **tous les exercices sont corrigés** avec les accents toniques marqués. Vous pouvez donc progresser en totale autonomie. Cela dit, le manuel constitue également un excellent support si vous suivez des cours, permettant de consolider ce que vous voyez en classe.
+
+### Pourquoi les cas grammaticaux sont-ils si importants en russe ?
+
+Les cas grammaticaux sont la **colonne vertébrale** de la langue russe. Contrairement au français où l'ordre des mots détermine la fonction (sujet, complément), le russe utilise les terminaisons des mots. Maîtriser les cas vous permet de comprendre et de construire correctement n'importe quelle phrase russe. Sans cette base, impossible de progresser vers les niveaux B1 et supérieurs.
+
+### Qu'est-ce qui différencie ce manuel des applications type Duolingo ou Babbel ?
+
+Les applications sont excellentes pour le vocabulaire et la pratique quotidienne, mais elles n'offrent pas d'**explication systématique** de la grammaire. Ce manuel propose une progression structurée à travers les cas grammaticaux, avec des tableaux de déclinaison complets, des règles explicitées, et des centaines d'exercices ciblés. C'est le complément parfait aux applications : utilisez le manuel pour la grammaire, les apps pour le vocabulaire et la pratique orale.
+
+### Pourquoi marquer tous les accents toniques ?
+
+L'accent tonique en russe n'est pas prévisible et peut **changer le sens** d'un mot (за́мок = château, замо́к = serrure). Les apprenants francophones ont souvent du mal avec la prononciation parce que les manuels négligent cet aspect. En marquant systématiquement les accents, ce manuel vous permet de développer simultanément vos compétences écrites et orales, avec une prononciation correcte dès le départ.
+
+### Le manuel couvre-t-il le pluriel des cas grammaticaux ?
+
+Non, le niveau A2 se concentre exclusivement sur les cas au **singulier**. C'est un choix pédagogique délibéré : assimiler les 6 cas au singulier représente déjà un défi considérable. Le pluriel, avec ses propres règles de déclinaison, est réservé au niveau B1 pour éviter la surcharge cognitive. Une fois le singulier maîtrisé, le pluriel devient beaucoup plus facile à apprendre.
+
+### Y a-t-il du vocabulaire thématique ou seulement de la grammaire ?
+
+Chaque leçon introduit du **vocabulaire pertinent** au sujet grammatical étudié. Par exemple, la leçon sur le locatif présente les noms de lieux (шко́ла, университе́т, рестора́н), celle sur l'instrumental les noms d'instruments et de professions. Le manuel contient également une annexe avec du lexique thématique organisé (famille, nourriture, vêtements, etc.). Au total, vous assimilerez environ **1000 à 1200 mots** de vocabulaire à travers les 18 leçons.
+
+### Peut-on utiliser le manuel sans connaître l'alphabet cyrillique ?
+
+Non, le manuel suppose que vous savez déjà **lire et écrire en cyrillique**. L'alphabet n'est pas enseigné dans ce volume car il fait partie des acquis du niveau A1. Si vous n'êtes pas encore à l'aise avec l'alphabet cyrillique, commencez par [le guide de l'alphabet cyrillique russe](/decouvrez-alphabet-cyrillique-russe-guide-pour-débutants/) ou le manuel A1 avant d'aborder le niveau A2.
+
+### Que faire après avoir terminé le manuel A2 ?
+
+Une fois le niveau A2 maîtrisé, vous êtes prêt pour le **niveau B1** qui abordera : les cas au pluriel, les participes et gérondifs, les subordonnées complexes, l'enrichissement du vocabulaire (3000+ mots), et le perfectionnement de l'expression. Le manuel B1 est actuellement en développement et suivra la même méthodologie progressive que le A2. En attendant, vous pouvez consolider vos acquis avec de la lecture graduée et des conversations simples.
 
   <div class="books">
      <div class="book">
