@@ -337,10 +337,15 @@ Que vous décriviez où vous vous trouvez, ce à quoi vous pensez, ou que vous s
 ✓ Attention à la forme archaïque en **-у́** pour certains masculins
 ✓ Les adjectifs s'accordent : **-ом/-ем** (masculin/neutre), **-ой/-ей** (féminin)
 
-
-*Cet article fait partie de notre série complète sur les cas grammaticaux russes. Consultez également nos guides sur l'accusatif, le génitif, le datif et l'instrumental pour une maîtrise complète du système casuel russe.*
-
   <div class="books">
+     <div class="book">
+      <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-débutants/">
+        <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
+             alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
+             class="book-cover" />
+      </a>
+      <div class="book-title">Le Russe pour les Débutants A1</div>
+    </div>
     <div class="book">
       <a href="/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-philippe-de-foy/">
         <img src="/images/russe/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy.png"
@@ -393,3 +398,8 @@ Que vous décriviez où vous vous trouvez, ce à quoi vous pensez, ou que vous s
     width: 100%;
   }
 </style>
+
+
+*Cet article fait partie de notre série complète sur les cas grammaticaux russes. Consultez également nos guides sur l'accusatif, le génitif, le datif et l'instrumental pour une maîtrise complète du système casuel russe.*
+
+

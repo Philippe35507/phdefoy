@@ -60,16 +60,8 @@ Cette institution révèle une spécificité de la construction de l'État russe
 
 L'héritage du Zemski sobor reste ambigu dans la mémoire russe. Au XIXe siècle, certains slavophiles y verront une preuve que la Russie avait développé une forme originale de démocratie consultative avant Pierre. D'autres historiens souligneront au contraire que cette assemblée n'a jamais contesté l'autocratie et servait uniquement d'instrument au pouvoir tsariste. Ces débats historiographiques reflètent une question plus large : la Russie a-t-elle jamais connu des institutions capables de limiter le pouvoir autocratique ? Le Zemski sobor, assemblée consultative sans pouvoir réel, incarne peut-être la réponse complexe à cette question.
 
-  <div class="books">
+<div class="books">
      <div class="book">
-      <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-débutants/">
-        <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
-             alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
-             class="book-cover" />
-      </a>
-      <div class="book-title">Le Russe pour les Débutants A1</div>
-    </div>
-    <div class="book">
       <a href="/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-philippe-de-foy/">
         <img src="/images/russe/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy.png"
              alt="Couverture du livre Le Russe pour les Débutants Niveau A2 - Philippe de Foy"

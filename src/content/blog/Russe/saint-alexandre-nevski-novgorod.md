@@ -61,14 +61,6 @@ Alexandre Nevski n'a pas vaincu les Mongols. Il s'est soumis à eux méthodiquem
 
 <div class="books">
      <div class="book">
-      <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-débutants/">
-        <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
-             alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
-             class="book-cover" />
-      </a>
-      <div class="book-title">Le Russe pour les Débutants A1</div>
-    </div>
-    <div class="book">
       <a href="/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-philippe-de-foy/">
         <img src="/images/russe/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy.png"
              alt="Couverture du livre Le Russe pour les Débutants Niveau A2 - Philippe de Foy"
