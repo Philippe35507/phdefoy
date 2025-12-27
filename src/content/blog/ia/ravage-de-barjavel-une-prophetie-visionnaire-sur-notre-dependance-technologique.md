@@ -4,6 +4,7 @@ description: "Découvrez comment ce roman dystopique de 1943 anticipe nos préoc
 pubDate: "2025-08-03"
 heroImage: "/images/ia/2025-03-08-rené-barjavel-ravage-dependance-technologique-hero/2025-03-08-rené-barjavel-ravage-dependance-technologique-hero.png"
 heroImageAlt: "Illustration: Ravage de Barjavel : Une prophétie visionnaire sur notre dépendance technologique"
+tags: ["Livres"]
 ---
 
 

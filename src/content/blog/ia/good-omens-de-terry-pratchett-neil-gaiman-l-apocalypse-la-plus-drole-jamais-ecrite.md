@@ -4,6 +4,7 @@ description: "Analyse de cette comédie apocalyptique culte où un ange et un d�
 pubDate: "2025-10-22"
 heroImage: "/images/ia/2025-10-22-good-omens-de-terry-pratchett-neil-gaiman-l-apocalypse-la-pl-097c68-hero/2025-10-22-good-omens-de-terry-pratchett-neil-gaiman-l-apocalypse-la-pl-097c68-hero.png"
 heroImageAlt: "Illustration: Good Omens de Terry Pratchett & Neil Gaiman : L'Apocalypse la plus drôle jamais écrite"
+tags: ["Livres"]
 ---
 
 Dans le vaste paysage de la littérature fantastique, certaines œuvres parviennent à transcender leur genre pour devenir de véritables phénomènes culturels. *Good Omens* (1990), fruit de la collaboration entre [Terry Pratchet](https://sherpas.com/blog/terry-pratchett/) et [Neil Gaiman](https://fr.wikipedia.org/wiki/Neil_Gaiman), appartient indéniablement à cette catégorie. Cette comédie apocalyptique a non seulement conquis des millions de lecteurs à travers le monde, mais a également donné naissance à une adaptation télévisée acclamée par la critique. Plongée dans un récit où l'Apocalypse devient le théâtre d'une amitié improbable entre un ange et un démon, cette œuvre unique mérite qu'on s'y attarde pour comprendre les ressorts de son succès durable.

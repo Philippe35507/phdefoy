@@ -4,6 +4,7 @@ description: "Analyse de La Cinquième Saison de N.K. Jemisin, œuvre révolutio
 pubDate: "2025-09-10"
 heroImage: "/images/ia/2025-09-10-la-cinquieme-saison-de-n-k-jemisin-apocalypse-oppression-et-296968-hero/2025-09-10-la-cinquieme-saison-de-n-k-jemisin-apocalypse-oppression-et-296968-hero.png"
 heroImageAlt: "Illustration: La Cinquième Saison de N.K. Jemisin : Apocalypse, oppression et révolution"
+tags: ["Livres"]
 ---
 
 Dans un monde où la géologie devient une force de destruction apocalyptique, *La Cinquième Saison* de [N.K. Jemisin](https://www.jailu.com/Nos-auteurs/jemisin-n-k) nous plonge dans une expérience littéraire aussi dévastatrice que révélatrice. Premier tome de la trilogie de *La Terre Fracturée*, ce roman publié en 2015 a révolutionné la fantasy moderne en remportant le prix Hugo du meilleur roman en 2016 – le premier d'une série historique de trois victoires consécutives pour l'autrice. Ce qui fascine dans cette œuvre, c'est sa capacité à transformer un récit de fin du monde en une méditation profonde sur l'oppression, le pouvoir et la résilience humaine.

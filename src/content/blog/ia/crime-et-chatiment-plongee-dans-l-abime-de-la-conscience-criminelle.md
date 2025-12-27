@@ -4,6 +4,7 @@ description: "Exploration du chef-d'œuvre de Dostoïevski où un crime devient 
 pubDate: "2025-09-14"
 heroImage: "/images/ia/2025-09-14-crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-cri-c00eab-hero/2025-09-14-crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-cri-c00eab-hero.png"
 heroImageAlt: "Illustration: Crime et Châtiment : Plongée dans l'abîme de la conscience criminelle"
+tags: ["Livres"]
 ---
 
 <div class="download-grid">

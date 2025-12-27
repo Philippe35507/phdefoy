@@ -4,6 +4,7 @@ description: "Analyse de l'œuvre fondatrice de Rothfuss, sa structure narrative
 pubDate: "2025-11-11"
 heroImage: "/images/ia/2025-11-11-the-name-of-the-wind-la-symphonie-narrative-de-patrick-rothf-5b012d-hero/2025-11-11-the-name-of-the-wind-la-symphonie-narrative-de-patrick-rothf-5b012d-hero.png"
 heroImageAlt: "Illustration: Le Nom du vent : La Symphonie Narrative de Patrick Rothfuss"
+tags: ["Livres"]
 ---
 
 Dans l'univers foisonnant de la fantasy épique, certaines œuvres s'élèvent au-dessus du tumulte et résonnent avec une clarté particulière. *Le Nom du vent*, premier tome de la chronique du Tueur de Roi par [Patrick Rothfuss](https://fr.wikipedia.org/wiki/Patrick_Rothfuss), appartient indéniablement à cette catégorie. Publié en 2007 après une gestation créative de près de quinze ans, ce roman a redéfini les contours du genre avec une approche narrative aussi raffinée que novatrice.

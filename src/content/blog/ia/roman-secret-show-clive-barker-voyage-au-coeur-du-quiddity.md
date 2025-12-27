@@ -4,6 +4,7 @@ description: "Plongée dans l'univers métaphysique du chef-d'œuvre de Barker, 
 pubDate: "2025-11-10"
 heroImage: "/images/ia/2025-11-10-the-great-and-secret-show-de-clive-barker-voyage-au-c-ur-du-0f4b70-inline/2025-11-10-the-great-and-secret-show-de-clive-barker-voyage-au-c-ur-du-0f4b70-inline.png"
 heroImageAlt: "Illustration: Secret Show de Clive Barker : voyage au cœur du Quiddity"
+tags: ["Livres"]
 ---
 
 *Secret Show* marque un tournant dans l'œuvre de [Clive Barker](https://www.senscritique.com/livre/secret_show/124299). Publié en 1989, ce roman ambitieux s'éloigne de l'horreur pure qui avait fait sa renommée pour embrasser une fantasy cosmique d'une ampleur inédite. Premier volet de ce que l'auteur a nommé "L'Art", cette œuvre monumentale déploie un univers où la réalité telle que nous la connaissons n'est qu'une fine membrane séparant notre monde d'un océan de rêves appelé le Quiddity.

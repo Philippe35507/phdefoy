@@ -4,6 +4,7 @@ description: "Découvrez Le Frère-de-la-Côte, ultime chef-d'œuvre maritime de
 pubDate: "2025-11-21"
 heroImage: "/images/ia/2025-11-21-le-frere-de-la-cote-de-joseph-conrad-entre-aventure-maritime-7160fe-hero/2025-11-21-le-frere-de-la-cote-de-joseph-conrad-entre-aventure-maritime-7160fe-hero.png"
 heroImageAlt: "Illustration: Le Frère-de-la-Côte de Joseph Conrad : Entre aventure maritime et exploration des abîmes de l'âme"
+tags: ["Livres"]
 ---
 
 Entre les récits d'aventures maritimes et l'exploration psychologique des personnages, *Le Frère de la Côte* (titre original : *The Rover*, 1923) occupe une place singulière dans l'œuvre de [Joseph Conrad](https://www.universalis.fr/encyclopedie/joseph-conrad/). Publié un an avant sa mort, ce roman constitue un retour aux thèmes marins qui ont fait sa renommée, tout en offrant une réflexion profonde sur l'identité, la loyauté et le poids du passé.

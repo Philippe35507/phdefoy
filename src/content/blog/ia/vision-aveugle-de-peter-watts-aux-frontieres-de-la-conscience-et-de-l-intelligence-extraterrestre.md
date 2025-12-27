@@ -4,6 +4,7 @@ description: "Analyse du roman de hard science-fiction qui questionne la valeur 
 pubDate: "2025-11-25"
 heroImage: "/images/ia/2025-11-25-vision-aveugle-de-peter-watts-aux-frontieres-de-la-conscienc-8240f1-hero/2025-11-25-vision-aveugle-de-peter-watts-aux-frontieres-de-la-conscienc-8240f1-hero.png"
 heroImageAlt: "Illustration: Vision aveugle de Peter Watts : aux frontières de la conscience et de l'intelligence extraterrestre"
+tags: ["Livres"]
 ---
 
 Dans un futur où l'humanité a transformé la Terre en un réseau de surveillance et d'intelligence artificielle, *Vision aveugle* nous plonge dans une mission spatiale aux frontières du système solaire. Ce roman de hard science-fiction publié en 2006 par [Peter Watts](https://www.babelio.com/auteur/Peter-Watts/69805), biologiste marin canadien devenu auteur, pose une question fondamentale : et si la conscience n'était qu'un bug évolutif ? Une question vertigineuse qui traverse cette œuvre dense et fascinante, finaliste du prix Hugo en 2007.

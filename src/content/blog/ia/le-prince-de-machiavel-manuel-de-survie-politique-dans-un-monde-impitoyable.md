@@ -4,6 +4,7 @@ description: "Découvrez l'analyse du traité politique le plus controversé de 
 pubDate: "2025-09-18"
 heroImage: "/images/ia/2025-09-18-le-prince-de-machiavel-manuel-de-survie-politique-dans-un-mo-757783-hero/2025-09-18-le-prince-de-machiavel-manuel-de-survie-politique-dans-un-mo-757783-hero.png"
 heroImageAlt: "Illustration: Le Prince de Machiavel : Manuel de survie politique dans un monde impitoyable"
+tags: ["Livres"]
 ---
 
 <div class="download-grid">

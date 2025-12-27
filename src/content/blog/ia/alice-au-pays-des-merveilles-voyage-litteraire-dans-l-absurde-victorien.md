@@ -4,6 +4,7 @@ description: "Exploration de l'œuvre culte de Lewis Carroll, entre satire victo
 pubDate: "2025-09-16"
 heroImage: "/images/ia/2025-09-16-alice-au-pays-des-merveilles-voyage-litteraire-dans-l-absurd-bf4045-hero/2025-09-16-alice-au-pays-des-merveilles-voyage-litteraire-dans-l-absurd-bf4045-hero.png"
 heroImageAlt: "Illustration: Alice au Pays des Merveilles : voyage littéraire dans l'absurde victorien"
+tags: ["Livres"]
 ---
 
 <div class="download-grid">

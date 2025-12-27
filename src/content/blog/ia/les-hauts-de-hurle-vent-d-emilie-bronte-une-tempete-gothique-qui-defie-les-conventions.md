@@ -4,6 +4,7 @@ description: "Analyse du chef-d'œuvre d'Émilie Brontë : passion destructrice,
 pubDate: "2025-12-19"
 heroImage: "/images/ia/2025-12-20-les-hauts-de-hurle-vent-d-emilie-bronte-une-tempete-gothique-e690da-hero/2025-12-20-les-hauts-de-hurle-vent-d-emilie-bronte-une-tempete-gothique-e690da-hero.png"
 heroImageAlt: "Illustration: Les Hauts de Hurle-vent d'Émilie Brontë : Une tempête gothique qui défie les conventions"
+tags: ["Livres"]
 ---
 
 Certaines œuvres littéraires surgissent dans l'histoire comme des éclairs dans la nuit, illuminant soudain des territoires inexplorés de l'âme humaine. *Les Hauts de Hurle-vent* d'[Émilie Brontë](https://www.linflux.com/litterature/emily-bronte-mysterieuse-ou-subversive/) appartient à cette catégorie rare des romans qui bouleversent non seulement par leur puissance narrative, mais par leur capacité à repousser les limites de ce que la littérature peut oser dire. Publié en 1847 sous le pseudonyme d'Ellis Bell, ce premier et unique roman de la plus mystérieuse des sœurs Brontë continue de fasciner par son caractère inclassable et sa modernité troublante.

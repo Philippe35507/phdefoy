@@ -4,6 +4,7 @@ description: "Découvrez pourquoi le chef-d'œuvre de Clarke sur l'exploration d
 pubDate: "2025-08-15"
 heroImage: "/images/ia/rendez-vous-avec-rama-quand-l-inconnu-cosmique-rencontre-l-humanite-hero/rendez-vous-avec-rama-quand-l-inconnu-cosmique-rencontre-l-humanite-hero.png"
 heroImageAlt: "Illustration: Rendez-vous avec Rama : Quand l'inconnu cosmique rencontre l'humanité"
+tags: ["Livres"]
 ---
 
 

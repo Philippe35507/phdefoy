@@ -4,6 +4,7 @@ description: "Exploration de l'architecture narrative et des métaphores urbaine
 pubDate: "2025-10-27"
 heroImage: "/images/ia/2025-10-27-les-villes-invisibles-d-italo-calvino-un-atlas-imaginaire-de-1b806b-hero/2025-10-27-les-villes-invisibles-d-italo-calvino-un-atlas-imaginaire-de-1b806b-hero.png"
 heroImageAlt: "Illustration: Les Villes invisibles d'Italo Calvino : un atlas imaginaire des possibles urbains"
+tags: ["Livres"]
 ---
 
 Dans l'univers littéraire, certaines œuvres nous invitent moins à suivre une histoire qu'à explorer un territoire. *Les Villes invisibles* d'[Italo Calvino](https://fr.wikipedia.org/wiki/Italo_Calvino), publiée en 1972, appartient à cette catégorie rare de livres qui redéfinissent notre façon de percevoir le monde. À travers un dialogue fictif entre Marco Polo et l'empereur Kublai Khan, Calvino nous guide dans un labyrinthe de cités imaginaires, chacune reflétant une facette de l'expérience urbaine et, par extension, de la condition humaine.

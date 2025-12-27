@@ -4,6 +4,7 @@ description: "Découvrez comment Brandon Sanderson redéfinit la fantasy avec un
 pubDate: "2025-10-28"
 heroImage: "/images/ia/2025-10-28-the-final-empire-l-alchimie-parfaite-entre-magie-et-revoluti-cd1125-hero/2025-10-28-the-final-empire-l-alchimie-parfaite-entre-magie-et-revoluti-cd1125-hero.png"
 heroImageAlt: "Illustration: The Final Empire : l'alchimie parfaite entre magie et révolution selon Brandon Sanderson"
+tags: ["Livres"]
 ---
 
 Dans le vaste paysage de la fantasy contemporaine, certaines œuvres parviennent à transcender les codes du genre pour proposer une expérience véritablement novatrice. *The Final Empire*, premier tome de la série Mistborn publiée en 2006, s'impose comme l'une de ces rares créations qui redéfinissent les contours de l'imaginaire. [Brandon Sanderson](https://www.brandonsanderson.com/) y déploie un univers où la magie devient système, où les héros traditionnels sont remplacés par des anti-héros complexes, et où la quête épique se transforme en intrigue révolutionnaire.

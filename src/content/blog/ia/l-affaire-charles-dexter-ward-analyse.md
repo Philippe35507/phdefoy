@@ -4,6 +4,7 @@ description: "Plongée dans le roman de Lovecraft où nécromancie, quête gén�
 pubDate: "2025-09-25"
 heroImage: "/images/ia/2025-09-25-l-affaire-charles-dexter-ward-analyse-df568a-hero/2025-09-25-l-affaire-charles-dexter-ward-analyse-df568a-hero.png"
 heroImageAlt: "Illustration: L’Affaire Charles Dexter Ward — Analyse"
+tags: ["Livres"]
 ---
 
 <div class="download-grid">

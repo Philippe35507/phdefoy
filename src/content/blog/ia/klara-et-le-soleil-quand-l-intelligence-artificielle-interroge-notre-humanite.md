@@ -4,6 +4,7 @@ description: "Une analyse de l'œuvre de Kazuo Ishiguro qui explore, à travers 
 pubDate: "2025-09-12"
 heroImage: "/images/ia/2025-09-12-klara-et-le-soleil-quand-l-intelligence-artificielle-interro-4a6207-hero/2025-09-12-klara-et-le-soleil-quand-l-intelligence-artificielle-interro-4a6207-hero.png"
 heroImageAlt: "Illustration: Klara et le Soleil : quand l'intelligence artificielle interroge notre humanité"
+tags: ["Livres"]
 ---
 
 Dans un futur proche où la technologie s'est immiscée dans les aspects les plus intimes de notre existence, [Kazuo Ishiguro](https://5livres.fr/kazuo-ishiguro/) nous offre avec *Klara et le Soleil* une méditation profonde sur ce qui constitue réellement l'humanité. Ce qui fascine dans cette œuvre publiée en 2021 est la manière dont Ishiguro, Prix Nobel de littérature, parvient à explorer des thèmes universels – l'amour, la solitude, la mortalité – à travers le regard innocent mais perspicace d'une intelligence artificielle.

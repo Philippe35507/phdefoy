@@ -4,6 +4,7 @@ description: "Exploration de Solaris, chef-d'œuvre de Lem où un océan vivant 
 pubDate: "2025-11-23"
 heroImage: "/images/ia/2025-11-23-solaris-de-stanislas-lem-l-ocean-insondable-de-la-conscience-54d67b-hero/2025-11-23-solaris-de-stanislas-lem-l-ocean-insondable-de-la-conscience-54d67b-hero.png"
 heroImageAlt: "Illustration: Solaris de Stanislas Lem : l'océan insondable de la conscience extraterrestre"
+tags: ["Livres"]
 ---
 
 Dans le panthéon des œuvres de science-fiction qui transcendent leur genre pour atteindre une dimension philosophique profonde, *Solaris* de [Stanislas Lem](https://www.babelio.com/auteur/Stanislas-Lem/7791) occupe une place à part. Publié en 1961 en polonais avant d'être traduit dans de nombreuses langues, ce roman nous plonge dans une exploration vertigineuse de l'altérité absolue et des limites de la compréhension humaine.

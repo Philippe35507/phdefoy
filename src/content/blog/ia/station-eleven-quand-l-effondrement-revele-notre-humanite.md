@@ -4,6 +4,7 @@ description: "Analyse de ce chef-d'œuvre post-apocalyptique d'Emily St. John Ma
 pubDate: "2025-09-07"
 heroImage: "/images/ia/2025-09-07-station-eleven-quand-l-effondrement-revele-notre-humanite-2e6e65-hero/2025-09-07-station-eleven-quand-l-effondrement-revele-notre-humanite-2e6e65-hero.png"
 heroImageAlt: "Illustration: Station Eleven : Quand l'effondrement révèle notre humanité"
+tags: ["Livres"]
 ---
 
 

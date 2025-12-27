@@ -4,6 +4,7 @@ description: "Analyse du roman révolutionnaire de Flaubert à travers le destin
 pubDate: "2025-09-22"
 heroImage: "/images/ia/2025-09-22-les-illusions-perdues-dans-madame-bovary-le-chef-d-uvre-impi-727ffc-hero/2025-09-22-les-illusions-perdues-dans-madame-bovary-le-chef-d-uvre-impi-727ffc-hero.png"
 heroImageAlt: "Illustration: Les illusions perdues dans Madame Bovary : le chef-d'œuvre impitoyable de Gustave Flaubert"
+tags: ["Livres"]
 ---
 
 

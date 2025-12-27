@@ -4,6 +4,7 @@ description: "Exploration du chef-d'œuvre de Dumas : intrigue, personnages mém
 pubDate: "2025-09-30"
 heroImage: "/images/ia/2025-09-30-les-trois-mousquetaires-d-alexandre-dumas-quand-l-aventure-e-265d81-hero/2025-09-30-les-trois-mousquetaires-d-alexandre-dumas-quand-l-aventure-e-265d81-hero.png"
 heroImageAlt: "Illustration: Les Trois Mousquetaires d'Alexandre Dumas : Quand l'Aventure et l'Amitié Forgent une Légende Littéraire"
+tags: ["Livres"]
 ---
 
 <div class="download-grid">

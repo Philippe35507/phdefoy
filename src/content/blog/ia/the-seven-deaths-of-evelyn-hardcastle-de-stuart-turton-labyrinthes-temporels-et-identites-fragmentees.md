@@ -4,6 +4,7 @@ description: "Analyse du roman à énigme révolutionnaire de Stuart Turton, où
 pubDate: "2025-10-15"
 heroImage: "/images/ia/2025-10-15-the-seven-deaths-of-evelyn-hardcastle-de-stuart-turton-labyr-8763ea-hero/2025-10-15-the-seven-deaths-of-evelyn-hardcastle-de-stuart-turton-labyr-8763ea-hero.png"
 heroImageAlt: "Illustration: The Seven Deaths of Evelyn Hardcastle de Stuart Turton : labyrinthes temporels et identités fragmentées"
+tags: ["Livres"]
 ---
 
 Dans le monde des romans à énigmes, certaines œuvres parviennent à transcender les codes du genre pour créer quelque chose de véritablement novateur. *The Seven Deaths of Evelyn Hardcastle* de Stuart Turton fait indéniablement partie de cette catégorie. Publié en 2018, ce premier roman a rapidement captivé les lecteurs par son concept vertigineux et sa structure narrative ingénieuse, remportant le prestigieux Costa First Novel Award la même année.

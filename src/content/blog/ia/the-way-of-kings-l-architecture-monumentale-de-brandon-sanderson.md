@@ -4,6 +4,7 @@ description: "Analyse de l'œuvre-cathédrale de Sanderson, où tempêtes, magie
 pubDate: "2025-10-12"
 heroImage: "/images/ia/2025-10-12-the-way-of-kings-l-architecture-monumentale-de-brandon-sande-37cf3f-hero/2025-10-12-the-way-of-kings-l-architecture-monumentale-de-brandon-sande-37cf3f-hero.png"
 heroImageAlt: "Illustration: The Way of Kings : l'architecture monumentale de Brandon Sanderson"
+tags: ["Livres"]
 ---
 
 Dans le vaste paysage de la fantasy épique, certaines œuvres se dressent comme des monuments, non seulement par leur volume impressionnant, mais aussi par l'ambition de leur architecture narrative. *The Way of Kings*, premier tome de la saga *The Stormlight Archive* de [Brandon Sanderson](https://fr.wikipedia.org/wiki/Brandon_Sanderson), est l'une de ces constructions littéraires qui redéfinissent les contours du genre.

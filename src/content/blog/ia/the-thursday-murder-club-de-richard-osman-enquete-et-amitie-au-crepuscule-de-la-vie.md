@@ -4,6 +4,7 @@ description: "Découvrez comment quatre retraités britanniques transforment leu
 pubDate: "2025-10-29"
 heroImage: "/images/ia/2025-10-30-the-thursday-murder-club-de-richard-osman-enquete-et-amitie-238c2e-hero/2025-10-30-the-thursday-murder-club-de-richard-osman-enquete-et-amitie-238c2e-hero.png"
 heroImageAlt: "Illustration: The Thursday Murder Club de Richard Osman : Enquête et amitié au crépuscule de la vie"
+tags: ["Livres"]
 ---
 
 Dans le paysage du polar britannique contemporain, *The Thursday Murder Club* de [Richard Osman](https://www.decitre.fr/auteur/6170138/Richard+Osman) se distingue par une approche rafraîchissante du genre. Ce premier roman publié en 2020 a rapidement conquis les lecteurs avec son mélange unique d'humour, de mystère et de tendresse. Loin des détectives tourmentés qui peuplent habituellement les romans policiers, Osman nous présente un quatuor de retraités dont la passion pour la résolution d'enquêtes criminelles non résolues va les propulser au cœur d'une véritable affaire de meurtre.

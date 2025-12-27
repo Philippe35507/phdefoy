@@ -4,6 +4,7 @@ description: "Analyse du chef-d'œuvre de Le Guin qui, à travers une planète d
 pubDate: "2025-11-27"
 heroImage: "/images/ia/2025-11-27-la-main-gauche-de-la-nuit-d-ursula-k-le-guin-une-revolution-de9187-hero/2025-11-27-la-main-gauche-de-la-nuit-d-ursula-k-le-guin-une-revolution-de9187-hero.png"
 heroImageAlt: "Illustration: La Main gauche de la nuit d'Ursula K. Le Guin : une révolution silencieuse dans la science-fiction"
+tags: ["Livres"]
 ---
 
 Publié en 1969, *La Main gauche de la nuit* (*The Left Hand of Darkness*) reste l'une des œuvres les plus audacieuses et visionnaires de la science-fiction. Ce roman qui valut à [Ursula K. Le Guin](https://fr.wikipedia.org/wiki/Ursula_K._Le_Guin) les prestigieux prix Hugo et Nebula constitue bien plus qu'une simple aventure interplanétaire – c'est une exploration profonde des constructions sociales, notamment celles liées au genre, à la politique et à l'identité.

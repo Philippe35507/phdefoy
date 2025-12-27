@@ -4,6 +4,7 @@ description: "Plongée dans l'univers déstabilisant d'Annihilation, où Jeff Va
 pubDate: "2025-10-10"
 heroImage: "/images/ia/2025-10-10-annihilation-de-jeff-vandermeer-une-exploration-de-la-fronti-2682a2-hero/2025-10-10-annihilation-de-jeff-vandermeer-une-exploration-de-la-fronti-2682a2-hero.png"
 heroImageAlt: "Illustration: Annihilation de Jeff VanderMeer : Une exploration de la frontière entre humanité et altérité"
+tags: ["Livres"]
 ---
 
 Dans le paysage de la littérature d'étrange contemporaine, certaines œuvres parviennent à créer un sentiment d'inquiétante étrangeté si puissant qu'elles restent gravées dans l'esprit bien après leur lecture. *Annihilation* de [Jeff VanderMeer](https://www.jeffvandermeer.com/), premier volet de la trilogie du *Southern Reach* publié en 2014, appartient sans conteste à cette catégorie. Ce roman nous plonge dans la Zone X, un territoire côtier mystérieusement coupé du monde et régi par des lois biologiques et physiques aberrantes.

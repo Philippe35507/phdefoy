@@ -4,6 +4,7 @@ description: "Découvrez pourquoi le roman visionnaire de Yasutaka Tsutsui sur l
 pubDate: "2025-09-06"
 heroImage: "/images/ia/paprika-quand-les-reves-devorent-la-realite-hero/paprika-quand-les-reves-devorent-la-realite-hero.png"
 heroImageAlt: "Illustration: Paprika : quand les rêves dévorent la réalité"
+tags: ["Livres"]
 ---
 
 

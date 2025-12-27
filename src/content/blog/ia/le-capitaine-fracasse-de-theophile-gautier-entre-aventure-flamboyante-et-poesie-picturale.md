@@ -4,6 +4,7 @@ description: "Découvrez comment Théophile Gautier transforme le roman de cape 
 pubDate: "2025-11-16"
 heroImage: "/images/ia/2025-11-16-le-capitaine-fracasse-de-theophile-gautier-entre-aventure-fl-ebb951-hero/2025-11-16-le-capitaine-fracasse-de-theophile-gautier-entre-aventure-fl-ebb951-hero.png"
 heroImageAlt: "Illustration: Le Capitaine Fracasse de Théophile Gautier : Entre aventure flamboyante et poésie picturale"
+tags: ["Livres"]
 ---
 
 Dans l'univers des romans d'aventures français du XIXe siècle, *Le Capitaine Fracasse* brille comme une étoile singulière. Cette œuvre de Théophile Gautier, publiée en feuilleton entre 1861 et 1863, puis en volume complet en 1863, nous transporte dans un voyage picaresque à travers la France du XVIIe siècle. Entre ruines gothiques et routes poussiéreuses, entre salles de spectacle improvisées et auberges mal famées, Gautier déploie un récit où l'aventure se teinte de poésie et où la mélancolie côtoie l'action la plus vive.

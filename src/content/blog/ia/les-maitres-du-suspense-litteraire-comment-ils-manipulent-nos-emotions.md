@@ -4,6 +4,7 @@ description: "Découvrez les techniques psychologiques et narratives utilisées 
 pubDate: "2025-09-05"
 heroImage: "/images/ia/les-maitres-du-suspense-litteraire-comment-ils-manipulent-nos-emotions-hero/les-maitres-du-suspense-litteraire-comment-ils-manipulent-nos-emotions-hero.png"
 heroImageAlt: "Illustration symbolique: Les Maîtres du Suspense Littéraire : Comment Ils Manipulent Nos Émotions"
+tags: ["Livres"]
 ---
 
 

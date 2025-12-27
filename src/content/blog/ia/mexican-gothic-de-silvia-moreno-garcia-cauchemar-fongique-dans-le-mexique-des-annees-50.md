@@ -4,6 +4,7 @@ description: "Découvrez comment Silvia Moreno-Garcia réinvente le roman gothiq
 pubDate: "2025-10-03"
 heroImage: "/images/ia/2025-12-05-mexican-gothic-de-silvia-moreno-garcia-cauchemar-fongique-da-de3654-hero/2025-12-05-mexican-gothic-de-silvia-moreno-garcia-cauchemar-fongique-da-de3654-hero.png"
 heroImageAlt: "Illustration: Mexican Gothic de Silvia Moreno-Garcia : cauchemar fongique dans le Mexique des années 50"
+tags: ["Livres"]
 ---
 
 Dans les brumes d'une demeure aristocratique mexicaine se déploie l'un des récits gothiques les plus fascinants de ces dernières années. *Mexican Gothic* nous plonge dans un univers où les murs suintent autant d'humidité que de secrets, où les champignons ne sont pas de simples organismes mais des vecteurs de corruption, et où l'horreur se distille lentement avant d'exploser dans toute sa splendeur macabre.

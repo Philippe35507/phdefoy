@@ -4,6 +4,7 @@ description: "Découvrez pourquoi ce chef-d'œuvre de Jane Austen continue de fa
 pubDate: "2025-10-06"
 heroImage: "/images/ia/2025-10-06-orgueil-et-prejuges-comment-jane-austen-a-revolutionne-le-ro-66707b-hero/2025-10-06-orgueil-et-prejuges-comment-jane-austen-a-revolutionne-le-ro-66707b-hero.png"
 heroImageAlt: "Illustration: Orgueil et Préjugés : Comment Jane Austen a révolutionné le roman de mœurs"
+tags: ["Livres"]
 ---
 
 

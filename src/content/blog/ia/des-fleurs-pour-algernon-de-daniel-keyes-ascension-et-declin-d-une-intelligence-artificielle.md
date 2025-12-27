@@ -4,6 +4,7 @@ description: "Analyse du chef-d'œuvre de Daniel Keyes qui, à travers l'histoir
 pubDate: "2025-11-29"
 heroImage: "/images/ia/2025-11-29-des-fleurs-pour-algernon-de-daniel-keyes-ascension-et-declin-f30de6-hero/2025-11-29-des-fleurs-pour-algernon-de-daniel-keyes-ascension-et-declin-f30de6-hero.png"
 heroImageAlt: "Illustration: Des fleurs pour Algernon de Daniel Keyes : ascension et déclin d'une intelligence artificielle"
+tags: ["Livres"]
 ---
 
 Dans le panthéon des œuvres de science-fiction qui interrogent profondément notre humanité, *Des fleurs pour Algernon* occupe une place singulière. Ce chef-d'œuvre de Daniel Keyes, publié initialement sous forme de nouvelle en 1959 puis développé en roman en 1966, continue de toucher les lecteurs par sa profondeur émotionnelle et sa réflexion sur l'intelligence, la dignité humaine et notre rapport à la différence.
