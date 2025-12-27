@@ -49,39 +49,15 @@ const organizationSchema = {
   <body class="page-bg home">
     <Header />
     <main>
-      <!-- ===== SECTION WELCOME / DOWNLOADS ===== -->
+      <!-- ===== SECTION WELCOME ===== -->
       <section class="welcome-container">
-        <h1>Bienvenue - Cours et ressources pour apprendre l’espagnol et le russe</h1>
-        <h2>
-          <span class="icon-books" aria-hidden="true">📚</span>
-          Choisissez vos audios à télécharger
-        </h2>
+        <h1>Bienvenue - Cours et ressources pour apprendre le Russe et l'Espagnol</h1>
 
-        <div class="intro"></div>
-
-        <div class="downloads-grid two-cards">
-          <!-- Espagnol A1 -->
-          <div class="download-card level-a1">
-            <div class="card-content">
-              <h3>Espagnol niveau A1</h3>
-              <button id="btn-a1" class="download-btn" aria-label="Télécharger les dialogues Espagnol A1">
-                Télécharger
-              </button>
-              <div id="download-container-a1" class="download-container" aria-live="polite"></div>
-            </div>
-          </div>
-
-          <!-- Russe A1 -->
-          <div class="download-card level-a1">
-            <div class="card-content">
-              <h3>Russe niveau A1</h3>
-              <button id="btn-russe-a1" class="download-btn" aria-label="Télécharger Audio Russe A1">
-                Télécharger
-              </button>
-              <div id="download-container-russe-a1" class="download-container" aria-live="polite"></div>
-            </div>
-          </div>
-        </div>
+        <a href="/telechargements-audio-gratuits/" class="cta-audio">
+          <span class="icon-headphones" aria-hidden="true">🎧</span>
+          <span class="cta-text">Téléchargez nos audios gratuits</span>
+          <span class="cta-arrow">→</span>
+        </a>
       </section>
 
       <!-- ===== SECTION TEXTE (Markdown dédié à la home) ===== -->
@@ -148,96 +124,59 @@ const organizationSchema = {
           border-radius: 12px;
         }
 
-        /* ===== SECTION WELCOME / DOWNLOADS ===== */
+        /* ===== SECTION WELCOME ===== */
         .welcome-container {
           max-width: 800px;
           margin: 3rem auto 3rem;
           padding: 0rem 2rem;
-          font-size: 15px;
           text-align: center;
           color: #f8fafc;
         }
         .welcome-container h1 {
-          font-size: clamp(2rem, 5vw, 3rem);
-          color: #f8fafc; font-weight: 700; letter-spacing: -0.02em; 
+          font-size: clamp(1.75rem, 4vw, 2.5rem);
+          color: #f8fafc;
+          font-weight: 700;
+          letter-spacing: -0.02em;
           margin-top: 4rem;
           margin-bottom: 2rem;
-          display: flex; flex-direction: column; align-items: center; gap: 1rem;
+          text-align: center;
         }
-        .icon-books { font-size: clamp(3rem, 8vw, 5rem); filter: drop-shadow(0 4px 12px rgba(79, 142, 247, 0.3)); animation: float 3s ease-in-out infinite; }
-        @keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-10px); } }
-        .intro { font-size: 1.25rem; color: #cbd5e1; margin: 2rem 0 3rem 0; font-weight: 500; }
 
-        .downloads-grid {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-          gap: 2rem;
-          max-width: 900px;
-          margin: 0 auto;
-        }
-        .downloads-grid.two-cards {
-          grid-template-columns: repeat(2, 1fr);
-          max-width: 600px;
-        }
-        @media (max-width: 500px) {
-          .downloads-grid.two-cards {
-            grid-template-columns: 1fr;
-          }
-        }
-        .download-card {
+        .cta-audio {
+          display: inline-flex;
+          align-items: center;
+          gap: 1rem;
+          padding: 1.25rem 2rem;
           background: rgba(30, 41, 59, 0.6);
           backdrop-filter: blur(10px);
           border: 1px solid rgba(255, 255, 255, 0.1);
           border-radius: 16px;
-          padding: 2rem 1.5rem;
+          text-decoration: none;
+          color: #f8fafc;
           transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-          position: relative;
-          overflow: hidden;
         }
-        .download-card::before {
-          content: '';
-          position: absolute; top: 0; left: 0; right: 0; height: 3px;
-          background: linear-gradient(90deg, var(--level-color), var(--level-color-light));
-          opacity: 0.8;
-        }
-        .level-a1 { --level-color: #3b82f6; --level-color-light: #60a5fa; }
-        .level-a2 { --level-color: #10b981; --level-color-light: #34d399; }
-        .level-b1 { --level-color: #f59e0b; --level-color-light: #fbbf24; }
-
-        .download-card:hover {
-          transform: translateY(-8px);
+        .cta-audio:hover {
+          transform: translateY(-4px);
           background: rgba(30, 41, 59, 0.8);
-          border-color: rgba(255, 255, 255, 0.2);
-          box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3),
-                      0 10px 10px -5px rgba(0, 0, 0, 0.1),
-                      0 0 0 1px rgba(255, 255, 255, 0.05);
+          border-color: rgba(96, 165, 250, 0.5);
+          box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.3);
         }
-        .card-content { display: flex; flex-direction: column; align-items: center; gap: 1.5rem; }
-        .download-card h3 { font-size: 1.25rem; font-weight: 600; color: #f1f5f9; margin: 0; letter-spacing: -0.01em; }
-        .download-btn {
-          display: inline-flex; align-items: center; justify-content: center;
-          padding: 0.75rem 2rem; background: linear-gradient(135deg, var(--level-color), var(--level-color-light));
-          color: white; text-decoration: none; border-radius: 12px; font-weight: 600; font-size: 1rem;
-          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); border: none; cursor: pointer; min-width: 140px; letter-spacing: 0.01em;
+        .icon-headphones {
+          font-size: 2.5rem;
+          filter: drop-shadow(0 4px 12px rgba(79, 142, 247, 0.3));
         }
-        .download-btn:hover,.download-btn:focus { transform: translateY(-2px); box-shadow: 0 12px 20px -5px rgba(0,0,0,.3); filter: brightness(1.1); outline: none; }
-        .download-btn:active { transform: translateY(0); }
-        .download-btn:disabled { opacity: .6; cursor: not-allowed; transform: none; }
-        .download-btn.loading { position: relative; opacity: .9; }
-        .download-btn.loading::after {
-          content: ""; display: inline-block; width: 14px; height: 14px; margin-left: 8px; border-radius: 9999px;
-          border: 2px solid rgba(255,255,255,.6); border-top-color: #fff; animation: spin .8s linear infinite; vertical-align: -2px;
+        .cta-text {
+          font-size: 1.2rem;
+          font-weight: 600;
         }
-        @keyframes spin { to { transform: rotate(360deg); } }
-        .download-container {
-          margin-top: 1rem; padding: 1rem; background: rgba(16,185,129,.1);
-          border: 1px solid rgba(16,185,129,.3); border-radius: 8px; display: none; animation: fadeIn .5s ease-in-out; width: 100%; text-align: center;
+        .cta-arrow {
+          font-size: 1.5rem;
+          color: #60a5fa;
+          transition: transform 0.2s;
         }
-        .download-container.show { display: block; }
-        .download-container a { color: #10b981; text-decoration: none; font-weight: 600; }
-        .download-container a:hover { text-decoration: underline; }
-        .timer-text { color: #94a3b8; font-size: .875rem; margin-top: .5rem; }
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(-10px);} to {opacity: 1; transform: translateY(0);} }
+        .cta-audio:hover .cta-arrow {
+          transform: translateX(4px);
+        }
 
       </style>
     </main>

@@ -1,0 +1,405 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_TITLE } from '../../consts';
+---
+
+<html lang="fr">
+  <head>
+    <BaseHead
+      title={`Téléchargements audio gratuits - Russe et Espagnol | ${SITE_TITLE}`}
+      description="Téléchargez gratuitement des audios pour apprendre le russe et l'espagnol. Dialogues authentiques niveaux A1 à B2 avec transcriptions. Ressources pédagogiques gratuites."
+    />
+    <link rel="stylesheet" href="/styles/cookie-banner.css" />
+  </head>
+
+  <body class="page-bg">
+    <Header />
+    <main>
+      <article class="content-container">
+        <h1>Téléchargements audio gratuits - Russe et Espagnol</h1>
+
+           <section class="language-section">
+          <h2><span class="flag">🇷🇺</span> Audios en Russe</h2>
+
+          <div class="level-block">
+            <h3>Niveau A1 - Débutant</h3>
+            <ul>
+              <li><strong>Dialogues russes niveau A1</strong> - 20 dialogues de la vie quotidienne avec prononciation claire</li>
+              <li>Thèmes : salutations, présentations, achats, restaurant, transports</li>
+            </ul>
+
+            <div class="download-card level-a1">
+              <div class="card-content">
+                <h4>Russe niveau A1</h4>
+                <button id="btn-russe-a1" class="download-btn" aria-label="Télécharger Audio Russe A1">
+                  Télécharger
+                </button>
+                <div id="download-container-russe-a1" class="download-container" aria-live="polite"></div>
+              </div>
+            </div>
+
+            <p class="cta-link">👉 Ces audios accompagnent nos <a href="/apprendre-le-russe/">leçons de russe niveau A1</a></p>
+          </div>
+        </section>
+
+        <section class="language-section">
+          <h2><span class="flag">🇪🇸</span> Audios en Espagnol</h2>
+
+          <div class="level-block">
+            <h3>Niveau A1 - Débutant</h3>
+            <ul>
+              <li><strong>Dialogues espagnols niveau A1</strong> - Conversations pratiques pour débutants</li>
+            </ul>
+
+            <div class="download-card level-a1">
+              <div class="card-content">
+                <h4>Espagnol niveau A1</h4>
+                <button id="btn-a1" class="download-btn" aria-label="Télécharger les dialogues Espagnol A1">
+                  Télécharger
+                </button>
+                <div id="download-container-a1" class="download-container" aria-live="polite"></div>
+              </div>
+            </div>
+
+            <p class="cta-link">👉 Complétez avec nos <a href="/apprendre-espagnol/">ressources d'espagnol</a></p>
+          </div>
+        </section>
+
+        <section>
+          <div class="intro">
+            <p>Téléchargez gratuitement nos fichiers audio pour apprendre le russe et l'espagnol. Ces enregistrements de dialogues authentiques vous permettent de pratiquer votre compréhension orale et d'améliorer votre prononciation à votre rythme.</p>
+            <p>Tous les audios sont organisés par niveau (A1, A2, B1, B2) selon le Cadre Européen Commun de Référence pour les Langues (CECRL). Chaque fichier peut être écouté sur votre ordinateur, smartphone ou tablette.</p>
+          </div>
+        </section>
+
+        <section class="tips-section">
+          <h2><span class="icon">💡</span> Comment utiliser ces audios ?</h2>
+          <ol>
+            <li>Écoutez d'abord sans lire</li>
+            <li>Notez les mots que vous comprenez</li>
+            <li>Réécoutez avec la transcription</li>
+            <li>Répétez pour améliorer votre prononciation</li>
+          </ol>
+
+          <p class="coming-soon">🚀 Prochainement : Audios niveaux A2, B1 et B2</p>
+        </section>
+      </article>
+    </main>
+    <Footer />
+
+    <!-- Bannière cookies -->
+    <div id="cookie-banner" hidden>
+      <span>Ce site utilise des cookies de mesure (Google Analytics) uniquement si vous acceptez.</span>
+      <span class="actions">
+        <button id="accept-cookies">Accepter</button>
+        <button id="decline-cookies">Refuser</button>
+      </span>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/scripts/consent.js" defer></script>
+    <script src="/scripts/ga-init.js" defer></script>
+    <script src="/scripts/downloads.js" defer></script>
+
+    <style>
+      body.page-bg {
+        min-height: 100vh;
+        background: linear-gradient(135deg, #12141f 0%, #1a1c2b 40%, #23254a 100%);
+        margin: 0;
+      }
+
+      .content-container {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 2rem;
+        color: #f8fafc;
+      }
+
+      h1 {
+        font-size: clamp(1.75rem, 4vw, 2.3rem);
+        color: #f8fafc;
+        font-weight: 700;
+        margin-bottom: 2rem;
+        text-align: center;
+        background: linear-gradient(135deg, #60a5fa, #34d399);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .intro {
+        background: rgba(30, 41, 59, 0.6);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 16px;
+        padding: 2rem;
+        margin-bottom: 3rem;
+        line-height: 1.7;
+      }
+
+      .intro p {
+        color: #cbd5e1;
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+      }
+
+      .intro p:last-child {
+        margin-bottom: 0;
+      }
+
+      .language-section {
+        margin-bottom: 3rem;
+      }
+
+      .language-section h2 {
+        font-size: 1.5rem;
+        color: #60a5fa;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+      }
+
+      .flag {
+        font-size: 1.75rem;
+      }
+
+      .level-block {
+        background: rgba(30, 41, 59, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 12px;
+        padding: 1.5rem 2rem;
+      }
+
+      .level-block h3 {
+        font-size: 1.2rem;
+        color: #f1f5f9;
+        margin-bottom: 1rem;
+      }
+
+      .level-block ul {
+        color: #cbd5e1;
+        margin-bottom: 1.5rem;
+        padding-left: 1.5rem;
+      }
+
+      .level-block li {
+        margin-bottom: 0.5rem;
+      }
+
+      .level-block strong {
+        color: #f1f5f9;
+      }
+
+      .download-card {
+        background: rgba(30, 41, 59, 0.6);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 16px;
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        position: relative;
+        overflow: hidden;
+        max-width: 300px;
+      }
+
+      .download-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: linear-gradient(90deg, var(--level-color), var(--level-color-light));
+        opacity: 0.8;
+      }
+
+      .level-a1 {
+        --level-color: #3b82f6;
+        --level-color-light: #60a5fa;
+      }
+
+      .download-card:hover {
+        transform: translateY(-4px);
+        background: rgba(30, 41, 59, 0.8);
+        border-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.3);
+      }
+
+      .card-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .download-card h4 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #f1f5f9;
+        margin: 0;
+      }
+
+      .download-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.75rem 2rem;
+        background: linear-gradient(135deg, var(--level-color), var(--level-color-light));
+        color: white;
+        text-decoration: none;
+        border-radius: 12px;
+        font-weight: 600;
+        font-size: 1rem;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        border: none;
+        cursor: pointer;
+        min-width: 140px;
+      }
+
+      .download-btn:hover,
+      .download-btn:focus {
+        transform: translateY(-2px);
+        box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.3);
+        filter: brightness(1.1);
+        outline: none;
+      }
+
+      .download-btn:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+        transform: none;
+      }
+
+      .download-btn.loading {
+        position: relative;
+        opacity: 0.9;
+      }
+
+      .download-btn.loading::after {
+        content: "";
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        margin-left: 8px;
+        border-radius: 9999px;
+        border: 2px solid rgba(255, 255, 255, 0.6);
+        border-top-color: #fff;
+        animation: spin 0.8s linear infinite;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .download-container {
+        margin-top: 1rem;
+        padding: 1rem;
+        background: rgba(16, 185, 129, 0.1);
+        border: 1px solid rgba(16, 185, 129, 0.3);
+        border-radius: 8px;
+        display: none;
+        animation: fadeIn 0.5s ease-in-out;
+        width: 100%;
+        text-align: center;
+      }
+
+      .download-container.show {
+        display: block;
+      }
+
+      .download-container a {
+        color: #10b981;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .download-container a:hover {
+        text-decoration: underline;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(-10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .cta-link {
+        color: #94a3b8;
+        margin-top: 1rem;
+      }
+
+      .cta-link a {
+        color: #60a5fa;
+        text-decoration: none;
+      }
+
+      .cta-link a:hover {
+        text-decoration: underline;
+      }
+
+      .tips-section {
+        background: rgba(30, 41, 59, 0.6);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 16px;
+        padding: 2rem;
+        margin-top: 3rem;
+      }
+
+      .tips-section h2 {
+        font-size: 1.3rem;
+        color: #fbbf24;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+      }
+
+      .tips-section ol {
+        color: #cbd5e1;
+        padding-left: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .tips-section li {
+        margin-bottom: 0.75rem;
+      }
+
+      .coming-soon {
+        text-align: center;
+        color: #10b981;
+        font-weight: 600;
+        font-size: 1.1rem;
+        padding: 1rem;
+        background: rgba(16, 185, 129, 0.1);
+        border: 1px solid rgba(16, 185, 129, 0.3);
+        border-radius: 12px;
+      }
+
+      @media (max-width: 600px) {
+        .content-container {
+          padding: 1rem;
+        }
+
+        .intro,
+        .level-block,
+        .tips-section {
+          padding: 1.25rem;
+        }
+      }
+    </style>
+  </body>
+</html>

@@ -101,7 +101,13 @@ import Layout from '../../layouts/BlogPost.astro';
     </div>
   </section>
 
-  </style>
+  <!-- Section message personnel -->
+  <section class="message-section">
+    <p>Quand on apprend une langue étrangère, on a besoin d'explications claires, dans notre propre langue. C'est ce que j'essaie de vous offrir ici. Vous trouverez des leçons de grammaire, du vocabulaire, des audios pour vous entraîner. Tout est en français, du niveau débutant au niveau avancé.</p>
+    <p>Vous apprenez pour un voyage ? Par passion pour la Russie, l'Espagne ou l'Amérique du Sud ? Pour parler avec quelqu'un ? Quelle que soit votre raison, les ressources sont là, gratuites et faciles à utiliser.</p>
+    <p>Avancez à votre rythme. Le russe demande du temps, l'espagnol beaucoup moins, mais chaque petite étape compte.</p>
+    <p class="signature">Bon apprentissage !</p>
+  </section>
 </Layout>
 
 <style>
@@ -276,17 +282,39 @@ import Layout from '../../layouts/BlogPost.astro';
     .recursos-section {
       padding: 0 1rem;
     }
-    
+
     .recursos-container {
       padding: 2rem 1.5rem;
     }
-    
+
     .recursos-flag {
       font-size: 2.5rem;
     }
-    
+
     .recursos-container h3 {
       font-size: 1.5rem;
     }
+  }
+
+  /* === Section message personnel === */
+  .message-section {
+    margin: 3rem auto 2rem;
+    padding: 2rem;
+    max-width: 700px;
+    text-align: center;
+  }
+
+  .message-section p {
+    font-size: 1.1rem;
+    color: #000;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+  }
+
+  .message-section .signature {
+    font-weight: 600;
+    color: #333;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
   }
 </style>

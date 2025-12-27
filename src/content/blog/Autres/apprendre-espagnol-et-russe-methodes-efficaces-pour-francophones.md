@@ -93,7 +93,7 @@ Les particularités du **russe** (déclinaisons, aspects verbaux, alphabet cyril
 
 Que vous choisissiez **l'apprentissage de l'espagnol** ou du **russe**, le succès commence par une décision.
 
-**¿Estás listo?** (Êtes-vous prêt ?)  
+**¿Está listo?** (Êtes-vous prêt ?)  
 **Вы гото́вы?** (Êtes-vous prêts ?)
 
 ### Rejoignez notre communauté d'apprenants

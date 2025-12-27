@@ -12,7 +12,6 @@ tags: ["Espagnol"]
 
 Vous rêvez de commander une paella à Séville sans bégayer ? De discuter avec votre collègue madrilène au bureau ? Ou simplement de comprendre les paroles de votre chanson préférée de Manu Chao ? Notre cours d'espagnol niveau A1 est votre passeport pour ces petites victoires du quotidien.
 
-Acheter le livre via [Apple ou Kobo](https://books2read.com/u/31AvLv)
 
 ## Un apprentissage qui colle à la vraie vie
 
@@ -111,6 +110,5 @@ L'espagnol vous attend. Et nous, nous sommes là pour vous y accompagner, leçon
 
 **¿Preparado? ¡Empezamos!**
 
-Acheter le livre via [Apple ou Kobo](https://books2read.com/u/31AvLv)
 
 ![espagnol](/images/esp/EspagnolA1.jpg) 
