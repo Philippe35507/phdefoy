@@ -5,6 +5,10 @@ pubDate: "2025-10-06"
 heroImage: "/images/ia/2025-10-06-orgueil-et-prejuges-comment-jane-austen-a-revolutionne-le-ro-66707b-hero/2025-10-06-orgueil-et-prejuges-comment-jane-austen-a-revolutionne-le-ro-66707b-hero.png"
 heroImageAlt: "Illustration: Orgueil et Préjugés : Comment Jane Austen a révolutionné le roman de mœurs"
 tags: ["Livres"]
+relatedArticles:
+  - "les-illusions-perdues-de-madame-bovary-chef-d-oeuvre-impitoyable-de-gustave-flaubert"
+  - "les-hauts-de-hurle-vent-d-emilie-bronte-une-tempete-gothique-qui-defie-les-conventions"
+  - "la-guerre-et-la-paix-de-leon-tolstoi-fresque-monumentale-entre-destins-individuels-et-tourmente-historique"
 ---
 
 

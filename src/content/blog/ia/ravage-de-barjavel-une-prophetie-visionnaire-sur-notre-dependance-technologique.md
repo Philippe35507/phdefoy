@@ -5,6 +5,10 @@ pubDate: "2025-08-03"
 heroImage: "/images/ia/2025-03-08-rené-barjavel-ravage-dependance-technologique-hero/2025-03-08-rené-barjavel-ravage-dependance-technologique-hero.png"
 heroImageAlt: "Illustration: Ravage de Barjavel : Une prophétie visionnaire sur notre dépendance technologique"
 tags: ["Livres"]
+relatedArticles:
+  - "la-nuit-des-temps-de-rene-barjavel-quand-l-amour-defie-l-apocalypse"
+  - "station-eleven-quand-l-effondrement-revele-notre-humanite"
+  - "1984-de-george-orwell-quand-la-fiction-dystopique-devient-un-avertissement-intemporel"
 ---
 
 

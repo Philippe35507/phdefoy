@@ -5,6 +5,10 @@ pubDate: "2025-09-30"
 heroImage: "/images/ia/2025-09-30-les-trois-mousquetaires-d-alexandre-dumas-quand-l-aventure-e-265d81-hero/2025-09-30-les-trois-mousquetaires-d-alexandre-dumas-quand-l-aventure-e-265d81-hero.png"
 heroImageAlt: "Illustration: Les Trois Mousquetaires d'Alexandre Dumas : Quand l'Aventure et l'Amitié Forgent une Légende Littéraire"
 tags: ["Livres"]
+relatedArticles:
+  - "le-capitaine-fracasse-de-theophile-gautier-entre-aventure-flamboyante-et-poesie-picturale"
+  - "la-guerre-et-la-paix-de-leon-tolstoi-fresque-monumentale-entre-destins-individuels-et-tourmente-historique"
+  - "the-thursday-murder-club-de-richard-osman-enquete-et-amitie-au-crepuscule-de-la-vie"
 ---
 
 <div class="download-grid">

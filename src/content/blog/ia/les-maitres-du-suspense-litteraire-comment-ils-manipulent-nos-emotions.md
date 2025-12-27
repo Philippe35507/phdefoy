@@ -5,6 +5,10 @@ pubDate: "2025-09-05"
 heroImage: "/images/ia/les-maitres-du-suspense-litteraire-comment-ils-manipulent-nos-emotions-hero/les-maitres-du-suspense-litteraire-comment-ils-manipulent-nos-emotions-hero.png"
 heroImageAlt: "Illustration symbolique: Les Maîtres du Suspense Littéraire : Comment Ils Manipulent Nos Émotions"
 tags: ["Livres"]
+relatedArticles:
+  - "michael-connelly-maitre-inconteste-du-polar-americain-et-createur-de-harry-bosch"
+  - "and-then-there-were-none-d-agatha-christie-le-huis-clos-parfait-du-roman-policier"
+  - "strangers-on-a-train-de-patricia-highsmith-le-pacte-criminel-qui-a-redefini-le-thriller-psychologique"
 ---
 
 

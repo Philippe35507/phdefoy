@@ -5,6 +5,10 @@ pubDate: "2025-08-12"
 heroImage: "/images/ia/2025-08-12-michael-connelly-maitre-inconteste-du-polar-americain-et-createur-de-harry-bosch-hero/2025-08-12-michael-connelly-maitre-inconteste-du-polar-americain-et-createur-de-harry-bosch-hero.png"
 heroImageAlt: "Illustration symbolique: Michael Connelly : Maître incontesté du polar américain et créateur de Harry Bosch"
 tags: ["Livres"]
+relatedArticles:
+  - "lappel-du-coucou-de-robert-galbraith-plongee-dans-abysses-du-londres-criminel"
+  - "strangers-on-a-train-de-patricia-highsmith-le-pacte-criminel-qui-a-redefini-le-thriller-psychologique"
+  - "les-maitres-du-suspense-litteraire-comment-ils-manipulent-nos-emotions"
 ---
 
 

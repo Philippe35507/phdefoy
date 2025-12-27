@@ -5,6 +5,10 @@ pubDate: "2025-08-02"
 heroImage: "/images/ia/fahrenheit-451-quand-bruler-des-livres-devient-ultime-dystopie/fahrenheit-451-quand-bruler-des-livres-devient-ultime-dystopie.png"
 heroImageAlt: "Illustration: Fahrenheit 451 : Quand brûler des livres devient l'ultime dystopie"
 tags: ["Livres"]
+relatedArticles:
+  - "1984-de-george-orwell-quand-la-fiction-dystopique-devient-un-avertissement-intemporel"
+  - "le-meilleur-des-mondes-d-aldous-huxley-une-dystopie-toujours-d-actualite"
+  - "alice-au-pays-des-merveilles-voyage-litteraire-dans-l-absurde-victorien"
 ---
 
 

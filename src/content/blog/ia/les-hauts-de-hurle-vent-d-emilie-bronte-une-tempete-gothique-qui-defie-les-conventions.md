@@ -5,6 +5,10 @@ pubDate: "2025-12-19"
 heroImage: "/images/ia/2025-12-20-les-hauts-de-hurle-vent-d-emilie-bronte-une-tempete-gothique-e690da-hero/2025-12-20-les-hauts-de-hurle-vent-d-emilie-bronte-une-tempete-gothique-e690da-hero.png"
 heroImageAlt: "Illustration: Les Hauts de Hurle-vent d'Émilie Brontë : Une tempête gothique qui défie les conventions"
 tags: ["Livres"]
+relatedArticles:
+  - "les-illusions-perdues-de-madame-bovary-chef-d-oeuvre-impitoyable-de-gustave-flaubert"
+  - "crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-criminelle"
+  - "mexican-gothic-de-silvia-moreno-garcia-cauchemar-fongique-dans-le-mexique-des-annees-50"
 ---
 
 Certaines œuvres littéraires surgissent dans l'histoire comme des éclairs dans la nuit, illuminant soudain des territoires inexplorés de l'âme humaine. *Les Hauts de Hurle-vent* d'[Émilie Brontë](https://www.linflux.com/litterature/emily-bronte-mysterieuse-ou-subversive/) appartient à cette catégorie rare des romans qui bouleversent non seulement par leur puissance narrative, mais par leur capacité à repousser les limites de ce que la littérature peut oser dire. Publié en 1847 sous le pseudonyme d'Ellis Bell, ce premier et unique roman de la plus mystérieuse des sœurs Brontë continue de fasciner par son caractère inclassable et sa modernité troublante.

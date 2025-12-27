@@ -5,6 +5,10 @@ pubDate: "2025-09-14"
 heroImage: "/images/ia/2025-09-14-crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-cri-c00eab-hero/2025-09-14-crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-cri-c00eab-hero.png"
 heroImageAlt: "Illustration: Crime et Châtiment : Plongée dans l'abîme de la conscience criminelle"
 tags: ["Livres"]
+relatedArticles:
+  - "l-etranger-d-albert-camus-l-absurde-au-c-ur-de-la-condition-humaine"
+  - "les-illusions-perdues-de-madame-bovary-chef-d-oeuvre-impitoyable-de-gustave-flaubert"
+  - "strangers-on-a-train-de-patricia-highsmith-le-pacte-criminel-qui-a-redefini-le-thriller-psychologique"
 ---
 
 <div class="download-grid">

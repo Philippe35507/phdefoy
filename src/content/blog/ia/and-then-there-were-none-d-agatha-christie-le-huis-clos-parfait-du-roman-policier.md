@@ -5,6 +5,10 @@ pubDate: "2025-11-04"
 heroImage: "/images/ia/2025-11-04-and-then-there-were-none-d-agatha-christie-le-huis-clos-parf-945c0d-hero/2025-11-04-and-then-there-were-none-d-agatha-christie-le-huis-clos-parf-945c0d-hero.png"
 heroImageAlt: "Illustration: Dix Petits Nègres d'Agatha Christie : Le huis clos parfait du roman policier"
 tags: ["Livres"]
+relatedArticles:
+  - "the-thursday-murder-club-de-richard-osman-enquete-et-amitie-au-crepuscule-de-la-vie"
+  - "strangers-on-a-train-de-patricia-highsmith-le-pacte-criminel-qui-a-redefini-le-thriller-psychologique"
+  - "lappel-du-coucou-de-robert-galbraith-plongee-dans-abysses-du-londres-criminel"
 ---
 
 Dans l'univers du roman policier, certaines œuvres transcendent leur époque et deviennent des références intemporelles. *Dix Petits Nègres* ([rebaptisé](https://www.rts.ch/info/culture/livres/11557163-dix-petits-negres-dagatha-christie-change-de-nom-en-francais.html) plus récemment *Ils étaient dix* en 2020) est de celles-là. Publié en 1939, ce roman d'[Agatha Christie](https://www.lepetitlitteraire.fr/auteurs/agatha-christie) représente l'apogée du [whodunit](https://fr.wikipedia.org/wiki/Whodunit) classique, poussant à l'extrême les codes du genre pour créer ce qui reste, plus de 80 ans après sa parution, l'un des mystères les plus ingénieux et les plus terrifiants de la littérature.

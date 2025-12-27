@@ -5,6 +5,10 @@ pubDate: "2025-11-07"
 heroImage: "/images/ia/2025-11-07-strangers-on-a-train-de-patricia-highsmith-le-pacte-criminel-534817-hero/2025-11-07-strangers-on-a-train-de-patricia-highsmith-le-pacte-criminel-534817-hero.png"
 heroImageAlt: "Illustration: L'Inconnu du Nord-Express de Patricia Highsmith : Le pacte criminel qui a redéfini le thriller psychologique"
 tags: ["Livres"]
+relatedArticles:
+  - "and-then-there-were-none-d-agatha-christie-le-huis-clos-parfait-du-roman-policier"
+  - "crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-criminelle"
+  - "lappel-du-coucou-de-robert-galbraith-plongee-dans-abysses-du-londres-criminel"
 ---
 
 Dans l'univers des thrillers psychologiques, certaines œuvres parviennent à capturer l'essence même de notre fascination pour les zones d'ombre de l'âme humaine. *L'Inconnu du Nord-Express*, premier roman de [Patricia Highsmith](https://www.senscritique.com/liste/patricia_highsmith_un_univers/808824) publié en 1950, appartient indéniablement à cette catégorie. Ce récit d'une rencontre fortuite qui bascule dans l'horreur morale a non seulement lancé la carrière d'une des plus grandes autrices de suspense du XXe siècle, mais a également redéfini les codes du genre.

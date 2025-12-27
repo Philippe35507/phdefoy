@@ -5,6 +5,10 @@ pubDate: "2025-09-06"
 heroImage: "/images/ia/paprika-quand-les-reves-devorent-la-realite-hero/paprika-quand-les-reves-devorent-la-realite-hero.png"
 heroImageAlt: "Illustration: Paprika : quand les rêves dévorent la réalité"
 tags: ["Livres"]
+relatedArticles:
+  - "roman-secret-show-clive-barker-voyage-au-coeur-du-quiddity"
+  - "dark-matter-de-blake-crouch-vertige-quantique-et-quete-d-identite"
+  - "alice-au-pays-des-merveilles-voyage-litteraire-dans-l-absurde-victorien"
 ---
 
 

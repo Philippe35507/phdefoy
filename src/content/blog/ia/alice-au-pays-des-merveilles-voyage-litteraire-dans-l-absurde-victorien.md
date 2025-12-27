@@ -5,6 +5,10 @@ pubDate: "2025-09-16"
 heroImage: "/images/ia/2025-09-16-alice-au-pays-des-merveilles-voyage-litteraire-dans-l-absurd-bf4045-hero/2025-09-16-alice-au-pays-des-merveilles-voyage-litteraire-dans-l-absurd-bf4045-hero.png"
 heroImageAlt: "Illustration: Alice au Pays des Merveilles : voyage littéraire dans l'absurde victorien"
 tags: ["Livres"]
+relatedArticles:
+  - "coraline-de-neil-gaiman-voyage-initiatique-derriere-le-miroir"
+  - "les-contes-merveilleux-de-hans-christian-andersen-voyages-dans-l-ame-humaine-a-travers-le-prisme-du-fantastique"
+  - "locean-au-bout-du-chemin-neil-gaiman-voyage-au-coeur-des-souvenirs-enfance"
 ---
 
 <div class="download-grid">

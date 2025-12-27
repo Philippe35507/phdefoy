@@ -5,6 +5,10 @@ pubDate: "2025-08-15"
 heroImage: "/images/ia/rendez-vous-avec-rama-quand-l-inconnu-cosmique-rencontre-l-humanite-hero/rendez-vous-avec-rama-quand-l-inconnu-cosmique-rencontre-l-humanite-hero.png"
 heroImageAlt: "Illustration: Rendez-vous avec Rama : Quand l'inconnu cosmique rencontre l'humanité"
 tags: ["Livres"]
+relatedArticles:
+  - "solaris-de-stanislas-lem-locean-insondable-conscience-extraterrestre"
+  - "vision-aveugle-de-peter-watts-aux-frontieres-de-la-conscience-et-de-l-intelligence-extraterrestre"
+  - "station-de-transit-clifford-simak-humanite-a-la-croisee-des-chemins"
 ---
 
 

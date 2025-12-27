@@ -5,6 +5,10 @@ pubDate: "2025-09-18"
 heroImage: "/images/ia/2025-09-18-le-prince-de-machiavel-manuel-de-survie-politique-dans-un-mo-757783-hero/2025-09-18-le-prince-de-machiavel-manuel-de-survie-politique-dans-un-mo-757783-hero.png"
 heroImageAlt: "Illustration: Le Prince de Machiavel : Manuel de survie politique dans un monde impitoyable"
 tags: ["Livres"]
+relatedArticles:
+  - "1984-de-george-orwell-quand-la-fiction-dystopique-devient-un-avertissement-intemporel"
+  - "crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-criminelle"
+  - "la-guerre-et-la-paix-de-leon-tolstoi-fresque-monumentale-entre-destins-individuels-et-tourmente-historique"
 ---
 
 <div class="download-grid">

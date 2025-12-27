@@ -5,6 +5,10 @@ pubDate: "2025-09-22"
 heroImage: "/images/ia/2025-09-22-les-illusions-perdues-dans-madame-bovary-le-chef-d-uvre-impi-727ffc-hero/2025-09-22-les-illusions-perdues-dans-madame-bovary-le-chef-d-uvre-impi-727ffc-hero.png"
 heroImageAlt: "Illustration: Les illusions perdues dans Madame Bovary : le chef-d'œuvre impitoyable de Gustave Flaubert"
 tags: ["Livres"]
+relatedArticles:
+  - "l-etranger-d-albert-camus-l-absurde-au-c-ur-de-la-condition-humaine"
+  - "les-hauts-de-hurle-vent-d-emilie-bronte-une-tempete-gothique-qui-defie-les-conventions"
+  - "orgueil-et-prejuges-comment-jane-austen-revolutionne-roman-de-moeurs"
 ---
 
 

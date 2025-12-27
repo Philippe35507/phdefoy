@@ -5,6 +5,10 @@ pubDate: "2025-10-04"
 heroImage: "/images/ia/2025-10-04-american-gods-de-neil-gaiman-un-voyage-mythologique-au-c-ur-8a23fe-hero/2025-10-04-american-gods-de-neil-gaiman-un-voyage-mythologique-au-c-ur-8a23fe-hero.png"
 heroImageAlt: "Illustration: American Gods de Neil Gaiman : Un voyage mythologique au cœur de l'Amérique moderne"
 tags: ["Livres"]
+relatedArticles:
+  - "good-omens-de-terry-pratchett-neil-gaiman-l-apocalypse-la-plus-drole-jamais-ecrite"
+  - "coraline-de-neil-gaiman-voyage-initiatique-derriere-le-miroir"
+  - "locean-au-bout-du-chemin-neil-gaiman-voyage-au-coeur-des-souvenirs-enfance"
 ---
 
 Dans le panthéon des œuvres qui ont redéfini la fantasy urbaine contemporaine, *American Gods* de [Neil Gaiman](https://www.senscritique.com/top/resultats/les_meilleurs_livres_de_neil_gaiman/1095876) se dresse comme un monument incontournable. Ce roman publié en 2001 a non seulement remporté les prestigieux prix Hugo, Nebula et Locus, mais a également transformé notre façon de percevoir le mythe américain et la place du sacré dans notre monde moderne.

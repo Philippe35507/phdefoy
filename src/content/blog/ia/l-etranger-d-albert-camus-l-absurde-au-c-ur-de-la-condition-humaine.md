@@ -5,6 +5,10 @@ pubDate: "2025-08-03"
 heroImage: "/images/ia/2025-09-06-l-etranger-d-albert-camus-l-absurde-au-c-ur-de-la-condition-38e733-hero/2025-09-06-l-etranger-d-albert-camus-l-absurde-au-c-ur-de-la-condition-38e733-hero.png"
 heroImageAlt: "Illustration: L'Étranger d'Albert Camus : L'absurde au cœur de la condition humaine"
 tags: ["Livres"]
+relatedArticles:
+  - "crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-criminelle"
+  - "les-illusions-perdues-de-madame-bovary-chef-d-oeuvre-impitoyable-de-gustave-flaubert"
+  - "l-affaire-charles-dexter-ward-analyse"
 ---
 
 

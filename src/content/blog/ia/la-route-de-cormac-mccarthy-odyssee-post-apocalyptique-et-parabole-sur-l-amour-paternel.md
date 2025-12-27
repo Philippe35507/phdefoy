@@ -5,6 +5,10 @@ pubDate: "2025-10-08"
 heroImage: "/images/ia/2025-10-08-la-route-de-cormac-mccarthy-odyssee-post-apocalyptique-et-pa-c0fec2-hero/2025-10-08-la-route-de-cormac-mccarthy-odyssee-post-apocalyptique-et-pa-c0fec2-hero.png"
 heroImageAlt: "Illustration: La Route de Cormac McCarthy : odyssée post-apocalyptique et parabole sur l'amour paternel"
 tags: ["Livres"]
+relatedArticles:
+  - "station-eleven-quand-l-effondrement-revele-notre-humanite"
+  - "la-nuit-des-temps-de-rene-barjavel-quand-l-amour-defie-l-apocalypse"
+  - "la-cinquieme-saison-de-n-k-jemisin-apocalypse-oppression-et-revolution"
 ---
 
 Dans le paysage de la littérature contemporaine, certaines œuvres parviennent à nous hanter bien longtemps après leur lecture. *La Route* de [Cormac McCarthy](https://cormacmccarthybooks.com/) appartient indéniablement à cette catégorie. Publié en 2006 et récompensé par le prix Pulitzer en 2007, ce roman nous plonge dans un monde dévasté où un père et son fils traversent une Amérique en cendres. Derrière sa noirceur apparente, l'œuvre déploie une réflexion profonde sur la condition humaine, l'amour filial et la persistance de l'espoir face à l'anéantissement.

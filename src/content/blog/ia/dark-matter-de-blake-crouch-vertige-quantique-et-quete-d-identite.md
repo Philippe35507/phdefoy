@@ -5,6 +5,10 @@ pubDate: "2025-11-05"
 heroImage: "/images/ia/2025-11-05-dark-matter-de-blake-crouch-vertige-quantique-et-quete-d-ide-7c534a-hero/2025-11-05-dark-matter-de-blake-crouch-vertige-quantique-et-quete-d-ide-7c534a-hero.png"
 heroImageAlt: "Illustration: Dark Matter de Blake Crouch : Vertige quantique et quête d'identité"
 tags: ["Livres"]
+relatedArticles:
+  - "recursion-de-blake-crouch-quand-la-memoire-reecrit-la-realite"
+  - "wayward-pines-de-blake-crouch-les-abimes-vertigineux-d-une-realite-fragmentee"
+  - "the-seven-deaths-of-evelyn-hardcastle-de-stuart-turton-labyrinthes-temporels-et-identites-fragmentees"
 ---
 
 Dans l'univers des thrillers scientifiques, certaines œuvres parviennent à transcender les frontières du genre en combinant avec brio suspense haletant et questionnements philosophiques profonds. *[Dark Matter](https://www.babelio.com/livres/Crouch-Dark-Matter/904998/critiques)* de [Blake Crouch](https://www.amazon.fr/stores/author/B001H6U8X0) s'inscrit parfaitement dans cette catégorie d'œuvres qui bousculent nos certitudes tout en nous tenant en haleine de la première à la dernière page.

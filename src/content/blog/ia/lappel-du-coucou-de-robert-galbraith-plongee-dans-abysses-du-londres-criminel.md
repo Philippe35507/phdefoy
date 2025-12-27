@@ -5,6 +5,10 @@ pubDate: "2025-11-19"
 heroImage: "/images/ia/2025-11-19-l-appel-du-coucou-de-robert-galbraith-plongee-dans-les-abyss-8dc1a5-hero/2025-11-19-l-appel-du-coucou-de-robert-galbraith-plongee-dans-les-abyss-8dc1a5-hero.png"
 heroImageAlt: "Illustration: L'Appel du Coucou de Robert Galbraith : plongée dans les abysses du Londres criminel"
 tags: ["Livres"]
+relatedArticles:
+  - "the-thursday-murder-club-de-richard-osman-enquete-et-amitie-au-crepuscule-de-la-vie"
+  - "and-then-there-were-none-d-agatha-christie-le-huis-clos-parfait-du-roman-policier"
+  - "big-little-lies-de-liane-moriarty-les-secrets-toxiques-derriere-les-facades-parfaites"
 ---
 
 Dans l'univers saturé du polar britannique, certaines œuvres parviennent à se démarquer par leur singularité et leur maîtrise narrative. *L'Appel du Coucou*, premier tome d'une série désormais culte, révèle la plume acérée de [Robert Galbraith](https://www.grasset.fr/auteur/robert-galbraith/) – pseudonyme de [J.K. Rowling](https://fr.wikipedia.org/wiki/J._K._Rowling) – dans un registre bien éloigné des couloirs de Poudlard. Ce roman noir nous plonge dans un Londres contemporain, loin des clichés touristiques, où un détective privé atypique se confronte à une affaire de suicide suspecte. Entre enquête minutieuse et portrait social incisif, ce polar d'atmosphère renouvelle les codes du genre tout en s'inscrivant dans une tradition littéraire britannique bien établie.

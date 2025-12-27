@@ -5,6 +5,10 @@ pubDate: "2025-09-25"
 heroImage: "/images/ia/2025-09-25-l-affaire-charles-dexter-ward-analyse-df568a-hero/2025-09-25-l-affaire-charles-dexter-ward-analyse-df568a-hero.png"
 heroImageAlt: "Illustration: L’Affaire Charles Dexter Ward — Analyse"
 tags: ["Livres"]
+relatedArticles:
+  - "mexican-gothic-de-silvia-moreno-garcia-cauchemar-fongique-dans-le-mexique-des-annees-50"
+  - "roman-secret-show-clive-barker-voyage-au-coeur-du-quiddity"
+  - "annihilation-de-jeff-vandermeer-exploration-frontiere-entre-humanite-et-alterite"
 ---
 
 <div class="download-grid">

@@ -5,6 +5,10 @@ pubDate: "2025-12-11"
 heroImage: "/images/ia/2025-12-11-wayward-pines-de-blake-crouch-les-abimes-vertigineux-d-une-r-21ca86-hero/2025-12-11-wayward-pines-de-blake-crouch-les-abimes-vertigineux-d-une-r-21ca86-hero.png"
 heroImageAlt: "Illustration: Wayward Pines de Blake Crouch : les abîmes vertigineux d'une réalité fragmentée"
 tags: ["Livres"]
+relatedArticles:
+  - "dark-matter-de-blake-crouch-vertige-quantique-et-quete-d-identite"
+  - "recursion-de-blake-crouch-quand-la-memoire-reecrit-la-realite"
+  - "1984-de-george-orwell-quand-la-fiction-dystopique-devient-un-avertissement-intemporel"
 ---
 
 Dans le paysage foisonnant des thrillers contemporains, certaines œuvres parviennent à transcender les frontières de leur genre pour nous emmener vers des territoires inattendus. La trilogie *Wayward Pines* de [Blake Crouch](https://www.amazon.fr/stores/author/B001H6U8X0), l'auteur de l'excellent *[Dark Matter](/dark-matter-de-blake-crouch-vertige-quantique-et-quete-d-identite/)*  et du non moins mémorable *[Recursion](/recursion-de-blake-crouch-quand-la-memoire-reecrit-la-realite/)* fait indéniablement partie de ces créations hybrides qui commencent comme un mystère conventionnel avant de nous faire basculer dans des dimensions bien plus troublantes.

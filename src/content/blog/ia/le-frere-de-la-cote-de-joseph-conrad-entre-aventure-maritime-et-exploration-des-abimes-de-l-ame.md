@@ -5,6 +5,10 @@ pubDate: "2025-11-21"
 heroImage: "/images/ia/2025-11-21-le-frere-de-la-cote-de-joseph-conrad-entre-aventure-maritime-7160fe-hero/2025-11-21-le-frere-de-la-cote-de-joseph-conrad-entre-aventure-maritime-7160fe-hero.png"
 heroImageAlt: "Illustration: Le Frère-de-la-Côte de Joseph Conrad : Entre aventure maritime et exploration des abîmes de l'âme"
 tags: ["Livres"]
+relatedArticles:
+  - "le-capitaine-fracasse-de-theophile-gautier-entre-aventure-flamboyante-et-poesie-picturale"
+  - "les-trois-mousquetaires-de-alexandre-dumas-quand-l-aventure-et-l-amitie-forgent-une-legende-litteraire"
+  - "l-etranger-d-albert-camus-l-absurde-au-c-ur-de-la-condition-humaine"
 ---
 
 Entre les récits d'aventures maritimes et l'exploration psychologique des personnages, *Le Frère de la Côte* (titre original : *The Rover*, 1923) occupe une place singulière dans l'œuvre de [Joseph Conrad](https://www.universalis.fr/encyclopedie/joseph-conrad/). Publié un an avant sa mort, ce roman constitue un retour aux thèmes marins qui ont fait sa renommée, tout en offrant une réflexion profonde sur l'identité, la loyauté et le poids du passé.

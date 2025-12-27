@@ -5,6 +5,10 @@ pubDate: "2025-11-17"
 heroImage: "/images/ia/2025-11-17-big-little-lies-de-liane-moriarty-les-secrets-toxiques-derri-007255-hero/2025-11-17-big-little-lies-de-liane-moriarty-les-secrets-toxiques-derri-007255-hero.png"
 heroImageAlt: "Illustration: Big Little Lies de Liane Moriarty : les secrets toxiques derrière les façades parfaites"
 tags: ["Livres"]
+relatedArticles:
+  - "the-thursday-murder-club-de-richard-osman-enquete-et-amitie-au-crepuscule-de-la-vie"
+  - "strangers-on-a-train-de-patricia-highsmith-le-pacte-criminel-qui-a-redefini-le-thriller-psychologique"
+  - "les-illusions-perdues-de-madame-bovary-chef-d-oeuvre-impitoyable-de-gustave-flaubert"
 ---
 
 Dans la petite ville balnéaire de Pirriwee, en Australie, les apparences sont soigneusement entretenues. Pourtant, derrière les sourires polis des parents d'élèves et les façades des belles maisons se cachent des vérités bien plus sombres que quiconque ne voudrait l'admettre. C'est ce monde de contrastes que Liane Moriarty explore avec brio dans *Big Little Lies*, un roman qui transcende les frontières du simple thriller domestique pour devenir une véritable dissection sociale.

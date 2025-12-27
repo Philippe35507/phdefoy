@@ -5,6 +5,10 @@ pubDate: "2025-11-14"
 heroImage: "/images/ia/2025-11-14-coraline-de-neil-gaiman-voyage-initiatique-derriere-le-miroi-2e15c6-hero/2025-11-14-coraline-de-neil-gaiman-voyage-initiatique-derriere-le-miroi-2e15c6-hero.png"
 heroImageAlt: "Illustration: Coraline de Neil Gaiman : Voyage initiatique derrière le miroir"
 tags: ["Livres"]
+relatedArticles:
+  - "locean-au-bout-du-chemin-neil-gaiman-voyage-au-coeur-des-souvenirs-enfance"
+  - "alice-au-pays-des-merveilles-voyage-litteraire-dans-l-absurde-victorien"
+  - "american-gods-neil-gaiman-voyage-mythologique-au-coeur-de-l-amerique-moderne"
 ---
 
 Dans l'univers de la littérature fantastique, certaines œuvres parviennent à capturer l'essence même de nos peurs d'enfance tout en tissant un récit initiatique puissant. *Coraline* de [Neil Gaiman](https://www.neilgaiman.com/), publié en 2002, s'inscrit parfaitement dans cette tradition, offrant une plongée vertigineuse dans un monde parallèle aussi séduisant que terrifiant. Ce conte moderne revisite les archétypes du passage vers l'âge adulte à travers le prisme d'un fantastique subtil et inquiétant.

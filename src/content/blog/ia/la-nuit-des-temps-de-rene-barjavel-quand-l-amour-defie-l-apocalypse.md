@@ -5,6 +5,10 @@ pubDate: "2025-09-05"
 heroImage: "/images/ia/la-nuit-des-temps-de-rene-barjavel-quand-l-amour-defie-l-apocalypse-hero/la-nuit-des-temps-de-rene-barjavel-quand-l-amour-defie-l-apocalypse-hero.png"
 heroImageAlt: "Illustration: La Nuit des temps de René Barjavel : Quand l'amour défie l'apocalypse"
 tags: ["Livres"]
+relatedArticles:
+  - "ravage-de-barjavel-une-prophetie-visionnaire-sur-notre-dependance-technologique"
+  - "la-route-de-cormac-mccarthy-odyssee-post-apocalyptique-et-parabole-sur-l-amour-paternel"
+  - "solaris-de-stanislas-lem-locean-insondable-conscience-extraterrestre"
 ---
 
 

@@ -5,6 +5,10 @@ pubDate: "2025-10-24"
 heroImage: "/images/ia/2025-10-24-station-de-transit-l-humanite-a-la-croisee-des-chemins-selon-bdc6b0-hero/2025-10-24-station-de-transit-l-humanite-a-la-croisee-des-chemins-selon-bdc6b0-hero.png"
 heroImageAlt: "Illustration: Station de transit : l'humanité à la croisée des chemins selon Clifford D. Simak"
 tags: ["Livres"]
+relatedArticles:
+  - "rendez-vous-avec-rama-quand-l-inconnu-cosmique-rencontre-l-humanite"
+  - "la-nuit-des-temps-de-rene-barjavel-quand-l-amour-defie-l-apocalypse"
+  - "solaris-de-stanislas-lem-locean-insondable-conscience-extraterrestre"
 ---
 
 Publié en 1963 sous le titre original *Way Station*, ce roman de [Clifford D. Simak](https://www.senscritique.com/liste/les_meilleurs_romans_de_clifford_d_simak/1484720) a remporté le prestigieux prix Hugo en 1964. Derrière ce titre énigmatique se cache l'une des œuvres les plus marquantes de la science-fiction américaine du milieu du XXe siècle, où la rencontre avec l'extraterrestre devient prétexte à une profonde méditation sur la condition humaine.

@@ -5,6 +5,10 @@ pubDate: "2025-09-07"
 heroImage: "/images/ia/2025-09-07-station-eleven-quand-l-effondrement-revele-notre-humanite-2e6e65-hero/2025-09-07-station-eleven-quand-l-effondrement-revele-notre-humanite-2e6e65-hero.png"
 heroImageAlt: "Illustration: Station Eleven : Quand l'effondrement révèle notre humanité"
 tags: ["Livres"]
+relatedArticles:
+  - "la-route-de-cormac-mccarthy-odyssee-post-apocalyptique-et-parabole-sur-l-amour-paternel"
+  - "la-cinquieme-saison-de-n-k-jemisin-apocalypse-oppression-et-revolution"
+  - "good-omens-de-terry-pratchett-neil-gaiman-l-apocalypse-la-plus-drole-jamais-ecrite"
 ---
 
 

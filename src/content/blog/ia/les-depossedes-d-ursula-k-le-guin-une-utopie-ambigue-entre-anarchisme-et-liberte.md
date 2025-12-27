@@ -5,6 +5,10 @@ pubDate: "2025-10-02"
 heroImage: "/images/ia/2025-10-02-les-depossedes-d-ursula-k-le-guin-une-utopie-ambigue-entre-a-1577e5-hero/2025-10-02-les-depossedes-d-ursula-k-le-guin-une-utopie-ambigue-entre-a-1577e5-hero.png"
 heroImageAlt: "Illustration: Les Dépossédés d'Ursula K. Le Guin : Une utopie ambiguë entre anarchisme et liberté"
 tags: ["Livres"]
+relatedArticles:
+  - "la-main-gauche-de-la-nuit-d-ursula-k-le-guin-une-revolution-silencieuse-dans-la-science-fiction"
+  - "la-cinquieme-saison-de-n-k-jemisin-apocalypse-oppression-et-revolution"
+  - "1984-de-george-orwell-quand-la-fiction-dystopique-devient-un-avertissement-intemporel"
 ---
 
 Dans l'univers foisonnant de la science-fiction, certaines œuvres transcendent leur genre pour devenir de véritables expériences de pensée philosophiques et politiques. *Les Dépossédés* d'[Ursula K. Le Guin](https://fantasy.bnf.fr/fr/comprendre/ursula-k-le-guin-une-femme-au-sommet-de-la-fantasy/), publié en 1974, appartient indéniablement à cette catégorie. Sous-titré "Une utopie ambiguë", ce roman nous invite à explorer deux mondes radicalement opposés : Anarres, colonie anarchiste austère fondée sur l'égalité absolue, et Urras, planète-mère capitaliste, luxuriante mais profondément inégalitaire. À travers le regard du physicien Shevek, Le Guin nous offre une méditation nuancée sur la liberté, l'individualité et les compromis inhérents à toute organisation sociale.

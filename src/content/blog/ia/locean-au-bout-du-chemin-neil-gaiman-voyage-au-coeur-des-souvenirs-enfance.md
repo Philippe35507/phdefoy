@@ -5,6 +5,10 @@ pubDate: "2025-11-02"
 heroImage: "/images/ia/2025-11-02-the-ocean-at-the-end-of-the-lane-de-neil-gaiman-un-voyage-au-ffa274-hero/2025-11-02-the-ocean-at-the-end-of-the-lane-de-neil-gaiman-un-voyage-au-ffa274-hero.png"
 heroImageAlt: "Illustration: L'Océan au bout du Chemin de Neil Gaiman : un voyage au cœur des souvenirs d'enfance"
 tags: ["Livres"]
+relatedArticles:
+  - "coraline-de-neil-gaiman-voyage-initiatique-derriere-le-miroir"
+  - "american-gods-neil-gaiman-voyage-mythologique-au-coeur-de-l-amerique-moderne"
+  - "alice-au-pays-des-merveilles-voyage-litteraire-dans-l-absurde-victorien"
 ---
 
 *L'Océan au bout du Chemin* est l'une des œuvres les plus personnelles et intimes de [Neil Gaiman](https://5livres.fr/neil-gaiman/). Ce court roman publié en 2013 nous plonge dans un récit à la fois simple et complexe, où la magie côtoie les souvenirs d'enfance et où les frontières entre réalité et imaginaire s'estompent avec une délicatesse remarquable.

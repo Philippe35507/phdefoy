@@ -5,6 +5,10 @@ pubDate: "2025-09-07"
 heroImage: "/images/ia/2025-09-07-le-silmarillion-voyage-aux-origines-de-la-mythologie-de-tolk-7232de-hero/2025-09-07-le-silmarillion-voyage-aux-origines-de-la-mythologie-de-tolk-7232de-hero.png"
 heroImageAlt: "Illustration: Le Silmarillion : Voyage aux origines de la mythologie de Tolkien"
 tags: ["Livres"]
+relatedArticles:
+  - "the-way-of-kings-l-architecture-monumentale-de-brandon-sanderson"
+  - "roman-le-nom-du-vent-patrick-rothfuss-symphonie-narrative"
+  - "american-gods-neil-gaiman-voyage-mythologique-au-coeur-de-l-amerique-moderne"
 ---
 
 
