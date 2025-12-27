@@ -95,6 +95,10 @@ const articleSchema = {
   }
 };
 
+// Helpers pour les URLs
+const cleanId = (id: string) => id.replace(/^ia\//, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
+const hrefFor = (p: CollectionEntry<'blog'>) => `/${cleanId(p.id)}/`;
+
 // Articles similaires - manuel via relatedArticles dans le frontmatter
 const relatedSlugs = (Astro.props as any).relatedArticles || [];
 let relatedArticles: CollectionEntry<'blog'>[] = [];
@@ -105,9 +109,6 @@ if (relatedSlugs.length > 0) {
     .map((slug: string) => allPosts.find((p) => cleanId(p.id) === slug || p.id.includes(slug)))
     .filter(Boolean) as CollectionEntry<'blog'>[];
 }
-
-const cleanId = (id: string) => id.replace(/^ia\//, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
-const hrefFor = (p: CollectionEntry<'blog'>) => `/${cleanId(p.id)}/`;
 ---
 
 <html lang="fr">
@@ -190,7 +191,7 @@ const hrefFor = (p: CollectionEntry<'blog'>) => `/${cleanId(p.id)}/`;
 
       {relatedArticles.length > 0 && (
         <section class="related-articles">
-          <h2>Romans à découvrir</h2>
+          <h2>Livres à découvrir</h2>
           <div class="related-grid">
             {relatedArticles.map((article) => (
               <a href={hrefFor(article)} class="related-card">

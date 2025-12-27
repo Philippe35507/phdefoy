@@ -16,9 +16,9 @@ const hrefFor = (p: Post) => `/${cleanId(p.id)}/`;
 
 const allPosts = await getCollection('blog');
 
-// Filtre les articles tagués "Romans" et tri du plus récent au plus ancien
+// Filtre les articles tagués "Livres" et tri du plus récent au plus ancien
 const posts = allPosts
-  .filter((p: Post) => p.data.tags?.includes('Romans'))
+  .filter((p: Post) => p.data.tags?.includes('Livres'))
   .sort((a: Post, b: Post) => {
     const da = (a.data as any).pubDate ? new Date((a.data as any).pubDate).getTime() : 0;
     const db = (b.data as any).pubDate ? new Date((b.data as any).pubDate).getTime() : 0;
@@ -28,12 +28,12 @@ const posts = allPosts
 
 <html lang="fr">
   <head>
-    <BaseHead title={`${SITE_TITLE} — Romans`} description="Analyses littéraires de romans" />
+    <BaseHead title={`${SITE_TITLE} — Livres`} description="Analyses littéraires de livres" />
   </head>
   <body class="blog-index">
     <Header />
     <main class="container">
-      <h1>Romans</h1>
+      <h1>Livres</h1>
 
       {posts.length === 0 ? (
         <p>Aucun article pour le moment.</p>
