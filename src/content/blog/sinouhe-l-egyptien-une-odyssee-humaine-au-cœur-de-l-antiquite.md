@@ -5,7 +5,10 @@ pubDate: "08 14 2025"
 heroImage: "/images/mika-waltari/mika-waltari-sinouhe-l-egyptien-temples.png"
 heroImageAlt: "Illustration du roman Sinouhé l'Égyptien de Mika Waltari - Une odyssée humaine au cœur de l'Antiquité"
 tags: ["Livres"]
-relatedArticles: ["les-miserables-victor-hugo-epopee-redemption-sociale", "robert-louis-stevenson-le-maitre-ecossais-de-l-aventure-et-du-mystere"]
+relatedArticles:
+  - "la-guerre-et-la-paix-de-leon-tolstoi-fresque-monumentale-entre-destins-individuels-et-tourmente-historique"
+  - "le-prince-de-machiavel-manuel-de-survie-politique-dans-un-monde-impitoyable"
+  - "crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-criminelle"
 ---
 
 

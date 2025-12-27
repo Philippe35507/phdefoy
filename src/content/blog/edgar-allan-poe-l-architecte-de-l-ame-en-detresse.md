@@ -4,6 +4,7 @@ description: "Portrait passionné d'Edgar Allan Poe, génie littéraire qui rév
 pubDate: "Aug 03 2025"
 heroImage: "/images/poe/Edgar-Allan-Poe-Portait.png"
 heroImageAlt: "Présentation de la vie et des oeuvres de Edgar Allan Poe"
+tags: ["Livres"]
 ---
 
 

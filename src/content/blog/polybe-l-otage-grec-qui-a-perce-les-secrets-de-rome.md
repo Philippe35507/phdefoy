@@ -5,6 +5,7 @@ pubDate: "Aug 07 2025"
 heroImage: "/images/polybe/Polybe_anacyclose.png"
 heroImageLink: "https://www.amazon.fr/dp/B0FHHSZCD9"
 heroImageAlt: "Illustration du cycle politique selon Polybe"
+tags: ["Livres"]
 ---
 
 

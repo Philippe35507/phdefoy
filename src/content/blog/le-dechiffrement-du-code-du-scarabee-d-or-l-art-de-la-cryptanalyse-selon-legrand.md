@@ -4,6 +4,7 @@ description: "Dans Le Scarabée d'or, Edgar Allan Poe offre à ses lecteurs une 
 pubDate: "Aug 06 2025"
 heroImage: "/images/poe/scarabee-d-or-2.png"
 heroImageAlt: "Nouvelle Le Scarabée d'Or de Edgar Allan Poe : méthode employée pour déchiffrer le message secret du capitaine Kidd"
+tags: ["Livres"]
 ---
 
 

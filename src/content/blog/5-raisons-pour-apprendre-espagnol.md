@@ -5,6 +5,7 @@ pubDate: "Aug 02 2025"
 heroImage: "/images/esp/EspagnolA1.jpg"
 heroImageLink: "https://www.amazon.fr/dp/B0FLPSRTBB"
 heroImageAlt: "Couverture d'un livre d'apprentissage de l'espagnol A1 représentant une danseuse de Flamenco."
+tags: ["Espagnol"]
 ---
 
 

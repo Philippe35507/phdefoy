@@ -4,6 +4,7 @@ description: "Une aventure captivante d’Edgar Allan Poe mêlant cryptographie,
 pubDate: "Aug 05 2025"
 heroImage: "/images/poe/scarabee-d-or.png"
 heroImageAlt: "Illustration de la nouvelle Le Scarabée d'Or de Edgar Allan Poe"
+tags: ["Livres"]
 ---
 
 

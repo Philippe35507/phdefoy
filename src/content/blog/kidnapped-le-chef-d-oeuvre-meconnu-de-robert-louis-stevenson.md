@@ -4,6 +4,7 @@ description: "Ce roman d'aventure et d'apprentissage, ancré dans l'histoire tum
 pubDate: "Sep 01 2025"
 heroImage: "/images/stevenson/kidnapped.png"
 heroImageAlt: "Couverture du roman Kidnapped de Robert Louis Stevenson."
+tags: ["Livres"]
 ---
 
 

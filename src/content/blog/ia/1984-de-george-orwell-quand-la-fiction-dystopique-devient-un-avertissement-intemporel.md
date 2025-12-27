@@ -5,7 +5,10 @@ pubDate: "2025-08-02"
 heroImage: "/images/ia/2025-08-02-livre-1984-george-orwell-quand-fiction-dystopique-devient-avertissement-intemporel-hero/2025-08-02-livre-1984-george-orwell-quand-fiction-dystopique-devient-avertissement-intemporel-hero.png"
 heroImageAlt: "Illustration: 1984 de George Orwell : Quand la fiction dystopique devient un avertissement intemporel"
 tags: ["Livres"]
-relatedArticles: ["nightfall-isaac-asimov-quand-tenebres-devorent-raison", "les-miserables-victor-hugo-epopee-redemption-sociale"]
+relatedArticles:
+  - "fahrenheit-451-quand-bruler-des-livres-devient-l-ultime-dystopie"
+  - "le-meilleur-des-mondes-d-aldous-huxley-une-dystopie-toujours-d-actualite"
+  - "les-furtifs-d-alain-damasio-quand-l-insaisissable-defie-le-monde-surveille"
 ---
 
 
