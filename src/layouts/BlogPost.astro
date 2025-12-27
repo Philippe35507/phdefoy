@@ -96,7 +96,7 @@ const articleSchema = {
 };
 
 // Helpers pour les URLs
-const cleanId = (id: string) => id.replace(/^ia\//, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
+const cleanId = (id: string) => id.replace(/^.*\//, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
 const hrefFor = (p: CollectionEntry<'blog'>) => `/${cleanId(p.id)}/`;
 
 // Articles similaires - manuel via relatedArticles dans le frontmatter
