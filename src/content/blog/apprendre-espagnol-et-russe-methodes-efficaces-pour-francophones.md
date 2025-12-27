@@ -13,21 +13,6 @@ Dans un monde multilingue, **maîtriser plusieurs langues étrangères** représ
 
 L'acquisition d'une **langue étrangère** transcende la simple compétence linguistique. C'est développer une nouvelle vision du monde, accéder à des opportunités professionnelles inédites et stimuler vos capacités cognitives. Les recherches en neurosciences confirment que le **plurilinguisme** améliore la mémoire, renforce la concentration et développe la pensée créative.
 
-## L'Espagnol : Langue Internationale et Accessible
-
-### Une langue parlée sur quatre continents
-
-Avec plus de 500 millions de locuteurs natifs répartis dans 21 pays hispanophones, **l'espagnol** s'impose comme la deuxième langue la plus parlée au monde. Cette langue romane offre un accès privilégié aux marchés latino-américains et à un patrimoine culturel exceptionnel.
-
-### Les avantages de l'espagnol pour les francophones
-
-1. **Proximité linguistique** : vocabulaire latin commun facilitant l'apprentissage
-2. **Phonétique régulière** : prononciation claire et prévisible
-3. **Opportunités professionnelles** : secteurs du commerce, tourisme et diplomatie
-4. **Richesse culturelle** : littérature, cinéma et traditions hispaniques
-
-[Découvrez les 5 raisons d'apprendre l'espagnol →](/5-raisons-pour-apprendre-espagnol/)
-
 ## Le Russe : De l'Alphabet Cyrillique à la Maîtrise Complète
 
 ### Progresser du niveau A1 au niveau A2
@@ -71,6 +56,21 @@ Comprendre [**l'aspect des verbes russes**](/l-aspect-des-verbes-en-russe-guide-
 - **L'aspect perfectif** : actions achevées, ponctuelles ou résultatives
 
 Cette distinction, absente en français, transforme profondément la manière d'exprimer le temps et la nature des actions.
+
+## L'Espagnol : Langue Internationale et Accessible
+
+### Une langue parlée sur quatre continents
+
+Avec plus de 500 millions de locuteurs natifs répartis dans 21 pays hispanophones, **l'espagnol** s'impose comme la deuxième langue la plus parlée au monde. Cette langue romane offre un accès privilégié aux marchés latino-américains et à un patrimoine culturel exceptionnel.
+
+### Les avantages de l'espagnol pour les francophones
+
+1. **Proximité linguistique** : vocabulaire latin commun facilitant l'apprentissage
+2. **Phonétique régulière** : prononciation claire et prévisible
+3. **Opportunités professionnelles** : secteurs du commerce, tourisme et diplomatie
+4. **Richesse culturelle** : littérature, cinéma et traditions hispaniques
+
+[Découvrez les 5 raisons d'apprendre l'espagnol →](/5-raisons-pour-apprendre-espagnol/)
 
 ## Notre Approche Pédagogique : Efficacité et Personnalisation
 

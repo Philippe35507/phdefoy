@@ -4,6 +4,8 @@ description: "L'aspect le plus remarquable dans Sinouhé l'Égyptien semble êtr
 pubDate: "08 14 2025"
 heroImage: "/images/mika-waltari/mika-waltari-sinouhe-l-egyptien-temples.png"
 heroImageAlt: "Illustration du roman Sinouhé l'Égyptien de Mika Waltari - Une odyssée humaine au cœur de l'Antiquité"
+tags: ["Romans"]
+relatedArticles: ["les-miserables-victor-hugo-epopee-redemption-sociale", "robert-louis-stevenson-le-maitre-ecossais-de-l-aventure-et-du-mystere"]
 ---
 
 

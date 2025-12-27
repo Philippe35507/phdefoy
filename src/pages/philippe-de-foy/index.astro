@@ -1,20 +1,21 @@
 ---
-import AboutHeroImage from '../assets/ABOUT-PHOTO.png';
-import Layout from '../layouts/BlogPost.astro';
+import AboutHeroImage from '../../assets/ABOUT-PHOTO.png';
+import Layout from '../../layouts/BlogPost.astro';
 ---
 
 <Layout
-  title="Philippe de Foy – Mes livres"   
-  pageTitle="Mes ouvrages"                 
+  title="Philippe de Foy – Mes livres"
+  pageTitle="Mes ouvrages"
   description="Découvrez les livres de Philippe de Foy : cours d'espagnol et de russe pour débutants (A1, A2)."
   pubDate={new Date('August 08 2024')}
   heroImage={AboutHeroImage.src}
+  hideBreadcrumb={true}
 >
 
 <style is:global>
   .title h1 {
     padding-top: 1.8rem;
-    font-size: 3rem;
+    font-size: 2.2rem;
     text-align: center !important;
     margin-bottom: 0;
   }

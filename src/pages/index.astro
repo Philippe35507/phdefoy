@@ -2,23 +2,9 @@
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
-import FormattedDate from '../components/FormattedDate.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 
-import type { CollectionEntry } from "astro:content";
-import { getCollection } from "astro:content";
-
-// 1) Récupère et TRIE les posts (plus récents en premier)
-const toTime = (d: unknown) =>
-  d instanceof Date ? d.getTime() : (new Date(d as string).getTime() || 0);
-
-const posts: CollectionEntry<'blog'>[] = (await getCollection('blog', (p) => !p.data.draft))
-  .sort((a, b) => toTime(b.data.pubDate) - toTime(a.data.pubDate));
-
-// 2) URLs SANS /blog (root) : /<slug>  (id = "ia/mon-fichier" → "mon-fichier")
-const hrefFor = (p: CollectionEntry<'blog'>) => `/${p.id.replace(/^ia\//, "")}/`;
-
-// 3) Import d’un fichier Markdown pour le bloc de texte de la home
+// Import d'un fichier Markdown pour le bloc de texte de la home
 interface MarkdownModule {
   Content: any;
   frontmatter?: any;
@@ -27,10 +13,23 @@ const mdModules = import.meta.glob<MarkdownModule>('../content/blog/apprendre-es
 const mdModule = await mdModules['../content/blog/apprendre-espagnol-et-russe-methodes-efficaces-pour-francophones.md']();
 const { Content } = mdModule;
 
-// 4) Petite util pour fallback d’image
-function imgOrPlaceholder(src?: string) {
-  return src && src.length ? src : "/images/placeholders/inline-1024.png";
-}
+// Schema.org Organization JSON-LD
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Philippe de Foy",
+  "url": "https://phdefoy.com",
+  "logo": "https://phdefoy.com/favicon.svg",
+  "description": SITE_DESCRIPTION,
+  "sameAs": [
+    "https://x.com/phdefoy",
+    "https://www.facebook.com/phdefoy"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Philippe de Foy"
+  }
+};
 ---
 
 <!doctype html>
@@ -43,6 +42,8 @@ function imgOrPlaceholder(src?: string) {
 <link rel="alternate" hreflang="fr" href="https://phdefoy.com/" />
 <link rel="alternate" hreflang="es" href="https://phdefoy.com/descargas/" />
 <link rel="alternate" hreflang="x-default" href="https://phdefoy.com/" />
+    <!-- Schema.org Organization -->
+    <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
   </head>
 
   <body class="page-bg home">
@@ -58,8 +59,8 @@ function imgOrPlaceholder(src?: string) {
 
         <div class="intro"></div>
 
-        <div class="downloads-grid">
-          <!-- A1 -->
+        <div class="downloads-grid two-cards">
+          <!-- Espagnol A1 -->
           <div class="download-card level-a1">
             <div class="card-content">
               <h3>Espagnol niveau A1</h3>
@@ -70,34 +71,7 @@ function imgOrPlaceholder(src?: string) {
             </div>
           </div>
 
-          <!-- A2 -->
-          <div class="download-card level-a2">
-            <div class="card-content">
-              <h3>Espagnol niveau A2</h3>
-              <button id="btn-a2" class="download-btn" aria-label="Télécharger les dialogues Espagnol A2">
-                Télécharger
-              </button>
-              <div id="download-container-a2" class="download-container" aria-live="polite"></div>
-            </div>
-          </div>
-
-          <!-- B1 -->
-          <div class="download-card level-b1">
-            <div class="card-content">
-              <h3>Espagnol niveau B1</h3>
-              <button id="btn-b1" class="download-btn" aria-label="Télécharger les dialogues Espagnol B1">
-                Télécharger
-              </button>
-              <div id="download-container-b1" class="download-container" aria-live="polite"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      <section class="welcome-container">
-        <div class="downloads-grid">
-          <!-- A1 -->
+          <!-- Russe A1 -->
           <div class="download-card level-a1">
             <div class="card-content">
               <h3>Russe niveau A1</h3>
@@ -105,28 +79,6 @@ function imgOrPlaceholder(src?: string) {
                 Télécharger
               </button>
               <div id="download-container-russe-a1" class="download-container" aria-live="polite"></div>
-            </div>
-          </div>
-
-          <!-- A2 -->
-          <div class="download-card level-a2">
-            <div class="card-content">
-              <h3>Russe niveau A2</h3>
-              <button id="btn-russe-a2" class="download-btn" aria-label="Télécharger Audio Russe A2">
-                Télécharger
-              </button>
-              <div id="download-container-russe-a2" class="download-container" aria-live="polite"></div>
-            </div>
-          </div>
-
-          <!-- B1 -->
-          <div class="download-card level-b1">
-            <div class="card-content">
-              <h3>Russe niveau B1</h3>
-              <button id="btn-russe-b1" class="download-btn" aria-label="Télécharger Audio Russe B1">
-                Télécharger
-              </button>
-              <div id="download-container-russe-b1" class="download-container" aria-live="polite"></div>
             </div>
           </div>
         </div>
@@ -139,37 +91,6 @@ function imgOrPlaceholder(src?: string) {
         </div>
       </section>
 
-      {/*
-        ====== SECTION “DERNIERS ARTICLES” ======
-        👉 Si tu ne veux PAS de liste d’articles sur la home, supprime ce bloc.
-      */}
-      <section class="latest-posts">
-        <div class="latest-container">
-          <h2 class="derniersarticles">Derniers articles</h2>
-
-          <div class="posts-grid">
-            {posts.map((p) => (
-              <article class="post-card">
-                <a class="post-link" href={hrefFor(p)} aria-label={`Lire : ${p.data.title}`}>
-                  <img
-                    width={480}
-                    height={320}
-                    src={imgOrPlaceholder(p.data.heroImage)}
-                    alt={p.data.heroImageAlt ?? `Illustration : ${p.data.title}`}
-                    loading="lazy"
-                    decoding="async"
-                    fetchpriority="low"
-                  />
-                  <h3 class="post-title">{p.data.title}</h3>
-                </a>
-                <div class="post-meta">
-                  <FormattedDate date={p.data.pubDate} />
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
 
       <style>
         /* ===== THEME GLOBAL ===== */
@@ -254,6 +175,15 @@ function imgOrPlaceholder(src?: string) {
           max-width: 900px;
           margin: 0 auto;
         }
+        .downloads-grid.two-cards {
+          grid-template-columns: repeat(2, 1fr);
+          max-width: 600px;
+        }
+        @media (max-width: 500px) {
+          .downloads-grid.two-cards {
+            grid-template-columns: 1fr;
+          }
+        }
         .download-card {
           background: rgba(30, 41, 59, 0.6);
           backdrop-filter: blur(10px);
@@ -309,39 +239,6 @@ function imgOrPlaceholder(src?: string) {
         .timer-text { color: #94a3b8; font-size: .875rem; margin-top: .5rem; }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(-10px);} to {opacity: 1; transform: translateY(0);} }
 
-        /* ===== SECTION DERNIERS ARTICLES ===== */
-        .latest-posts { max-width: 1100px; margin: 2rem auto 3rem; padding: 0 2rem; color: #f8fafc; }
-        .latest-container {
-          background: rgba(30, 41, 59, 0.6);
-          border: 1px solid rgba(255,255,255,.1);
-          border-radius: 16px;
-          padding: 2rem;
-        }
-        .latest-container h2 { margin: 0 0 1rem 0; font-size: 1.5rem; color: #60a5fa; }
-        .posts-grid {
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          gap: 1.25rem;
-        }
-        .derniersarticles {
-          text-align: center;
-        }
-        .post-card {
-          background: rgba(15,23,42,.6);
-          border: 1px solid rgba(255,255,255,.08);
-          border-radius: 12px;
-          overflow: hidden;
-          transition: transform .2s ease;
-        }
-        .post-card:hover { transform: translateY(-4px); }
-        .post-link { color: inherit; text-decoration: none; display: block; }
-        .post-card img { width: 100%; height: auto; display: block; }
-        .post-title { font-size: 1rem; margin: .75rem 1rem 0 1rem; color: #f8fafc; }
-        .post-meta { font-size: .85rem; color: #cbd5e1; margin: .5rem 1rem 1rem 1rem; }
-
-        /* Responsive */
-        @media (max-width: 992px) { .posts-grid { grid-template-columns: repeat(2, 1fr); } }
-        @media (max-width: 640px) { .posts-grid { grid-template-columns: 1fr; } }
       </style>
     </main>
 

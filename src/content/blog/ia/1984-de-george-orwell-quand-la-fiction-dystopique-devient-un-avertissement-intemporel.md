@@ -4,6 +4,8 @@ description: "Découvrez pourquoi le chef-d'œuvre d'Orwell sur la surveillance,
 pubDate: "2025-08-02"
 heroImage: "/images/ia/2025-08-02-livre-1984-george-orwell-quand-fiction-dystopique-devient-avertissement-intemporel-hero/2025-08-02-livre-1984-george-orwell-quand-fiction-dystopique-devient-avertissement-intemporel-hero.png"
 heroImageAlt: "Illustration: 1984 de George Orwell : Quand la fiction dystopique devient un avertissement intemporel"
+tags: ["Romans"]
+relatedArticles: ["nightfall-isaac-asimov-quand-tenebres-devorent-raison", "les-miserables-victor-hugo-epopee-redemption-sociale"]
 ---
 
 

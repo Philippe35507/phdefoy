@@ -4,6 +4,7 @@ description: "Une oeuvre titanesque de Victor Hugo : écrire le roman du peuple,
 pubDate: "Sep 13 2025"
 heroImage: "/images/ia/les-misérables-victor-hugo-épopée-de-la-rédemption-sociale/les-misérables-victor-hugo-épopée-de-la-rédemption-sociale.png"
 heroImageAlt: "Illustration du roman Les Misérables de Victor Hugo"
+tags: ["Romans"]
 ---
 <div class="download-grid">
 <div class="download-card level-epub ">

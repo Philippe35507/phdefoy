@@ -4,6 +4,7 @@ description: "Quand on évoque les grands noms de la littérature d'aventure du 
 pubDate: "Aug 27 2025"
 heroImage: "/images/stevenson/ile-au-tresor.png"
 heroImageAlt: "Illustration du roman l'île au trésor de Robert Louis Stevenson"
+tags: ["Romans"]
 ---
 
 
