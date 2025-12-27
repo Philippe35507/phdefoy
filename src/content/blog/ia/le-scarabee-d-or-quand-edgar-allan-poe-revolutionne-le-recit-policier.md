@@ -5,6 +5,10 @@ pubDate: "Aug 05 2025"
 heroImage: "/images/poe/scarabee-d-or.png"
 heroImageAlt: "Illustration de la nouvelle Le Scarabée d'Or de Edgar Allan Poe"
 tags: ["Livres"]
+relatedArticles:
+  - "edgar-allan-poe-l-architecte-de-l-ame-en-detresse"
+  - "le-dechiffrement-du-code-du-scarabee-d-or-l-art-de-la-cryptanalyse-selon-legrand"
+  - "l-affaire-charles-dexter-ward-analyse"
 ---
 
 

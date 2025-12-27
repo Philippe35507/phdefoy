@@ -5,6 +5,10 @@ pubDate: "Aug 03 2025"
 heroImage: "/images/poe/Edgar-Allan-Poe-Portait.png"
 heroImageAlt: "Présentation de la vie et des oeuvres de Edgar Allan Poe"
 tags: ["Livres"]
+relatedArticles:
+  - "le-scarabee-d-or-quand-edgar-allan-poe-revolutionne-le-recit-policier"
+  - "l-affaire-charles-dexter-ward-analyse"
+  - "les-maitres-du-suspense-litteraire-comment-ils-manipulent-nos-emotions"
 ---
 
 

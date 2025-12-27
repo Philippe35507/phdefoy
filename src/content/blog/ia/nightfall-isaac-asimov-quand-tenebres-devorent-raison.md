@@ -5,6 +5,10 @@ pubDate: "Sep 21 2025"
 heroImage: "/images/asimov/nightfall-isaac-asimov-quand-tenebres-devorent-raison-hero/nightfall-isaac-asimov-quand-tenebres-devorent-raison-hero.png"
 heroImageAlt: "Illustration de la nouvelle Nightfall de Isaac Asimov"
 tags: ["Livres"]
+relatedArticles:
+  - "rendez-vous-avec-rama-quand-l-inconnu-cosmique-rencontre-l-humanite"
+  - "solaris-de-stanislas-lem-locean-insondable-conscience-extraterrestre"
+  - "des-fleurs-pour-algernon-de-daniel-keyes-ascension-et-declin-d-une-intelligence-artificielle"
 ---
 
 Isaac Asimov n'avait que 21 ans lorsqu'il a créé l'une des nouvelles les plus terrifiantes de la science-fiction. "Nightfall" (1941), traduite en français sous le titre "Quand les ténèbres viennent", ne raconte pas l'histoire d'une invasion extraterrestre ou d'une catastrophe technologique. Elle explore quelque chose de bien plus fondamental et effrayant : la fragilité de la civilisation face à l'inconnu.

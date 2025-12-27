@@ -5,6 +5,10 @@ pubDate: "Sep 13 2025"
 heroImage: "/images/ia/les-misérables-victor-hugo-épopée-de-la-rédemption-sociale/les-misérables-victor-hugo-épopée-de-la-rédemption-sociale.png"
 heroImageAlt: "Illustration du roman Les Misérables de Victor Hugo"
 tags: ["Livres"]
+relatedArticles:
+  - "la-guerre-et-la-paix-de-leon-tolstoi-fresque-monumentale-entre-destins-individuels-et-tourmente-historique"
+  - "crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-criminelle"
+  - "les-trois-mousquetaires-de-alexandre-dumas-quand-l-aventure-et-l-amitie-forgent-une-legende-litteraire"
 ---
 <div class="download-grid">
 <div class="download-card level-epub ">

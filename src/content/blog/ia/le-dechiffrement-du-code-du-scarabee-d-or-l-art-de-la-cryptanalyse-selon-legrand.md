@@ -5,6 +5,10 @@ pubDate: "Aug 06 2025"
 heroImage: "/images/poe/scarabee-d-or-2.png"
 heroImageAlt: "Nouvelle Le Scarabée d'Or de Edgar Allan Poe : méthode employée pour déchiffrer le message secret du capitaine Kidd"
 tags: ["Livres"]
+relatedArticles:
+  - "le-scarabee-d-or-quand-edgar-allan-poe-revolutionne-le-recit-policier"
+  - "edgar-allan-poe-l-architecte-de-l-ame-en-detresse"
+  - "and-then-there-were-none-d-agatha-christie-le-huis-clos-parfait-du-roman-policier"
 ---
 
 

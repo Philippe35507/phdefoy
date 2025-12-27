@@ -5,6 +5,10 @@ pubDate: "Aug 27 2025"
 heroImage: "/images/stevenson/ile-au-tresor.png"
 heroImageAlt: "Illustration du roman l'île au trésor de Robert Louis Stevenson"
 tags: ["Livres"]
+relatedArticles:
+  - "kidnapped-le-chef-d-oeuvre-meconnu-de-robert-louis-stevenson"
+  - "les-trois-mousquetaires-de-alexandre-dumas-quand-l-aventure-et-l-amitie-forgent-une-legende-litteraire"
+  - "le-capitaine-fracasse-de-theophile-gautier-entre-aventure-flamboyante-et-poesie-picturale"
 ---
 
 

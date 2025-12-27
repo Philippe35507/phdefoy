@@ -5,6 +5,10 @@ pubDate: "Sep 01 2025"
 heroImage: "/images/stevenson/kidnapped.png"
 heroImageAlt: "Couverture du roman Kidnapped de Robert Louis Stevenson."
 tags: ["Livres"]
+relatedArticles:
+  - "robert-louis-stevenson-le-maitre-ecossais-de-l-aventure-et-du-mystere"
+  - "les-trois-mousquetaires-de-alexandre-dumas-quand-l-aventure-et-l-amitie-forgent-une-legende-litteraire"
+  - "le-capitaine-fracasse-de-theophile-gautier-entre-aventure-flamboyante-et-poesie-picturale"
 ---
 
 

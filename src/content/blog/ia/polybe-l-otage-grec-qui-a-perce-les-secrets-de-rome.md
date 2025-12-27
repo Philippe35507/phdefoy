@@ -6,6 +6,10 @@ heroImage: "/images/polybe/Polybe_anacyclose.png"
 heroImageLink: "https://www.amazon.fr/dp/B0FHHSZCD9"
 heroImageAlt: "Illustration du cycle politique selon Polybe"
 tags: ["Livres"]
+relatedArticles:
+  - "le-prince-de-machiavel-manuel-de-survie-politique-dans-un-monde-impitoyable"
+  - "la-guerre-et-la-paix-de-leon-tolstoi-fresque-monumentale-entre-destins-individuels-et-tourmente-historique"
+  - "sinouhe-l-egyptien-une-odyssee-humaine-au-cœur-de-l-antiquite"
 ---
 
 

@@ -8,7 +8,7 @@ export async function getStaticPaths() {
   const posts = await getCollection('blog');
   return posts.map((post) => {
     // On nettoie l’ID directement inline → pas besoin de fonction
-    const slug = post.id.replace(/^ia\//, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
+    const slug = post.id.replace(/^.*\//, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
     return {
       params: { slug },
       props: { post },
@@ -21,7 +21,7 @@ const { Content } = await render(post);
 const data = post.data as any;
 
 // Même nettoyage inline ici
-const title = data.title ?? post.id.replace(/^ia\//, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
+const title = data.title ?? post.id.replace(/^.*\//, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
 const description = data.description ?? '';
 const heroImage = data.heroImage ?? data.image;
 ---
