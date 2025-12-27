@@ -144,8 +144,8 @@ body.blog-index > main {
 
 /* Réduire l’espace au-dessus de l’article (sans élargir) */
 body.blog > main {
-  box-sizing: border-box;          /* le padding n’augmente pas la largeur perçue */
-  padding: 2rem 1em 2.5rem !important; /* top | côtés | bas (remplace 3em du global) */
+  box-sizing: border-box;          /* le padding n'augmente pas la largeur perçue */
+  padding: 0 1em 2.5rem !important; /* top | côtés | bas (remplace 3em du global) */
 }
 
 @media (max-width: 720px) {
