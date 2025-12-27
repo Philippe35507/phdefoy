@@ -12,18 +12,6 @@ import Layout from '../../layouts/BlogPost.astro';
   hideBreadcrumb={true}
 >
 
-<style is:global>
-  .title h1 {
-    padding-top: 1.8rem;
-    font-size: 2.2rem;
-    text-align: center !important;
-    margin-bottom: 0;
-  }
-  .title .date {
-    display: none;
-  }
-</style>
-
   <h2></h2>
   <p class="intro">
     Disponibles sur Amazon :
@@ -111,6 +99,23 @@ import Layout from '../../layouts/BlogPost.astro';
 </Layout>
 
 <style>
+  /* Réduire l'espace autour du titre */
+  :global(.prose .title) {
+    padding: 0.3rem 0 !important;
+    margin-bottom: 0 !important;
+  }
+  :global(.prose .title h1) {
+    font-size: 2.2rem;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+  :global(.prose .title .date) {
+    display: none;
+  }
+  :global(.prose hr) {
+    margin: 0.3rem 0 !important;
+  }
+
   /* cache le gros titre injecté par le Layout */
   h1 {
     display: none;
@@ -120,7 +125,7 @@ import Layout from '../../layouts/BlogPost.astro';
     font-size: 1.6rem;
     color: #444;
     margin-top: 0;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
   }
 
   .books { 
@@ -170,7 +175,7 @@ import Layout from '../../layouts/BlogPost.astro';
 
   /* === Section Recursos en español === */
   .recursos-section {
-    margin: 4rem auto 2rem;
+    margin: 4rem auto 0.5rem;
     padding: 0 1rem;
   }
   
@@ -298,8 +303,8 @@ import Layout from '../../layouts/BlogPost.astro';
 
   /* === Section message personnel === */
   .message-section {
-    margin: 3rem auto 2rem;
-    padding: 2rem;
+    margin: 0.5rem auto 2rem;
+    padding: 1rem 2rem;
     max-width: 700px;
     text-align: center;
   }
