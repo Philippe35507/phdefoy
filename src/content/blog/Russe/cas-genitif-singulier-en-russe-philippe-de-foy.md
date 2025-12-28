@@ -1,6 +1,6 @@
 ---
-title: "Le Génitif Singulier en Russe : Le Guide Complet pour tout Comprendre"
-description: "Le génitif va vous étonner par sa diversité d'emplois : possession, négation, quantité, et bien plus encore ! C'est véritablement le couteau suisse de la grammaire russe."
+title: "Cas Génitif Singulier en Russe : Possession, Négation et Quantité (A1-A2)"
+description: "Cas génitif russe : le cas de la possession, négation et quantité, prépositions principales. Explications détaillées, tableaux de déclinaison, exercices corrigés A1-A2."
 pubDate: "dec 15 2025"
 heroImageLink: "https://www.amazon.com/dp/B0G5MVCT7B"
 heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy.png" 

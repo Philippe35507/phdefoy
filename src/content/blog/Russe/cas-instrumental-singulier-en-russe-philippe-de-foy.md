@@ -1,6 +1,6 @@
 ---
-title: "Maîtriser l'Instrumental Singulier en Russe : Guide Complet avec Exemples"
-description: "L'instrumental  est sans doute l'un des cas les plus expressifs de la langue russe ! Il vous permet d'exprimer comment vous accomplissez une action, avec qui vous la réalisez, et même quelle profession vous exercez."
+title: "L'Instrumental Singulier en Russe : Moyen et Accompagnement (A2-B1)"
+description: "Cas instrumental russe : le cas du moyen et de l'accompagnement, professions, prépositions temporelles. Cours complet avec tableaux, exemples, exercices A2-B1."
 pubDate: "dec 17 2025"
 heroImageLink: "https://www.amazon.com/dp/B0G5MVCT7B"
 heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy.png" 

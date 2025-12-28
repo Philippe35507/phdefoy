@@ -1,6 +1,6 @@
 ---
-title: "L'Accusatif Singulier en Russe : Le Guide Complet"
-description: "L'accusatif est sans doute l'un des cas les plus fascinants du russe. Pourquoi ? Parce qu'il présente une particularité unique : sa forme change selon que le nom désigne un être vivant ou un objet inanimé !"
+title: "L'Accusatif Singulier en Russe : Objet Direct et Mouvement (A1-A2)"
+description: "Cas accusatif russe : le cas de l'objet direct, distinction animé/inanimé, prépositions de mouvement. Cours complet avec tableaux de déclinaison, exercices A1-A2."
 pubDate: "dec 14 2025"
 heroImageLink: "https://www.amazon.com/dp/B0G5MVCT7B"
 heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy.png" 

@@ -1,5 +1,5 @@
 ﻿---
-title: "Découvrez l’alphabet cyrillique russe : guide pour débutants"
+title: "Alphabet cyrillique russe : guide pour débutants"
 description: "Apprenez à maîtriser l'alphabet cyrillique russe grâce à ce guide complet, avec prononciation, règles d’accent et exemples pratiques pour débutants."
 pubDate: "Sep 20 2025"
 heroImageLink: "https://www.amazon.com/dp/B0FTG1N8W3"

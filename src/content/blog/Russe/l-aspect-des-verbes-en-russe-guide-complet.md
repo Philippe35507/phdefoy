@@ -1,6 +1,6 @@
 ---
 title: "L'aspect des verbes en Russe : guide complet"
-description: "Presque tous les verbes russes existent sous deux formes : l'imperfectif et le perfectif."
+description: "Aspect perfectif et imperfectif en russe : différences d'usage, formation des paires aspectuelles, choix selon le contexte. Guide complet A2-B1 avec exemples et exercices."
 pubDate: "Nov 9 2025"
 heroImageLink: "https://www.amazon.com/dp/B0G5MVCT7B"
 heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy.png" 

@@ -1,4 +1,4 @@
-# Apprendre l'Espagnol : La Méthode Complète pour Francophones
+# Apprendre l'Espagnol : Grammaire et Conjugaison
 
 Bienvenue dans votre parcours d'apprentissage de l'espagnol ! Avec plus de **500 millions de locuteurs natifs** répartis dans 21 pays hispanophones, l'espagnol s'impose comme la **deuxième langue la plus parlée au monde**. Cette langue romane vous ouvre les portes d'un patrimoine culturel exceptionnel et d'opportunités professionnelles illimitées.
 

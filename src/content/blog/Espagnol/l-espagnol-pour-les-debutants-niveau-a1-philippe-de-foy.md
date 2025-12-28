@@ -1,6 +1,6 @@
 ---
 title: "Découvrez l'espagnol avec notre cours A1 : votre première aventure hispanique !"
-description: "Vous rêvez de commander une paella à Séville sans bégayer ? De discuter avec votre collègue madrilène au bureau ? Ou simplement de comprendre les paroles de votre chanson préférée de Manu Chao ? Notre cours d'espagnol niveau A1 est votre passeport pour ces petites victoires du quotidien."
+description: "Méthode d'espagnol pour francophones : grammaire progressive A1, dialogues naturels, conjugaisons détaillées, vocabulaire thématique, exercices corrigés."
 pubDate: "Aug 11 2025"
 heroImage: "/images/esp/EspagnolA1.jpg"
 heroImageLink: "https://www.amazon.fr/dp/B0FLPSRTBB"

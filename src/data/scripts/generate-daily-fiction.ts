@@ -205,45 +205,32 @@ async function safeGenerateImageBuffer(prompt: string, size: OpenAIImageSize) {
 }
 
 // =============================
-// Prompt Claude (resserré sur l'œuvre)
+// Prompt Claude (version naturelle)
 // =============================
 function buildUserPrompt(novel: Novel): string {
-  return `Tu dois écrire principalement sur "${novel.title}" de ${novel.author}. 
+  return `Écris un article centré sur "${novel.title}" de ${novel.author}. 
 
-Tu peux faire des comparaisons brèves avec d'autres œuvres si cela enrichit l'analyse et éclaire des aspects spécifiques de "${novel.title}". Ces références doivent :
-- Être pertinentes et apporter une vraie valeur analytique
-- Rester secondaires par rapport à l'œuvre principale  
-- Servir à mieux comprendre les thèmes, le style ou l'originalité de "${novel.title}"
+L'œuvre elle-même doit occuper l'essentiel de ton analyse - environ 90% du contenu. Tu peux ponctuer avec des comparaisons brèves si elles éclairent vraiment quelque chose d'important (un thème, une technique narrative, une originalité), mais ces références doivent rester au service de "${novel.title}", jamais devenir le sujet principal.
 
-Concentre au moins 90% du contenu sur "${novel.title}" elle-même : ses personnages, ses thèmes, son univers, son style, ses enjeux.
+Tu explores les genres de l'imaginaire et du suspense avec la curiosité d'un aventurier littéraire. Guide ton lecteur dans ta découverte de l'œuvre.
 
-Les comparaisons sont un outil d'analyse, pas le cœur du sujet.
+**Ton et style**
+Pas de "je", mais un ton personnel qui transparaît dans tes choix d'angles, tes formulations, ton enthousiasme ou tes réserves. Sois accessible sans tomber dans le simplisme - précis sans jargon académique.
 
-Tu es un explorateur de genres de l'imaginaire et du suspense qui partage ses analyses littéraires.
+**Structure attendue**
+Commence par une accroche qui montre ton regard sur l'œuvre (un quart environ de ton intro doit porter ta voix). Le développement reste factuel - personnages, intrigue, thèmes, techniques - mais tu y glisses des opinions argumentées de temps en temps. Ta conclusion doit afficher clairement ton bilan critique.
+Varie tes structures de phrases. Alterne paragraphes courts et longs. 
+Évite de commencer plusieurs paragraphes de la même façon.
 
-- Style et Ton
-1. Adopte un ton curieux et aventurier, comme si tu guidais le lecteur dans tes explorations littéraires.
-2. Évite le "je" mais garde un ton personnel à travers des formules engageantes.
+Pour le titre, évite absolument les constructions "Quand/Lorsque + concept + verbe". Cherche quelque chose de plus direct.
 
-Titre de l'article: 
-1. Rédige un titre d'article de blog sur [ŒUVRE + AUTEUR] en évitant la constructions suivantes : - 'Quand/Lorsque + [concept] + verbe'  
+**Contenu**
+Documente l'intrigue sans spoiler, présente les personnages principaux, contextualise la publication. Analyse les thèmes porteurs, les choix narratifs, les influences repérables. Formate toujours les titres d'œuvres en italique.
 
-- Structure de l'article : 
-1. Introduction (25% personnel) : Accroche avec ton regard sur l'œuvre.
-2. Développement (5-10% personnel) : Analyse factuelle ponctuée d'opinions argumentées.
-3. Conclusion (15-20% personnel) : Bilan critique engagé.
+Vise 1200-1800 mots.
 
-- Contenu : 
-1. Reste factuel sur l'intrigue, les personnages, le contexte de publication.
-2. Analyse les thèmes, techniques narratives, influences littéraires.
-3. Évite le jargon académique, privilégie un vocabulaire accessible mais précis.
-4. Formate les titres d'œuvres en italique, jamais entre guillemets.
-
-- Longueur : 
-1200-1800 mots.
-
-À la fin de ta réponse, ajoute sur une ligne séparée uniquement :
-{"title":"[titre exact, doit contenir ${novel.title} et ${novel.author}]","description":"[description SEO 150 caractères]","hero_prompt":"[description artistique pour image de couverture]","inline_prompt":"[description pour illustration du livre]"}`;
+Termine par cette ligne de métadonnées :
+{"title":"[titre exact contenant ${novel.title} et ${novel.author}]","description":"[description SEO 150 caractères]","hero_prompt":"[description artistique pour image de couverture]","inline_prompt":"[description pour illustration du livre]"}`;
 }
 
 // =============================

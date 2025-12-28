@@ -1,6 +1,6 @@
 ---
 title: "Apprendre l'Espagnol et le Russe : Méthodes Efficaces et Livres pour Francophones"
-description: "Apprenez l’espagnol et le russe facilement avec des méthodes claires et pratiques. Ressources, cours et conseils pour débutants motivés."
+description: "Apprendre le russe et l'espagnol avec Philippe de Foy : méthodes complètes A1-B2, grammaire détaillée, déclinaisons russes, exercices corrigés. Ressources gratuites et manuels."
 pubDate: "Sep 01 2025"
 heroImage: "/images/russe/Apprendre-le-russe-pour-les-débutants.png"
 ---
