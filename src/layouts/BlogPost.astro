@@ -146,10 +146,10 @@ if (relatedSlugs.length > 0) {
                     <picture>
                       <source srcset={`${pictureBase}.avif`} type="image/avif" />
                       <source srcset={`${pictureBase}.webp`} type="image/webp" />
-                      <img src={`${pictureBase}.png`} alt={alt} loading="lazy" decoding="async" />
+                      <img src={`${pictureBase}.png`} alt={alt} width="1200" height="630" fetchpriority="high" decoding="async" />
                     </picture>
                   ) : (
-                    <img src={heroImage} alt={alt} loading="lazy" decoding="async" />
+                    <img src={heroImage} alt={alt} width="1200" height="630" fetchpriority="high" decoding="async" />
                   )
                 }
                 <span class="badge-amazon">Voir sur Amazon</span>
@@ -159,10 +159,10 @@ if (relatedSlugs.length > 0) {
                 <picture>
                   <source srcset={`${pictureBase}.avif`} type="image/avif" />
                   <source srcset={`${pictureBase}.webp`} type="image/webp" />
-                  <img src={`${pictureBase}.png`} alt={alt} loading="lazy" decoding="async" />
+                  <img src={`${pictureBase}.png`} alt={alt} width="1200" height="630" fetchpriority="high" decoding="async" />
                 </picture>
               ) : (
-                <img src={heroImage} alt={alt} loading="lazy" decoding="async" />
+                <img src={heroImage} alt={alt} width="1200" height="630" fetchpriority="high" decoding="async" />
               )
             )
           }
