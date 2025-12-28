@@ -27,7 +27,7 @@ Le **russe** peut sembler complexe avec son **alphabet cyrillique** et sa **gram
 - **Vocabulaire thématique** : 800+ mots pour les situations quotidiennes
 - Exercices pratiques avec corrections détaillées
 
-[Découvrez notre méthode complète A1 →](/decouvrez-alphabet-cyrillique-russe-guide-pour-débutants/)
+[Découvrez notre méthode complète A1 →](/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/)
 
 **Niveau A2 - Approfondissement grammatical**
 - Système complet des **six cas russes** : nominatif, génitif, datif, accusatif, instrumental et locatif
@@ -95,6 +95,8 @@ Que vous choisissiez **l'apprentissage de l'espagnol** ou du **russe**, le succ�
 
 **¿Está listo?** (Êtes-vous prêt ?)  
 **Вы гото́вы?** (Êtes-vous prêts ?)
+
+![Lettres russes](/images/russe/Apprendre-le-russe-philippe-de-foy.jpg)
 
 ### Rejoignez notre communauté d'apprenants
 

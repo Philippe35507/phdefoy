@@ -90,7 +90,7 @@ La science-fiction explore les possibles, interroge notre humanité face à la t
 
   Une technologie permet de revivre ses souvenirs et de changer le passé. Les conséquences sont vertigineuses.
 
-- [**Wayward Pines de Blake Crouch** : les abîmes vertigineux d'une réalité fragmentée](/wayward-pines-de-blake-crouch-les-abimes-vertigineux-d-une-r-21ca86/)
+- [**Wayward Pines de Blake Crouch** : les abîmes vertigineux d'une réalité fragmentée](/wayward-pines-de-blake-crouch-les-abimes-vertigineux-d-une-realite-fragmentee/)
 
   Un agent du FBI se réveille dans une petite ville idyllique... d'où personne ne peut partir. Un thriller SF qui tient en haleine.
 
@@ -238,7 +238,7 @@ Les grands classiques qui ont traversé les siècles, de la littérature russe a
 
   L'épopée des guerres napoléoniennes à travers plusieurs familles russes. Le roman-fleuve par excellence.
 
-- [**Crime et Châtiment** : Plongée dans l'abîme de la conscience criminelle](/crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-cri/)
+- [**Crime et Châtiment** : Plongée dans l'abîme de la conscience criminelle](/crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-criminelle/)
 
   Dostoïevski explore la psychologie d'un meurtrier et les tourments de la culpabilité. Un sommet de la littérature psychologique.
 

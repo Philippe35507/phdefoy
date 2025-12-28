@@ -457,7 +457,7 @@ Alphabet russe complet (33 lettres) : А Б В Г Д Е Ё Ж З И Й К Л М 
 
   <div class="books">
      <div class="book">
-      <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-débutants/">
+      <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/">
         <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
              alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
              class="book-cover" />

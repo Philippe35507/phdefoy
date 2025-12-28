@@ -7,7 +7,7 @@ heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-débutants-niveau-
 tags: ["Russe"]
 ---
 
-Après avoir acquis les bases du russe au [niveau A1](/decouvrez-alphabet-cyrillique-russe-guide-pour-débutants/), le passage au niveau A2 représente une étape cruciale dans l'apprentissage de cette langue fascinante. C'est précisément à ce moment que les apprenants doivent maîtriser le système des cas grammaticaux russes — l'un des aspects les plus caractéristiques et essentiels de la langue. Le manuel "Le Russe pour les Débutants Niveau A2" propose une approche progressive et méthodique pour naviguer dans cette complexité grammaticale.
+Après avoir acquis les bases du russe au [niveau A1](/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/), le passage au niveau A2 représente une étape cruciale dans l'apprentissage de cette langue fascinante. C'est précisément à ce moment que les apprenants doivent maîtriser le système des cas grammaticaux russes — l'un des aspects les plus caractéristiques et essentiels de la langue. Le manuel "Le Russe pour les Débutants Niveau A2" propose une approche progressive et méthodique pour naviguer dans cette complexité grammaticale.
 
 ## Une structure pédagogique claire : 18 leçons progressives
 
@@ -441,7 +441,7 @@ La combinaison d'explications grammaticales détaillées, d'exemples nombreux et
 
 ### Dois-je absolument avoir terminé le niveau A1 avant de commencer ?
 
-Oui, ce manuel suppose que vous maîtrisez déjà les bases du russe : l'alphabet cyrillique, la lecture, les conjugaisons au présent et au passé, et le vocabulaire élémentaire (environ 500-700 mots). Si vous débutez complètement, commencez par [le manuel niveau A1](/decouvrez-alphabet-cyrillique-russe-guide-pour-débutants/) qui couvre ces fondamentaux.
+Oui, ce manuel suppose que vous maîtrisez déjà les bases du russe : l'alphabet cyrillique, la lecture, les conjugaisons au présent et au passé, et le vocabulaire élémentaire (environ 500-700 mots). Si vous débutez complètement, commencez par [le manuel niveau A1](/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/) qui couvre ces fondamentaux.
 
 ### Combien de temps faut-il pour terminer le manuel ?
 
@@ -473,7 +473,7 @@ Chaque leçon introduit du **vocabulaire pertinent** au sujet grammatical étudi
 
 ### Peut-on utiliser le manuel sans connaître l'alphabet cyrillique ?
 
-Non, le manuel suppose que vous savez déjà **lire et écrire en cyrillique**. L'alphabet n'est pas enseigné dans ce volume car il fait partie des acquis du niveau A1. Si vous n'êtes pas encore à l'aise avec l'alphabet cyrillique, commencez par [le guide de l'alphabet cyrillique russe](/decouvrez-alphabet-cyrillique-russe-guide-pour-débutants/) ou le manuel A1 avant d'aborder le niveau A2.
+Non, le manuel suppose que vous savez déjà **lire et écrire en cyrillique**. L'alphabet n'est pas enseigné dans ce volume car il fait partie des acquis du niveau A1. Si vous n'êtes pas encore à l'aise avec l'alphabet cyrillique, commencez par [le guide de l'alphabet cyrillique russe](/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/) ou le manuel A1 avant d'aborder le niveau A2.
 
 ### Que faire après avoir terminé le manuel A2 ?
 

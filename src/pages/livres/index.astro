@@ -80,6 +80,37 @@ const posts = allPosts
         margin-bottom: 1.25rem;
       }
 
+      /* Emoji livre animé avant chaque lien */
+      .prose :global(li a strong)::before {
+        content: '📚 ';
+        font-weight: normal;
+        animation: bounce-book 2s ease-in-out infinite;
+        display: inline-block;
+      }
+
+      @keyframes bounce-book {
+        0%, 100% { transform: translateY(0) rotate(0deg); }
+        25% { transform: translateY(-3px) rotate(-5deg); }
+        75% { transform: translateY(-3px) rotate(5deg); }
+      }
+
+      /* Style des liens livres */
+      .prose :global(ul li a) {
+        text-decoration: none !important;
+        color: #60a5fa !important;
+        transition: color 0.2s ease;
+      }
+      .prose :global(ul li a:hover) {
+        color: #60a5fa !important;
+      }
+      .prose :global(ul li a strong) {
+        font-weight: 600;
+        color: #60a5fa !important;
+      }
+      .prose :global(ul li a:hover strong) {
+        text-decoration: underline !important;
+      }
+
       .articles-section {
         width: 720px;
         max-width: calc(100% - 2em);

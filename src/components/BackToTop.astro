@@ -1,0 +1,83 @@
+---
+// Back to Top button component
+---
+
+<button id="back-to-top" class="back-to-top" aria-label="Retour en haut de page" title="Retour en haut">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="18 15 12 9 6 15"></polyline>
+  </svg>
+</button>
+
+<style>
+  .back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(30, 41, 59, 0.8);
+    border: 1px solid rgba(96, 165, 250, 0.3);
+    color: #60a5fa;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+    z-index: 99;
+    backdrop-filter: blur(10px);
+  }
+
+  .back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .back-to-top:hover {
+    background: rgba(96, 165, 250, 0.2);
+    border-color: rgba(96, 165, 250, 0.6);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(96, 165, 250, 0.3);
+  }
+
+  .back-to-top svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  @media (max-width: 600px) {
+    .back-to-top {
+      bottom: 1.5rem;
+      right: 1.5rem;
+      width: 42px;
+      height: 42px;
+    }
+  }
+</style>
+
+<script>
+  const btn = document.getElementById('back-to-top');
+
+  if (btn) {
+    // Show/hide button based on scroll position
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        btn.classList.add('visible');
+      } else {
+        btn.classList.remove('visible');
+      }
+    });
+
+    // Scroll to top on click
+    btn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  }
+</script>

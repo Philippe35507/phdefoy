@@ -83,7 +83,7 @@ Michel Románov ne figure pas parmi les grands noms de l'histoire russe. Il n'a 
 
   <div class="books">
      <div class="book">
-      <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-débutants/">
+      <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/">
         <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
              alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
              class="book-cover" />

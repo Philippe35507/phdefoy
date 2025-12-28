@@ -82,7 +82,7 @@ Pourtant, dans la mémoire populaire, 1670 reste l'année où des dizaines de mi
 
   <div class="books">
      <div class="book">
-      <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-débutants/">
+      <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/">
         <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
              alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
              class="book-cover" />

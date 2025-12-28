@@ -13,22 +13,21 @@ const mdModules = import.meta.glob<MarkdownModule>('../content/blog/Autres/appre
 const mdModule = await mdModules['../content/blog/Autres/apprendre-espagnol-et-russe-methodes-efficaces-pour-francophones.md']();
 const { Content } = mdModule;
 
-// Schema.org Organization JSON-LD
-const organizationSchema = {
+// Schema.org Person JSON-LD
+const personSchema = {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": "Person",
   "name": "Philippe de Foy",
   "url": "https://phdefoy.com",
-  "logo": "https://phdefoy.com/favicon.svg",
   "description": SITE_DESCRIPTION,
+  "knowsLanguage": ["fr", "es", "ru", "en"],
+  "knowsAbout": ["Langue russe", "Langue espagnole", "Apprentissage des langues"],
   "sameAs": [
     "https://x.com/phdefoy",
-    "https://www.facebook.com/phdefoy"
-  ],
-  "founder": {
-    "@type": "Person",
-    "name": "Philippe de Foy"
-  }
+    "https://www.facebook.com/phdefoy",
+    "https://www.instagram.com/phdefoy",
+    "https://www.youtube.com/@phdefoy"
+  ]
 };
 ---
 
@@ -42,8 +41,8 @@ const organizationSchema = {
 <link rel="alternate" hreflang="fr" href="https://phdefoy.com/" />
 <link rel="alternate" hreflang="es" href="https://phdefoy.com/descargas/" />
 <link rel="alternate" hreflang="x-default" href="https://phdefoy.com/" />
-    <!-- Schema.org Organization -->
-    <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+    <!-- Schema.org Person -->
+    <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
   </head>
 
   <body class="page-bg home">
@@ -154,16 +153,19 @@ const organizationSchema = {
           text-decoration: none;
           color: #f8fafc;
           transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          animation: pulse-glow 2.5s ease-in-out infinite;
         }
         .cta-audio:hover {
           transform: translateY(-4px);
           background: rgba(30, 41, 59, 0.8);
           border-color: rgba(96, 165, 250, 0.5);
           box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.3);
+          animation: none;
         }
         .icon-headphones {
           font-size: 2.5rem;
           filter: drop-shadow(0 4px 12px rgba(79, 142, 247, 0.3));
+          animation: bounce-headphones 2s ease-in-out infinite;
         }
         .cta-text {
           font-size: 1.2rem;
@@ -173,9 +175,32 @@ const organizationSchema = {
           font-size: 1.5rem;
           color: #60a5fa;
           transition: transform 0.2s;
+          animation: arrow-move 1.5s ease-in-out infinite;
         }
         .cta-audio:hover .cta-arrow {
           transform: translateX(4px);
+          animation: none;
+        }
+
+        @keyframes pulse-glow {
+          0%, 100% {
+            box-shadow: 0 0 5px rgba(96, 165, 250, 0.2);
+            border-color: rgba(255, 255, 255, 0.1);
+          }
+          50% {
+            box-shadow: 0 0 20px rgba(96, 165, 250, 0.4), 0 0 40px rgba(96, 165, 250, 0.2);
+            border-color: rgba(96, 165, 250, 0.4);
+          }
+        }
+
+        @keyframes bounce-headphones {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-5px); }
+        }
+
+        @keyframes arrow-move {
+          0%, 100% { transform: translateX(0); }
+          50% { transform: translateX(6px); }
         }
         
       </style>

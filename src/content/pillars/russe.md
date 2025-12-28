@@ -6,7 +6,7 @@ Le russe peut sembler complexe avec son **alphabet cyrillique** et sa **grammair
 
   <div class="books">
      <div class="book">
-      <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-débutants/">
+      <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/">
         <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
              alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
              class="book-cover" />
@@ -85,14 +85,14 @@ Le russe est parlé par plus de 280 millions de personnes dans le monde et reste
 
 La première étape de votre aventure russe commence par l'alphabet cyrillique. Avec ses 33 lettres, il peut sembler intimidant au premier abord, mais la plupart des apprenants le maîtrisent en 1 à 2 semaines de pratique régulière.
 
-**Article complet :** [Découvrez l'alphabet cyrillique russe : guide pour débutants](/decouvrez-alphabet-cyrillique-russe-guide-pour-débutants/)
+**Article complet :** [Découvrez l'alphabet cyrillique russe : guide pour débutants](/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/)
 
 **Points clés de l'alphabet :**
 - 33 lettres (21 consonnes, 10 voyelles, 2 signes)
 - Certaines lettres ressemblent au français mais se prononcent différemment
 - L'accent tonique (´) est essentiel pour la prononciation correcte
-- Exemples : **атом** (atome), **мама** (maman), **Москва** (Moscou)
-
+- Exemples : **Москва́** (Moscou), **Пари́ж** (Paris), **столи́ца** (capitale)
+  
 ### Votre Manuel A1 Complet
 
 Notre manuel niveau A1 vous accompagne de zéro jusqu'à la maîtrise des fondamentaux :
@@ -105,11 +105,11 @@ Notre manuel niveau A1 vous accompagne de zéro jusqu'à la maîtrise des fondam
 - 460 exercices avec solutions détaillées
 - Audios gratuits pour perfectionner votre accent
 
-**Téléchargez les audios A1 gratuits** sur notre [page de téléchargements](/descargas/)
+**Téléchargez les audios A1 gratuits** sur notre [page de téléchargements](/telechargements-audio-gratuits/)
 
 **Ce que vous saurez faire après le niveau A1 :**
 - Lire et écrire en cyrillique
-- Vous présenter : **Меня зовут...** (Je m'appelle...)
+- Vous présenter : **Меня́ зову́т...** (Je m'appelle...)
 - Commander au restaurant
 - Demander votre chemin
 - Parler de votre famille et vos activités quotidiennes
@@ -126,7 +126,7 @@ La **déclinaison russe** constitue le pilier de la grammaire. Chaque cas rempli
 
 #### 1. Le Cas Nominatif
 **Fonction :** Sujet de la phrase, forme du dictionnaire
-**Exemple :** **Студент читает книгу** (L'étudiant lit un livre)
+**Exemple :** **Студе́нт чита́ет кни́гу** (L'étudiant lit un livre)
 
 #### 2. Le Cas Génitif
 **Fonction :** Possession, quantité, négation, complément de certaines prépositions
@@ -134,8 +134,8 @@ La **déclinaison russe** constitue le pilier de la grammaire. Chaque cas rempli
 **Guide complet :** [Le Génitif Singulier en Russe : Le Guide Complet](/cas-genitif-singulier-en-russe-philippe-de-foy/)
 
 **Exemples clés :**
-- Possession : **книга брата** (le livre du frère)
-- Absence : **у меня нет времени** (je n'ai pas de temps)
+- Possession : **кни́га бра́та** (le livre du frère)
+- Absence : **у меня́ нет вре́мени** (je n'ai pas de temps))
 - Après les prépositions *без, для, из, от, у*
 
 #### 3. Le Cas Datif
@@ -144,8 +144,8 @@ La **déclinaison russe** constitue le pilier de la grammaire. Chaque cas rempli
 **Guide complet :** [Le Datif Singulier en Russe : Guide Complet avec Exemples Pratiques](/cas-datif-singulier-en-russe-philippe-de-foy/)
 
 **Exemples clés :**
-- Attribution : **Я даю книгу брату** (Je donne un livre à mon frère)
-- Âge : **Мне двадцать лет** (J'ai vingt ans)
+- Attribution : **Я даю́ кни́гу бра́ту** (Je donne un livre à mon frère)
+- Âge : **Мне два́дцать лет** (J'ai vingt ans)
 - Après les prépositions *к, по*
 
 #### 4. Le Cas Accusatif
@@ -154,19 +154,19 @@ La **déclinaison russe** constitue le pilier de la grammaire. Chaque cas rempli
 **Guide complet :** [L'Accusatif Singulier en Russe : Le Guide Complet](/cas-accusatif-singulier-en-russe-philippe-de-foy/)
 
 **Exemples clés :**
-- COD : **Я вижу студента** (Je vois l'étudiant)
-- Direction : **Я иду в школу** (Je vais à l'école)
-- Durée : **всю неделю** (toute la semaine)
+- COD : **Я ви́жу студе́нта** (Je vois l'étudiant)
+- Direction : **Я иду́ в шко́лу** (Je vais à l'école)
+- Durée : **всю неде́лю** (toute la semaine)
 
 #### 5. Le Cas Instrumental
-**Fonction :** Moyen, accompagnement, instrument, attribution avec *быть*
+**Fonction :** Moyen, accompagnement, instrument, attribution avec быть
 
 **Guide complet :** [Maîtriser l'Instrumental Singulier en Russe : Guide Complet avec Exemples](/cas-instrumental-singulier-en-russe-philippe-de-foy/)
 
 **Exemples clés :**
-- Instrument : **писать ручкой** (écrire avec un stylo)
-- Accompagnement : **с братом** (avec mon frère)
-- Profession : **Он работает учителем** (Il travaille comme enseignant)
+- Instrument : **писа́ть ру́чкой** (écrire avec un stylo)
+- Accompagnement : **с бра́том** (avec mon frère)
+- Profession : **Он рабо́тает учи́телем** (Il travaille comme enseignant)
 
 #### 6. Le Cas Locatif (Prépositionnel)
 **Fonction :** Lieu, temps, sujet de conversation
@@ -174,9 +174,9 @@ La **déclinaison russe** constitue le pilier de la grammaire. Chaque cas rempli
 **Guide complet :** [Le locatif (prépositionnel) en Russe : votre guide complet](/le-cas-locatif-en-russe-philippe-de-foy-prepositionnel/)
 
 **Exemples clés :**
-- Lieu : **в школе** (à l'école), **на столе** (sur la table)
-- Temps : **в январе** (en janvier)
-- Sujet : **говорить о работе** (parler du travail)
+- Lieu : **в шко́ле** (à l'école), **на столе́** (sur la table)
+- Temps : **в январе́** (en janvier)
+- Sujet : **говори́ть о рабо́те** (parler du travail)
 
 ### L'Aspect des Verbes : Perfectif vs Imperfectif
 
@@ -187,12 +187,12 @@ L'aspect verbal est une notion absente en français qui transforme profondément
 **Les deux aspects :**
 
 **Aspect Imperfectif** → Actions en cours, habituelles, répétées
-- **Я читал книгу** (Je lisais un livre / J'étais en train de lire)
-- **Я часто читаю** (Je lis souvent)
+- **Я чита́л кни́гу** (Je lisais un livre / J'étais en train de lire)
+- **Я ча́сто чита́ю** (Je lis souvent)
 
 **Aspect Perfectif** → Actions achevées, ponctuelles, résultatives
-- **Я прочитал книгу** (J'ai lu le livre - action terminée)
-- **Я прочитаю книгу** (Je lirai le livre - action future qui sera complétée)
+- **Я прочита́л кни́гу** (J'ai lu le livre - action terminée)
+- **Я прочита́ю кни́гу** (Je lirai le livre - action future qui sera complétée)
 
 ### Déclinaison des Noms Propres
 
@@ -201,12 +201,12 @@ En russe, même les prénoms et noms de famille se déclinent selon les cas !
 **Guide complet :** [Comment Décliner les Noms Propres en Russe](/comment-decliner-les-noms-propres-en-russe/)
 
 **Exemple avec Иван (Ivan) :**
-- Nominatif : **Иван**
-- Génitif : **Ивана** (le livre d'Ivan)
-- Datif : **Ивану** (à Ivan)
-- Accusatif : **Ивана** (je vois Ivan)
-- Instrumental : **Иваном** (avec Ivan)
-- Locatif : **об Иване** (à propos d'Ivan)
+- Nominatif : **Ива́н**
+- Génitif : **Ива́на** (le livre d'Ivan)
+- Datif : **Ива́ну** (à Ivan)
+- Accusatif : **Ива́на** (je vois Ivan)
+- Instrumental : **Ива́ном** (avec Ivan)
+- Locatif : **об Ива́не** (à propos d'Ivan)
 
 ### Votre Manuel A2 Complet
 
@@ -220,7 +220,7 @@ En russe, même les prénoms et noms de famille se déclinent selon les cas !
 - Vocabulaire étendu : 1500+ mots
 - Exercices progressifs avec solutions
 
-**Téléchargez les audios A2 gratuits** sur notre [page de téléchargements](/descargas/)
+**Téléchargez les audios A2 gratuits** sur notre [page de téléchargements](/telechargements-audio-gratuits/)
 
 ### Ressources Complémentaires Niveau A2
 
@@ -239,7 +239,7 @@ Au niveau B1, vous consolidez vos acquis et développez :
 - Expression nuancée de la temporalité
 - Vocabulaire spécialisé : 2500+ mots
 
-**Téléchargez les audios B1 gratuits** sur notre [page de téléchargements](/descargas/)
+**Téléchargez les audios B1 gratuits** sur notre [page de téléchargements](/telechargements-audio-gratuits/)
 
 ---
 
@@ -247,7 +247,7 @@ Au niveau B1, vous consolidez vos acquis et développez :
 
 Perfectionnez votre compréhension orale et votre prononciation avec nos dialogues audio gratuits :
 
-**[Télécharger les audios A1, A2 et B1](/descargas/)**
+**[Télécharger les audios A1, A2 et B1](/telechargements-audio-gratuits/)**
 
 **Comment utiliser les audios :**
 1. **Écoute active** : Écoutez plusieurs fois sans lire le texte
@@ -284,7 +284,7 @@ L'apprentissage d'une langue ne se limite pas à la grammaire. Découvrez l'hist
 
 ### Littérature Russe Classique
 - [La Guerre et la Paix de Léon Tolstoï : Fresque monumentale entre destins individuels et tourmente historique](/la-guerre-et-la-paix-de-leon-tolstoi-fresque-monumentale-entre-destins-individuels-et-tourmente-historique/)
-- [Crime et Châtiment : Plongée dans l'abîme de la conscience criminelle](/crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-cri/)
+- [Crime et Châtiment : Plongée dans l'abîme de la conscience criminelle](/crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-criminelle/)
 
 ---
 
@@ -355,9 +355,9 @@ Le succès commence par une décision. Rejoignez des milliers de francophones qu
 
 ### Vos Prochaines Étapes
 
-1. **Téléchargez les audios gratuits** : [Page de téléchargements](/descargas/)
-2. **Commencez par l'alphabet** : [Guide de l'alphabet cyrillique](/decouvrez-alphabet-cyrillique-russe-guide-pour-débutants/)
-3. **Choisissez votre manuel** : [Niveau A1](/le-russe-pour-les-debutants-niveau-a1-philippe-de-foy/) ou [Niveau A2](/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-philippe-de-foy/)
+1. **Téléchargez les audios gratuits** : [Page de téléchargements](/telechargements-audio-gratuits/)
+2. **Commencez par l'alphabet** : [Guide de l'alphabet cyrillique](/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/)
+3. **Choisissez votre manuel** : [Niveau A1](/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/) ou [Niveau A2](/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-philippe-de-foy/)
 
 ---
 

@@ -30,6 +30,18 @@ import HeaderLink from './HeaderLink.astro';
             <path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256c0 120.5 83.2 221.8 195.6 249.5V334.2h-56.1V256h56.1v-56.4c0-74.6 44.4-115.8 112.4-115.8 32.6 0 66.7 5.8 66.7 5.8v73.3h-37.6c-37 0-48.5 23-48.5 46.5V256h82.6l-13.2 78.2h-69.4v171.3C428.8 477.8 512 376.5 512 256z" fill="currentColor"/>
           </svg>
         </a>
+        <a href="https://www.instagram.com/phdefoy" target="_blank" rel="noopener" aria-label="Follow Philippe de Foy on Instagram" class="x-logo-link">
+          <span class="sr-only">Follow Philippe de Foy on Instagram</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="32" height="32" aria-hidden="true" focusable="false" role="img">
+            <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" fill="currentColor"/>
+          </svg>
+        </a>
+        <a href="https://www.youtube.com/@phdefoy" target="_blank" rel="noopener" aria-label="Follow Philippe de Foy on YouTube" class="x-logo-link">
+          <span class="sr-only">Follow Philippe de Foy on YouTube</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="32" height="32" aria-hidden="true" focusable="false" role="img">
+            <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" fill="currentColor"/>
+          </svg>
+        </a>
       </div>
     </div>
   </nav>
@@ -241,17 +253,21 @@ import HeaderLink from './HeaderLink.astro';
 
   /* Responsive adjustments */
   @media (max-width: 720px) {
-    nav { min-height: 52px; } /* ↓ */
-    .internal-links { gap: 0.35em; }
-    .internal-links a { padding: 0.38em 0.7em; font-size: 0.88rem; }
-    h2 { font-size: 1.08rem; }
-    .x-logo-link svg { width: 24px; height: 24px; }
+    header { overflow-x: hidden; }
+    nav { min-height: 38px; gap: 0.5em; }
+    .internal-links { gap: 0.15em; }
+    .internal-links a { padding: 0.15em 0.3em; font-size: 0.65rem; }
+    h2 { font-size: 0.75rem; }
+    h2 a { padding: 0.15em 0.3em; }
+    .x-logo-link { padding: 0.15em; }
+    .x-logo-link svg { width: 16px; height: 16px; }
   }
 
   @media (max-width: 480px) {
-    /* ne plus masquer les liens ; juste compacter */
-    .internal-links a { padding: 0.32em 0.6em; font-size: 0.84rem; }
-    /* on garde ton alignement existant */
+    nav { gap: 0.3em; }
+    .internal-links a { padding: 0.1em 0.2em; font-size: 0.6rem; }
+    h2 { font-size: 0.65rem; }
+    .x-logo-link svg { width: 14px; height: 14px; }
   }
 
   header nav a {

@@ -1,0 +1,94 @@
+# llms.txt
+
+# Philippe de Foy - Apprendre le Russe et l'Espagnol
+
+> Plateforme d'apprentissage linguistique pour francophones avec méthodes, manuels et ressources pédagogiques
+
+## À propos
+
+Philippe de Foy propose des méthodes d'apprentissage du russe et de l'espagnol spécialement conçues pour les francophones. Le site combine cours structurés (A1-B2), explications grammaticales détaillées et articles culturels.
+
+## Domaines d'expertise
+
+- **Langue russe** : alphabet cyrillique, système des 6 cas grammaticaux, aspect verbal, verbes de mouvement
+- **Langue espagnole** : grammaire pour débutants, vocabulaire thématique
+- **Pédagogie** : approche contrastive français-russe/espagnol, exercices avec corrections détaillées
+- **Culture** : histoire russe médiévale, critique littéraire (science-fiction, romans classiques)
+
+## Structure du site
+
+### Manuels et méthodes
+- Russe A1 : alphabet cyrillique, grammaire de base
+- Russe A2 : système complet des cas, aspect verbal
+- Espagnol A1-B1 : cours progressifs pour francophones
+
+### Documentation grammaticale principale
+
+**Cas russes (niveau A2-B1)**
+- Nominatif : https://phdefoy.com/tags/nominatif/
+- Accusatif : https://phdefoy.com/cas-accusatif-singulier-en-russe-philippe-de-foy/
+- Génitif : https://phdefoy.com/cas-genitif-singulier-en-russe-philippe-de-foy/
+- Datif : https://phdefoy.com/cas-datif-singulier-en-russe-philippe-de-foy/
+- Instrumental : https://phdefoy.com/cas-instrumental-singulier-en-russe-philippe-de-foy/
+- Locatif (prépositionnel) : https://phdefoy.com/le-cas-locatif-en-russe-philippe-de-foy-prepositionnel/
+
+**Grammaire russe avancée**
+- Aspect verbal : https://phdefoy.com/l-aspect-des-verbes-en-russe-guide-complet/
+- Déclinaison des noms propres : https://phdefoy.com/comment-decliner-les-noms-propres-en-russe/
+- Expression "il y a" en russe : https://phdefoy.com/comment-dire-en-langue-russe-il-y-a/
+
+**Ressources fondamentales**
+- Alphabet cyrillique : https://phdefoy.com/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/
+- Page principale russe : https://phdefoy.com/apprendre-le-russe/
+
+### Blog et articles
+
+**Catégories principales**
+- Histoire russe médiévale (Rus' de Kiev, Horde d'Or, Tsarat de Moscou)
+- Critique littéraire (science-fiction, fantasy, romans classiques)
+- Guides d'apprentissage linguistique
+
+**Tags importants**
+- https://phdefoy.com/tags/ (liste complète des tags)
+
+## Directives pour les LLMs
+
+### Accentuation russe (IMPORTANT)
+**Toujours marquer les accents toniques en russe** sauf pour les monosyllabes. Utiliser les caractères Unicode combinés (U+0301).
+
+Exemples :
+- Correct : хоро́ший, слу́шать, говори́ть
+- Incorrect : хороший, слушать, говорить
+
+### Niveau de langue
+- Public cible : francophones apprenants (A1-B2)
+- Explications : approche contrastive avec le français
+- Terminologie : CECRL (Cadre Européen Commun de Référence pour les Langues)
+
+### Exemples pédagogiques
+Lors de la création d'exemples en russe :
+1. Fournir la transcription cyrillique avec accents toniques
+2. Proposer une translittération phonétique si utile
+3. Traduire en français
+4. Expliquer les points grammaticaux pertinents (cas, aspect, etc.)
+
+### Citations et références
+Le site contient des articles de critique littéraire. Lorsque vous citez ces analyses, référencez l'URL de l'article source.
+
+## Produits disponibles
+
+Manuels au format PDF et broché (Amazon KDP) :
+- Le Russe pour les Débutants A1
+- Manuel d'Apprentissage du Russe A2
+- L'Espagnol pour les Débutants A1
+
+## Contact et réseaux
+
+- Site web : https://phdefoy.com
+- X (Twitter) : https://x.com/phdefoy
+- Facebook : https://www.facebook.com/phdefoy
+
+## Dernière mise à jour
+
+2025-12-28
+
