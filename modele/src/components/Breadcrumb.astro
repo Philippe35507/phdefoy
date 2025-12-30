@@ -1,0 +1,113 @@
+---
+import { SITE_URL } from '../consts';
+
+export interface Props {
+  title: string;
+  tags?: string[];
+}
+
+const { title, tags = [] } = Astro.props;
+
+// TODO: Configure your categories
+const categoryMap: Record<string, { name: string; url: string }> = {
+  // 'Categorie': { name: 'Categorie', url: '/categorie/' },
+};
+
+const categoryTag = tags.find(tag => categoryMap[tag]);
+const category = categoryTag ? categoryMap[categoryTag] : null;
+
+const breadcrumbItems = [
+  { name: 'Home', url: '/' },
+];
+
+if (category) {
+  breadcrumbItems.push({ name: category.name, url: category.url });
+}
+
+breadcrumbItems.push({ name: title, url: null });
+
+// Schema.org JSON-LD
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": breadcrumbItems.map((item, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "name": item.name,
+    ...(item.url ? { "item": `${SITE_URL}${item.url}` } : {})
+  }))
+};
+---
+
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+<!-- Fil d'Ariane visuel -->
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol>
+    {breadcrumbItems.map((item, index) => (
+      <li>
+        {item.url ? (
+          <a href={item.url}>{item.name}</a>
+        ) : (
+          <span aria-current="page">{item.name}</span>
+        )}
+        {index < breadcrumbItems.length - 1 && (
+          <span class="separator" aria-hidden="true">›</span>
+        )}
+      </li>
+    ))}
+  </ol>
+</nav>
+
+<style>
+  .breadcrumb {
+    max-width: 900px;
+    margin: 0 auto 0.3rem;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+  }
+
+  .breadcrumb ol {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 0.25rem;
+  }
+
+  .breadcrumb li {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  .breadcrumb a {
+    color: #2563eb;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .breadcrumb a:hover {
+    color: #3b82f6;
+    text-decoration: underline;
+  }
+
+  .breadcrumb span[aria-current="page"] {
+    color: #1d4ed8;
+  }
+
+  .separator {
+    color: #94a3b8;
+    margin: 0 0.25rem;
+  }
+
+  @media (max-width: 640px) {
+    .breadcrumb {
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+</style>

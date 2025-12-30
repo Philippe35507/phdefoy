@@ -1,0 +1,171 @@
+main {
+  width: calc(100% - 2em);
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.hero-image {
+  max-width: clamp(560px, 80vw, 720px);
+  margin: 0 auto 1rem;
+}
+
+.hero-image img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: var(--box-shadow);
+  max-width: 100%;
+  height: auto;
+}
+
+.prose {
+  width: 720px;
+  max-width: calc(100% - 2em);
+  margin: auto;
+  padding: 1em;
+  color: rgb(var(--gray-dark));
+}
+
+.title {
+  margin-bottom: 1em;
+  padding: 1em 0;
+  text-align: center;
+  line-height: 1;
+}
+
+.date {
+  margin-bottom: 0.5em;
+  color: rgb(var(--gray));
+}
+
+.last-updated-on {
+  font-style: italic;
+}
+
+.hero-image-link {
+  position: relative;
+  display: block;
+}
+
+/* Titre principal de l'article */
+.title h1 {
+  margin: 0 0 0.5em;
+  font-size: clamp(1.6rem, 2vw + 1rem, 2.5rem);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Sous-titres dans le contenu */
+.prose h2 {
+  font-size: 1.8rem;
+  margin-top: 1.6rem;
+  margin-bottom: 0.9rem;
+  line-height: 1.3;
+}
+
+.prose h3 {
+  font-size: 1.45rem;
+  margin-top: 1.3rem;
+  margin-bottom: 0.7rem;
+  line-height: 1.3;
+}
+
+.prose h4 {
+  font-size: 1.2rem;
+  margin-top: 1.1rem;
+  margin-bottom: 0.6rem;
+  line-height: 1.35;
+}
+
+/* Liens dans la liste des articles du blog (/blog) */
+body.blog-index a {
+  color: var(--accent);
+}
+body.blog-index a:hover {
+  color: var(--accent-dark, var(--accent));
+}
+
+.container {
+	max-width: 1520px;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+
+body.blog-index > main {
+  width: 1000px;
+  max-width: calc(100% - 2em);
+  margin: 0 auto;
+  padding: 0.75rem 1rem 1.5rem;
+  background-color: #e7e5e5;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.06);
+  box-sizing: border-box;
+}
+
+.blog-index h1 {
+  display: block;
+  width: fit-content;
+  margin: 1rem auto 1rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+body.blog > main {
+  box-sizing: border-box;
+  padding: 0 1em 2.5rem !important;
+}
+
+@media (max-width: 720px) {
+  body.blog > main { padding-top: 0.75rem !important; }
+  body.blog .post-content { margin-top: 0; }
+}
+
+/* Article : texte justifié */
+body.blog .post-content p,
+body.blog .post-content li {
+  text-align: justify;
+  text-align-last: left;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+body.blog .post-content :is(h1,h2,h3,h4,h5,h6),
+body.blog .post-content blockquote,
+body.blog .post-content pre,
+body.blog .post-content code {
+  text-align: left;
+}
+
+/* Mobile : élargir la colonne de lecture */
+@media (max-width: 720px) {
+  body.blog > main {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+
+  body.blog .post-content {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+  }
+
+  body.blog .post-content .prose,
+  body.blog .post-content.prose,
+  .prose {
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media (max-width: 400px) {
+  body.blog > main {
+    padding-left: 0.4rem !important;
+    padding-right: 0.4rem !important;
+  }
+  body.blog .post-content {
+    padding-left: 0.6rem !important;
+    padding-right: 0.6rem !important;
+  }
+}
