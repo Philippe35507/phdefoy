@@ -132,7 +132,7 @@ import HeaderLink from './HeaderLink.astro';
   h2 a:hover,
   h2 a:focus {
     -webkit-text-fill-color: white;
-    transform: translateY(-1px);
+    transform: translateY(-2px) scale(1.05);
     outline: none;
   }
 
@@ -149,26 +149,29 @@ import HeaderLink from './HeaderLink.astro';
   }
 
   .internal-links a {
-    padding: 0.45em 0.9em; /* ↓ très léger */
-    color: var(--dark-text);
-    font-weight: 500;
+    padding: 0.25em 0.6em;
+    background: linear-gradient(135deg, var(--accent) 0%, #6366f1 50%, #8b5cf6 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
     font-family: var(--font-sans);
-    border-radius: 10px;
+    border-radius: 12px;
     text-decoration: none;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    font-size: 0.93rem; /* ↓ */
+    font-size: 0.93rem;
     white-space: nowrap;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.02em;
     position: relative;
-    border: 1px solid transparent;
+    display: inline-block;
   }
 
   .internal-links a::before {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, var(--accent), var(--accent-hover));
-    border-radius: 10px;
+    background: linear-gradient(135deg, var(--accent) 0%, #6366f1 50%, #8b5cf6 100%);
+    border-radius: 12px;
     opacity: 0;
     transition: opacity 0.3s ease;
     z-index: -1;
@@ -176,10 +179,8 @@ import HeaderLink from './HeaderLink.astro';
 
   .internal-links a:hover,
   .internal-links a:focus {
-    color: white;
-    transform: translateY(-2px);
-    box-shadow: 0 8px 25px var(--accent-glow);
-    border-color: var(--accent);
+    -webkit-text-fill-color: white;
+    transform: translateY(-2px) scale(1.05);
     outline: none;
   }
 

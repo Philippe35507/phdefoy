@@ -142,11 +142,25 @@ hr {
 }
 
 
-/* Titres dans le contenu article */
+/* Titres dans le contenu article - DARK MODE */
 body.blog .post-content :is(h1, h2, h3, h4, h5, h6) {
-	color: var(--accent) !important;
+	color: #60a5fa !important;
   }
-  
+
+  /* Titre principal avec gradient */
+  body.blog .title h1 {
+	color: #f8fafc !important;
+	background: linear-gradient(135deg, #60a5fa, #34d399) !important;
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent !important;
+	background-clip: text !important;
+  }
+
+  /* Date de l'article */
+  body.blog .title .date {
+	color: #94a3b8 !important;
+  }
+
   /* Liens dans les titres gardent la couleur du titre */
   body.blog .post-content :is(h1, h2, h3, h4) a {
 	color: inherit !important;
@@ -219,17 +233,57 @@ body.blog .post-content :is(h1, h2, h3, h4, h5, h6) {
 	background: #14238a;
   }
 
-  /* COULEUR DE FOND CÔTÉS article de blog */
+  /* COULEUR DE FOND CÔTÉS article de blog - DARK MODE */
    body.blog {
-	background: #d0cdcd; /* couleur uniforme autour de l’article */
+	min-height: 100vh;
+	background: linear-gradient(135deg, #12141f 0%, #1a1c2b 40%, #23254a 100%);
+	margin: 0;
   }
 
-  /* COULEUR DE FOND article de blog */
+  /* COULEUR DE FOND article de blog - DARK MODE */
    body.blog .post-content {
-	background-color: #e7e5e5;      /* ajuste la teinte ici */
-	border-radius: 12px;
+	background: rgba(30, 41, 59, 0.6);
+	backdrop-filter: blur(10px);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 16px;
 	padding: 2rem;
-	box-shadow: var(--box-shadow);
+	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Texte article - DARK MODE */
+  body.blog .prose {
+	color: #cbd5e1;
+  }
+
+  body.blog .prose p,
+  body.blog .prose li {
+	color: #cbd5e1;
+  }
+
+  body.blog .prose a {
+	color: #60a5fa;
+  }
+
+  body.blog .prose a:hover {
+	color: #93c5fd;
+  }
+
+  body.blog .prose strong {
+	color: #f1f5f9;
+  }
+
+  body.blog .prose blockquote {
+	border-left-color: #60a5fa;
+	color: #94a3b8;
+  }
+
+  body.blog .prose hr {
+	border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  body.blog .prose code {
+	background-color: rgba(30, 41, 59, 0.8);
+	color: #e2e8f0;
   }
  
   /* COULEUR DE FOND liste des blogs (côtés) */

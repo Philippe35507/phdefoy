@@ -1,18 +1,19 @@
 ---
-title: "Lauren Haney et La main droite d'Amon : polar égyptien aux sources du Nil"
+title: "Lauren Haney et La main droite d'Amon : Polar égyptien aux sources du Nil"
 description: "Analyse de La main droite d'Amon de Lauren Haney, premier tome d'une série policière dans l'Égypte ancienne mêlant enquête et reconstitution historique"
 pubDate: "2025-12-30"
 heroImage: "/images/ia/2025-12-30-lauren-haney-et-la-main-droite-d-amon-polar-egyptien-aux-sou-34dfaa-hero/2025-12-30-lauren-haney-et-la-main-droite-d-amon-polar-egyptien-aux-sou-34dfaa-hero.png"
 heroImageAlt: "Illustration: Lauren Haney et La main droite d'Amon : polar égyptien aux sources du Nil"
+tags: ["Livres"]
+relatedArticles:
+  - "michael-connelly-maitre-inconteste-du-polar-americain-et-createur-de-harry-bosch"
+  - "and-then-there-were-none-d-agatha-christie-le-huis-clos-parfait-du-roman-policier"
+  - "sinouhe-l-egyptien-une-odyssee-humaine-au-cœur-de-l-antiquite"
 ---
 
-Certains auteurs parviennent à ressusciter une époque révolue avec une précision d'orfèvre. Betty Winkelman, sous le pseudonyme de Lauren Haney, réussit ce tour de force en transplantant les codes du roman policier dans l'Égypte du Nouvel Empire. *La main droite d'Amon*, premier tome d'une série qui en compte une quinzaine, pose les fondations d'un univers où l'enquête criminelle épouse parfaitement les rites et les tensions d'une civilisation fascinante.
+Certains auteurs parviennent à ressusciter une époque révolue avec une précision d'orfèvre. Betty Winkelman, sous le pseudonyme de [Lauren Haney](https://polar.zonelivre.fr/lauren-haney-serie-lieutenant-bak/), réussit ce tour de force en transplantant les codes du roman policier dans l'Égypte du Nouvel Empire. *La main droite d'Amon*, premier tome d'une série qui en compte huit, pose les fondations d'un univers où l'enquête criminelle épouse parfaitement les rites et les tensions d'une civilisation fascinante.
 
 Publié en 1997, ce roman inaugure les aventures du lieutenant Bak, officier de police nubien au service de Pharaon sous le règne d'Hatchepsout. L'auteure, forte de sa formation d'égyptologue, insuffle à son récit une authenticité remarquable qui transcende le simple dépaysement exotique pour créer une véritable immersion historique.
-
-
-<picture><source srcset="/images/ia/2025-12-30-lauren-haney-et-la-main-droite-d-amon-polar-egyptien-aux-sou-34dfaa-inline/2025-12-30-lauren-haney-et-la-main-droite-d-amon-polar-egyptien-aux-sou-34dfaa-inline.avif" type="image/avif" /><source srcset="/images/ia/2025-12-30-lauren-haney-et-la-main-droite-d-amon-polar-egyptien-aux-sou-34dfaa-inline/2025-12-30-lauren-haney-et-la-main-droite-d-amon-polar-egyptien-aux-sou-34dfaa-inline.webp" type="image/webp" /><img src="/images/ia/2025-12-30-lauren-haney-et-la-main-droite-d-amon-polar-egyptien-aux-sou-34dfaa-inline/2025-12-30-lauren-haney-et-la-main-droite-d-amon-polar-egyptien-aux-sou-34dfaa-inline.png" alt="Illustration: Lauren Haney et La main droite d'Amon : polar égyptien aux sources du Nil" loading="lazy" decoding="async" /></picture>
-
 
 ## Un polar aux sources du Nil
 
@@ -29,6 +30,9 @@ Le lieutenant Bak incarne parfaitement cette synthèse entre modernité policiè
 Haney dessine un personnage nuancé, loin du héros infaillible. Bak commet des erreurs, suit de fausses pistes, se laisse parfois aveugler par ses préjugés. Cette humanité renforce la crédibilité du récit et permet au lecteur de s'identifier à un enquêteur confronté aux mêmes difficultés que ses homologues contemporains : hiérarchie pesante, témoins peu coopératifs, pressions politiques.
 
 L'entourage de Bak enrichit considérablement l'univers du roman. Imsiba, son adjoint et ami fidèle, apporte une dimension fraternelle bienvenue. Hori, le jeune scribe ambitieux, représente une nouvelle génération d'Égyptiens éduqués. Commandant Thuty, supérieur direct de Bak, incarne l'autorité militaire avec ses contradictions et ses zones d'ombre. Chaque personnage secondaire possède sa propre profondeur psychologique, évitant l'écueil du simple faire-valoir.
+
+
+<picture><source srcset="/images/ia/2025-12-30-lauren-haney-et-la-main-droite-d-amon-polar-egyptien-aux-sou-34dfaa-inline/2025-12-30-lauren-haney-et-la-main-droite-d-amon-polar-egyptien-aux-sou-34dfaa-inline.avif" type="image/avif" /><source srcset="/images/ia/2025-12-30-lauren-haney-et-la-main-droite-d-amon-polar-egyptien-aux-sou-34dfaa-inline/2025-12-30-lauren-haney-et-la-main-droite-d-amon-polar-egyptien-aux-sou-34dfaa-inline.webp" type="image/webp" /><img src="/images/ia/2025-12-30-lauren-haney-et-la-main-droite-d-amon-polar-egyptien-aux-sou-34dfaa-inline/2025-12-30-lauren-haney-et-la-main-droite-d-amon-polar-egyptien-aux-sou-34dfaa-inline.png" alt="Illustration: Lauren Haney et La main droite d'Amon : polar égyptien aux sources du Nil" loading="lazy" decoding="async" /></picture>
 
 ## Une reconstitution historique minutieuse
 
@@ -61,3 +65,15 @@ La construction du mystère respecte les règles du fair-play : tous les éléme
 Quelques faiblesses subsistent : certaines explications historiques ralentissent ponctuellement le rythme, et la résolution finale manque peut-être d'un twist supplémentaire pour marquer durablement les esprits. Mais ces réserves mineures n'entament pas la réussite d'ensemble d'un roman qui ouvre brillamment une série promise à un bel avenir.
 
 Lauren Haney signe avec ce premier opus une œuvre qui enrichit autant le genre policier que la fiction historique, démontrant que l'Égypte ancienne peut parfaitement accueillir les mystères les plus contemporains.
+
+Pour terminer, voici la liste des tomes de la série policière **« Le Lieutenant Bak »** (également connue sous le nom *Les enquêtes du lieutenant Bak*): 
+
+1. **La Main droite d'Amon** (*The Right Hand of Amon*, 1997)
+2. **Le Visage de Maât** (*A Face Turned Backward*, 1999)
+3. **Le Ventre d'Apopis** (*A Vile Justice*, 1999)
+4. **Sous l'œil d'Horus** (*A Curse of Silence*, 2000)
+5. **Le Souffle de Seth** (*A Place of Darkness*, 2001)
+6. **Le Sang de Thot** (*A Cruel Deceit*, 2002)
+7. **L'Ombre d'Hathor** (*A Path of Shadows*, 2003)
+
+*Note : Il existe un huitième volume en anglais intitulé **Flesh of the God** (2003), qui n'a pas été systématiquement traduit ou largement diffusé en français dans la collection habituelle (10/18).*

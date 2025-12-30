@@ -6,15 +6,14 @@ Chaque analyse plonge au cœur des œuvres pour en révéler les thématiques pr
 
 ---
 
-## Explorez par Genre
+## Explorez par Genre :
 
-### Science-Fiction : Aux Frontières de l'Imaginaire
+### 1. Science-Fiction : Aux Frontières de l'Imaginaire
 
 La science-fiction explore les possibles, interroge notre humanité face à la technologie, et repousse les limites de notre imagination. Des dystopies glaçantes aux space operas épiques, découvrez les œuvres qui ont façonné le genre.
 
 #### Dystopies et Sociétés Futures
 
-**Classiques Dystopiques**
 - [**1984 de George Orwell** : la fiction dystopique devient un avertissement intemporel](/1984-de-george-orwell-quand-la-fiction-dystopique-devient-un-avertissement-intemporel/)
 
   Le roman prophétique d'Orwell sur la surveillance totalitaire, la manipulation du langage et le contrôle absolu des pensées. Une œuvre terrifiante d'actualité.
@@ -27,7 +26,6 @@ La science-fiction explore les possibles, interroge notre humanité face à la t
 
   Une société parfaitement contrôlée par le conditionnement génétique et chimique. La dystopie du bonheur forcé reste troublante 90 ans après sa publication.
 
-**Dystopies Contemporaines**
 - [**Klara et le Soleil** : quand l'intelligence artificielle interroge notre humanité](/klara-et-le-soleil-quand-l-intelligence-artificielle-interroge-notre-humanite/)
 
   Kazuo Ishiguro explore l'amour et la conscience à travers les yeux d'une IA. Une méditation douce mais troublante sur ce qui fait notre humanité.
@@ -128,7 +126,7 @@ La science-fiction explore les possibles, interroge notre humanité face à la t
 
 ---
 
-### Fantasy : Épopées, Magie et Mondes Imaginaires
+### 2. Fantasy : Épopées, Magie et Mondes Imaginaires
 
 La fantasy nous transporte dans des univers où la magie existe, où les dieux marchent parmi les mortels, et où l'héroïsme côtoie les ténèbres. Des épopées monumentales aux contes urbains contemporains.
 
@@ -186,7 +184,7 @@ La fantasy nous transporte dans des univers où la magie existe, où les dieux m
 
 ---
 
-### Policier, Thriller & Mystère : Enquêtes et Suspense
+### 3. Policier, Thriller & Mystère : Enquêtes et Suspense
 
 Du polar classique au thriller psychologique, du whodunit au noir le plus sombre, explorez les méandres du crime et de l'investigation.
 
@@ -228,7 +226,7 @@ Du polar classique au thriller psychologique, du whodunit au noir le plus sombre
 
 ---
 
-### Classiques de la Littérature : Les Incontournables
+### 4. Classiques de la Littérature : Les Incontournables
 
 Les grands classiques qui ont traversé les siècles, de la littérature russe aux épopées françaises, des drames anglais aux satires philosophiques.
 
@@ -280,7 +278,7 @@ Les grands classiques qui ont traversé les siècles, de la littérature russe a
 
 ---
 
-### Romans d'Aventure : Épopées et Explorations
+### 5. Romans d'Aventure : Épopées et Explorations
 
 Des récits d'aventures maritimes aux épopées historiques, explorez les grands romans d'action et de découverte.
 
@@ -306,7 +304,7 @@ Des récits d'aventures maritimes aux épopées historiques, explorez les grands
 
   Conrad utilise l'aventure maritime pour explorer les zones grises de la moralité humaine.
 
-#### Aventure Historique
+#### Aventure dans l'Antiquité
 
 - [**Sinouhé l'Égyptien - Une odyssée humaine au cœur de l'Antiquité**](/sinouhe-l-egyptien-une-odyssee-humaine-au-cœur-de-l-antiquite/)
 
@@ -314,7 +312,7 @@ Des récits d'aventures maritimes aux épopées historiques, explorez les grands
 
 ---
 
-### Horreur & Gothique : Terreurs et Mystères
+### 6. Horreur & Gothique : Terreurs et Mystères
 
 De l'horreur cosmique au gothique romantique, explorez les œuvres qui font frissonner.
 
@@ -330,19 +328,12 @@ De l'horreur cosmique au gothique romantique, explorez les œuvres qui font fris
 
   Un homme obsédé par son ancêtre sorcier. Lovecraft explore la transmission du mal à travers les générations.
 
----
 
-### Edgar Allan Poe : Le Maître du Macabre
-
-Le créateur du roman policier moderne et maître incontesté de l'horreur psychologique.
-
-#### Portrait de l'Auteur
+#### Portrait d'Edgar Allan Poe : Le Maître du Macabre
 
 - [**Edgar Allan Poe** : L'Architecte de l'Âme en Détresse](/edgar-allan-poe-l-architecte-de-l-ame-en-detresse/)
 
-  Vie et œuvre du génie tourmenté qui a inventé le polar et révolutionné la nouvelle fantastique.
-
-#### Nouvelles Analytiques
+  Vie et œuvre du génie tourmenté qui a révolutionné la nouvelle fantastique. Il est aussi le créateur du roman policier moderne et maître incontesté de l'horreur psychologique.
 
 - [**Le Scarabée d'or** : Quand Edgar Allan Poe révolutionne le récit policier](/le-scarabee-d-or-quand-edgar-allan-poe-revolutionne-le-recit-policier/)
 
@@ -354,7 +345,7 @@ Le créateur du roman policier moderne et maître incontesté de l'horreur psych
 
 ---
 
-### Essais & Histoire : Pensée et Civilisations
+### 7. Essais & Histoire : Pensée et Civilisations
 
 Au-delà de la fiction, explorez les œuvres qui analysent le pouvoir, la politique et l'histoire.
 
