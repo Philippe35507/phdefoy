@@ -32,7 +32,7 @@ const posts = allPosts
   <head>
     <BaseHead title={`${SITE_TITLE} — Critiques Littéraires`} description="Critiques et analyses littéraires : science-fiction, fantasy, polar, classiques. Explorez les chefs-d'œuvre de la littérature." />
   </head>
-  <body class="page-dark">
+  <body class="blog">
     <Header />
     <main>
       <article class="post-content">
@@ -42,131 +42,69 @@ const posts = allPosts
       </article>
 
       <section class="articles-section">
-        <h2>Tous les articles</h2>
+        <div class="articles-container">
+          <h2>Tous les articles</h2>
 
-      {posts.length === 0 ? (
-        <p>Aucun article pour le moment.</p>
-      ) : (
-      <ul class="post-list">
-        {posts.map((p: Post) => (
-          <li class="post-item">
-            <a class="post-link" href={hrefFor(p)}>
-                {p.data.heroImage && (
-                  <img
-                    src={p.data.heroImage}
-                    alt={p.data.heroImageAlt || p.data.title}
-                    loading="lazy"
-                    decoding="async"
-                    width="640"
-                    height="360"
-                  />
-                )}
-                <h3>{p.data.title}</h3>
-                <div class="meta">
-                  <FormattedDate date={(p.data as any).pubDate} />
-                </div>
-              </a>
-            </li>
-          ))}
-        </ul>
-      )}
+          {posts.length === 0 ? (
+            <p>Aucun article pour le moment.</p>
+          ) : (
+          <ul class="post-list">
+            {posts.map((p: Post) => (
+              <li class="post-item">
+                <a class="post-link" href={hrefFor(p)}>
+                    {p.data.heroImage && (
+                      <img
+                        src={p.data.heroImage}
+                        alt={p.data.heroImageAlt || p.data.title}
+                        loading="lazy"
+                        decoding="async"
+                        width="640"
+                        height="360"
+                      />
+                    )}
+                    <h3>{p.data.title}</h3>
+                    <div class="meta">
+                      <FormattedDate date={(p.data as any).pubDate} />
+                    </div>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
       </section>
     </main>
     <Footer />
 
     <style>
-      /* Dark mode pour la page */
-      body.page-dark {
-        min-height: 100vh;
-        background: linear-gradient(135deg, #12141f 0%, #1a1c2b 40%, #23254a 100%);
-        margin: 0;
+      .prose :global(h1) {
+        font-size: 2.3rem;
+        margin-bottom: 1.25rem;
       }
 
-      body.page-dark main {
+      .articles-section {
         max-width: 900px;
-        margin: 0 auto;
-        padding: 1rem 2rem 2rem;
+        margin: 2rem auto 0;
+        padding: 0 1rem;
       }
 
-      body.page-dark .post-content {
-        background: rgba(30, 41, 59, 0.6);
+      .articles-container {
+        background: rgba(30, 41, 59, 0.4);
         backdrop-filter: blur(10px);
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 16px;
         padding: 2rem;
-        margin-bottom: 2rem;
       }
 
-      body.page-dark .prose {
-        color: #cbd5e1;
-      }
-
-      body.page-dark .prose :global(h1) {
-        font-size: 2.3rem;
-        margin-bottom: 1.25rem;
-        color: #f8fafc;
-        background: linear-gradient(135deg, #60a5fa, #34d399);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-      }
-
-      body.page-dark .prose :global(h2),
-      body.page-dark .prose :global(h3) {
-        color: #60a5fa;
-      }
-
-      body.page-dark .prose :global(p) {
-        color: #cbd5e1;
-      }
-
-      /* Emoji livre animé avant chaque lien */
-      .prose :global(li a strong)::before {
-        content: '';
-        font-weight: normal;
-        animation: bounce-book 2s ease-in-out infinite;
-        display: inline-block;
-      }
-
-      @keyframes bounce-book {
-        0%, 100% { transform: translateY(0) rotate(0deg); }
-        25% { transform: translateY(-3px) rotate(-5deg); }
-        75% { transform: translateY(-3px) rotate(5deg); }
-      }
-
-      /* Style des liens livres */
-      body.page-dark .prose :global(ul li a) {
-        text-decoration: none !important;
-        color: #60a5fa !important;
-        transition: color 0.2s ease;
-      }
-      body.page-dark .prose :global(ul li a:hover) {
-        color: #93c5fd !important;
-      }
-      body.page-dark .prose :global(ul li a strong) {
-        font-weight: 600;
-        color: #60a5fa !important;
-      }
-      body.page-dark .prose :global(ul li a:hover strong) {
-        text-decoration: underline !important;
-        color: #93c5fd !important;
-      }
-
-      body.page-dark .articles-section {
-        max-width: 900px;
-        margin: 0 auto;
-        padding: 0 1rem;
-      }
-
-      body.page-dark .articles-section h2 {
+      .articles-section h2 {
         font-size: 1.5rem;
-        margin-bottom: 1.5rem;
+        margin: 0 0 1.5rem 0;
         line-height: 1.3;
         color: #60a5fa;
         text-align: center;
       }
 
-      /* grille responsive : 1 - 2 - 3 colonnes */
+      /* grille responsive : 1 → 2 → 3 colonnes */
       .post-list {
         list-style: none; padding: 0; margin: 0;
         display: grid; gap: 1.25rem;
@@ -179,7 +117,7 @@ const posts = allPosts
         .post-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
       }
 
-      body.page-dark .post-item {
+      .post-item {
         background: rgba(30, 41, 59, 0.6);
         backdrop-filter: blur(10px);
         border: 1px solid rgba(255, 255, 255, 0.08);
@@ -187,51 +125,36 @@ const posts = allPosts
         overflow: hidden;
         transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
       }
-      body.page-dark .post-item:hover {
+      .post-item:hover {
         transform: translateY(-4px);
         background: rgba(30, 41, 59, 0.8);
         border-color: rgba(255, 255, 255, 0.2);
         box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
       }
 
-      body.page-dark .post-link {
+      .post-link {
         display: block;
         text-decoration: none;
         color: #f1f5f9 !important;
       }
-      body.page-dark .post-link:visited { color: #f1f5f9 !important; }
-      body.page-dark .post-link img {
-        width: 100%;
-        height: auto;
-        display: block;
-        aspect-ratio: 16/9;
-        object-fit: cover;
-      }
-      body.page-dark .post-link:hover {
+      .post-link:visited { color: #f1f5f9 !important; }
+      .post-link img { width: 100%; height: auto; display: block; aspect-ratio: 16/9; object-fit: cover; }
+      .post-link:hover {
         color: #7dd3fc !important;
       }
-      body.page-dark .post-link:hover h3 {
+      .post-link:hover h3 {
         color: #7dd3fc !important;
       }
-      body.page-dark .post-link h3 {
+      .post-link h3 {
         margin: .6rem 0.75rem .3rem;
         font-size: 0.95rem;
         line-height: 1.4;
         color: #cbd5e1 !important;
       }
-      body.page-dark .meta {
+      .meta {
         margin: 0 0.75rem 0.75rem;
         color: #94a3b8;
         font-size: .85rem;
-      }
-
-      @media (max-width: 600px) {
-        body.page-dark main {
-          padding: 1rem;
-        }
-        body.page-dark .post-content {
-          padding: 1.25rem;
-        }
       }
     </style>
   </body>

@@ -39,8 +39,8 @@ const today = new Date();
 	footer {
 		padding: 2em 1em 6em 1em;
 		background: linear-gradient(var(--gray-gradient)) no-repeat;
-		color: rgb(var(--gray));
-		text-align: center;
+		color: #374151;
+		text-align: center !important;
 	}
 	.social-links {
 		display: flex;
@@ -50,10 +50,10 @@ const today = new Date();
 	}
 	.social-links a {
 		text-decoration: none;
-		color: rgb(var(--gray));
+		color: #374151;
 	}
 	.social-links a:hover {
-		color: rgb(var(--gray-dark));
+		color: #111827;
 	}
 	.pillar-links {
 		display: flex;
@@ -63,16 +63,21 @@ const today = new Date();
 		flex-wrap: wrap;
 	}
 	.pillar-links a {
-		color: rgb(var(--gray));
+		color: #374151;
 		text-decoration: none;
 		font-weight: 500;
 	}
 	.pillar-links a:hover {
-		color: rgb(var(--gray-dark));
+		color: #111827;
 		text-decoration: underline;
 	}
 	.copyright {
 		margin-top: 1.5em;
 		font-size: 0.9em;
+		text-align: center !important;
+		text-align-last: center !important;
+		color: #374151;
+		display: block;
+		width: 100%;
 	}
 </style>

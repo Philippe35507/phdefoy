@@ -13,11 +13,13 @@ import Layout from '../../layouts/BlogPost.astro';
 >
 
   <h2></h2>
-  <p class="intro">
-    Disponibles sur Amazon :
-  </p>
-  
-   <div class="books">
+
+  <div class="page-container">
+    <p class="intro">
+      Disponibles sur Amazon :
+    </p>
+
+    <div class="books">
     <div class="book">
       <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/">
         <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
@@ -96,10 +98,32 @@ import Layout from '../../layouts/BlogPost.astro';
     <p>Avancez à votre rythme. Le russe demande du temps, l'espagnol beaucoup moins, mais chaque petite étape compte.</p>
     <p class="signature">Bon apprentissage !</p>
   </section>
+  </div>
 </Layout>
 
 <style>
   /* Styles spécifiques à cette page */
+
+  /* Élargir le conteneur principal comme sur Livres */
+  :global(.post-content) {
+    max-width: 900px !important;
+    margin: 0 auto !important;
+    padding: 2rem !important;
+  }
+
+  :global(.post-content .prose) {
+    max-width: 100% !important;
+  }
+
+  /* Container principal */
+  .page-container {
+    background: rgba(30, 41, 59, 0.4);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 2rem;
+    margin-top: 1rem;
+  }
 
   /* Réduire l'espace autour du titre */
   :global(.prose .title) {
