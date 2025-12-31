@@ -119,17 +119,21 @@ Michel Románov ne figure pas parmi les grands noms de l'histoire russe. Il n'a 
   .book p {
     text-align: center;
   }
-  .book-cover { 
-    width: 100%; 
-    height: auto; 
-    border-radius: 3px; 
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15); 
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  .book-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
     cursor: pointer;
   }
-  .book-cover:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+  @media (hover: hover) {
+    .book-cover {
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .book-cover:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+    }
   }
   .book-title {
     font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
