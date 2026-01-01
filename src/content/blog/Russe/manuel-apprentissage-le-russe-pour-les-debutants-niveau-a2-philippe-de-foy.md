@@ -3,7 +3,7 @@ title: "Manuel Russe A2 : Maîtriser les Cas Grammaticaux"
 description: "Manuel de russe niveau A2 avec 18 leçons pour maîtriser les 6 cas grammaticaux. Grammaire détaillée (déclinaisons, aspects verbaux), vocabulaire essentiel, exercices corrigés."
 pubDate: "dec 7 2025"
 heroImageLink: "https://www.amazon.com/dp/B0G5MVCT7B"
-heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy.png" 
+heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-auteur-philippe-de-foy.png" 
 tags: ["Russe"]
 ---
 

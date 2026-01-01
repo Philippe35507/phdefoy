@@ -74,7 +74,7 @@ Aujourd'hui encore, des communautés de vieux-croyants subsistent en Russie, en 
   <div class="books">
      <div class="book">
       <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/">
-        <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
+        <img src="/images/russe/apprendre-le-russe-pour-les-debutants.png"
              alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
              class="book-cover" />
       </a>

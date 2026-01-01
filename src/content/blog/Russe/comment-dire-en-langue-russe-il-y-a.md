@@ -2,7 +2,7 @@
 title: "Comment traduire « il y a » en Russe "
 description: "Quand on débute en russe, on cherche instinctivement l'équivalent du français « il y a ». Et naturellement, le mot **есть** vient à l'esprit"
 pubDate: "nov 30 2025"
-heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy.png" 
+heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-auteur-philippe-de-foy.png" 
 tags: ["Russe"]
 ---
 

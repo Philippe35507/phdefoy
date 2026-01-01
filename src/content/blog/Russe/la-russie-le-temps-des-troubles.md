@@ -2,7 +2,7 @@
 title: "Le Temps des Troubles en Russie (1598-1613) : Faux tsars, famine et invasions"
 description: "Découvrez le Temps des Troubles, la période où la Russie faillit disparaître entre 1598 et 1613 : trois faux tsars, occupation polonaise du Kremlin, famine catastrophique et résistance nationale."
 pubDate: "2025 12 23"
-heroImage: "/images/russe/La-Russie-connaît-le-Temps-des-Troubles-мýтное-врéмя.png" 
+heroImage: "/images/russe/la-russie-connait-le-temps-des-troubles.png" 
 tags: ["Russe"]
 ---
 
@@ -86,7 +86,7 @@ Le Temps des Troubles laisse dans la mémoire collective russe une terreur durab
   <div class="books">
      <div class="book">
       <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/">
-        <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
+        <img src="/images/russe/apprendre-le-russe-pour-les-debutants.png"
              alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
              class="book-cover" />
       </a>

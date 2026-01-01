@@ -2,7 +2,7 @@
 title: "Les Misérables : Victor Hugo et l'épopée de la rédemption sociale"
 description: "Une oeuvre titanesque de Victor Hugo : écrire le roman du peuple, celui des déshérités, des exclus, de tous ceux que la société du XIXe siècle rejette dans l'ombre."
 pubDate: "Sep 13 2025"
-heroImage: "/images/ia/les-misérables-victor-hugo-épopée-de-la-rédemption-sociale/les-misérables-victor-hugo-épopée-de-la-rédemption-sociale.png"
+heroImage: "/images/ia/les-miserables-victor-hugo-epopee-de-la-redemption-sociale/les-miserables-victor-hugo-epopee-de-la-redemption-sociale.png"
 heroImageAlt: "Illustration du roman Les Misérables de Victor Hugo"
 tags: ["Livres"]
 relatedArticles:
@@ -91,7 +91,7 @@ L'aspect novateur de l'écriure reste cette capacité à adapter le style au per
 
 Ce qui est intéressant dans cette technique, c'est la façon dont elle sert le projet social du romancier. En donnant une voix littéraire aux exclus, en transcrivant leurs parlers populaires, Victor Hugo accomplit une révolution esthétique qui double la révolution politique prônée dans le roman.
 
-![Les-misérables-de-Victor-Hugo](/images/ia/les-misérables-de-victor-hugo-javert/les-misérables-de-victor-hugo-javert.png) 
+![Les-misérables-de-Victor-Hugo](/images/ia/les-miserables-de-victor-hugo-javert/les-miserables-de-victor-hugo-javert.png) 
 
 ### L'art de la métaphore
 

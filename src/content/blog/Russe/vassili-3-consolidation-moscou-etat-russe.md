@@ -2,7 +2,7 @@
 title: "Vassili III de Moscou (1505-1533) : le prince qui transforma une principauté en État"
 description: "Comment Vassili III transforma la principauté de Moscou en État russe entre 1462 et 1547 et posa les fondations de l'Enmpire russe."
 pubDate: "dec 21 2025"
-heroImage: "/images/russe/Portrait-du-prince-vassili-3.png" 
+heroImage: "/images/russe/portrait-du-prince-vassili-3.png" 
 heroImageAlt: "Vassili 3 Portrait."
 tags: ["Russe"]
 ---

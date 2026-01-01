@@ -3,7 +3,7 @@ title: "Cas Datif Singulier en Russe : Objet Indirect et Destinataire (A2)"
 description: "Cas datif russe : le cas de l'objet indirect et du destinataire, verbes principaux, expression de l'âge. Cours détaillé avec tableaux, exemples, exercices A2."
 pubDate: "dec 16 2025"
 heroImageLink: "https://www.amazon.com/dp/B0G5MVCT7B"
-heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy.png" 
+heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-auteur-philippe-de-foy.png" 
 tags: ["Russe"]
 ---
 

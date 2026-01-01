@@ -2,7 +2,7 @@
 title: "La révolte de Stenka Razine (1670-1671) sur la Volga"
 description: "Comment le cosaque Stenka Razine embrasa la Volga en 1670 et défia le tsar Alexis avant d'être écartelé en 1671. La grande jacquerie russe."
 pubDate: "dec 26 2025"
-heroImage: "/images/russe/la-révolte-de-stenka-razine-sur-la-volga.png" 
+heroImage: "/images/russe/la-revolte-de-stenka-razine-sur-la-volga.png" 
 tags: ["Russe"]
 ---
 
@@ -83,7 +83,7 @@ Pourtant, dans la mémoire populaire, 1670 reste l'année où des dizaines de mi
   <div class="books">
      <div class="book">
       <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/">
-        <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
+        <img src="/images/russe/apprendre-le-russe-pour-les-debutants.png"
              alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
              class="book-cover" />
       </a>

@@ -2,7 +2,7 @@
 title: "Alexis Ier le Très-Paisible : l'expansion russe (1645-1676)"
 description: "Comment le tsar Très-Paisible Alexis Ier a conquis la Sibérie et affronté la Pologne pendant 30 ans. L'expansion de la Russie au XVIIe siècle."
 pubDate: "dec 24 2025"
-heroImage: "/images/russe/Alexis-Ier-campagne-de-sibérie.png" 
+heroImage: "/images/russe/alexis-ier-campagne-de-siberie.png" 
 tags: ["Russe"]
 ---
 
@@ -17,7 +17,7 @@ Le mot russe Tichaïchi (Тиша́йший) signifie littéralement « le plus 
 
 Le 13 juillet 1645, Alexis Mikhaïlovitch devient tsar à la mort de son père. Il n'a que seize ans. Autour de lui, une cour divisée entre boyards (nobles traditionnels) et hommes nouveaux cherche à s'emparer du pouvoir. Le jeune souverain choisit comme mentor Boris Ivanovitch Morozov (Бори́с Ива́нович Морóзов), un boyard cultivé qui domine les premières années du règne. Morózov lance immédiatement des réformes fiscales pour renflouer les caisses épuisées par les décennies de guerre civile. Il augmente les taxes sur le sel, denrée essentielle pour conserver les aliments dans un pays aux hivers rigoureux. En 1648, la colère éclate. À Moscou, une foule envahit le Kremlin, réclame la tête de Morózov et de ses alliés. Les émeutiers incendient des quartiers entiers de la capitale. Alexis doit livrer plusieurs de ses conseillers à la fureur populaire pour sauver Morózov, qu'il exile discrètement.
 
-Cette crise révèle la fragilité du pouvoir tsariste. Pour apaiser tensions et contestations, Alexis convoque en 1648 un [Zemski sobor](/zemski-sobor-assemblée-de-la-terre-russie/) (Земский собóр), une assemblée consultative qui réunit représentants de la noblesse, du clergé, des marchands et même de certaines villes. L'objectif : élaborer un nouveau code des lois. En janvier 1649, le Sobornoïé ouloжénie (Собóрное уложéние) est promulgué. Ce texte de près de mille articles fixe pour deux siècles les structures juridiques de l'empire. Il codifie surtout le servage : désormais, les paysans sont définitivement attachés à la terre et à leur seigneur. Les fugitifs peuvent être recherchés sans limite de temps. Le code fige la société russe dans une hiérarchie rigide, mais donne au tsar les outils légaux pour gouverner son immense territoire.
+Cette crise révèle la fragilité du pouvoir tsariste. Pour apaiser tensions et contestations, Alexis convoque en 1648 un [Zemski sobor](/zemski-sobor-assemblee-de-la-terre-russie/) (Земский собóр), une assemblée consultative qui réunit représentants de la noblesse, du clergé, des marchands et même de certaines villes. L'objectif : élaborer un nouveau code des lois. En janvier 1649, le Sobornoïé ouloжénie (Собóрное уложéние) est promulgué. Ce texte de près de mille articles fixe pour deux siècles les structures juridiques de l'empire. Il codifie surtout le servage : désormais, les paysans sont définitivement attachés à la terre et à leur seigneur. Les fugitifs peuvent être recherchés sans limite de temps. Le code fige la société russe dans une hiérarchie rigide, mais donne au tsar les outils légaux pour gouverner son immense territoire.
 
 ## La marche vers l'Est : conquérir la Sibérie
 

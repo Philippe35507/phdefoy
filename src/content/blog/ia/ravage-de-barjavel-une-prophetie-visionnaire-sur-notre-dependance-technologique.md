@@ -2,7 +2,7 @@
 title: "Ravage de Barjavel : Une prophétie visionnaire sur notre dépendance technologique"
 description: "Découvrez comment ce roman dystopique de 1943 anticipe nos préoccupations actuelles sur la fragilité de notre civilisation hyperconnectée."
 pubDate: "2025-08-03"
-heroImage: "/images/ia/2025-03-08-rené-barjavel-ravage-dependance-technologique-hero/2025-03-08-rené-barjavel-ravage-dependance-technologique-hero.png"
+heroImage: "/images/ia/2025-03-08-rene-barjavel-ravage-dependance-technologique-hero/2025-03-08-rene-barjavel-ravage-dependance-technologique-hero.png"
 heroImageAlt: "Illustration: Ravage de Barjavel : Une prophétie visionnaire sur notre dépendance technologique"
 tags: ["Livres"]
 relatedArticles:
@@ -39,7 +39,7 @@ Pour comprendre pleinement "Ravage", il est crucial de le replacer dans son cont
 
 Cependant, réduire "Ravage" à une simple œuvre de propagande serait une erreur. Barjavel transcende le contexte immédiat pour livrer une réflexion universelle sur la relation entre l'homme, la nature et la technologie. Son œuvre s'inscrit davantage dans la tradition des grands récits d'anticipation, aux côtés de ceux de Jules Verne ou H.G. Wells, qu'elle ne se cantonne à l'idéologie d'un moment.
 
-![Illustration: Ravage de Barjavel : Une prophétie visionnaire sur notre dépendance technologique](/images/ia/2025-03-08-rené-barjavel-ravage-dependance-technologique-inline/2025-03-08-rené-barjavel-ravage-dependance-technologique-inline.png)
+![Illustration: Ravage de Barjavel : Une prophétie visionnaire sur notre dépendance technologique](/images/ia/2025-03-08-rene-barjavel-ravage-dependance-technologique-inline/2025-03-08-rene-barjavel-ravage-dependance-technologique-inline.png)
 
 ## Une résonance troublante avec notre époque
 

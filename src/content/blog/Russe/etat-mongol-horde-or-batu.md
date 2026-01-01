@@ -2,7 +2,7 @@
 title: "La Horde d'or : l'Etat Mongol qui façonna la Russie"
 description: "De 1240 à 1480, la Horde d'or impose son joug aux princes russes. Yarlyk, tribut, bataille de Koulikovo : l'histoire de l'empire mongol qui façonna la Russie."
 pubDate: "dec 21 2025"
-heroImage: "/images/russe/Yourte-palatiale-sur-chariot-guerriers-mongols.png" 
+heroImage: "/images/russe/yourte-palatiale-sur-chariot-guerriers-mongols.png" 
 heroImageAlt: "La Horde d'Or - Yourte sur un chariot."
 tags: ["Russe"]
 ---
@@ -48,7 +48,7 @@ Le plus convoité de tous les yarlyk est celui de grand-prince de Vladimir, qui 
 
 Le tribut, lui, ponctue la vie quotidienne. Les Mongols imposent le выход (sortie), une taxe annuelle prélevée sur l'ensemble de la population. Au début, des collecteurs mongols, les баска́ки (baskaks), parcourent les terres russes pour recenser les habitants et lever l'impôt. Leur arrogance provoque des révoltes, comme celle de Rostov (Росто́в) en 1262. Progressivement, les khans confient cette tâche ingrate aux princes russes eux-mêmes, qui deviennent les collecteurs du tribut mongol. Cette délégation enrichit les princes les plus efficaces, notamment Moscou, qui prélève sa commission au passage et accumule ainsi les ressources pour sa future ascension.
 
-![Guerriers Mongols à Cheval au galop](/images/russe/Guerriers-mongols-chevaux-au-galop.png)
+![Guerriers Mongols à Cheval au galop](/images/russe/guerriers-mongols-chevaux-au-galop.png)
 
 ## La conversion à l'Islam et l'apogée culturelle
 
@@ -95,7 +95,7 @@ Ce qui reste indiscutable, c'est que sans la période de la Horde d'or, la Russi
   <div class="books">
      <div class="book">
       <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/">
-        <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
+        <img src="/images/russe/apprendre-le-russe-pour-les-debutants.png"
              alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
              class="book-cover" />
       </a>

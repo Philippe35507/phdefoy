@@ -1,0 +1,10 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "public/images/.*\\.(png|jpg|jpeg|webp|avif|gif|svg)$",
+        "cmd": "npx tsx scripts/validate-image-names.ts"
+      }
+    ]
+  }
+}

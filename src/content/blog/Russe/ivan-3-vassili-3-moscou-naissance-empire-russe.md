@@ -2,7 +2,7 @@
 title: "De vassal mongol à empire russe : Ivan III et la naissance de Moscou"
 description: "Comment Ivan III et Vassili III transforment la principauté de Moscou en État russe entre 1462 et 1547 : fin du joug mongol, annexions et naissance de l'autocratie."
 pubDate: "dec 22 2025"
-heroImage: "/images/russe/Ivan-3-devant-église-orthodoxe-moscou.png" 
+heroImage: "/images/russe/ivan-3-devant-eglise-orthodoxe-moscou.png" 
 heroImageAlt: "Ivan 3 devant église orthodoxe."
 tags: ["Russe"]
 ---
@@ -26,7 +26,7 @@ L'affrontement se prépare sur les rives de la rivière Ougra (река́ Угр
 
 Mais la bataille n'a pas lieu. Le 11 novembre 1480, après des escarmouches sans conséquence, Akhmat ordonne la retraite. Les raisons restent débattues : l'hiver précoce, la menace d'une attaque tatare rivale sur ses arrières, l'absence de fourrage pour la cavalerie mongole. Toujours est-il que la Horde se retire. L'année suivante, Akhmat est assassiné par un rival. Le « joug mongol » (монго́льское и́го), comme l'appelleront plus tard les historiens russes, prend fin non dans un fracas de bataille mais dans un face-à-face où personne ne cligna des yeux.
 
-![Guerriers Mongols à Cheval au galop](/images/russe/Guerriers-mongols-chevaux-au-galop.png)
+![Guerriers Mongols à Cheval au galop](/images/russe/guerriers-mongols-chevaux-au-galop.png)
 
 ## L'avaleur de principautés (1478-1485)
 
@@ -72,7 +72,7 @@ Le jeune tsar Ivan IV hérite d'un appareil de pouvoir sans précédent dans l'h
   <div class="books">
      <div class="book">
       <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/">
-        <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
+        <img src="/images/russe/apprendre-le-russe-pour-les-debutants.png"
              alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
              class="book-cover" />
       </a>

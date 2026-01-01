@@ -3,7 +3,7 @@ title: "Cas locatif (prépositionnel) en Russe : guide complet"
 description: "Cas locatif russe : terminaisons et prépositions de localisation, usage du prépositionnel. Cours complet avec tableaux, exemples, exercices corrigés niveau A1-A2."
 pubDate: "Dec 12 2025"
 heroImageLink: "https://www.amazon.com/dp/B0G5MVCT7B"
-heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy.png" 
+heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-auteur-philippe-de-foy.png" 
 tags: ["Russe"]
 ---
 
@@ -340,7 +340,7 @@ Que vous décriviez où vous vous trouvez, ce à quoi vous pensez, ou que vous s
   <div class="books">
      <div class="book">
       <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/">
-        <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
+        <img src="/images/russe/apprendre-le-russe-pour-les-debutants.png"
              alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
              class="book-cover" />
       </a>

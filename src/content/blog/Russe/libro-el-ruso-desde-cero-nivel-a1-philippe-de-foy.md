@@ -2,7 +2,7 @@
 title: "Descubre El Ruso Desde Cero A1: tu Puerta de Entrada al Idioma Ruso"
 description: "Aprende ruso fácilmente con un método claro y progresivo para principiantes absolutos. Recursos, cursos y consejos para quienes empiezan con motivación."
 pubDate: "Oct 17 2025"
-heroImage: "/images/russe/Libro-el-ruso-desde-cero-nivel-a1-philippe-de-foy.png"
+heroImage: "/images/russe/libro-el-ruso-desde-cero-nivel-a1-philippe-de-foy.png"
 heroImageLink: "https://www.amazon.es/dp/B0FWJYJVMV"
 tags: ["Russe"]
 ---
@@ -76,7 +76,7 @@ Al final del libro encontrarás anexos indispensables:
 
 Estos anexos son recursos que consultarás una y otra vez durante tu aprendizaje.
 
-[![libro el Ruso desde cero - Philippe de foy](/images/russe/Libro-el-ruso-desde-cero-nivel-a1-philippe-de-foy.png)](https://www.amazon.es/dp/B0FWJYJVMV)
+[![libro el Ruso desde cero - Philippe de foy](/images/russe/libro-el-ruso-desde-cero-nivel-a1-philippe-de-foy.png)](https://www.amazon.es/dp/B0FWJYJVMV)
 
 
 ## ¿Para Quién Es Este Libro?
@@ -125,4 +125,4 @@ Juntos, haremos que el ruso deje de ser ese idioma misterioso e inalcanzable par
 Autor de "El Ruso Desde Cero - Nivel A1"
 No olvides [visitar la pagina para acceder al audio gratuito](/descargas/) que acompaña al libro. ¡Es un recurso esencial para perfeccionar tu pronunciación!*
 
-[![libro el Ruso desde cero - Philippe de foy](/images/russe/Libro-el-ruso-desde-cero-nivel-a1-philippe-de-foy.png)](https://www.amazon.es/dp/B0FWJYJVMV)
+[![libro el Ruso desde cero - Philippe de foy](/images/russe/libro-el-ruso-desde-cero-nivel-a1-philippe-de-foy.png)](https://www.amazon.es/dp/B0FWJYJVMV)

@@ -2,7 +2,7 @@
 title: "Alexandre Nevski : Le prince qui sauva l'Orthodoxie en s'alliant aux Mongols"
 description: "Alexandre Iaroslavitch naît en 1221 dans une petite ville à cent kilomètres au nord-est de Moscou. Il grandit dans un monde qui se fissure : la Rus' kiévienne, autrefois puissante et unie, se fragmente en principautés rivales."
 pubDate: "2025 12 20"
-heroImage: "/images/russe/alexandre-nevski-bataille-contre-les-suédois.png" 
+heroImage: "/images/russe/alexandre-nevski-bataille-contre-les-suedois.png" 
 tags: ["Russe"]
 ---
 
@@ -35,7 +35,7 @@ Le calcul d'Alexandre est clair. Les Mongols veulent de l'argent, pas des âmes.
 
 En 1257, les Mongols ordonnent un recensement à Novgorod pour établir l'impôt. La ville, fière de ses libertés, se révolte. Alexandre vient personnellement mater l'insurrection. Il fait crever les yeux aux meneurs, coupe le nez à d'autres. La brutalité est calculée : mieux vaut punir quelques rebelles que laisser les Mongols raser la ville entière. Novgorod paie le tribut. La ville survit.
 
-![SaintAlexandre Nevski](/images/russe/Saint-Alexandre-Nevski-mosaïque-cathédrale-sofia.jpg)
+![Saint Alexandre Nevski](/images/russe/saint-alexandre-nevski-mosaique-cathedrale-sofia.jpg)
 
 ## Le grand-prince de Vladimir : gérer l'occupation
 

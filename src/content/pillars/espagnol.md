@@ -9,7 +9,7 @@ La bonne nouvelle ? En tant que francophone, vous partez avec un **avantage cons
 <div class="books">
    <div class="book">
       <a href="/l-espagnol-pour-les-debutants-niveau-a1-philippe-de-foy/">
-        <img src="/images/esp/EspagnolA1.jpg"
+        <img src="/images/esp/espagnol-a1.jpg"
              alt="Couverture du livre L'Espagnol pour les Débutants Niveau A1 - Philippe de Foy"
              class="book-cover" />
       </a>

@@ -2,7 +2,7 @@
 title: "Apprendre à parler de son âge en espagnol : une étape clé pour se présenter"
 description: "Demander l'âge de quelqu'un ou parler de sa fratrie fait partie des premières informations que l'on échange lors d'une rencontre. Ces questions permettent de briser la glace et de créer un lien plus personnel."
 pubDate: "07 octobre 2025"
-heroImage: "/images/esp/EspagnolA1.jpg"
+heroImage: "/images/esp/espagnol-a1.jpg"
 heroImageLink: "https://www.amazon.fr/dp/B0FLPSRTBB"
 heroImageAlt: "Couverture d'un livre d'apprentissage de l'espagnol A1 représentant une danseuse de Flamenco."
 tags: ["Espagnol"]

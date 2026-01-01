@@ -2,7 +2,7 @@
 title: "Apprendre l'Espagnol et le Russe : Méthodes Efficaces et Livres pour Francophones"
 description: "Apprendre le russe et l'espagnol avec Philippe de Foy : méthodes complètes A1-B2, grammaire détaillée, déclinaisons russes, exercices corrigés. Ressources gratuites et manuels."
 pubDate: "Sep 01 2025"
-heroImage: "/images/russe/Apprendre-le-russe-pour-les-débutants.png"
+heroImage: "/images/russe/apprendre-le-russe-pour-les-debutants.png"
 ---
 
 # Apprendre le Russe et l'Espagnol : Méthodes Complètes pour Francophones
@@ -96,7 +96,7 @@ Que vous choisissiez **l'apprentissage de l'espagnol** ou du **russe**, le succ�
 **¿Está listo?** (Êtes-vous prêt ?)  
 **Вы гото́вы?** (Êtes-vous prêts ?)
 
-![Lettres russes](/images/russe/Apprendre-le-russe-philippe-de-foy.jpg)
+![Lettres russes](/images/russe/apprendre-le-russe-philippe-de-foy.jpg)
 
 ### Rejoignez notre communauté d'apprenants
 

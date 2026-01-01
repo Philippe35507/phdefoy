@@ -3,7 +3,7 @@ title: "Cas Génitif Singulier en Russe : Possession, Négation et Quantité (A1
 description: "Cas génitif russe : le cas de la possession, négation et quantité, prépositions principales. Explications détaillées, tableaux de déclinaison, exercices corrigés A1-A2."
 pubDate: "dec 15 2025"
 heroImageLink: "https://www.amazon.com/dp/B0G5MVCT7B"
-heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy.png" 
+heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-auteur-philippe-de-foy.png" 
 tags: ["Russe"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Zemski sobor : l'assemblée qui conseillait les tsars russes"
 description: "Histoire du Zemski sobor, assemblée consultative russe (XVIe-XVIIe). D'Ivan IV à Pierre le Grand : quand l'autocratie russe consultait ses sujets."
 pubDate: "dec 24 2025"
-heroImage: "/images/russe/zemski-sobor-assemblée-de-la-terre.png" 
+heroImage: "/images/russe/zemski-sobor-assemblee-de-la-terre.png" 
 heroImageAlt: "Zemski sobor."
 tags: ["Russe"]
 ---

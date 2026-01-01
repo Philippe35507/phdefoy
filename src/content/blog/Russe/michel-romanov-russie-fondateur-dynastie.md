@@ -2,7 +2,7 @@
 title: "Le Tsar Michel Romanov (1613) : le fondateur d'une dynastie de trois siècles"
 description: "En 1613, un adolescent de 16 ans devient tsar et fonde la dynastie Romanov qui régnera jusqu'en 1917. Michel Romanov refuse d'abord la couronne en 1613. Pourtant, ce jeune tsar fonde une dynastie qui gouvernera la Russie pendant 304 ans."
 pubDate: "2025 12 23"
-heroImage: "/images/russe/Le-Tsar-Michel-Romanov.png" 
+heroImage: "/images/russe/le-tsar-michel-romanov.png" 
 tags: ["Russe"]
 ---
 
@@ -84,7 +84,7 @@ Michel Románov ne figure pas parmi les grands noms de l'histoire russe. Il n'a 
   <div class="books">
      <div class="book">
       <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/">
-        <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
+        <img src="/images/russe/apprendre-le-russe-pour-les-debutants.png"
              alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
              class="book-cover" />
       </a>

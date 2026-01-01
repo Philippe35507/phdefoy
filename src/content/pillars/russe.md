@@ -7,7 +7,7 @@ Le russe peut sembler complexe avec son **alphabet cyrillique** et sa **grammair
   <div class="books">
      <div class="book">
       <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/">
-        <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
+        <img src="/images/russe/apprendre-le-russe-pour-les-debutants.png"
              alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
              class="book-cover" />
       </a>
@@ -285,7 +285,7 @@ L'apprentissage d'une langue ne se limite pas à la grammaire. Découvrez l'hist
 - [La révolte de Stenka Razine (1670-1671) sur la Volga](/revolte-stenka-razine-sur-la-volga-russie/)
 
 ### Institutions Russes
-- [Zemski sobor : l'assemblée qui conseillait les tsars russes](/zemski-sobor-assemblée-de-la-terre-russie/)
+- [Zemski sobor : l'assemblée qui conseillait les tsars russes](/zemski-sobor-assemblee-de-la-terre-russie/)
 
 ### Littérature Russe Classique
 - [La Guerre et la Paix de Léon Tolstoï : Fresque monumentale entre destins individuels et tourmente historique](/la-guerre-et-la-paix-de-leon-tolstoi-fresque-monumentale-entre-destins-individuels-et-tourmente-historique/)

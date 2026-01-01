@@ -3,7 +3,7 @@ title: "Alphabet cyrillique russe : guide pour débutants"
 description: "Apprenez à maîtriser l'alphabet cyrillique russe grâce à ce guide complet, avec prononciation, règles d’accent et exemples pratiques pour débutants."
 pubDate: "Sep 20 2025"
 heroImageLink: "https://www.amazon.com/dp/B0FTG1N8W3"
-heroImage: "/images/russe/Apprendre-le-russe-pour-les-débutants.png"
+heroImage: "/images/russe/apprendre-le-russe-pour-les-debutants.png"
 tags: ["Russe"]
 ---
 
@@ -458,7 +458,7 @@ Alphabet russe complet (33 lettres) : А Б В Г Д Е Ё Ж З И Й К Л М 
   <div class="books">
      <div class="book">
       <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/">
-        <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
+        <img src="/images/russe/apprendre-le-russe-pour-les-debutants.png"
              alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
              class="book-cover" />
       </a>

@@ -2,7 +2,7 @@
 title: "Des Vikings aux Mongols : L'épopée de la Rus' médiévale"
 description: "Au IXe siècle, sur les immenses plaines de l'Est européen, naît un État qui va rayonner pendant quatre siècles : la Rus. Puis, au XIIIe siècle, l'invasion mongole transforme profondément cette civilisation."
 pubDate: "dec 20 2025"
-heroImage: "/images/russe/Guerriers-mongols-chevaux-au-galop.png" 
+heroImage: "/images/russe/guerriers-mongols-chevaux-au-galop.png" 
 heroImageAlt: "Un guerrier Mongol."
 tags: ["Russe"]
 ---
@@ -93,7 +93,7 @@ En 1480, Ivan III, surnommé « le Grand », met fin à plus de deux siècles de
   <div class="books">
      <div class="book">
       <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/">
-        <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
+        <img src="/images/russe/apprendre-le-russe-pour-les-debutants.png"
              alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
              class="book-cover" />
       </a>

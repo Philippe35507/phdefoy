@@ -2,7 +2,7 @@
 title: "Polybe : l'otage grec qui a percé les secrets de Rome"
 description: "En 168 avant J.-C., un aristocrate grec nommé Polybe est emmené à Rome comme otage politique. Cette captivité dorée va transformer sa vie et changer notre compréhension du pouvoir."
 pubDate: "Aug 07 2025"
-heroImage: "/images/polybe/Polybe_anacyclose.png"
+heroImage: "/images/polybe/polybe-anacyclose.png"
 heroImageLink: "https://www.amazon.fr/dp/B0FHHSZCD9"
 heroImageAlt: "Illustration du cycle politique selon Polybe"
 tags: ["Livres"]
@@ -31,7 +31,7 @@ Ce qui révolutionne l'historiographie antique, c'est la méthode de Polybe. Con
 
 
 
-![Hannibal](/images/polybe/Hannibal_Élephants_de_guerre.png)
+![Hannibal](/images/polybe/hannibal-elephants-de-guerre.png)
 
 
 
@@ -46,7 +46,7 @@ Selon Polybe, tous les régimes politiques suivent un cycle fatal en six étapes
 Pour Polybe, "chaque forme particulière de gouvernement a naturellement en elle certain défaut qui devient la cause de sa ruine". L'ochlocratie représente le point le plus bas du cycle : corruption généralisée, violence, pillage des biens privés. Jusqu'à ce qu'un homme providentiel émerge pour rétablir l'ordre monarchique, et le cycle recommence.
 Face à cette fatalité, Polybe identifie une exception remarquable : Rome. La République romaine a réussi à échapper au cycle destructeur grâce à sa constitution mixte, qui combine harmonieusement les trois formes pures de gouvernement. Les consuls incarnent l'élément monarchique par leur autorité exécutive et militaire. Le Sénat représente l'élément aristocratique avec sa sagesse accumulée et son rôle consultatif. Les comices populaires constituent l'élément démocratique par leur pouvoir législatif et judiciaire.
 
-![Rome_antique](/images/polybe/Rome_antique.png) 
+![Rome antique](/images/polybe/rome-antique.png) 
 
 Cette architecture institutionnelle crée un système d'équilibres et de contre-pouvoirs. Aucune institution ne peut imposer sa volonté aux autres. Les consuls ont besoin du Sénat pour leurs décisions importantes et du peuple pour leurs lois. Le Sénat contrôle les finances mais dépend des magistrats pour l'exécution. Le peuple vote les lois mais ne peut gouverner sans les élites.
 Polybe y voit le secret de la stabilité romaine. Quand d'autres cités grecques s'épuisent dans leurs révolutions cycliques, Rome maintient sa cohésion interne tout en conquérant le monde. La constitution mixte agit comme un vaccin contre la dégénérescence politique : chaque élément surveille et tempère les excès des autres.
@@ -95,7 +95,7 @@ Polybe identifie avec une lucidité remarquable les dangers qui guettent toute p
 L'historien achéen comprend qu'une hégémonie ne se maintient pas seulement par la force, mais par la capacité à susciter l'adhésion. Il analyse "l'attitude de Rome dans la conquête, puis dans l'hégémonie, qui, en absence de magnanimité, bienveillance envers le vaincu, mais aussi désintéressement, peut présenter un risque".
 Ces réflexions sur les conditions de durabilité d'une hégémonie trouvent un écho troublant dans les débats contemporains sur l'exercice de la puissance américaine, la montée de la Chine, ou les stratégies d'influence des grandes puissances.
 
-![Elephant](/images/polybe/Polybe-Histoire-Cover.jpg)
+![Couverture Polybe](/images/polybe/polybe-histoire-cover.jpg)
 
 ### L'objectivité analytique
 
@@ -125,4 +125,4 @@ Polybe ne nous livre pas seulement une histoire de Rome : il forge les outils co
 Dans un monde où les équilibres géopolitiques se recomposent sans cesse, où les démocraties questionnent leurs propres fondements, où de nouvelles hégémonies émergent, Polybe reste un guide précieux. Non pas comme oracle du futur, mais comme analyste des mécanismes permanents du pouvoir.
 Car au-delà de ses théories, c'est peut-être sa méthode qui constitue son legs le plus précieux : observer sans complaisance, analyser sans passion, comprendre les logiques profondes plutôt que de se contenter des apparences. En cela, Polybe de Mégalopolis demeure, plus de deux millénaires après sa mort, l'un des maîtres de la pensée politique.
 
-![Rome_antique](/images/polybe/Bataille_navale_entre_Romains_et_Carthaginois.png) 
+![Bataille navale](/images/polybe/bataille-navale-entre-romains-et-carthaginois.png) 

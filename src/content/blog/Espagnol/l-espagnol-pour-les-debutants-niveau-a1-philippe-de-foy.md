@@ -2,7 +2,7 @@
 title: "Découvrez l'espagnol avec notre cours A1 : votre première aventure hispanique !"
 description: "Méthode d'espagnol pour francophones : grammaire progressive A1, dialogues naturels, conjugaisons détaillées, vocabulaire thématique, exercices corrigés."
 pubDate: "Aug 11 2025"
-heroImage: "/images/esp/EspagnolA1.jpg"
+heroImage: "/images/esp/espagnol-a1.jpg"
 heroImageLink: "https://www.amazon.fr/dp/B0FLPSRTBB"
 heroImageAlt: "Couverture d'un livre d'apprentissage de l'espagnol A1 représentant une danseuse de Flamenco."
 tags: ["Espagnol"]
@@ -111,4 +111,4 @@ L'espagnol vous attend. Et nous, nous sommes là pour vous y accompagner, leçon
 **¿Preparado? ¡Empezamos!**
 
 
-![espagnol](/images/esp/EspagnolA1.jpg) 
+![espagnol](/images/esp/espagnol-a1.jpg) 

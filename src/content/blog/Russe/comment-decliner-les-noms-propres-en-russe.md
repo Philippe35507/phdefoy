@@ -2,7 +2,7 @@
 title: "Comment Décliner les Noms Propres en Russe "
 description: "Les noms propres russes suivent des règles de déclinaison précises qui peuvent sembler complexes au premier abord. Contrairement au français où les noms propres restent invariables, en russe ils changent selon leur fonction dans la phrase."
 pubDate: "dec 18 2025"
-heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy.png" 
+heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-auteur-philippe-de-foy.png" 
 tags: ["Russe"]
 ---
 

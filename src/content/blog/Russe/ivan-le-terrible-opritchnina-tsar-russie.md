@@ -2,7 +2,7 @@
 title: "Ivan le Terrible : l'Opritchnina, quand un génie réformateur sombre dans la terreur"
 description: "Comment Ivan IV transforme la Moscovie en tsarat moderne entre 1547 et 1584 ? De ses réformes brillantes au régime de terreur de l'Opritchnina : parcours du premier tsar de Russie."
 pubDate: "dec 22 2025"
-heroImage: "/images/russe/ivan-4-le-terrible-devant-son-armée.png" 
+heroImage: "/images/russe/ivan-4-le-terrible-devant-son-armee.png" 
 heroImageAlt: "Ivan-le-Terrible."
 tags: ["Russe"]
 ---
@@ -55,7 +55,7 @@ En janvier 1565, Ivan institue l'Opritchnina (Опри́чнина). Le terme, d
 
 Pour administrer et défendre ce domaine, Ivan recrute les opritchniki (опри́чники), qui deviendront tristement célèbres. Ces hommes, choisis initialement au nombre de mille puis portés à six mille, prêtent un serment terrible : renoncer à leurs liens familiaux, ne servir que le tsar, dénoncer toute conspiration. Ils portent un uniforme noir, attachent à leur selle une tête de chien et un balai – symboles de leur mission : mordre les ennemis du tsar et balayer la trahison.
 
-![Ivan Le Terrible](/images/russe/Ivan-le-Terrible-bataille.png)
+![Ivan Le Terrible](/images/russe/ivan-le-terrible-bataille.png)
 
 ## La terreur s'abat sur la Russie (1565-1572)
 
@@ -90,7 +90,7 @@ Ivan IV a effectivement créé l'autocratie moscovite moderne. Mais il l'a fond�
   <div class="books">
      <div class="book">
       <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/">
-        <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
+        <img src="/images/russe/apprendre-le-russe-pour-les-debutants.png"
              alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
              class="book-cover" />
       </a>

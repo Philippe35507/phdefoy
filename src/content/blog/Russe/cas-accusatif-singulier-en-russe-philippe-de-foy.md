@@ -3,7 +3,7 @@ title: "L'Accusatif Singulier en Russe : Objet Direct et Mouvement (A1-A2)"
 description: "Cas accusatif russe : le cas de l'objet direct, distinction animé/inanimé, prépositions de mouvement. Cours complet avec tableaux de déclinaison, exercices A1-A2."
 pubDate: "dec 14 2025"
 heroImageLink: "https://www.amazon.com/dp/B0G5MVCT7B"
-heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-débutants-niveau-a2-auteur-philippe-de-foy.png" 
+heroImage: "/images/ia/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-auteur-philippe-de-foy/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-auteur-philippe-de-foy.png" 
 tags: ["Russe"]
 ---
 
@@ -410,7 +410,7 @@ N'oubliez pas : la clé pour maîtriser l'accusatif, c'est la **pratique réguli
   <div class="books">
      <div class="book">
       <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/">
-        <img src="/images/russe/Apprendre-le-russe-pour-les-débutants.png"
+        <img src="/images/russe/apprendre-le-russe-pour-les-debutants.png"
              alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
              class="book-cover" />
       </a>

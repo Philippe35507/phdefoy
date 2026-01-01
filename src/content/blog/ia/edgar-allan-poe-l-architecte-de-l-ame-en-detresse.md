@@ -2,7 +2,7 @@
 title: "Edgar Allan Poe : L'Architecte de l'Âme en Détresse"
 description: "Portrait passionné d'Edgar Allan Poe, génie littéraire qui révolutionna le fantastique et inventa le roman policier."
 pubDate: "Aug 03 2025"
-heroImage: "/images/poe/Edgar-Allan-Poe-Portait.png"
+heroImage: "/images/poe/edgar-allan-poe-portrait.png"
 heroImageAlt: "Présentation de la vie et des oeuvres de Edgar Allan Poe"
 tags: ["Livres"]
 relatedArticles:
