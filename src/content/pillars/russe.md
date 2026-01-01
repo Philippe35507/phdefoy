@@ -230,7 +230,7 @@ En russe, même les prénoms et noms de famille se déclinent selon les cas !
 ### Ressources Complémentaires Niveau A2
 
 **Grammaire avancée :**
-- [L'adjectif хороший en russe : guide complet de déclinaison](/adjectif-хороший-bon-en-russe-guide-complet-déclinaison/)
+- [L'adjectif хороший en russe : guide complet de déclinaison](/adjectif-bon-en-russe-guide-declinaison/)
 - [Comment traduire « il y a » en Russe](/comment-dire-en-langue-russe-il-y-a/)
 
 ---
