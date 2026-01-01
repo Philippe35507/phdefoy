@@ -622,7 +622,7 @@ Traduisez en russe :
   <div class="books">
     <div class="book">
       <a href="/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-philippe-de-foy/">
-        <img src="/images/russe/Manuel d'apprentissage Le Russe pour les Débutants - Niveau A2 - Auteur Philippe de Foy.png"
+        <img src="/images/russe/manuel-le-russe-pour-les-debutants-a2-philippe-de-foy.png"
              alt="Couverture du livre Le Russe pour les Débutants Niveau A2 - Philippe de Foy"
              class="book-cover" />
       </a>
