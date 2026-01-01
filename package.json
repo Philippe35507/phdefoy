@@ -9,8 +9,7 @@
     "astro": "astro",
     "add:seo": "tsx scripts/add-seo-slug.ts",
     "blog": "tsx src/data/scripts/generate-daily-fiction.ts && tsx scripts/optimize-images.ts",
-    "validate:images": "tsx scripts/validate-image-names.ts",
-    "prepare": "husky"
+    "validate:images": "tsx scripts/validate-image-names.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.61.0",
