@@ -266,7 +266,7 @@ Perfectionnez votre compréhension orale et votre prononciation avec nos dialogu
 L'apprentissage d'une langue ne se limite pas à la grammaire. Découvrez l'histoire fascinante de la Russie à travers nos articles :
 
 ### Histoire Médiévale
-- [Des Vikings aux Mongols : L'épopée de la Rus' médiévale](/la-rus-médiévale-fondation-invasion-mongole/)
+- [Des Vikings aux Mongols : L'épopée de la Rus' médiévale](/la-rus-medievale-fondation-invasion-mongole/)
 - [Alexandre Nevski : Le prince qui sauva l'Orthodoxie en s'alliant aux Mongols](/saint-alexandre-nevski-novgorod/)
 - [La Horde d'or : l'État Mongol qui façonna la Russie](/etat-mongol-horde-or-batu/)
 

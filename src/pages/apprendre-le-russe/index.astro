@@ -89,11 +89,20 @@ const posts = allPosts
       }
 
       .articles-container {
-        background: rgba(30, 41, 59, 0.4);
-        backdrop-filter: blur(10px);
+        background: rgba(30, 41, 59, 0.85);
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 16px;
         padding: 2rem;
+      }
+
+      /* backdrop-filter only on devices that support it well */
+      @supports (backdrop-filter: blur(10px)) {
+        @media (hover: hover) and (pointer: fine) {
+          .articles-container {
+            background: rgba(30, 41, 59, 0.4);
+            backdrop-filter: blur(10px);
+          }
+        }
       }
 
       .articles-section h2 {
@@ -118,8 +127,7 @@ const posts = allPosts
       }
 
       .post-item {
-        background: rgba(30, 41, 59, 0.6);
-        backdrop-filter: blur(10px);
+        background: rgba(30, 41, 59, 0.85);
         border: 1px solid rgba(255, 255, 255, 0.08);
         border-radius: 12px;
         overflow: hidden;
@@ -128,9 +136,20 @@ const posts = allPosts
                     border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
                     box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
       }
+
+      /* backdrop-filter only on desktop */
+      @supports (backdrop-filter: blur(10px)) {
+        @media (hover: hover) and (pointer: fine) {
+          .post-item {
+            background: rgba(30, 41, 59, 0.6);
+            backdrop-filter: blur(10px);
+          }
+        }
+      }
+
       .post-item:hover {
         transform: translateY(-4px);
-        background: rgba(30, 41, 59, 0.8);
+        background: rgba(30, 41, 59, 0.9);
         border-color: rgba(255, 255, 255, 0.2);
         box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
       }
