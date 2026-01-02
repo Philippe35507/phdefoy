@@ -242,12 +242,21 @@ body.blog .post-content :is(h1, h2, h3, h4, h5, h6) {
 
   /* COULEUR DE FOND article de blog - DARK MODE */
    body.blog .post-content {
-	background: rgba(30, 41, 59, 0.6);
-	backdrop-filter: blur(10px);
+	background: rgba(30, 41, 59, 0.85);
 	border: 1px solid rgba(255, 255, 255, 0.1);
 	border-radius: 16px;
 	padding: 2rem;
 	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  }
+
+  /* backdrop-filter only on desktop - causes crashes on Opera mobile */
+  @supports (backdrop-filter: blur(10px)) {
+    @media (hover: hover) and (pointer: fine) {
+      body.blog .post-content {
+        background: rgba(30, 41, 59, 0.6);
+        backdrop-filter: blur(10px);
+      }
+    }
   }
 
   /* Texte article - DARK MODE */
