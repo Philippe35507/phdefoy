@@ -56,7 +56,7 @@ Ibn Zaydun (1003-1071), considéré comme l'un des plus grands poètes de langue
 
 ## L'intervention almoravide : la fin d'un monde
 
-Face à la pression militaire croissante des royaumes chrétiens, les rois de taifas cherchent du secours au-delà du détroit de Gibraltar. En 1086, après la chute de Tolède, ils appellent à l'aide les Almoravides, dynastie berbère qui vient d'unifier le Maghreb occidental. Yusuf ibn Tashfin, chef des Almoravides, débarque en Espagne avec une armée aguerrie de guerriers sahariens.
+Face à la pression militaire croissante des royaumes chrétiens, les rois de taifas cherchent du secours au-delà du détroit de Gibraltar. En 1086, après la chute de Tolède, ils appellent à l'aide [les Almoravides](https://fr.wikipedia.org/wiki/Almoravides), dynastie berbère qui vient d'unifier le Maghreb occidental. Yusuf ibn Tashfin, chef des Almoravides, débarque en Espagne avec une armée aguerrie de guerriers sahariens.
 
 Le 23 octobre 1086, à Sagrajas près de Badajoz, les Almoravides et leurs alliés andalous écrasent l'armée d'Alphonse VI. La victoire sauve momentanément Al-Andalus de la conquête chrétienne, mais elle ouvre une nouvelle ère. Les Almoravides, puritains religieux formés dans les déserts mauritaniens, méprisent le raffinement des cours andalouses. Ils jugent les rois de taifas corrompus, trop tolérants envers les chrétiens et les juifs, négligents dans l'application de la loi islamique.
 
