@@ -18,6 +18,16 @@ main {
   height: auto;
 }
 
+/* Images inline dans le contenu du blog */
+.prose img {
+  display: block;
+  margin: 1rem auto;
+  border-radius: 12px;
+  box-shadow: var(--box-shadow);
+  max-width: 100%;
+  height: auto;
+}
+
 .prose {
   width: 720px;
   max-width: calc(100% - 2em);
