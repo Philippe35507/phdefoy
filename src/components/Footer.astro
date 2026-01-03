@@ -31,7 +31,11 @@ const today = new Date();
 			</svg>
 		</a>
 	</div>
-	<p class="copyright">&copy; {today.getFullYear()} Philippe de Foy - Tous droits réservés.</p>
+	<div class="footer-bottom">
+		<a href="/mentions-legales/" class="legal-link">Mentions légales</a>
+		<a href="/aviso-legal-y-privacidad/" class="legal-link">Aviso Legal y Privacidad</a>
+		<span class="copyright">&copy; 2025 - {today.getFullYear()} Philippe de Foy</span>
+	</div>
 </footer>
 
 <BackToTop />
@@ -71,13 +75,25 @@ const today = new Date();
 		color: #111827;
 		text-decoration: underline;
 	}
-	.copyright {
+	.footer-bottom {
 		margin-top: 1.5em;
 		font-size: 0.9em;
-		text-align: center !important;
-		text-align-last: center !important;
 		color: #374151;
-		display: block;
-		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 1.5em;
+		flex-wrap: wrap;
+	}
+	.legal-link {
+		color: #374151;
+		text-decoration: none;
+	}
+	.legal-link:hover {
+		color: #111827;
+		text-decoration: underline;
+	}
+	.copyright {
+		color: #374151;
 	}
 </style>
