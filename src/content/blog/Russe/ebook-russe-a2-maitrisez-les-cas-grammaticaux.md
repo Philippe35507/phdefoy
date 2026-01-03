@@ -7,8 +7,6 @@ heroImage: "/images/russe/manuel-le-russe-pour-les-debutants-a2-philippe-de-foy.
 tags: ["Russe"]
 ---
 
-# Le Russe pour les Débutants Niveau A2 : Votre Passeport pour Maîtriser les Cas Grammaticaux Russes
-
 Vous avez franchi le cap du niveau A1 en russe et vous vous demandez comment progresser efficacement vers le niveau A2 ? Vous cherchez une méthode structurée pour enfin comprendre et maîtriser les fameux cas grammaticaux russes ? Bonne nouvelle : **Le Russe pour les Débutants Niveau A2** vient de paraître en ebook sur Amazon KDP, et il pourrait bien être exactement ce qu'il vous faut.
 
 ## Un ebook complet pour une progression méthodique
@@ -110,11 +108,11 @@ Pour tirer le meilleur parti de cet ebook, voici quelques conseils :
 
 **Le Russe pour les Débutants Niveau A2** est disponible en format ebook sur [Amazon KDP](https://www.amazon.fr/dp/B0GDRVFTNL). Que vous étudiiez pendant vos trajets quotidiens, chez vous ou en déplacement, vous pouvez désormais accéder à cet ebook complet sur votre liseuse, tablette ou smartphone.
 
-## Conclusion
-
 Apprendre le russe représente un défi passionnant, et les cas grammaticaux constituent souvent l'obstacle qui sépare les débutants des apprenants confirmés. Avec **Le Russe pour les Débutants Niveau A2**, vous disposez enfin d'un outil pédagogique conçu pour transformer cet obstacle en tremplin.
 
 Grâce à sa progression méthodique, ses 689 exercices avec corrigés complets, ses explications claires et sa méthodologie éprouvée, cet ebook vous accompagnera efficacement dans votre progression vers la maîtrise du russe.
+
+![couverture-manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2](/images/russe/manuel-le-russe-pour-les-debutants-a2-philippe-de-foy.png)
 
 N'attendez plus pour franchir une nouvelle étape dans votre apprentissage du russe. Votre voyage vers la maîtrise de cette langue fascinante continue ici !
 
@@ -124,4 +122,4 @@ N'attendez plus pour franchir une nouvelle étape dans votre apprentissage du ru
 
 Retrouvez d'autres ressources sur [phdefoy.com](/philippe-de-foy/).
 
-![couverture-manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2](/images/ia/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-auteur-philippe-de-foy.png)
+
