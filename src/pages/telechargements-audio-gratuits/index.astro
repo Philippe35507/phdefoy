@@ -89,18 +89,45 @@ import '../../styles/cookie-banner.css';
     </main>
     <Footer />
 
-    <!-- Bannière cookies -->
-    <div id="cookie-banner" hidden>
-      <span>Ce site utilise des cookies de mesure (Google Analytics) uniquement si vous acceptez.</span>
-      <span class="actions">
-        <button id="accept-cookies">Accepter</button>
-        <button id="decline-cookies">Refuser</button>
-      </span>
+    <!-- Bandeau cookies (AEPD - Espagne) -->
+    <div id="cookie-banner">
+      <div class="cookie-content">
+        <p>Utilizamos cookies propias y de terceros para analizar nuestros servicios y mejorar su experiencia.
+           Consulte nuestro <a href="/aviso-legal-y-privacidad/">Aviso Legal y Privacidad</a> para más información.</p>
+        <div class="cookie-buttons">
+          <button onclick="acceptAllCookies()" class="btn-accept">Aceptar todas</button>
+          <button onclick="rejectAllCookies()" class="btn-reject">Rechazar todas</button>
+          <button onclick="toggleCookieSettings()" class="btn-settings">Configurar</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal de configuration cookies -->
+    <div id="cookie-settings-modal">
+      <div class="modal-content">
+        <h3>Configuración de cookies</h3>
+        <div class="cookie-option">
+          <label>
+            <strong>Cookies Técnicas</strong> (Obligatorias)
+            <input type="checkbox" checked disabled>
+          </label>
+          <p>Necesarias para el correcto funcionamiento del sitio web.</p>
+        </div>
+        <div class="cookie-option">
+          <label>
+            <strong>Cookies de Análisis</strong> (Google Analytics)
+            <input type="checkbox" id="analytics-checkbox">
+          </label>
+          <p>Nos ayudan a entender cómo interactúan los visitantes con la web de forma anónima.</p>
+        </div>
+        <div class="modal-buttons">
+          <button onclick="saveCookieSettings()" class="btn-save">Guardar configuración</button>
+        </div>
+      </div>
     </div>
 
     <!-- Scripts -->
     <script src="/scripts/consent.js" defer></script>
-    <script src="/scripts/ga-init.js" defer></script>
     <script src="/scripts/downloads.js" defer></script>
 
     <style>

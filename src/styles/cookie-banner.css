@@ -1,35 +1,216 @@
+/* Bandeau cookies principal - Dark theme */
 #cookie-banner {
-    position: fixed;
-    inset: auto 0 0 0; /* bottom:0; left:0; right:0 */
-    background: #222;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-    font-size: 0.95rem;
-    z-index: 9999;
-  }
-  
-  #cookie-banner .actions {
-    display: inline-flex;
-    gap: 0.5rem;
-    margin-left: 1rem;
-  }
-  
-  #cookie-banner button {
-    border: none;
-    padding: 0.5rem 0.9rem;
-    border-radius: 6px;
-    cursor: pointer;
-  }
-  
-/* Boutons avec contraste AA/AAA */
-#accept-cookies { background: #1b5e20; color: #fff; }   /* contrast ~7.87:1 */
-#accept-cookies:hover { background: #124117; }
-#decline-cookies { background: #b71c1c; color: #fff; }  /* contrast ~6.57:1 */
-#decline-cookies:hover { background: #7f1515; }
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  background: rgba(30, 41, 59, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 16px 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+  z-index: 9999;
+  display: none;
+  border-radius: 10px;
+  font-family: sans-serif;
+  backdrop-filter: blur(10px);
+}
+
+#cookie-banner.visible {
+  display: block;
+}
+
+.cookie-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.4;
+  color: #cbd5e1;
+}
+
+.cookie-content p {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.cookie-content a {
+  color: #60a5fa;
+  text-decoration: underline;
+}
+
+.cookie-content a:hover {
+  color: #93c5fd;
+}
+
+.cookie-buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+#cookie-banner button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-size: 0.8rem;
+}
+
+.btn-accept {
+  background: #10b981;
+  color: #fff;
+}
+
+.btn-accept:hover {
+  background: #059669;
+}
+
+.btn-reject {
+  background: rgba(255, 255, 255, 0.1);
+  color: #f1f5f9;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.btn-reject:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.btn-settings {
+  background: transparent;
+  color: #94a3b8;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+.btn-settings:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: #cbd5e1;
+  border-color: rgba(255, 255, 255, 0.25) !important;
+}
 
 /* Focus visible accessible */
 #cookie-banner button:focus-visible {
-  outline: 2px solid #fff;
+  outline: 2px solid #60a5fa;
   outline-offset: 2px;
+}
+
+/* Modal de configuration - Dark theme */
+#cookie-settings-modal {
+  display: none;
+  position: fixed;
+  z-index: 10000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+}
+
+#cookie-settings-modal.visible {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: rgba(30, 41, 59, 0.98);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 24px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  max-height: 90vh;
+  overflow-y: auto;
+  backdrop-filter: blur(10px);
+}
+
+.modal-content h3 {
+  margin: 0 0 16px 0;
+  color: #f1f5f9;
+  font-size: 1.1rem;
+}
+
+.cookie-option {
+  margin-bottom: 14px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+
+.cookie-option label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.cookie-option label strong {
+  color: #f1f5f9;
+}
+
+.cookie-option p {
+  margin: 8px 0 0 0;
+  font-size: 0.78rem;
+  color: #94a3b8;
+}
+
+.cookie-option input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: #10b981;
+}
+
+.modal-buttons {
+  margin-top: 18px;
+}
+
+.btn-save {
+  background: #10b981;
+  color: #fff;
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.btn-save:hover {
+  background: #059669;
+}
+
+.btn-save:focus-visible {
+  outline: 2px solid #60a5fa;
+  outline-offset: 2px;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  #cookie-banner {
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    padding: 14px 16px;
+  }
+
+  .cookie-buttons {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  #cookie-banner button {
+    width: 100%;
+  }
+
+  .modal-content {
+    padding: 18px;
+  }
 }
