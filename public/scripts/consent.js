@@ -8,6 +8,20 @@
 
   if (!banner) return;
 
+  // Vérifier si localStorage est disponible
+  function isLocalStorageAvailable() {
+    try {
+      const test = '__storage_test__';
+      localStorage.setItem(test, test);
+      localStorage.removeItem(test);
+      return true;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  const storageAvailable = isLocalStorageAvailable();
+
   // Afficher/masquer le bandeau
   function showBanner() {
     banner.classList.add('visible');
@@ -15,6 +29,7 @@
 
   function hideBanner() {
     banner.classList.remove('visible');
+    banner.style.display = 'none'; // Force la disparition
   }
 
   // Afficher/masquer le modal
@@ -40,15 +55,35 @@
     gtag('config', GA_ID, { 'anonymize_ip': true });
   }
 
+  // Sauvegarder le consentement
+  function saveConsent(value) {
+    if (storageAvailable) {
+      localStorage.setItem(CONSENT_KEY, value);
+    }
+    // Fallback : utiliser un cookie si localStorage indisponible
+    document.cookie = CONSENT_KEY + '=' + value + ';path=/;max-age=31536000;SameSite=Lax';
+  }
+
+  // Lire le consentement
+  function getConsent() {
+    if (storageAvailable) {
+      const ls = localStorage.getItem(CONSENT_KEY);
+      if (ls) return ls;
+    }
+    // Fallback : lire depuis cookie
+    const match = document.cookie.match(new RegExp('(^| )' + CONSENT_KEY + '=([^;]+)'));
+    return match ? match[2] : null;
+  }
+
   // Actions des boutons
   window.acceptAllCookies = function() {
-    localStorage.setItem(CONSENT_KEY, 'all');
+    saveConsent('all');
     hideBanner();
     loadGoogleAnalytics();
   };
 
   window.rejectAllCookies = function() {
-    localStorage.setItem(CONSENT_KEY, 'none');
+    saveConsent('none');
     hideBanner();
   };
 
@@ -59,10 +94,10 @@
   window.saveCookieSettings = function() {
     const analyticsAccepted = analyticsCheckbox && analyticsCheckbox.checked;
     if (analyticsAccepted) {
-      localStorage.setItem(CONSENT_KEY, 'analytics');
+      saveConsent('analytics');
       loadGoogleAnalytics();
     } else {
-      localStorage.setItem(CONSENT_KEY, 'none');
+      saveConsent('none');
     }
     toggleModal();
     hideBanner();
@@ -79,12 +114,13 @@
 
   // Vérifier le consentement au chargement
   function checkConsent() {
-    const consent = localStorage.getItem(CONSENT_KEY);
+    const consent = getConsent();
     if (!consent) {
       showBanner();
     } else if (consent === 'all' || consent === 'analytics') {
       loadGoogleAnalytics();
     }
+    // Si consent existe (all, analytics, ou none), le bandeau reste caché
   }
 
   checkConsent();

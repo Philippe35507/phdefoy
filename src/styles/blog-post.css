@@ -175,11 +175,16 @@ body.blog .post-content li {
 }
 
 /* Ne PAS justifier les titres/quotes/code */
-body.blog .post-content :is(h1,h2,h3,h4,h5,h6),
+body.blog .post-content :is(h2,h3,h4,h5,h6),
 body.blog .post-content blockquote,
 body.blog .post-content pre,
 body.blog .post-content code {
   text-align: left;
+}
+
+/* H1 centré dans le titre de l'article */
+body.blog .post-content .title h1 {
+  text-align: center;
 }
 
 /* Cartes PDF/EPUB dans l’article — mobile : centrées, sans débordement */
