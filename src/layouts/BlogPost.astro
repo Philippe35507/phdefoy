@@ -25,6 +25,7 @@ type Props = Omit<BlogData, 'draft'> & { draft?: boolean } & ExtraProps;
 
 const {
   title,
+  displayTitle,
   description,
   pubDate,
   updatedDate,
@@ -39,9 +40,8 @@ const {
   lang = 'fr',
 } = Astro.props as Props;
 
-// Détection automatique : le contenu markdown contient-il un H1 ?
-const slotContent = await Astro.slots.render('default');
-const contentHasH1 = /<h1[\s>]/i.test(slotContent);
+// Titre affiché : displayTitle > pageTitle > title
+const shownTitle = displayTitle ?? pageTitle ?? title;
 
 
 // --- Normalisation & heuristiques pour compat ancien/nouveau ---
@@ -184,16 +184,12 @@ if (relatedSlugs.length > 0) {
                 )}
               </div>
 
-              {!contentHasH1 && (
-                <>
-                  <h1>{pageTitle ?? title}</h1>
-                  <hr />
-                </>
-              )}
+              <h1>{shownTitle}</h1>
+              <hr />
             </div>
           )}
 
-          <Fragment set:html={slotContent} />
+          <slot />
         </div>
       </article>
 
@@ -211,7 +207,7 @@ if (relatedSlugs.length > 0) {
                     decoding="async"
                   />
                 )}
-                <h3>{article.data.title}</h3>
+                <h3>{article.data.displayTitle ?? article.data.title}</h3>
                 <div class="meta">
                   <FormattedDate date={article.data.pubDate} />
                 </div>

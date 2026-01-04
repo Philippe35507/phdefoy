@@ -62,7 +62,7 @@ const posts = allPosts
                         height="360"
                       />
                     )}
-                    <h3>{p.data.title}</h3>
+                    <h3>{p.data.displayTitle ?? p.data.title}</h3>
                     <div class="meta">
                       <FormattedDate date={(p.data as any).pubDate} />
                     </div>
