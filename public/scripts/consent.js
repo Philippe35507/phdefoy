@@ -8,6 +8,12 @@
 
   if (!banner) return;
 
+  // Boutons du bandeau
+  const btnAccept = banner.querySelector('.btn-accept');
+  const btnReject = banner.querySelector('.btn-reject');
+  const btnSettings = banner.querySelector('.btn-settings');
+  const btnSave = modal ? modal.querySelector('.btn-save') : null;
+
   // Vérifier si localStorage est disponible
   function isLocalStorageAvailable() {
     try {
@@ -24,18 +30,27 @@
 
   // Afficher/masquer le bandeau
   function showBanner() {
+    banner.style.display = 'block';
     banner.classList.add('visible');
   }
 
   function hideBanner() {
     banner.classList.remove('visible');
-    banner.style.display = 'none'; // Force la disparition
+    banner.style.display = 'none';
   }
 
   // Afficher/masquer le modal
-  function toggleModal() {
+  function showModal() {
     if (modal) {
-      modal.classList.toggle('visible');
+      modal.style.display = 'flex';
+      modal.classList.add('visible');
+    }
+  }
+
+  function hideModal() {
+    if (modal) {
+      modal.classList.remove('visible');
+      modal.style.display = 'none';
     }
   }
 
@@ -43,7 +58,7 @@
   function loadGoogleAnalytics() {
     if (document.querySelector('script[src*="googletagmanager"]')) return;
 
-    const script = document.createElement('script');
+    var script = document.createElement('script');
     script.async = true;
     script.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
     document.head.appendChild(script);
@@ -57,70 +72,87 @@
 
   // Sauvegarder le consentement
   function saveConsent(value) {
-    if (storageAvailable) {
-      localStorage.setItem(CONSENT_KEY, value);
-    }
-    // Fallback : utiliser un cookie si localStorage indisponible
+    try {
+      if (storageAvailable) {
+        localStorage.setItem(CONSENT_KEY, value);
+      }
+    } catch (e) {}
+    // Toujours sauvegarder en cookie aussi
     document.cookie = CONSENT_KEY + '=' + value + ';path=/;max-age=31536000;SameSite=Lax';
   }
 
   // Lire le consentement
   function getConsent() {
-    if (storageAvailable) {
-      const ls = localStorage.getItem(CONSENT_KEY);
-      if (ls) return ls;
-    }
+    try {
+      if (storageAvailable) {
+        var ls = localStorage.getItem(CONSENT_KEY);
+        if (ls) return ls;
+      }
+    } catch (e) {}
     // Fallback : lire depuis cookie
-    const match = document.cookie.match(new RegExp('(^| )' + CONSENT_KEY + '=([^;]+)'));
+    var match = document.cookie.match(new RegExp('(^| )' + CONSENT_KEY + '=([^;]+)'));
     return match ? match[2] : null;
   }
 
-  // Actions des boutons
-  window.acceptAllCookies = function() {
+  // Actions
+  function acceptAll() {
     saveConsent('all');
     hideBanner();
     loadGoogleAnalytics();
-  };
+  }
 
-  window.rejectAllCookies = function() {
+  function rejectAll() {
     saveConsent('none');
     hideBanner();
-  };
+  }
 
-  window.toggleCookieSettings = function() {
-    toggleModal();
-  };
+  function openSettings() {
+    showModal();
+  }
 
-  window.saveCookieSettings = function() {
-    const analyticsAccepted = analyticsCheckbox && analyticsCheckbox.checked;
+  function saveSettings() {
+    var analyticsAccepted = analyticsCheckbox && analyticsCheckbox.checked;
     if (analyticsAccepted) {
       saveConsent('analytics');
       loadGoogleAnalytics();
     } else {
       saveConsent('none');
     }
-    toggleModal();
+    hideModal();
     hideBanner();
-  };
+  }
+
+  // Attacher les event listeners
+  if (btnAccept) {
+    btnAccept.addEventListener('click', acceptAll);
+  }
+  if (btnReject) {
+    btnReject.addEventListener('click', rejectAll);
+  }
+  if (btnSettings) {
+    btnSettings.addEventListener('click', openSettings);
+  }
+  if (btnSave) {
+    btnSave.addEventListener('click', saveSettings);
+  }
 
   // Fermer le modal en cliquant à l'extérieur
   if (modal) {
     modal.addEventListener('click', function(e) {
       if (e.target === modal) {
-        toggleModal();
+        hideModal();
       }
     });
   }
 
   // Vérifier le consentement au chargement
   function checkConsent() {
-    const consent = getConsent();
+    var consent = getConsent();
     if (!consent) {
       showBanner();
     } else if (consent === 'all' || consent === 'analytics') {
       loadGoogleAnalytics();
     }
-    // Si consent existe (all, analytics, ou none), le bandeau reste caché
   }
 
   checkConsent();
