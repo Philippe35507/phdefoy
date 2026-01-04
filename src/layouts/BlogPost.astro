@@ -18,6 +18,7 @@ type ExtraProps = {
   hideTitle?: boolean;
   hideBreadcrumb?: boolean;
   tags?: string[];
+  contentH1?: boolean;
 };
 
 // → on rend draft optionnel côté layout
@@ -37,6 +38,7 @@ const {
   tags = [],
   draft = false, // valeur par défaut (même si non utilisé)
   lang = 'fr',
+  contentH1 = false, // si true, le H1 est dans le contenu markdown
 } = Astro.props as Props;
 
 
@@ -180,8 +182,12 @@ if (relatedSlugs.length > 0) {
                 )}
               </div>
 
-              <h1>{pageTitle ?? title}</h1>
-              <hr />
+              {!contentH1 && (
+                <>
+                  <h1>{pageTitle ?? title}</h1>
+                  <hr />
+                </>
+              )}
             </div>
           )}
 
