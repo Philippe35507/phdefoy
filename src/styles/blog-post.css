@@ -187,6 +187,22 @@ body.blog .post-content .title h1 {
   text-align: center;
 }
 
+/* H1 dans le contenu markdown (même style que .title h1) */
+.prose > h1 {
+  margin: 0 0 0.5em;
+  font-size: clamp(1.6rem, 2vw + 1rem, 2.5rem);
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid rgb(var(--gray-light));
+}
+
+/* Mode dark : bordure plus subtile pour H1 du contenu */
+body.blog .prose > h1 {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
 /* Cartes PDF/EPUB dans l’article — mobile : centrées, sans débordement */
 body.blog .post-content .download-card {
   /* pas de largeur forcée : se cale à son contenu sans dépasser le parent */

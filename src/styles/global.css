@@ -148,7 +148,8 @@ body.blog .post-content :is(h1, h2, h3, h4, h5, h6) {
   }
 
   /* Titre principal avec gradient */
-  body.blog .title h1 {
+  body.blog .title h1,
+  body.blog .prose > h1 {
 	color: #f8fafc !important;
 	background: linear-gradient(135deg, #60a5fa, #34d399) !important;
 	-webkit-background-clip: text !important;
