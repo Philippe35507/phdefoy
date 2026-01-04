@@ -3,6 +3,7 @@ title: "Aviso Legal y Privacidad"
 description: "Aviso Legal y Privacidad - Sitio web phdefoy.com"
 pubDate: "Aug 02 2025"
 heroImage: "/images/placeholders/blog-placeholder-about.jpg"
+lang: "es"
 ---
 
 ## 1. Titular del sitio web
