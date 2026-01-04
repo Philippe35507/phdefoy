@@ -1,10 +1,12 @@
 ---
 title: "Califat de Cordoue & Taifas (929-1094) : Al-Andalus"
+displayTitle: "Le Califat de Cordoue & Taifas (929-1094) : la fragmentation d'Al-Andalus"
 description: "Explorez l'histoire d'Al-Andalus (929-1094) : de l'apogée du Califat de Cordoue à la chute des royaumes de Taifas. Un récit de splendeur et de déclin médiéval."
 pubDate: "jan 02 2026"
 heroImage: "/images/esp/peninsule-iberique-al-andalus.png"
 tags: ["Espagnol"]
 ---
+
 
 **Découvrez l'histoire du califat de Cordoue sous Abd al-Rahman III et la splendeur paradoxale des royaumes de Taifas au XIe siècle : de l'unité impériale à la fragmentation culturelle d'Al-Andalus médiéval.**
 
