@@ -12,7 +12,7 @@ tags: ["Espagnol"]
 
 ## Le paradoxe d'un héros national
 
-Comment un chevalier exilé par son propre roi, qui combat tantôt pour des princes chrétiens, tantôt pour des souverains musulmans, devient-il le symbole par excellence de l'Espagne chrétienne ? [Rodrigo Díaz de Vivar](https://fr.wikipedia.org/wiki/Rodrigo_D%C3%ADaz_de_Vivar) (1043-1099), surnommé le Cid Campeador, incarne l'un des plus fascinants paradoxes de l'histoire médiévale espagnole. Le personnage historique se révèle bien plus complexe et ambigu que le héros immaculé du *Cantar de mio Cid* ou des adaptations ultérieures. Au XIe siècle, dans une péninsule ibérique fragmentée entre royaumes chrétiens et [taifas musulmanes](/al-andalus-califat-cordoue-taifas-929-1094/) , Rodrigo navigue avec un pragmatisme déconcertant entre les camps, motivé davantage par l'honneur féodal et le profit que par une quelconque croisade religieuse.
+Comment un chevalier exilé par son propre roi, qui combat tantôt pour des princes chrétiens, tantôt pour des souverains musulmans, devient-il le symbole par excellence de l'Espagne chrétienne ? [Rodrigo Díaz de Vivar](https://fr.wikipedia.org/wiki/Rodrigo_D%C3%ADaz_de_Vivar) (1043-1099), surnommé le Cid Campeador, incarne l'un des plus fascinants paradoxes de l'histoire médiévale espagnole. Le personnage historique se révèle bien plus complexe et ambigu que le héros immaculé du *Cantar de mio Cid* ou des adaptations ultérieures. Au XIe siècle, dans une péninsule ibérique fragmentée entre royaumes chrétiens et [taïfas musulmanes](/al-andalus-califat-cordoue-taifas-929-1094/) , Rodrigo navigue avec un pragmatisme déconcertant entre les camps, motivé davantage par l'honneur féodal et le profit que par une quelconque croisade religieuse.
 
 ## Un chevalier dans la Castille des affrontements fratricides
 
@@ -22,21 +22,21 @@ Rodrigo se distingue comme champion de Sanche lors du duel judiciaire qui oppose
 
 Alphonse VI réunifie alors la Castille et le León. Rodrigo, compromis par sa fidélité à Sanche, se retrouve dans une position délicate à la cour du nouveau roi. La légende affirme qu'il exige d'Alphonse un serment public pour le disculper du meurtre de son frère – épisode probablement inventé mais révélateur des tensions réelles. Alphonse le maintient dans ses fonctions par prudence politique, mais la méfiance s'installe entre les deux hommes.
 
-## L'exil et la découverte des royaumes taifas
+## L'exil et la découverte des royaumes taïfas
 
 En 1081, Rodrigo lance une expédition punitive non autorisée contre le royaume musulman de Tolède, pourtant tributaire d'Alphonse VI. Le prétexte : protéger les intérêts castillans contre une incursion du roi de Grenade. Mais l'initiative solitaire irrite profondément Alphonse, qui y voit une insubordination intolérable. Le roi exile Rodrigo, confisque ses terres et l'expulse de Castille avec environ trois cents chevaliers fidèles.
 
-Commence alors la période la plus révélatrice du personnage historique. Rodrigo ne cherche pas le martyre chrétien : il offre ses services militaires au plus offrant. En 1081, il entre au service du roi musulman de Saragosse, al-Muqtadir, puis de son fils al-Mu'tamin. Cette trajectoire scandalise les chroniqueurs chrétiens ultérieurs, mais elle correspond parfaitement aux pratiques de l'époque. Dans l'Espagne du XIe siècle, les alliances transcendent régulièrement les frontières religieuses. Les taifas, ces petits royaumes musulmans nés de l'effondrement du califat de Cordoue en 1031, se font constamment la guerre et emploient massivement des mercenaires chrétiens.
+Commence alors la période la plus révélatrice du personnage historique. Rodrigo ne cherche pas le martyre chrétien : il offre ses services militaires au plus offrant. En 1081, il entre au service du roi musulman de Saragosse, al-Muqtadir, puis de son fils al-Mu'tamin. Cette trajectoire scandalise les chroniqueurs chrétiens ultérieurs, mais elle correspond parfaitement aux pratiques de l'époque. Dans l'Espagne du XIe siècle, les alliances transcendent régulièrement les frontières religieuses. Les taïfas, ces petits royaumes musulmans nés de l'effondrement du califat de Cordoue en 1031, se font constamment la guerre et emploient massivement des mercenaires chrétiens.
 
 À Saragosse, Rodrigo déploie ses talents militaires. En 1082, il écrase une coalition formée par le roi d'Aragon Sanche Ramírez et le comte de Barcelone Bérenger Raymond II, tous deux chrétiens, venus attaquer son employeur musulman. La bataille d'Almenar voit Rodrigo capturer le comte de Barcelone lui-même. Ce fait d'armes lui vaut son second surnom, "Sidi" (seigneur en arabe), hispanisé en "Cid". Rodrigo Díaz devient ainsi "el Cid Campeador" – le seigneur champion.
 
 ## La réconciliation provisoire et l'appel de Valence
 
-En 1086, la situation bascule brutalement. Les [Almoravides](https://fr.wikipedia.org/wiki/Almoravides), dynastie berbère rigoriste venue du Maghreb, débarquent en Espagne à l'appel des rois taifas effrayés par l'expansionnisme castillan. Le 23 octobre 1086, à Sagrajas près de Badajoz, ils infligent une défaite catastrophique à Alphonse VI. Face à cette nouvelle menace, le roi castillan rappelle Rodrigo et lui confie la défense de la frontière orientale du royaume.
+En 1086, la situation bascule brutalement. Les [Almoravides](https://fr.wikipedia.org/wiki/Almoravides), dynastie berbère rigoriste venue du Maghreb, débarquent en Espagne à l'appel des rois taïfas effrayés par l'expansionnisme castillan. Le 23 octobre 1086, à Sagrajas près de Badajoz, ils infligent une défaite catastrophique à Alphonse VI. Face à cette nouvelle menace, le roi castillan rappelle Rodrigo et lui confie la défense de la frontière orientale du royaume.
 
 La réconciliation reste fragile. En 1089, lors de la campagne contre les Almoravides dans la région de Valence, Rodrigo n'arrive pas à temps pour soutenir Alphonse, qui subit une nouvelle défaite à Aledo. Le roi, furieux, accuse Rodrigo de trahison et le bannit définitivement. Cette fois, Rodrigo prend une décision radicale : plutôt que de servir comme mercenaire, il va tailler son propre royaume.
 
-Valence devient son objectif. La prospère cité méditerranéenne, gouvernée par la taifa de la famille Amiride, se trouve prise entre les ambitions castillanes, aragonaises et almoravides. Rodrigo calcule qu'un acteur militaire indépendant peut exploiter ces rivalités. Entre 1089 et 1092, il impose progressivement son protectorat sur Valence et sa région, manœuvrant entre le roi musulman al-Qādir, qu'il soutient d'abord, et les différentes factions locales. En octobre 1092, une révolte populaire renverse et assassine al-Qādir. Rodrigo assiège alors la ville révoltée.
+Valence devient son objectif. La prospère cité méditerranéenne, gouvernée par la taïfa de la famille Amiride, se trouve prise entre les ambitions castillanes, aragonaises et almoravides. Rodrigo calcule qu'un acteur militaire indépendant peut exploiter ces rivalités. Entre 1089 et 1092, il impose progressivement son protectorat sur Valence et sa région, manœuvrant entre le roi musulman al-Qādir, qu'il soutient d'abord, et les différentes factions locales. En octobre 1092, une révolte populaire renverse et assassine al-Qādir. Rodrigo assiège alors la ville révoltée.
 
 ## Le seigneur de Valence et l'apogée d'un condottiere
 
@@ -63,3 +63,15 @@ Rodrigo incarne parfaitement la noblesse guerrière du XIe siècle espagnol, pé
 Le Cid se taille un domaine personnel en exploitant l'anarchie politique de la péninsule. Mais son règne sur la cité ne dure que cinq ans et ne laisse aucune institution durable. Les Almoravides reprennent Valence et contrôlent la région pendant quatre décennies supplémentaires avant que Jacques Ier d'Aragon ne la conquière définitivement en 1238.
 
 Le Cid meurt donc en ayant échoué à créer une dynastie ou un État pérenne. C'est paradoxalement cet échec politique qui permet sa transformation légendaire : aucune réalité institutionnelle ne vient contrarier la libre invention poétique. Le personnage littéraire du Cid devient infiniment plus influent que le seigneur de Valence ne le fut jamais, nourrissant pendant des siècles l'imaginaire d'une Espagne guerrière et reconquérante qui, en 1099, n'existait pas encore.
+
+
+<div style="display: flex; justify-content: center;">
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/76EIhfjSE2A" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+  ></iframe>
+</div>

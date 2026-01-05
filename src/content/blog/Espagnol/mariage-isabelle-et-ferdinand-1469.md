@@ -66,3 +66,13 @@ Les contemporains perçoivent immédiatement l'importance du changement. Les amb
 
 En 1469, personne ne pouvait prévoir que le mariage clandestin de deux adolescents aboutirait, trente ans plus tard, à l'émergence d'une puissance mondiale. Les acteurs de l'époque poursuivaient des objectifs immédiats : pour Isabelle, sécuriser sa succession ; pour Ferdinand, échapper à l'isolement aragonais ; pour leurs partisans respectifs, renforcer leur position dans des guerres civiles locales. L'union des couronnes de Castille et d'Aragon en 1479 reste le produit d'une série de décisions tactiques, de compromis pragmatiques et de circonstances favorables. Elle pose néanmoins les fondations d'une nouvelle configuration politique qui dominera l'Europe et le monde pendant près de deux siècles.
 
+<div style="display: flex; justify-content: center;">
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/C4Bbxh7cmy4" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+  ></iframe>
+</div>

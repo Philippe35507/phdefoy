@@ -58,3 +58,14 @@ Mais la progression s'arrête là. En 1212, Sanche Ier de Portugal meurt. En 121
 L'empire almohade ne se relève pas du choc de Las Navas de Tolosa. La défaite brise le prestige militaire de la dynastie berbère. En Al-Andalus, l'autorité centrale vacille. Les gouverneurs provinciaux prennent leur autonomie. Une troisième période de taïfas, ces petits royaumes rivaux, s'ouvre. Au Maghreb, la dynastie hafside s'émancipe en Ifriqiya. Les Mérinides gagnent en influence au Maroc. Yûsuf II meurt en 1224 sans héritier. Son successeur Abd al-Wahid al-Makhlu est destitué huit mois plus tard. Les guerres de succession se multiplient. En 1232, le calife al-Mamun renie même le dogme almohade dans une tentative désespérée de se maintenir. Les Mérinides prennent Fès en 1244, Marrakech en 1269. L'empire almohade cesse d'exister.
 
 En Espagne chrétienne, la conquête reprend après la période de trêve. Cordoue tombe en 1236 aux mains de Ferdinand III de Castille. Valence en 1238 face à Jacques Ier d'Aragon. Séville en 1248. L'Andalousie musulmane se réduit au royaume de Grenade, vassal payant tribut à la Castille. Ce dernier territoire résistera jusqu'en 1492, mais son existence dépend de la tolérance castillane plus que de sa force propre. La bataille de Las Navas de Tolosa n'a pas provoqué mécaniquement ces conquêtes ultérieures, mais elle a détruit le seul pouvoir capable de les empêcher. Le 16 juillet 1212, entre la Sierra Morena et une plaine de Jaén, l'équilibre militaire de la péninsule Ibérique bascule. Un berger mozarabe, trois rois chrétiens qui s'accordent le temps d'une bataille, un calife qui fuit son camp : l'Andalousie change de mains sans que personne, ce jour-là, ne mesure encore l'ampleur du basculement.
+
+<div style="display: flex; justify-content: center;">
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/qVZJxQzEcMc" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+  ></iframe>
+</div>
