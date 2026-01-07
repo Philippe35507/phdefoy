@@ -60,9 +60,17 @@ Les Sviatki s'achèvent le 19 janvier avec la Théophanie, qui commémore le bap
 
 Le 13 janvier survient une autre curiosité calendaire : l'Ancien Nouvel An (Ста́рый Но́вый год). C'est le Nouvel An julien, celui que l'Église orthodoxe célèbre selon son propre calendrier. Tombant entre le 13 et le 14 janvier du calendrier grégorien, cette fête semi-officielle combine les traditions laïques du Nouvel An avec les coutumes des Sviatki. On chante à nouveau les Koliadki, on pratique la divination, on se réunit en famille autour de tables copieuses. L'Ancien Nouvel An n'est pas férié officiellement, mais de nombreux Russes le célèbrent comme un dernier adieu aux fêtes d'hiver.
 
+## Les vieux-croyants et la question du calendrier
+
+Les vieux-croyants (старообря́дцы) méritent une mention particulière dans l'histoire du Noël russe. Issus du Raskol (Раско́л), le [grand schisme de 1666-1667](/les-vieux-croyants-russes-grand-schisme-orthodoxe-de-lan-1666/), ils refusèrent les réformes liturgiques imposées par le patriarche Nikon — signe de croix avec trois doigts au lieu de deux, alleluia chanté trois fois au lieu de deux, prosternations modifiées. Persécutés, ils fuirent dans les forêts du Nord, en Sibérie, en Pologne. Brûlés vifs pour certains, comme l'archiprêtre Avvakoum en 1682, ils se considérèrent comme les gardiens de la « vraie foi » contre une Église corrompue.
+
+Mais contrairement à ce qu'on pourrait imaginer, les vieux-croyants célèbrent Noël exactement à la même date que l'Église orthodoxe officielle : le 7 janvier du calendrier grégorien, soit le 25 décembre du calendrier julien. La raison est simple : le schisme de 1666 porta sur les rites liturgiques, pas sur le calendrier. À cette époque, toute la Russie — Église officielle comme dissidents — vivait selon le calendrier julien. Ce n'est que deux siècles et demi plus tard, en 1918, que Lénine imposa le calendrier grégorien à la Russie civile. Quand ce changement survint, l'Église orthodoxe officielle et les vieux-croyants réagirent exactement de la même manière : ils refusèrent tous deux d'adopter ce « nouveau calendrier » imposé par un régime athée.
+
+Ainsi, vieux-croyants et orthodoxes officiels partagent aujourd'hui le même calendrier liturgique julien et célèbrent Noël le même jour. Leurs différences demeurent rituelles : dans les églises vieux-croyantes, on fait toujours le signe de croix avec deux doigts, on se prosterne jusqu'à terre, on chante l'alleluia deux fois. Mais la kutya est servie à la même heure, après l'apparition de la première étoile, et les icônes de la Nativité brillent dans leurs églises comme dans celles du Patriarcat de Moscou.
+
 ## Persistance d'une double temporalité
 
- L'Église orthodoxe russe refuse toujours d'adopter le calendrier grégorien, contrairement à certaines autres Églises orthodoxes comme celle de Grèce. Le débat ressurgit périodiquement. En 1982, un document préparatoire au concile panorthodoxe de 2016 proposait l'adoption du « nouveau calendrier », reconnaissant qu'il était astronomiquement plus précis que le julien. Les Églises russe, serbe et de Jérusalem s'y opposèrent fermement, invoquant des difficultés pastorales et l'attachement des fidèles à la tradition.
+L'Église orthodoxe russe refuse toujours d'adopter le calendrier grégorien, contrairement à certaines autres Églises orthodoxes comme celle de Grèce. Le débat ressurgit périodiquement. En 1982, un document préparatoire au concile panorthodoxe de 2016 proposait l'adoption du « nouveau calendrier », reconnaissant qu'il était astronomiquement plus précis que le julien. Les Églises russe, serbe et de Jérusalem s'y opposèrent fermement, invoquant des difficultés pastorales et l'attachement des fidèles à la tradition.
 
 L'Ukraine orthodoxe, dans un geste politique autant que religieux, a autorisé en octobre 2023 ses communautés à célébrer Noël le 25 décembre si elles le souhaitent — une manière de se démarquer du Patriarcat de Moscou, perçu comme allié du Kremlin. Pour les Russes, en revanche, le 7 janvier demeure un marqueur identitaire fort.
 
@@ -72,14 +80,4 @@ Le résultat est une Russie qui vit une double temporalité hivernale : un Nouve
 
 Cette configuration unique, fruit de l'histoire mouvementée du XXe siècle russe, fait du Noël orthodoxe bien plus qu'une célébration religieuse. C'est un acte de résistance culturelle, un fil tendu entre le passé impérial et le présent post-soviétique, un moment où la Russie contemporaine touche du doigt la continuité millénaire de son identité orthodoxe, au-delà des ruptures politiques qui ont marqué son histoire récente.
 
-
-<div style="display: flex; justify-content: center;">
-  <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/DKs3VcSdXP8" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen
-  ></iframe>
-</div>
+![joyeux-noel-orthodoxe-en-langue-russe](/images/russe/joyeux-noel-orthodoxe.png)
