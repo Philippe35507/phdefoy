@@ -368,6 +368,22 @@ L'espagnol n'est pas une langue monolithique. Chaque pays a ses particularités 
 
 ---
 
+## 🏰 Plongez dans l'Histoire de l'Espagne
+
+L'apprentissage d'une langue ne se limite pas à la grammaire. Découvrez l'histoire fascinante de l'Espagne à travers nos articles :
+
+### La Reconquista et l'Espagne Médiévale
+- [711-722 : Chute des Wisigoths et début de la Reconquista](/711-722-chute-wisigoths-debut-reconquista/)
+- [Le Cid (1043-1099) : Histoire vraie de Rodrigo Díaz](/le-cid-1043-1099-histoire-vraie-de-rodrigo-diaz/)
+- [La bataille de Las Navas de Tolosa (1212) : un tournant dans la Reconquista](/bataille-de-las-navas-de-tolosa-1212/)
+- [Le Califat de Cordoue et les Taïfas (929-1094) : la fragmentation d'Al-Andalus](/al-andalus-califat-cordoue-taifas-929-1094/)
+
+### L'Unification de l'Espagne
+- [Le mariage d'Isabelle et Ferdinand en 1469 : l'union qui forge l'Espagne](/mariage-isabelle-et-ferdinand-1469/)
+- [Le Traité de Tordesillas (1494) : Quand deux royaumes se partagent le monde](/le-traite-de-tordesillas-1494/)
+
+---
+
 ## 📖 Littérature et Culture Hispanique
 
 ### Classiques Incontournables

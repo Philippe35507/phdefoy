@@ -283,13 +283,14 @@ L'apprentissage d'une langue ne se limite pas à la grammaire. Découvrez l'hist
 - [Alexis Ier le Très-Paisible : l'expansion russe (1645-1676)](/alexis-premier-le-tres-paisible-expansion-russe/)
 - [Les vieux-croyants russes : le grand schisme orthodoxe de 1666](/les-vieux-croyants-russes-grand-schisme-orthodoxe-de-lan-1666/)
 - [La révolte de Stenka Razine (1670-1671) sur la Volga](/revolte-stenka-razine-sur-la-volga-russie/)
+- [Pierre le Grand : la révolution brutale qui bascula la Russie vers l'Europe (1689-1725)](/pierre-le-grand-revolution-brutale-russie/)
+
+### Traditions et Culture
+- [Noël orthodoxe en Russie : pourquoi est-il fêté le 7 janvier ?](/noel-orthodoxe-en-russie-traditions-du-7-janvier/)
 
 ### Institutions Russes
 - [Zemski sobor : l'assemblée qui conseillait les tsars russes](/zemski-sobor-assemblee-de-la-terre-russie/)
 
-### Littérature Russe Classique
-- [La Guerre et la Paix de Léon Tolstoï : Fresque monumentale entre destins individuels et tourmente historique](/la-guerre-et-la-paix-de-leon-tolstoi-fresque-monumentale-entre-destins-individuels-et-tourmente-historique/)
-- [Crime et Châtiment : Plongée dans l'abîme de la conscience criminelle](/crime-et-chatiment-plongee-dans-l-abime-de-la-conscience-criminelle/)
 
 ---
 
