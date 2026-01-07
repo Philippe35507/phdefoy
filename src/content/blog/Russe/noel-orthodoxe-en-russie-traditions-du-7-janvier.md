@@ -10,7 +10,7 @@ tags: ["Russe"]
 
 Saviez-vous que les Russes ne célèbrent pas Noël le 25 décembre? Ils attendent le 7 janvier. Derrière ce décalage de treize jours se cache une histoire qui traverse un millénaire de christianisme slave, une révolution qui tenta d'effacer Dieu, et une résurrection culturelle qui témoigne de la force des traditions populaires face aux bouleversements politiques. Le Noël russe (Рождество́ Христо́во) n'est pas qu'une date sur un calendrier : c'est le symbole d'une identité religieuse qui survécut à soixante-dix ans d'athéisme d'État.
 
-L'explication du 7 janvier tient en une équation calendaire. Pendant des siècles, la Russie vivait selon le calendrier julien (юлиа́нский календа́рь), instauré par Jules César en 45 avant notre ère. Ce calendrier accumule une erreur d'environ onze minutes par an — ce qui semble négligeable, mais qui produit un décalage d'un jour tous les 128 ans. 
+L'explication du 7 janvier tient en une équation calendaire. Pendant des siècles, la Russie vivait selon le [calendrier julien](https://fr.wikipedia.org/wiki/Calendrier_julien) (юлиа́нский календа́рь), instauré par Jules César en 45 avant notre ère. Ce calendrier accumule une erreur d'environ onze minutes par an — ce qui semble négligeable, mais qui produit un décalage d'un jour tous les 128 ans. 
 
 En 1582, le pape Grégoire XIII corrige cette dérive en introduisant le calendrier grégorien (григориа́нский календа́рь), qui supprime d'un coup dix jours pour rattraper le retard accumulé depuis l'Antiquité. L'Europe catholique adopte immédiatement ce nouveau calendrier. La Russie orthodoxe, elle, refuse : accepter une réforme imposée par Rome reviendrait à reconnaître l'autorité papale. Elle conserve donc le calendrier julien. 
 
