@@ -10,7 +10,9 @@
       "Bash(git push:*)",
       "Bash(git -C \"C:\\\\Users\\\\phdef\\\\phdefoy\" status)",
       "Bash(git -C \"C:\\\\Users\\\\phdef\\\\phdefoy\" push)",
-      "Bash(git -C \"C:\\\\Users\\\\phdef\\\\phdefoy\" diff --stat)"
+      "Bash(git -C \"C:\\\\Users\\\\phdef\\\\phdefoy\" diff --stat)",
+      "Bash(git -C \"C:\\\\Users\\\\phdef\\\\phdefoy\" add src/components/Header.astro src/pages/philippe-de-foy/index.astro)",
+      "Bash(git -C \"C:\\\\Users\\\\phdef\\\\phdefoy\" commit -m \"$\\(cat <<''EOF''\nupdate: refonte barre de menus et page À propos\n\nBarre de menus :\n- Renommer \"Home\" en \"Philippe de Foy\" et ajouter \"À propos\"\n- Uniformiser les styles des liens\n- Centrer l''ensemble, ajuster espacements\n\nPage À propos :\n- Remplacer vignettes par texte de présentation\n- Ajouter lien Amazon pour les livres\n- Renommer \"Mes ouvrages\" en \"Mes livres\"\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }

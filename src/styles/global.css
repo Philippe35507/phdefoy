@@ -25,6 +25,7 @@ body {
 	background-size: 100% 600px;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
+	overflow-x: hidden;
 	color: rgb(var(--gray-dark));
 	font-size: 21px;
 	font-weight: 500;
