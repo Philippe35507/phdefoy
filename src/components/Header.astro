@@ -1,5 +1,4 @@
 ---
-import { SITE_NAME } from '../consts';
 import HeaderLink from './HeaderLink.astro';
 ---
 
@@ -7,14 +6,11 @@ import HeaderLink from './HeaderLink.astro';
   <nav>
     <div class="nav-center">
       <div class="internal-links">
-        <HeaderLink href="/">Home</HeaderLink>
+        <HeaderLink href="/">Philippe de Foy</HeaderLink>
         <HeaderLink href="/apprendre-le-russe/">Russe</HeaderLink>
         <HeaderLink href="/apprendre-espagnol/">Espagnol</HeaderLink>
         <HeaderLink href="/livres/">Livres</HeaderLink>
-      </div>
-      
-      <div class="nav-center">
-        <h2><HeaderLink href="/philippe-de-foy/">{SITE_NAME}</HeaderLink></h2>
+        <HeaderLink href="/philippe-de-foy/">À propos</HeaderLink>
       </div>
 
       <div class="nav-center">
@@ -82,9 +78,9 @@ import HeaderLink from './HeaderLink.astro';
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 1.2em;
-    min-height: 56px; /* ↓ un peu moins haut */
+    justify-content: center;
+    gap: 0.5em;
+    min-height: 56px;
   }
 
   .nav-left,
@@ -92,72 +88,26 @@ import HeaderLink from './HeaderLink.astro';
   .nav-right {
     display: flex;
     align-items: center;
+    gap: 0.3em;
   }
 
   .nav-center {
     flex: 0 0 auto;
     justify-content: center;
-    flex-grow: 1;
   }
 
   .nav-left { flex: 0 0 auto; }
   .nav-right { flex: 0 0 auto; }
 
-  h2 {
-    margin: 0;
-    font-size: clamp(1.15rem, 3vw, 1.4rem); /* ↓ */
-    font-weight: 700;
-    font-family: var(--font-sans);
-    letter-spacing: -0.02em;
-    line-height: 1.15;
-  }
-
-  h2 a {
-    background: linear-gradient(135deg, var(--accent) 0%, #6366f1 50%, #8b5cf6 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-decoration: none;
-    padding: 0.25em 0.6em; /* ↓ */
-    border-radius: 12px;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    display: inline-block;
-    position: relative;
-    font-weight: 600;
-  }
-
-  h2 a::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(135deg, var(--accent) 0%, #6366f1 50%, #8b5cf6 100%);
-    border-radius: 12px;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    z-index: -1;
-  }
-
-  h2 a:hover,
-  h2 a:focus {
-    -webkit-text-fill-color: white;
-    transform: translateY(-2px) scale(1.05);
-    outline: none;
-  }
-
-  h2 a:hover::before,
-  h2 a:focus::before {
-    opacity: 1;
-  }
-
   .internal-links {
     display: flex;
-    gap: 0.4em;
+    gap: 0.8em;
     align-items: center;
     flex-wrap: wrap; /* permet de passer à la ligne si serré */
   }
 
   .internal-links a {
-    padding: 0.25em 0.6em;
+    padding: 0.25em 0.4em;
     background: linear-gradient(135deg, var(--accent) 0%, #6366f1 50%, #8b5cf6 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -167,7 +117,7 @@ import HeaderLink from './HeaderLink.astro';
     border-radius: 12px;
     text-decoration: none;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    font-size: 0.93rem;
+    font-size: 1.2rem;
     white-space: nowrap;
     letter-spacing: -0.02em;
     position: relative;
@@ -195,6 +145,15 @@ import HeaderLink from './HeaderLink.astro';
   .internal-links a:hover::before,
   .internal-links a:focus::before {
     opacity: 1;
+  }
+
+  .internal-links a:first-child {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .internal-links a:last-child {
+    margin-right: 0.5em;
   }
 
   .x-logo-link {
@@ -263,26 +222,16 @@ import HeaderLink from './HeaderLink.astro';
   /* Responsive adjustments */
   @media (max-width: 720px) {
     header { overflow-x: hidden; }
-    nav { min-height: 38px; gap: 0.5em; }
+    nav { min-height: 38px; gap: 0.3em; }
     .internal-links { gap: 0.15em; }
-    .internal-links a { padding: 0.15em 0.3em; font-size: 0.65rem; }
-    h2 { font-size: 0.75rem; }
-    h2 a { padding: 0.15em 0.3em; }
+    .internal-links a { padding: 0.15em 0.2em; font-size: 0.85rem; }
     .x-logo-link { padding: 0.15em; }
     .x-logo-link svg { width: 16px; height: 16px; }
   }
 
   @media (max-width: 480px) {
-    nav { gap: 0.3em; }
-    .internal-links a { padding: 0.1em 0.2em; font-size: 0.6rem; }
-    h2 { font-size: 0.65rem; }
-    .x-logo-link svg { width: 14px; height: 14px; }
+    nav { gap: 0.2em; }
+    .internal-links a { padding: 0.1em 0.15em; font-size: 0.55rem; }
+    .x-logo-link svg { width: 12px; height: 12px; }
   }
-
-  header nav a {
-  font-size: 1.3rem;   /* plus gros texte */
-  margin: 0 0.6rem;    /* plus d’espace horizontal entre chaque lien */
-  font-weight: 400;    /* optionnel : un peu plus épais */
-  letter-spacing: 0.6px; /* optionnel : espace entre lettres */
-}
 </style>

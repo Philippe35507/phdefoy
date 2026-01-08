@@ -4,75 +4,21 @@ import Layout from '../../layouts/BlogPost.astro';
 
 <Layout
   title="Philippe de Foy – Mes livres"
-  pageTitle="Mes ouvrages"
+  pageTitle="Mes livres"
   description="Découvrez les livres de Philippe de Foy : cours d'espagnol et de russe pour débutants (A1, A2)."
   pubDate={new Date('August 08 2024')}
   heroImage="/images/about-photo.png"
   hideBreadcrumb={true}
 >
 
-  <h2></h2>
-
   <div class="page-container">
-    <p class="intro">
-      Disponibles sur Amazon :
-    </p>
-
-    <div class="books">
-    <div class="book">
-      <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/">
-        <img src="/images/russe/apprendre-le-russe-pour-les-debutants.png"
-             alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
-             class="book-cover" />
-      </a>
-      <div class="book-title">Le Russe pour les Débutants A1</div>
+    <div class="intro-text">
+      <p>J'ai écrit ces livres avec une idée simple : aller à l'essentiel.</p>
+      <p>Pour l'apprentissage des langues, j'ai publié plusieurs méthodes pour ceux qui partent de zéro ou qui veulent consolider leurs bases : l'une pour l'apprentissage du russe (niveaux A1 et A2) et l'autre pour l'espagnol (niveau A1).</p>
+      <p>Ce sont des outils concrets pour commencer à pratiquer sans se perdre dans la théorie.</p>
+      <p>À côté de ça, je m'intéresse aussi à la nutrition, ce qui m'a conduit à écrire un ouvrage sur les bénéfices de consommer un œuf par jour.</p>
+      <p>Ces livres sont <a href="https://www.amazon.fr/-/e/B0G92HLLH9" target="_blank" rel="noopener">disponibles sur Amazon</a> en version papier et numérique.</p>
     </div>
-
-    <div class="book">
-      <a href="/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-philippe-de-foy/">
-        <img src="/images/russe/manuel-le-russe-pour-les-debutants-a2-philippe-de-foy.png"
-             alt="Couverture du livre Le Russe pour les Débutants Niveau A2 - Philippe de Foy"
-             class="book-cover" />
-      </a>
-      <div class="book-title">Le Russe pour les Débutants A2</div>
-    </div>
-
-    <div class="book">
-      <a href="/l-espagnol-pour-les-debutants-niveau-a1-philippe-de-foy/">
-        <img src="/images/esp/espagnol-a1.jpg"
-             alt="Couverture du livre L'Espagnol pour les Débutants Niveau A1 - Philippe de Foy"
-             class="book-cover" />
-      </a>
-      <div class="book-title">L'Espagnol pour les Débutants A1</div>
-    </div>
-
-    <div class="book">
-      <a href="/libro-el-ruso-desde-cero-nivel-a1-philippe-de-foy/">
-        <img src="/images/russe/libro-el-ruso-desde-cero-nivel-a1-philippe-de-foy.png"
-             alt="Portada del libro el Ruso desde cero Nivel A1 - Philippe de Foy"
-             class="book-cover" />
-      </a>
-      <div class="book-title">El Ruso desde Cero A1</div>
-    </div>
-
-    <div class="book">
-      <a href="/un-oeuf-par-jour-philippe-de-foy/">
-        <img src="/images/oeuf/oeuf.jpg"
-             alt="Couverture du livre Un œuf par jour - Philippe de Foy"
-             class="book-cover" />
-      </a>
-      <div class="book-title">Un œuf par jour</div>
-    </div>
-
-    <div class="book">
-      <a href="/one-egg-a-day-philippe-de-foy/">
-        <img src="/images/oeuf/egg.png"
-             alt="Couverture du livre One Egg a Day - Philippe de Foy"
-             class="book-cover" />
-      </a>
-      <div class="book-title">One Egg a Day</div>
-    </div>
-
   </div>
 
   <!-- Section Recursos en español -->
@@ -146,60 +92,24 @@ import Layout from '../../layouts/BlogPost.astro';
     display: none;
   }
 
-  .intro {
-    font-size: 1.6rem;
+  .intro-text {
+    font-size: 1.15rem;
     color: #cbd5e1;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
+    line-height: 1.7;
   }
 
-  .books {
-    display: flex;
-    gap: 2rem;
-    margin-top: 1.5rem;
-    flex-wrap: wrap;
-    justify-content: center;
+  .intro-text p {
+    margin-bottom: 1rem;
   }
 
-  .book {
-    text-align: center;
-    max-width: 140px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .intro-text a {
+    color: #6366f1;
+    text-decoration: underline;
+    transition: color 0.2s ease;
   }
 
-  .book p {
-    text-align: center;
-  }
-
-  .book-cover {
-    width: 100%;
-    height: auto;
-    border-radius: 3px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
-    cursor: pointer;
-  }
-  @media (hover: hover) {
-    .book-cover {
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-    .book-cover:hover {
-      transform: scale(1.05);
-      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
-    }
-  }
-
-  .book-title {
-    font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
-    font-style: normal;
-    margin: 0 auto;
-    font-size: 1rem;
-    text-align: center !important;
-    line-height: 1.3;
-    display: block;
-    width: 100%;
-    color: #f1f5f9;
+  .intro-text a:hover {
+    color: #8b5cf6;
   }
 
   /* === Section Recursos en español === */
