@@ -6,7 +6,7 @@ import HeaderLink from './HeaderLink.astro';
   <nav>
     <div class="nav-center">
       <div class="internal-links">
-        <HeaderLink href="/">Philippe de Foy</HeaderLink>
+        <HeaderLink href="/" class="home-link">Philippe de Foy</HeaderLink>
         <HeaderLink href="/apprendre-le-russe/">Russe</HeaderLink>
         <HeaderLink href="/apprendre-espagnol/">Espagnol</HeaderLink>
         <HeaderLink href="/livres/">Livres</HeaderLink>
@@ -117,7 +117,7 @@ import HeaderLink from './HeaderLink.astro';
     border-radius: 12px;
     text-decoration: none;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     white-space: nowrap;
     letter-spacing: -0.02em;
     position: relative;
@@ -224,14 +224,15 @@ import HeaderLink from './HeaderLink.astro';
     header { overflow-x: hidden; }
     nav { min-height: 38px; gap: 0.3em; }
     .internal-links { gap: 0.15em; }
-    .internal-links a { padding: 0.15em 0.2em; font-size: 0.85rem; }
+    .internal-links a { padding: 0.15em 0.2em; font-size: 0.95rem; }
     .x-logo-link { padding: 0.15em; }
     .x-logo-link svg { width: 16px; height: 16px; }
   }
 
   @media (max-width: 480px) {
     nav { gap: 0.2em; }
-    .internal-links a { padding: 0.1em 0.15em; font-size: 0.55rem; }
+    .internal-links a { padding: 0.1em 0.15em; font-size: 0.85rem !important; }
+    .internal-links :global(.home-link) { display: none !important; }
     .x-logo-link svg { width: 12px; height: 12px; }
   }
 </style>
