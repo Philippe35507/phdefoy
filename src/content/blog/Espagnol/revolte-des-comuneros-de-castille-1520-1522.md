@@ -8,9 +8,9 @@ tags: ["Espagnol"]
 ---
 
 
-En automne 1519, la ville de Tolède publie un manifeste. Elle dénonce la politique du nouveau roi Charles Ier, devenu récemment [Charles Quint, empereur romain germanique](/charles-quint-empire-universel/), le 28 juin 1519. Ce jeune Flamand de dix-neuf ans qui ne parle pas castillan et qui vide le trésor royal pour acheter la couronne impériale. 
+En automne 1519, la ville de Tolède publie un manifeste. Elle dénonce la politique du nouveau roi Charles Ier, devenu récemment [Charles Quint](/charles-quint-empire-universel/), empereur romain germanique, le 28 juin 1519. Ce jeune Flamand de dix-neuf ans qui ne parle pas castillan et qui vide le trésor royal pour acheter la couronne impériale. 
 
-En mai 1520, quand Charles Quint s'embarque depuis La Corogne pour l'Allemagne, laissant un régent flamand à la tête du royaume, plusieurs villes castillanes se soulèvent. Tolède, Ségovie, Valladolid, Burgos expulsent les représentants du roi. Elles forment une assemblée révolutionnaire, la Santa Junta, et prétendent gouverner la [Castille](/royaume-de-castille-naissance-expansion-heritage/). Cette [révolte des Comunidades](https://fr.wikipedia.org/wiki/Guerre_des_Communaut%C3%A9s_de_Castille), menée par *les comuneros* écrasée en 1521 à Villalar, marque la première grande rébellion contre l'absolutisme monarchique espagnol.
+En mai 1520, quand Charles Quint s'embarque depuis La Corogne pour l'Allemagne, laissant un régent flamand à la tête du royaume, plusieurs villes castillanes se soulèvent. Tolède, Ségovie, Valladolid, Burgos expulsent les représentants du roi. Elles forment une assemblée révolutionnaire, la Santa Junta, et prétendent gouverner la [Castille](/royaume-de-castille-naissance-expansion-heritage/). Cette [révolte des Comunidades](https://fr.wikipedia.org/wiki/Guerre_des_Communaut%C3%A9s_de_Castille), menée par *les comuneros*, est écrasée en 1521 à Villalar, marque la première grande rébellion contre l'absolutisme monarchique espagnol.
 
 ## Un roi étranger qui pille la Castille
 
@@ -18,7 +18,7 @@ Charles de Habsbourg débarque en Espagne le 19 septembre 1517. Il a dix-sept an
 
 Il arrive entouré de courtisans flamands. [Guillaume de Croÿ](https://fr.wikipedia.org/wiki/Guillaume_de_Cro%C3%BF), seigneur de Chièvres, dirige son conseil. Charles confie les postes-clés du royaume à des étrangers : l'archevêché de Tolède au neveu de Chièvres, celui de Saragosse à un autre Flamand. Les Castillans sont écartés des charges importantes. Cette mainmise étrangère provoque un mécontentement immédiat.
 
-Pire encore, Charles ponctionne les ressources de Castille pour financer ses ambitions impériales. En janvier 1519, son grand-père Maximilien de Habsbourg meurt. Charles brigue la couronne du Saint-Empire romain germanique. L'élection se joue à coups de pots-de-vin. Les banquiers Fugger avancent des sommes considérables. Charles doit les rembourser. Il convoque les Cortès de Castille à Saint-Jacques-de-Compostelle en mars 1520 puis à La Corogne. Il exige un nouveau subside extraordinaire.
+Pire encore, Charles ponctionne les ressources de Castille pour financer ses ambitions impériales. En janvier 1519, son grand-père Maximilien de Habsbourg meurt. Charles brigue la couronne du Saint-Empire romain germanique. L'élection se joue à coups de pots-de-vin. Les banquiers Fugger avancent des sommes considérables. Charles doit les rembourser. Il convoque les Cortès de Castille (assemblée qui réunissait les trois ordres de la société : Le clergé, la noblesse, les représentants des villes) dans la ville de Saint-Jacques-de-Compostelle en mars 1520 puis à La Corogne. Il exige un nouveau subside extraordinaire.
 
 Les villes protestent. <a href="/charles-quint-empire-universel/#tolede1">Tolède</a> refuse d'envoyer ses représentants. Ségovie envoie les siens avec ordre de voter contre. Mais Charles Quint obtient finalement l'argent en distribuant des faveurs et en menaçant. Le 20 mai 1520, il s'embarque pour l'Allemagne. Il laisse comme régent le cardinal Adrien d'Utrecht, un autre étranger. Ce départ déclenche la rébellion.
 
