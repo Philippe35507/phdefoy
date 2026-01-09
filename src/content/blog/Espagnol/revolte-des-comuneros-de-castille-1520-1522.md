@@ -1,0 +1,76 @@
+---
+title: "La révolte des Comuneros de Castille (1520-1522)"
+displayTitle: "La révolte des Comuneros de Castille (1520-1522) : première rébellion contre l'absolutisme"
+description: "Entre 1520 et 1522, les villes castillanes se soulèvent contre Charles Quint et l'influence flamande. La bataille de Villalar marque la défaite des Comuneros."
+pubDate: "jan 09 2026"
+heroImage: "/images/esp/revolte-des-comuneros-guerre-des-comunidades-de-castille.png"
+tags: ["Espagnol"]
+---
+
+
+En automne 1519, la ville de Tolède publie un manifeste. Elle dénonce la politique du nouveau roi Charles Ier, devenu récemment [Charles Quint, empereur romain germanique](/charles-quint-empire-universel/), le 28 juin 1519. Ce jeune Flamand de dix-neuf ans qui ne parle pas castillan et qui vide le trésor royal pour acheter la couronne impériale. 
+
+En mai 1520, quand Charles Quint s'embarque depuis La Corogne pour l'Allemagne, laissant un régent flamand à la tête du royaume, plusieurs villes castillanes se soulèvent. Tolède, Ségovie, Valladolid, Burgos expulsent les représentants du roi. Elles forment une assemblée révolutionnaire, la Santa Junta, et prétendent gouverner la [Castille](/royaume-de-castille-naissance-expansion-heritage/). Cette [révolte des Comunidades](https://fr.wikipedia.org/wiki/Guerre_des_Communaut%C3%A9s_de_Castille), menée par *les comuneros* écrasée en 1521 à Villalar, marque la première grande rébellion contre l'absolutisme monarchique espagnol.
+
+## Un roi étranger qui pille la Castille
+
+Charles de Habsbourg débarque en Espagne le 19 septembre 1517. Il a dix-sept ans. Né et élevé à Gand, il parle flamand et français, pas espagnol. Son père Philippe le Beau est mort en 1506. Sa mère Jeanne, fille des Rois Catholiques, est déclarée folle et enfermée à Tordesillas. Charles vient prendre possession d'un royaume qui ne le connaît pas.
+
+Il arrive entouré de courtisans flamands. [Guillaume de Croÿ](https://fr.wikipedia.org/wiki/Guillaume_de_Cro%C3%BF), seigneur de Chièvres, dirige son conseil. Charles confie les postes-clés du royaume à des étrangers : l'archevêché de Tolède au neveu de Chièvres, celui de Saragosse à un autre Flamand. Les Castillans sont écartés des charges importantes. Cette mainmise étrangère provoque un mécontentement immédiat.
+
+Pire encore, Charles ponctionne les ressources de Castille pour financer ses ambitions impériales. En janvier 1519, son grand-père Maximilien de Habsbourg meurt. Charles brigue la couronne du Saint-Empire romain germanique. L'élection se joue à coups de pots-de-vin. Les banquiers Fugger avancent des sommes considérables. Charles doit les rembourser. Il convoque les Cortès de Castille à Saint-Jacques-de-Compostelle en mars 1520 puis à La Corogne. Il exige un nouveau subside extraordinaire.
+
+Les villes protestent. <a href="/charles-quint-empire-universel/#tolede1">Tolède</a> refuse d'envoyer ses représentants. Ségovie envoie les siens avec ordre de voter contre. Mais Charles Quint obtient finalement l'argent en distribuant des faveurs et en menaçant. Le 20 mai 1520, il s'embarque pour l'Allemagne. Il laisse comme régent le cardinal Adrien d'Utrecht, un autre étranger. Ce départ déclenche la rébellion.
+
+## Les villes se soulèvent
+
+Dès avril 1520, Tolède expulse son corregidor, le représentant du roi. Ses regidores, Pero Laso de la Vega et Juan de Padilla, proclament la ville en Comunidad, communauté indépendante. D'autres villes suivent. Ségovie se révolte en mai. Une foule assassine le regidor Rodrigo de Tordesillas, accusé d'avoir voté le subside.
+
+Le régent Adrien d'Utrecht envoie une armée punir Ségovie. Le 12 août 1520, les troupes royales tentent de s'emparer de l'artillerie entreposée à Medina del Campo pour empêcher les rebelles de s'en servir. La population résiste. Les soldats mettent le feu à la ville. La moitié de Medina del Campo brûle. Cet incendie provoque une indignation générale. Le mouvement s'étend.
+
+Le 29 juillet 1520, des représentants des villes rebelles se réunissent à Ávila. Ils forment la Santa Junta, Sainte Ligue du royaume. Pedro Laso de la Vega, frère du poète Garcilaso de la Vega, préside l'assemblée. Juan de Padilla prend le commandement militaire des comuneros. La Junta se déplace à Tordesillas, où réside la reine Jeanne. Les rebelles espèrent obtenir son soutien et légitimer leur cause en prétendant libérer la reine légitime, retenue captive par son fils.
+
+Ils rencontrent Jeanne. L'entrevue les déçoit. La reine, enfermée depuis des années, souffre manifestement de troubles mentaux graves. Elle ne peut servir leur cause. Mais la Junta s'installe à Tordesillas et prétend gouverner au nom de la reine.
+
+## Un mouvement qui se radicalise
+
+La révolte des Comuneros n'est pas un soulèvement populaire. Les comuneros appartiennent à l'oligarchie urbaine : petite noblesse, marchands, artisans, bourgeoisie commerciale. Ils veulent limiter le pouvoir royal, préserver les privilèges de leurs villes, défendre les Cortès contre l'absolutisme naissant de Charles Quint. Certains historiens y voient la première révolution bourgeoise moderne. D'autres la qualifient de mouvement particulariste et antifiscal.
+
+Les revendications se précisent. Les comuneros exigent que le roi réside en Castille, qu'il n'accorde plus de charges à des étrangers, qu'il consulte les Cortès avant de lever de nouveaux impôts, que les ressources castillanes ne servent pas à financer des guerres impériales. Ils veulent un système de gouvernement négocié entre le roi et le royaume, comparable à celui qui existe dans la couronne d'Aragon.
+
+Mais dès septembre 1520, le mouvement se radicalise. À Valladolid, à Zamora, à Salamanque éclatent des émeutes antiseigneuriales. Des paysans attaquent les propriétés nobles, brûlent des châteaux, refusent de payer les redevances. Cette violence populaire effraie les oligarques urbains qui dirigent la révolte. Elle effraie surtout la grande noblesse castillane.
+
+Les nobles hésitaient jusqu'alors. Certains sympathisaient avec les revendications contre un roi étranger. Mais quand le mouvement menace leurs intérêts de classe, ils basculent du côté royal. Le régent Adrien négocie, promet des concessions. Il réussit à détacher certaines villes de la Junta. Burgos, port exportateur de laine, a toujours été tiède envers une révolte qui menace le commerce. D'autres villes font défection.
+
+## La bataille de Villalar
+
+En décembre 1520, les troupes royales reprennent Tordesillas. La Santa Junta doit fuir. Les comuneros se réfugient à Valladolid puis à Toro. Ils sont affaiblis par les défections, divisés par les querelles internes. Pedro Girón, nouveau capitaine général, trahit ou se montre incompétent. Juan de Padilla reprend le commandement mais le moral des troupes s'effondre.
+
+Le 23 avril 1521 se joue la bataille décisive à Villalar, petit village entre Toro et Valladolid. Les troupes royales, commandées par le connétable de Castille et l'amiral de Castille, deux grands nobles ralliés au roi, affrontent l'armée comunera. Les rebelles, désorganisés, moralement battus, sont écrasés en quelques heures.
+
+Juan de Padilla, Juan Bravo, regidor de Ségovie, et Francisco Maldonado, regidor de Salamanque, les trois chefs militaires de la révolte, sont capturés. Le lendemain, 24 avril 1521, ils sont décapités sur la place de Villalar. Selon les chroniques, Bravo reproche à Padilla d'avoir mené la Castille à sa perte. Padilla répond : « Hier était le jour de combattre en chevalier. Aujourd'hui est le jour de mourir en chrétien. »
+
+La bataille de Villalar brise la révolte. Une répression féroce s'abat sur les villes rebelles. Mais Tolède refuse de capituler. L'évêque Antonio de Acuña et María de Pacheco, veuve de Padilla, organisent la résistance. Tolède tient jusqu'en février 1522. Acuña est capturé, jugé, emprisonné puis étranglé en 1526. María de Pacheco s'exile au Portugal où elle meurt en 1531.
+
+## Les conséquences du soulèvement
+
+En 1522, Charles Quint revient en Espagne. Il promulgue un pardon général, sauf pour les chefs déjà exécutés. Il a compris la leçon. Il écarte ses conseillers flamands les plus impopulaires. Il apprend le castillan. Il place des membres de l'élite castillane dans son gouvernement. Il réside en Espagne pendant sept ans, de 1522 à 1529, la période peut-être la plus réussie de tout son règne selon l'historien Henry Kamen.
+
+Mais la répression a été brutale et le message est clair : toute rébellion contre l'autorité royale sera écrasée. Les villes castillanes perdent une partie de leurs privilèges. Les Cortès ne retrouvent jamais leur influence d'avant 1520. L'absolutisme monarchique s'impose en Castille. Les nobles, en se rangeant aux côtés du roi contre les villes rebelles, ont renforcé leur position dans le système politique. Un pacte tacite s'établit entre la couronne et l'aristocratie aux dépens des libertés urbaines.
+
+Le débat historiographique sur les Comuneros reste ouvert. Pour José Antonio Maravall, Julio Valdeón Baruque et l'historien français Joseph Pérez, auteur du livre de référence « La révolution des Comunidades de Castille », il s'agit d'un mouvement moderne, précurseur de la Révolution française, première tentative de limiter le pouvoir absolu du roi au nom de la représentation du royaume. Pour d'autres, c'est au contraire une révolte rétrograde, particulariste, refusant la modernisation de l'État et l'intégration de la Castille dans l'empire de Charles Quint.
+
+Les deux interprétations contiennent une part de vérité. Les comuneros défendaient des privilèges médiévaux mais aussi des principes modernes de gouvernement négocié et de consentement à l'impôt. Leur défaite a permis l'affirmation de l'absolutisme en Castille, base du pouvoir des Habsbourg espagnols pour les deux siècles suivants. Mais elle a aussi étouffé une voie alternative, celle d'une monarchie limitée par des institutions représentatives, voie que suivront d'autres pays européens.
+
+En 1521, sur la place de Villalar, trois têtes tombent. Avec elles s'effondre la dernière résistance castillane à la centralisation monarchique. Charles Quint peut désormais utiliser les ressources de la Castille pour ses guerres en Italie, en Allemagne, en Méditerranée. Les villes castillanes paient, les Cortès approuvent, la noblesse collabore. L'empire universel de Charles Quint se construit sur les ruines des libertés urbaines de Castille.
+
+<div style="display: flex; justify-content: center;">
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/Xd4fVPc58XE" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+  ></iframe>
+</div>
