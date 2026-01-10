@@ -27,8 +27,21 @@ npm run add:seo     # Add SEO slugs to content
 - Uses Anthropic Claude API to generate literary analysis articles
 - Uses OpenAI gpt-image-1 for hero and inline images
 - Articles are generated from a list of novels in `src/data/scripts/fixed-novels.json`
-- Outputs markdown files to `src/content/blog/ia/`
+- Outputs MDX files to `src/content/blog/ia/`
 - Images are saved as PNG/WEBP/AVIF triplets in `public/images/ia/`
+
+### Blog Structure
+All blog content uses MDX format (.mdx) organized in lowercase folders:
+- `src/content/blog/ia/` - AI-generated literary articles
+- `src/content/blog/espagnol/` - Spanish language learning
+- `src/content/blog/russe/` - Russian language learning
+- `src/content/blog/autres/` - Other articles
+
+### Pillar Pages
+Pillar pages use MDX content in `src/content/pillars/`:
+- `espagnol.mdx` → rendered by `src/pages/apprendre-espagnol/index.astro`
+- `russe.mdx` → rendered by `src/pages/apprendre-le-russe/index.astro`
+- `livres.mdx` → rendered by `src/pages/livres/index.astro`
 
 ### Blog Content Schema (`src/content.config.ts`)
 Blog posts require:
