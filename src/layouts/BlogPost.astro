@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
 import BaseHead from '../components/BaseHead.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 import Footer from '../components/Footer.astro';
@@ -8,6 +9,41 @@ import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import '../styles/blog-post.css';
 import '../styles/cookie-banner.css';
+
+// Import dynamique de toutes les images de src/assets/
+const allImages = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/**/*.{png,jpg,jpeg,webp,avif}',
+  { eager: true }
+);
+
+// Fonction pour trouver une image dans src/assets à partir d'un chemin /images/...
+function findAssetImage(imagePath: string): ImageMetadata | null {
+  if (!imagePath || imagePath.includes('/images/ia/')) return null;
+
+  // Extraire le nom de fichier
+  const filename = imagePath.split('/').pop();
+  if (!filename) return null;
+
+  // Déterminer le dossier cible dans src/assets
+  let targetFolder = 'divers';
+  if (imagePath.includes('/images/esp/')) targetFolder = 'esp';
+  else if (imagePath.includes('/images/russe/')) targetFolder = 'russe';
+
+  // Chercher dans le dossier approprié
+  const assetPath = `/src/assets/${targetFolder}/${filename}`;
+  if (allImages[assetPath]) {
+    return allImages[assetPath].default;
+  }
+
+  // Fallback: chercher par nom de fichier dans tous les dossiers
+  for (const [path, module] of Object.entries(allImages)) {
+    if (path.endsWith(`/${filename}`)) {
+      return module.default;
+    }
+  }
+
+  return null;
+}
 
 type BlogData = CollectionEntry<'blog'>['data'];
 
@@ -61,13 +97,17 @@ const alt = heroImageAlt ?? (title ? `Illustration : ${title}` : "Illustration")
 
 // Heuristique :
 // - Nouveaux articles IA : PNG sous /images/ia/...  => <Picture> (AVIF/WEBP/PNG)
-// - Anciens articles     : extension libre (.jpg/.png) & chemins variés => <img> simple
+// - Articles avec image dans src/assets => <Image> (optimisation auto AVIF/WEBP)
+// - Fallback => <img> simple
 const isPng = /\.png$/i.test(heroImage);
 const isUnderIA = heroImage.includes("/images/ia/");
 const usePicture = isPng && isUnderIA;
 
 // Pour <picture>, on part de la base sans extension
 const pictureBase = usePicture ? heroImage.replace(/\.png$/i, "") : null;
+
+// Chercher l'image dans src/assets (pour les articles manuels)
+const assetImage = !usePicture ? findAssetImage(heroImage) : null;
 
 // Schema.org Article JSON-LD
 const SITE_URL = 'https://phdefoy.com';
@@ -152,6 +192,8 @@ if (relatedSlugs.length > 0) {
                       <source srcset={`${pictureBase}.webp`} type="image/webp" />
                       <img src={`${pictureBase}.png`} alt={alt} width="1200" height="630" fetchpriority="high" decoding="async" />
                     </picture>
+                  ) : assetImage ? (
+                    <Image src={assetImage} alt={alt} width={1200} height={630} format="avif" loading="eager" decoding="async" />
                   ) : (
                     <img src={heroImage} alt={alt} width="1200" height="630" fetchpriority="high" decoding="async" />
                   )
@@ -165,6 +207,8 @@ if (relatedSlugs.length > 0) {
                   <source srcset={`${pictureBase}.webp`} type="image/webp" />
                   <img src={`${pictureBase}.png`} alt={alt} width="1200" height="630" fetchpriority="high" decoding="async" />
                 </picture>
+              ) : assetImage ? (
+                <Image src={assetImage} alt={alt} width={1200} height={630} format="avif" loading="eager" decoding="async" />
               ) : (
                 <img src={heroImage} alt={alt} width="1200" height="630" fetchpriority="high" decoding="async" />
               )
