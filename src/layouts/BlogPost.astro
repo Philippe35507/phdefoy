@@ -8,6 +8,7 @@ import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import '../styles/blog-post.css';
+import '../styles/books.css';
 import '../styles/cookie-banner.css';
 
 // Import dynamique de toutes les images de src/assets/
@@ -241,22 +242,54 @@ if (relatedSlugs.length > 0) {
         <section class="related-articles">
           <h2>Livres à découvrir</h2>
           <div class="related-grid">
-            {relatedArticles.map((article) => (
-              <a href={hrefFor(article)} class="related-card">
-                {article.data.heroImage && (
-                  <img
-                    src={article.data.heroImage}
-                    alt={article.data.heroImageAlt || article.data.title}
-                    loading="lazy"
-                    decoding="async"
-                  />
-                )}
-                <h3>{article.data.displayTitle ?? article.data.title}</h3>
-                <div class="meta">
-                  <FormattedDate date={article.data.pubDate} />
-                </div>
-              </a>
-            ))}
+            {relatedArticles.map((article) => {
+              const heroImg = article.data.heroImage;
+              const isIa = heroImg?.includes('/images/ia/');
+              const isPngImg = /\.png$/i.test(heroImg || '');
+              const useRelatedPicture = isIa && isPngImg;
+              const relatedPictureBase = useRelatedPicture ? heroImg.replace(/\.png$/i, '') : null;
+              const relatedAssetImg = !useRelatedPicture ? findAssetImage(heroImg || '') : null;
+
+              return (
+                <a href={hrefFor(article)} class="related-card">
+                  {heroImg && (
+                    useRelatedPicture && relatedPictureBase ? (
+                      <picture>
+                        <source srcset={`${relatedPictureBase}.avif`} type="image/avif" />
+                        <source srcset={`${relatedPictureBase}.webp`} type="image/webp" />
+                        <img
+                          src={`${relatedPictureBase}.png`}
+                          alt={article.data.heroImageAlt || article.data.title}
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </picture>
+                    ) : relatedAssetImg ? (
+                      <Image
+                        src={relatedAssetImg}
+                        alt={article.data.heroImageAlt || article.data.title}
+                        width={400}
+                        height={225}
+                        format="avif"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    ) : (
+                      <img
+                        src={heroImg}
+                        alt={article.data.heroImageAlt || article.data.title}
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    )
+                  )}
+                  <h3>{article.data.displayTitle ?? article.data.title}</h3>
+                  <div class="meta">
+                    <FormattedDate date={article.data.pubDate} />
+                  </div>
+                </a>
+              );
+            })}
           </div>
         </section>
       )}

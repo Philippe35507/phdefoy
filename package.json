@@ -9,10 +9,12 @@
     "astro": "astro",
     "add:seo": "tsx scripts/add-seo-slug.ts",
     "blog": "tsx src/data/scripts/generate-daily-fiction.ts && tsx scripts/optimize-images.ts",
-    "validate:images": "tsx scripts/validate-image-names.ts"
+    "validate:images": "tsx scripts/validate-image-names.ts",
+    "convert:mdx": "tsx scripts/convert-md-to-mdx.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.71.2",
+    "rehype-slug": "^6.0.0",
     "@astrojs/mdx": "^4.3.13",
     "@astrojs/rss": "^4.0.14",
     "@astrojs/sitemap": "^3.6.0",

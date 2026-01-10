@@ -1,0 +1,79 @@
+---
+import { Image } from 'astro:assets';
+import Picture from './Picture.astro';
+
+interface Props {
+  src: string;
+  alt: string;
+  width?: number;
+  height?: number;
+  class?: string;
+}
+
+const { src, alt, width = 800, height = 450, class: className } = Astro.props;
+
+// Import dynamique de toutes les images de src/assets/
+const allImages = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/**/*.{png,jpg,jpeg,webp,avif}',
+  { eager: true }
+);
+
+// Détection du type d'image
+const isIaImage = src.includes('/images/ia/');
+const isPng = /\.png$/i.test(src);
+const usePicture = isPng && isIaImage;
+
+// Pour les autres images : chercher dans src/assets/
+function findAssetImage(imagePath: string): ImageMetadata | null {
+  if (isIaImage) return null;
+
+  const filename = imagePath.split('/').pop();
+  if (!filename) return null;
+
+  // Déterminer le dossier cible dans src/assets
+  let targetFolder = 'divers';
+  if (imagePath.includes('/images/esp/')) targetFolder = 'esp';
+  else if (imagePath.includes('/images/russe/')) targetFolder = 'russe';
+
+  const assetPath = `/src/assets/${targetFolder}/${filename}`;
+  if (allImages[assetPath]) {
+    return allImages[assetPath].default;
+  }
+
+  // Fallback: chercher par nom de fichier dans tous les dossiers
+  for (const [path, module] of Object.entries(allImages)) {
+    if (path.endsWith(`/${filename}`)) {
+      return module.default;
+    }
+  }
+
+  return null;
+}
+
+const assetImage = !usePicture ? findAssetImage(src) : null;
+---
+
+{usePicture ? (
+  <Picture src={src} alt={alt} />
+) : assetImage ? (
+  <Image
+    src={assetImage}
+    alt={alt}
+    width={width}
+    height={height}
+    format="avif"
+    loading="lazy"
+    decoding="async"
+    class={className}
+  />
+) : (
+  <img
+    src={src}
+    alt={alt}
+    width={width}
+    height={height}
+    loading="lazy"
+    decoding="async"
+    class={className}
+  />
+)}

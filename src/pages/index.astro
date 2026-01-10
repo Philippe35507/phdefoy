@@ -10,8 +10,8 @@ interface MarkdownModule {
   Content: any;
   frontmatter?: any;
 }
-const mdModules = import.meta.glob<MarkdownModule>('../content/blog/Autres/apprendre-espagnol-et-russe-methodes-efficaces-pour-francophones.md');
-const mdModule = await mdModules['../content/blog/Autres/apprendre-espagnol-et-russe-methodes-efficaces-pour-francophones.md']();
+const mdModules = import.meta.glob<MarkdownModule>('../content/blog/autres/apprendre-espagnol-et-russe-methodes-efficaces-pour-francophones.mdx');
+const mdModule = await mdModules['../content/blog/autres/apprendre-espagnol-et-russe-methodes-efficaces-pour-francophones.mdx']();
 const { Content } = mdModule;
 
 // Schema.org Person JSON-LD

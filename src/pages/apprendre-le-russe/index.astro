@@ -9,7 +9,7 @@ import '../../styles/blog-post.css';
 import '../../styles/cookie-banner.css';
 
 import { getCollection, type CollectionEntry } from 'astro:content';
-import { Content as PillarContent } from '../../content/pillars/russe.md';
+import { Content as PillarContent } from '../../content/pillars/russe.mdx';
 
 // Import dynamique des images de src/assets/
 const allImages = import.meta.glob<{ default: ImageMetadata }>(

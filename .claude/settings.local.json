@@ -12,7 +12,23 @@
       "Bash(git -C \"C:\\\\Users\\\\phdef\\\\phdefoy\" push)",
       "Bash(git -C \"C:\\\\Users\\\\phdef\\\\phdefoy\" diff --stat)",
       "Bash(git -C \"C:\\\\Users\\\\phdef\\\\phdefoy\" add src/components/Header.astro src/pages/philippe-de-foy/index.astro)",
-      "Bash(git -C \"C:\\\\Users\\\\phdef\\\\phdefoy\" commit -m \"$\\(cat <<''EOF''\nupdate: refonte barre de menus et page À propos\n\nBarre de menus :\n- Renommer \"Home\" en \"Philippe de Foy\" et ajouter \"À propos\"\n- Uniformiser les styles des liens\n- Centrer l''ensemble, ajuster espacements\n\nPage À propos :\n- Remplacer vignettes par texte de présentation\n- Ajouter lien Amazon pour les livres\n- Renommer \"Mes ouvrages\" en \"Mes livres\"\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git -C \"C:\\\\Users\\\\phdef\\\\phdefoy\" commit -m \"$\\(cat <<''EOF''\nupdate: refonte barre de menus et page À propos\n\nBarre de menus :\n- Renommer \"Home\" en \"Philippe de Foy\" et ajouter \"À propos\"\n- Uniformiser les styles des liens\n- Centrer l''ensemble, ajuster espacements\n\nPage À propos :\n- Remplacer vignettes par texte de présentation\n- Ajouter lien Amazon pour les livres\n- Renommer \"Mes ouvrages\" en \"Mes livres\"\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(npm update:*)",
+      "Bash(npm outdated:*)",
+      "Bash(npm audit:*)",
+      "Bash(npm view:*)",
+      "WebSearch",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(DRY_RUN=true npx tsx:*)",
+      "Bash(while read f)",
+      "Bash(do cp \"$f\" src/assets/divers/)",
+      "Bash(done)",
+      "Bash(for f in public/images/about-photo.png public/images/asimov/*/*.png public/images/dick/*/*.png public/images/divers/*.png public/images/mika-waltari/*.png public/images/oeuf/*.png public/images/oeuf/*.jpg public/images/placeholders/*.jpg public/images/placeholders/*.png public/images/poe/*.png public/images/polybe/*.png public/images/polybe/*.jpg public/images/stevenson/*.png)",
+      "Bash(grep:*)",
+      "Bash(dir /b \"C:\\\\Users\\\\phdef\\\\phdefoy\\\\public\\\\images\\\\ia\")",
+      "Bash(set DRY_RUN=true)",
+      "Bash(powershell -Command:*)"
     ]
   }
 }
