@@ -4,11 +4,36 @@ import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
 import { SITE_TITLE } from '../../consts';
+import { Image } from 'astro:assets';
 import '../../styles/blog-post.css';
 import '../../styles/cookie-banner.css';
 
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { Content as PillarContent } from '../../content/pillars/livres.md';
+
+// Import dynamique des images de src/assets/
+const allImages = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/**/*.{png,jpg,jpeg,webp,avif}',
+  { eager: true }
+);
+
+function findAssetImage(imagePath: string): ImageMetadata | null {
+  if (!imagePath || imagePath.includes('/images/ia/')) return null;
+  const filename = imagePath.split('/').pop();
+  if (!filename) return null;
+
+  let targetFolder = 'divers';
+  if (imagePath.includes('/images/esp/')) targetFolder = 'esp';
+  else if (imagePath.includes('/images/russe/')) targetFolder = 'russe';
+
+  const assetPath = `/src/assets/${targetFolder}/${filename}`;
+  if (allImages[assetPath]) return allImages[assetPath].default;
+
+  for (const [path, module] of Object.entries(allImages)) {
+    if (path.endsWith(`/${filename}`)) return module.default;
+  }
+  return null;
+}
 
 type Post = CollectionEntry<'blog'>;
 
@@ -53,16 +78,14 @@ const posts = allPosts
             {posts.map((p: Post) => (
               <li class="post-item">
                 <a class="post-link" href={hrefFor(p)}>
-                    {p.data.heroImage && (
-                      <img
-                        src={p.data.heroImage}
-                        alt={p.data.heroImageAlt || p.data.title}
-                        loading="lazy"
-                        decoding="async"
-                        width="640"
-                        height="360"
-                      />
-                    )}
+                    {p.data.heroImage && (() => {
+                      const assetImg = findAssetImage(p.data.heroImage);
+                      return assetImg ? (
+                        <Image src={assetImg} alt={p.data.heroImageAlt || p.data.title} width={640} height={360} format="avif" loading="lazy" decoding="async" />
+                      ) : (
+                        <img src={p.data.heroImage} alt={p.data.heroImageAlt || p.data.title} loading="lazy" decoding="async" width="640" height="360" />
+                      );
+                    })()}
                     <h3>{p.data.displayTitle ?? p.data.title}</h3>
                     <div class="meta">
                       <FormattedDate date={(p.data as any).pubDate} />
