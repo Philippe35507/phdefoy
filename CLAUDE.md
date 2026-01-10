@@ -37,9 +37,31 @@ Blog posts require:
 - `draft` (boolean, defaults to false)
 
 ### Image Handling
-- New AI articles use `<picture>` element with AVIF/WEBP/PNG sources
-- Hero images under `/images/ia/` with `.png` extension trigger the `<picture>` logic in `BlogPost.astro`
-- Fallback placeholder: `/images/placeholders/hero-portrait.png`
+
+**Structure des images :**
+```
+src/assets/           # Images optimisées automatiquement par Astro (→ AVIF)
+├── esp/              # Images articles espagnol (heroImage)
+├── russe/            # Images articles russe (heroImage)
+└── divers/           # Autres images (livres, auteurs, etc.)
+
+public/images/        # Images statiques pour markdown inline
+├── ia/               # Images IA avec triplets manuels AVIF/WEBP/PNG
+├── esp/              # Images inline markdown espagnol
+├── russe/            # Images inline markdown russe
+├── divers/           # Images inline (contact, mentions légales)
+├── poe/, polybe/, stevenson/, mika-waltari/, oeuf/, asimov/
+└── ...               # Autres images inline dans articles
+```
+
+**Logique d'affichage (`BlogPost.astro`, pages piliers) :**
+1. Images `/images/ia/*.png` → `<picture>` avec triplets AVIF/WEBP/PNG
+2. Images trouvées dans `src/assets/` → `<Image>` Astro (conversion AVIF auto)
+3. Autres images → `<img>` standard
+
+**Optimisation :**
+- Les images de `src/assets/` sont converties en AVIF au build (~80% compression)
+- Les pages piliers (espagnol, russe, livres) utilisent aussi `<Image>`
 
 ### Key Files
 - `src/layouts/BlogPost.astro` - Blog post layout with image handling logic
