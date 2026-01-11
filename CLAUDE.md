@@ -58,15 +58,19 @@ src/assets/           # Images optimisées automatiquement par Astro (→ AVIF)
 ├── russe/            # Images articles russe
 └── divers/           # Autres images (livres, auteurs, poe, polybe, etc.)
 
-public/images/        # Images statiques (ne pas ajouter ici sauf pour ia/)
+public/images/        # Images statiques (uniquement pour ia/)
 └── ia/               # Images IA avec triplets manuels AVIF/WEBP/PNG
 ```
 
-**Logique d'affichage (`BlogPost.astro`) :**
+**Logique d'affichage :**
 1. Images `/images/ia/*.png` → `<picture>` avec triplets AVIF/WEBP/PNG
-2. Images `/images/esp/`, `/images/russe/`, autres → recherche auto dans `src/assets/` → `<Image>` Astro
+2. `heroImage` dans frontmatter → `BlogPost.astro` redirige vers `src/assets/` → `<Image>` Astro
+3. Images inline dans MDX → **utiliser `<OptimizedImage>`** (redirige vers `src/assets/`)
 
-**Note :** Les fichiers MDX peuvent référencer `/images/esp/...` ou `/images/russe/...` - le code `BlogPost.astro` redirige automatiquement vers `src/assets/` pour l'optimisation AVIF.
+**IMPORTANT - Congruence des images inline :**
+- Toujours utiliser `<OptimizedImage src="/images/...">` dans le contenu MDX (pas `<img>`)
+- Le composant `OptimizedImage` cherche automatiquement dans `src/assets/` et optimise en AVIF
+- Import requis : `import OptimizedImage from '../../../components/OptimizedImage.astro';`
 
 ### Key Files
 - `src/layouts/BlogPost.astro` - Blog post layout with image handling logic
