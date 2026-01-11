@@ -18,9 +18,9 @@ export default defineConfig({
     rehypePlugins: [
       rehypeSlug,
       [rehypeAutolinkHeadings, {
-        behavior: 'prepend',
+        behavior: 'append',
         properties: { className: ['anchor-link'], ariaHidden: 'true', tabIndex: -1 },
-        content: h('span', '#')
+        content: h('span', ' 🔗')
       }]
     ]
   },
