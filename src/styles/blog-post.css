@@ -304,3 +304,16 @@ h6:hover .anchor-link {
   opacity: 1 !important;
 }
 
+/* Style liens dans articles : texte blanc, souligné en bleu */
+.prose a:not(.anchor-link) {
+  color: #f8fafc !important;
+  text-decoration: underline !important;
+  text-decoration-color: #60a5fa !important;
+  text-underline-offset: 3px;
+  transition: all 0.3s ease;
+}
+
+.prose a:not(.anchor-link):hover {
+  color: #60a5fa !important;
+}
+

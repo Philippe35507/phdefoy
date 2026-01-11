@@ -191,48 +191,76 @@ body.blog .post-content :is(h1, h2, h3, h4, h5, h6) {
 	
   }
 
- /* Carte globale */
+ /* Carte globale - style dark glass */
 .download-card {
-	background: #f9f9f9;
-	border: 4px solid #ddd;
-	border-radius: 12px;
-	padding: 1.2rem 1.5rem;
-	margin: 1.5rem 0;
-	box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-	max-width: 400px;
+	background: rgba(30, 41, 59, 0.6);
+	backdrop-filter: blur(10px);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 16px;
+	padding: 1.5rem;
+	margin: 1.5rem auto;
+	max-width: 300px;
+	text-align: center;
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	position: relative;
+	overflow: hidden;
   }
-  
+
+  .download-card::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 3px;
+	background: linear-gradient(90deg, #3b82f6, #60a5fa);
+	opacity: 0.8;
+  }
+
+  .download-card:hover {
+	transform: translateY(-4px);
+	background: rgba(30, 41, 59, 0.8);
+	border-color: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.3);
+  }
+
   /* Titre dans la carte */
   .download-card h3 {
-	margin-top: 0;
-	margin-bottom: 1rem;
-	font-size: 1.15rem;
-	color: #2337ff; /* ton bleu accent */
-  }
-  
-  /* Bouton de téléchargement */
-  .download-btn {
-	display: inline-block;
-	padding: 0.6rem 1.2rem;
-	font-size: 1rem;
+	margin: 0 0 0.75rem 0;
+	font-size: 0.9rem;
 	font-weight: 600;
-	color: #fff;
-	background: #2337ff; /* accent */
-	border: none;
-	border-radius: 8px;
-	text-decoration: none;
-	cursor: pointer;
-	transition: background 0.2s ease, transform 0.1s ease;
+	color: #f1f5f9;
   }
-  
+
+  /* Bouton de téléchargement */
+  button.download-btn,
+  .download-btn {
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	padding: 2px 1rem !important;
+	font-size: 1rem !important;
+	font-weight: 600 !important;
+	line-height: 1 !important;
+	min-height: unset !important;
+	height: 28px !important;
+	color: #fff !important;
+	background: linear-gradient(135deg, #3b82f6, #60a5fa) !important;
+	border: none !important;
+	border-radius: 8px !important;
+	text-decoration: none !important;
+	cursor: pointer !important;
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  }
+
   .download-btn:hover {
-	background: #1a2db3; /* bleu foncé au hover */
 	transform: translateY(-2px);
+	box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.3);
+	filter: brightness(1.1);
   }
-  
+
   .download-btn:active {
 	transform: translateY(0);
-	background: #14238a;
   }
 
   /* COULEUR DE FOND CÔTÉS article de blog - DARK MODE */
