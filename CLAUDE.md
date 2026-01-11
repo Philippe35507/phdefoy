@@ -54,27 +54,19 @@ Blog posts require:
 **Structure des images :**
 ```
 src/assets/           # Images optimisées automatiquement par Astro (→ AVIF)
-├── esp/              # Images articles espagnol (heroImage)
-├── russe/            # Images articles russe (heroImage)
-└── divers/           # Autres images (livres, auteurs, etc.)
+├── esp/              # Images articles espagnol
+├── russe/            # Images articles russe
+└── divers/           # Autres images (livres, auteurs, poe, polybe, etc.)
 
-public/images/        # Images statiques pour markdown inline
-├── ia/               # Images IA avec triplets manuels AVIF/WEBP/PNG
-├── esp/              # Images inline markdown espagnol
-├── russe/            # Images inline markdown russe
-├── divers/           # Images inline (contact, mentions légales)
-├── poe/, polybe/, stevenson/, mika-waltari/, oeuf/, asimov/
-└── ...               # Autres images inline dans articles
+public/images/        # Images statiques (ne pas ajouter ici sauf pour ia/)
+└── ia/               # Images IA avec triplets manuels AVIF/WEBP/PNG
 ```
 
-**Logique d'affichage (`BlogPost.astro`, pages piliers) :**
+**Logique d'affichage (`BlogPost.astro`) :**
 1. Images `/images/ia/*.png` → `<picture>` avec triplets AVIF/WEBP/PNG
-2. Images trouvées dans `src/assets/` → `<Image>` Astro (conversion AVIF auto)
-3. Autres images → `<img>` standard
+2. Images `/images/esp/`, `/images/russe/`, autres → recherche auto dans `src/assets/` → `<Image>` Astro
 
-**Optimisation :**
-- Les images de `src/assets/` sont converties en AVIF au build (~80% compression)
-- Les pages piliers (espagnol, russe, livres) utilisent aussi `<Image>`
+**Note :** Les fichiers MDX peuvent référencer `/images/esp/...` ou `/images/russe/...` - le code `BlogPost.astro` redirige automatiquement vers `src/assets/` pour l'optimisation AVIF.
 
 ### Key Files
 - `src/layouts/BlogPost.astro` - Blog post layout with image handling logic

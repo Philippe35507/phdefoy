@@ -4,6 +4,8 @@ description: "Cours d'espagnol complets pour francophones - Niveaux A1, A2 et B1
 pubDate: "2024-01-01"
 tags: ["Espagnol"]
 ---
+import { Image } from 'astro:assets';
+import imgA1 from '../../assets/esp/espagnol-a1.jpg';
 
 # Apprendre l'Espagnol : Grammaire et Conjugaison
 
@@ -16,9 +18,7 @@ La bonne nouvelle ? En tant que francophone, vous partez avec un **avantage cons
 <div class="books">
    <div class="book">
       <a href="/l-espagnol-pour-les-debutants-niveau-a1-philippe-de-foy/">
-        <img src="/images/esp/espagnol-a1.jpg"
-             alt="Couverture du livre L'Espagnol pour les Débutants Niveau A1 - Philippe de Foy"
-             class="book-cover" />
+        <Image src={imgA1} alt="Couverture du livre L'Espagnol pour les Débutants Niveau A1 - Philippe de Foy" class="book-cover" />
       </a>
       <div class="book-title">L'Espagnol pour les Débutants A1</div>
       </div>

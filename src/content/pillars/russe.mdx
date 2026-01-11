@@ -4,8 +4,11 @@ description: "Cours de russe complets pour francophones - Niveaux A1 à B2. Maî
 pubDate: "2024-01-01"
 tags: ["Russe"]
 ---
+import { Image } from 'astro:assets';
+import imgA1 from '../../assets/russe/apprendre-le-russe-pour-les-debutants.png';
+import imgA2 from '../../assets/russe/manuel-le-russe-pour-les-debutants-a2-philippe-de-foy.png';
 
-# Apprendre le Russe A1-B2 : Grammaire et Vocabulaireee
+# Apprendre le Russe A1-B2 : Grammaire et Vocabulaire
 
 Bienvenue dans votre parcours d'apprentissage du russe ! Que vous soyez fasciné par la littérature de Dostoïevski et Tolstoï, attiré par les opportunités professionnelles, ou simplement curieux de découvrir une nouvelle culture, vous êtes au bon endroit.
 
@@ -14,17 +17,13 @@ Le russe peut sembler complexe avec son **alphabet cyrillique** et sa **grammair
   <div class="books">
      <div class="book">
       <a href="/decouvrez-alphabet-cyrillique-russe-guide-pour-debutants/">
-        <img src="/images/russe/apprendre-le-russe-pour-les-debutants.png"
-             alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy"
-             class="book-cover" />
+        <Image src={imgA1} alt="Couverture du livre Le Russe pour les Débutants Niveau A1 - Philippe de Foy" class="book-cover" />
       </a>
       <div class="book-title">Le Russe pour les Débutants A1</div>
     </div>
     <div class="book">
       <a href="/manuel-apprentissage-le-russe-pour-les-debutants-niveau-a2-philippe-de-foy/">
-        <img src="/images/russe/manuel-le-russe-pour-les-debutants-a2-philippe-de-foy.png"
-             alt="Couverture du livre Le Russe pour les Débutants Niveau A2 - Philippe de Foy"
-             class="book-cover" />
+        <Image src={imgA2} alt="Couverture du livre Le Russe pour les Débutants Niveau A2 - Philippe de Foy" class="book-cover" />
       </a>
       <div class="book-title">Le Russe pour les Débutants A2</div>
     </div>
