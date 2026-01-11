@@ -4,6 +4,7 @@ import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import '../styles/cookie-banner.css';
+import '../styles/blog-post.css';
 
 // Import d'un fichier Markdown pour le bloc de texte de la home
 interface MarkdownModule {
@@ -110,8 +111,20 @@ const personSchema = {
           font-weight: 600;
           margin-top: 2.5rem;
           margin-bottom: 1rem;
-          border-left: 4px solid #60a5fa;
-          padding-left: 1rem;
+        }
+        .blog-container :global(h3) {
+          font-size: 1.25rem;
+          color: #7dd3fc;
+          font-weight: 600;
+          margin-top: 2rem;
+          margin-bottom: 0.75rem;
+        }
+        .blog-container :global(h4) {
+          font-size: 1.1rem;
+          color: #a5b4fc;
+          font-weight: 600;
+          margin-top: 1.5rem;
+          margin-bottom: 0.5rem;
         }
         .blog-container :global(p) { margin-bottom: 1.5rem; color: #cbd5e1; font-size: 1.1rem; }
         .blog-container :global(strong) { color: #f1f5f9; font-weight: 600; }
@@ -201,7 +214,30 @@ const personSchema = {
           0%, 100% { transform: translateX(0); }
           50% { transform: translateX(6px); }
         }
-        
+
+        /* Anchor links pour les titres */
+        .blog-container :global(.anchor-link) {
+          opacity: 0;
+          margin-right: 0.5rem;
+          text-decoration: none;
+          color: #60a5fa;
+          font-weight: normal;
+          transition: opacity 0.2s ease;
+          -webkit-text-fill-color: #60a5fa;
+          background: none;
+        }
+
+        .blog-container :global(h1:hover .anchor-link),
+        .blog-container :global(h2:hover .anchor-link),
+        .blog-container :global(h3:hover .anchor-link),
+        .blog-container :global(h4:hover .anchor-link) {
+          opacity: 0.7;
+        }
+
+        .blog-container :global(.anchor-link:hover) {
+          opacity: 1 !important;
+        }
+
       </style>
     </main>
 
