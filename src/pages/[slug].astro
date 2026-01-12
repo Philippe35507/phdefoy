@@ -4,16 +4,19 @@ import { getCollection, render, type CollectionEntry } from 'astro:content';
 
 type Post = CollectionEntry<'blog'>;
 
-// Fonction pour nettoyer l'ID en slug
-const cleanSlug = (id: string) => id.replace(/^.*\//, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
-
 export async function getStaticPaths() {
+  // Fonction définie à l'intérieur pour être accessible au build
+  const cleanSlug = (id: string) => id.replace(/^.*\//, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
+
   const posts = await getCollection('blog');
   return posts.map((post) => ({
     params: { slug: cleanSlug(post.id) },
     props: { post },
   }));
 }
+
+// Fonction pour nettoyer l'ID en slug (pour le runtime)
+const cleanSlug = (id: string) => id.replace(/^.*\//, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
 
 // En mode server, on doit chercher le post manuellement
 let post: Post | undefined = Astro.props.post;
