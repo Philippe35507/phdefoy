@@ -1,0 +1,144 @@
+
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Générateur MDX Local</title>
+</head>
+<body>
+
+<div class="container">
+  <h1>Nouvel Article</h1>
+  
+  <form id="mdx-form">
+    <div class="grid-top">
+      <div class="field small">
+        <label>Catégorie</label>
+        <select id="category">
+          <option value="Russe">Russe</option>
+          <option value="Espagnol">Espagnol</option>
+          <option value="Livres">Livres (Autres)</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label>Slug (Nom du fichier)</label>
+        <input type="text" id="slug" readonly class="readonly" />
+      </div>
+    </div>
+
+    <div class="field">
+      <label>Titre SEO (title)</label>
+      <input type="text" id="title" required />
+    </div>
+
+    <div class="field">
+      <label>Titre d'affichage (displayTitle)</label>
+      <input type="text" id="displayTitle" />
+    </div>
+
+    <div class="field">
+      <label>Description</label>
+      <textarea id="description" rows="2"></textarea>
+    </div>
+
+    <div class="field">
+      <label>Date (pubDate)</label>
+      <input type="date" id="pubDate" value="2026-01-12" />
+    </div>
+
+    <div class="field">
+      <label>Image (dans src/assets/)</label>
+      <select id="imageSelect"></select>
+    </div>
+
+    <div class="field">
+      <label>Texte principal (Markdown)</label>
+      <textarea id="content" rows="12"></textarea>
+    </div>
+
+    <div class="video-box">
+      <label>Vidéo (ID YouTube)</label>
+      <input type="text" id="videoId" />
+      <label>Titre Vidéo</label>
+      <input type="text" id="videoTitle" />
+      <label>Description Vidéo</label>
+      <textarea id="videoDescription" rows="2"></textarea>
+      <label>Date vidéo</label>
+      <input type="date" id="videoDate" value="2026-01-12" />
+    </div>
+
+    <button type="submit" id="save-btn">Créer le fichier .mdx</button>
+  </form>
+</div>
+
+<style>
+  body { font-family: sans-serif; background: #1a1a2e; color: #eee; padding: 2rem; }
+  .container { max-width: 800px; margin: 0 auto; background: #16213e; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.4); }
+  h1 { color: #fff; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .grid-top { display: grid; grid-template-columns: 150px 1fr; gap: 1rem; margin-bottom: 1rem; }
+  .field.small select { width: 100%; }
+  .field { margin-bottom: 1.2rem; display: flex; flex-direction: column; gap: 0.4rem; }
+  label { font-weight: bold; font-size: 0.9rem; color: #a0a0c0; }
+  input, select, textarea { padding: 0.7rem; border: 1px solid #3a3a5c; border-radius: 4px; background: #0f0f23; color: #eee; font-size: 1.1rem; }
+  #content { min-height: 400px; }
+  input:focus, select:focus, textarea:focus { outline: none; border-color: #007bff; }
+  .readonly { background: #2a2a4a; color: #888; }
+  .video-box { background: #1a2744; padding: 1rem; border-radius: 6px; margin: 1rem 0; display: grid; gap: 0.5rem; border: 1px solid #2a3f5f; }
+  #save-btn { background: #007bff; color: white; border: none; padding: 1rem; border-radius: 4px; cursor: pointer; width: 100%; font-size: 1rem; transition: background 0.2s; }
+  #save-btn:hover { background: #0056b3; }
+</style>
+
+<script>
+  const titleIn = document.getElementById('title') as HTMLInputElement;
+  const slugIn = document.getElementById('slug') as HTMLInputElement;
+  const catSel = document.getElementById('category') as HTMLSelectElement;
+  const imgSel = document.getElementById('imageSelect') as HTMLSelectElement;
+
+  // Slug automatique
+  titleIn.addEventListener('input', () => {
+    slugIn.value = titleIn.value.toLowerCase().trim().normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9 -]/g, '')
+      .replace(/\s+/g, '-').replace(/-+/g, '-');
+  });
+
+  // Liste des images
+  const loadImgs = async () => {
+    const res = await fetch(`/api/list-images/?category=${catSel.value}`);
+    const files = await res.json();
+    imgSel.innerHTML = files.map(f => `<option value="${f}">${f}</option>`).join('');
+  };
+
+  catSel.addEventListener('change', loadImgs);
+  window.addEventListener('DOMContentLoaded', loadImgs);
+
+  // Enregistrement
+  document.getElementById('mdx-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const payload = {
+      title: titleIn.value,
+      displayTitle: (document.getElementById('displayTitle') as HTMLInputElement).value,
+      description: (document.getElementById('description') as HTMLTextAreaElement).value,
+      pubDate: (document.getElementById('pubDate') as HTMLInputElement).value,
+      slug: slugIn.value,
+      category: catSel.value,
+      imageName: imgSel.value,
+      content: (document.getElementById('content') as HTMLTextAreaElement).value,
+      videoId: (document.getElementById('videoId') as HTMLInputElement).value,
+      videoTitle: (document.getElementById('videoTitle') as HTMLInputElement).value,
+      videoDescription: (document.getElementById('videoDescription') as HTMLTextAreaElement).value,
+      videoDate: (document.getElementById('videoDate') as HTMLInputElement).value
+    };
+
+    const res = await fetch('/api/save-mdx/', {
+      method: 'POST',
+      body: JSON.stringify(payload)
+    });
+
+    if (res.ok) {
+      alert('Fichier créé !');
+    }
+  });
+</script>
+</body>
+</html>
