@@ -76,3 +76,18 @@ const altText = imageAlt ?? `Couverture : ${metaTitle}`;
 <meta name="twitter:description" content={metaDescription} />
 <meta name="twitter:image" content={imageURL} />
 <meta name="twitter:image:alt" content={altText} />
+
+<!-- Schema.org WebSite (global) -->
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Philippe de Foy",
+  "url": "https://phdefoy.com",
+  "description": SITE_DESCRIPTION,
+  "inLanguage": "fr-FR",
+  "publisher": {
+    "@type": "Person",
+    "name": "Philippe de Foy",
+    "url": "https://phdefoy.com/philippe-de-foy/"
+  }
+})} />

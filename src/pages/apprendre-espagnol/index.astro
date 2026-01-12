@@ -52,11 +52,52 @@ const posts = allPosts
     const db = (b.data as any).pubDate ? new Date((b.data as any).pubDate).getTime() : 0;
     return db - da;
   });
+
+const SITE_URL = 'https://phdefoy.com';
+
+// Schema.org ItemList pour la liste d'articles
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Articles pour apprendre l'espagnol",
+  "description": "Guide complet pour apprendre l'espagnol : grammaire, vocabulaire, conjugaison.",
+  "numberOfItems": posts.length,
+  "itemListElement": posts.slice(0, 20).map((p, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "url": `${SITE_URL}${hrefFor(p)}`,
+    "name": p.data.displayTitle ?? p.data.title
+  }))
+};
+
+// Schema.org Course pour la page pillar
+const courseSchema = {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Apprendre l'espagnol",
+  "description": "Guide complet pour apprendre l'espagnol : grammaire, vocabulaire, conjugaison. Méthode pour francophones avec audios gratuits.",
+  "provider": {
+    "@type": "Person",
+    "name": "Philippe de Foy",
+    "url": `${SITE_URL}/philippe-de-foy/`
+  },
+  "inLanguage": "fr",
+  "teaches": "Langue espagnole",
+  "educationalLevel": "Débutant à Intermédiaire",
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online"
+  }
+};
 ---
 
 <html lang="fr">
   <head>
     <BaseHead title={`${SITE_TITLE} — Apprendre l'Espagnol`} description="Guide complet pour apprendre l'espagnol : grammaire, vocabulaire, conjugaison. Méthode pour francophones avec audios gratuits." />
+    <!-- Schema.org ItemList -->
+    <script type="application/ld+json" set:html={JSON.stringify(itemListSchema)} />
+    <!-- Schema.org Course -->
+    <script type="application/ld+json" set:html={JSON.stringify(courseSchema)} />
   </head>
   <body class="blog">
     <Header />

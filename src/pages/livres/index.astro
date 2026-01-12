@@ -52,11 +52,30 @@ const posts = allPosts
     const db = (b.data as any).pubDate ? new Date((b.data as any).pubDate).getTime() : 0;
     return db - da;
   });
+
+const SITE_URL = 'https://phdefoy.com';
+
+// Schema.org ItemList pour la liste d'articles
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Critiques et analyses littéraires",
+  "description": "Critiques et analyses littéraires : science-fiction, fantasy, polar, classiques.",
+  "numberOfItems": posts.length,
+  "itemListElement": posts.slice(0, 20).map((p, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "url": `${SITE_URL}${hrefFor(p)}`,
+    "name": p.data.displayTitle ?? p.data.title
+  }))
+};
 ---
 
 <html lang="fr">
   <head>
     <BaseHead title={`${SITE_TITLE} — Critiques Littéraires`} description="Critiques et analyses littéraires : science-fiction, fantasy, polar, classiques. Explorez les chefs-d'œuvre de la littérature." />
+    <!-- Schema.org ItemList -->
+    <script type="application/ld+json" set:html={JSON.stringify(itemListSchema)} />
   </head>
   <body class="blog">
     <Header />

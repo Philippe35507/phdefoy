@@ -143,6 +143,52 @@ const articleSchema = {
   }
 };
 
+// Schema.org Book pour les articles littéraires (ia/)
+const isLiteraryArticle = currentUrl.includes('/ia/') || (tags.includes('Livres') && !tags.includes('Russe') && !tags.includes('Espagnol'));
+const bookSchema = isLiteraryArticle ? {
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Book",
+    "name": title.replace(/^Analyse de |^Critique de |^Résumé de /i, '').split(' - ')[0].split(' : ')[0]
+  },
+  "reviewBody": description,
+  "author": {
+    "@type": "Person",
+    "name": "Philippe de Foy",
+    "url": `${SITE_URL}/philippe-de-foy/`
+  },
+  "datePublished": pubDate instanceof Date ? pubDate.toISOString() : new Date(pubDate).toISOString(),
+  "publisher": {
+    "@type": "Organization",
+    "name": "Philippe de Foy",
+    "url": SITE_URL
+  }
+} : null;
+
+// Schema.org Course pour les articles d'apprentissage des langues
+const isLanguageArticle = tags.includes('Russe') || tags.includes('Espagnol');
+const languageName = tags.includes('Russe') ? 'russe' : tags.includes('Espagnol') ? 'espagnol' : '';
+const courseSchema = isLanguageArticle ? {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": title,
+  "description": description,
+  "provider": {
+    "@type": "Person",
+    "name": "Philippe de Foy",
+    "url": `${SITE_URL}/philippe-de-foy/`
+  },
+  "inLanguage": "fr",
+  "teaches": languageName === 'russe' ? "Langue russe" : "Langue espagnole",
+  "educationalLevel": "Débutant à Intermédiaire",
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT30M"
+  }
+} : null;
+
 // Helpers pour les URLs
 const cleanId = (id: string) => id.replace(/^.*\//, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
 const hrefFor = (p: CollectionEntry<'blog'>) => `/${cleanId(p.id)}/`;
@@ -183,6 +229,10 @@ if (categoryTag) {
     />
     <!-- Schema.org Article -->
     <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+    {/* Schema.org Book Review pour articles littéraires */}
+    {bookSchema && <script type="application/ld+json" set:html={JSON.stringify(bookSchema)} />}
+    {/* Schema.org Course pour articles d'apprentissage des langues */}
+    {courseSchema && <script type="application/ld+json" set:html={JSON.stringify(courseSchema)} />}
    </head>
   <body class="blog">
     <Header />
