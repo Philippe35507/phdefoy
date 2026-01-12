@@ -98,11 +98,23 @@ const itemListSchema = {
               <li class="post-item">
                 <a class="post-link" href={hrefFor(p)}>
                     {p.data.heroImage && (() => {
-                      const assetImg = findAssetImage(p.data.heroImage);
-                      return assetImg ? (
+                      const heroImg = p.data.heroImage;
+                      const isIa = heroImg.includes('/images/ia/');
+                      const isPng = /\.png$/i.test(heroImg);
+                      const usePicture = isIa && isPng;
+                      const pictureBase = usePicture ? heroImg.replace(/\.png$/i, '') : null;
+                      const assetImg = !usePicture ? findAssetImage(heroImg) : null;
+
+                      return usePicture && pictureBase ? (
+                        <picture>
+                          <source srcset={`${pictureBase}.avif`} type="image/avif" />
+                          <source srcset={`${pictureBase}.webp`} type="image/webp" />
+                          <img src={`${pictureBase}.png`} alt={p.data.heroImageAlt || p.data.title} loading="lazy" decoding="async" width="640" height="360" />
+                        </picture>
+                      ) : assetImg ? (
                         <Image src={assetImg} alt={p.data.heroImageAlt || p.data.title} width={640} height={360} format="avif" loading="lazy" decoding="async" />
                       ) : (
-                        <img src={p.data.heroImage} alt={p.data.heroImageAlt || p.data.title} loading="lazy" decoding="async" width="640" height="360" />
+                        <img src={heroImg} alt={p.data.heroImageAlt || p.data.title} loading="lazy" decoding="async" width="640" height="360" />
                       );
                     })()}
                     <h3>{p.data.displayTitle ?? p.data.title}</h3>
