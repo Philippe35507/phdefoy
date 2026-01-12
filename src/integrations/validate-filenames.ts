@@ -5,6 +5,9 @@ import { join } from 'path';
 const VALID_IMAGE_REGEX = /^[a-z0-9]+(-[a-z0-9]+)*\.(png|jpg|jpeg|webp|avif|gif|svg)$/;
 const VALID_CONTENT_REGEX = /^[a-z0-9]+(-[a-z0-9]+)*\.(md|mdx)$/;
 
+// Fichiers ignorés par la validation (templates, etc.)
+const IGNORED_FILES = ['_modele.mdx'];
+
 const SCAN_CONFIGS = [
   { path: 'public/images', extensions: ['png', 'jpg', 'jpeg', 'webp', 'avif', 'gif', 'svg'], regex: VALID_IMAGE_REGEX, label: 'image' },
   { path: 'src/content', extensions: ['md', 'mdx'], regex: VALID_CONTENT_REGEX, label: 'content' }
@@ -44,6 +47,9 @@ function scanDirectory(dir: string, extensions: string[], regex: RegExp, errors:
         }
         scanDirectory(fullPath, extensions, regex, errors);
       } else if (stat.isFile()) {
+        // Ignorer les fichiers dans la liste d'exceptions
+        if (IGNORED_FILES.includes(entry)) continue;
+
         const ext = entry.split('.').pop()?.toLowerCase();
         if (extensions.includes(ext || '')) {
           if (!regex.test(entry)) {
@@ -66,6 +72,9 @@ function validateSingleFile(filePath: string): void {
   const normalizedPath = filePath.replace(/\\/g, '/');
   const filename = normalizedPath.split('/').pop() || '';
   const ext = filename.split('.').pop()?.toLowerCase() || '';
+
+  // Ignorer les fichiers dans la liste d'exceptions
+  if (IGNORED_FILES.includes(filename)) return;
 
   for (const config of SCAN_CONFIGS) {
     // Check if path contains the config path (handles absolute paths from watcher)

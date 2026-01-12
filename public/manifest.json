@@ -1,52 +1,15 @@
 {
-  "name": "Philippe de Foy - Apprendre le Russe et l'Espagnol",
+  "name": "Philippe de Foy",
   "short_name": "Philippe de Foy",
-  "description": "Apprendre le russe et l'espagnol (A1-B2) : grammaire, vocabulaire, exercices corrigés.",
-  "start_url": "/",
-  "display": "standalone",
+  "description": "Apprendre le russe et l'espagnol : grammaire, vocabulaire, exercices.",
   "background_color": "#12141f",
   "theme_color": "#1a1c2b",
-  "orientation": "portrait-primary",
-  "lang": "fr",
+  "display": "browser",
   "icons": [
-    {
-      "src": "/favicon-16x16.png",
-      "sizes": "16x16",
-      "type": "image/png"
-    },
-    {
-      "src": "/favicon-32x32.png",
-      "sizes": "32x32",
-      "type": "image/png"
-    },
-    {
-      "src": "/apple-touch-icon.png",
-      "sizes": "180x180",
-      "type": "image/png"
-    },
     {
       "src": "/favicon.svg",
       "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    }
-  ],
-  "categories": ["education", "books"],
-  "shortcuts": [
-    {
-      "name": "Apprendre le Russe",
-      "url": "/apprendre-le-russe/",
-      "description": "Cours de russe pour francophones"
-    },
-    {
-      "name": "Apprendre l'Espagnol",
-      "url": "/apprendre-espagnol/",
-      "description": "Cours d'espagnol pour francophones"
-    },
-    {
-      "name": "Critiques Littéraires",
-      "url": "/livres/",
-      "description": "Analyses et critiques de livres"
+      "type": "image/svg+xml"
     }
   ]
 }
