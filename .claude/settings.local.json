@@ -28,7 +28,11 @@
       "Bash(grep:*)",
       "Bash(dir /b \"C:\\\\Users\\\\phdef\\\\phdefoy\\\\public\\\\images\\\\ia\")",
       "Bash(set DRY_RUN=true)",
-      "Bash(powershell -Command:*)"
+      "Bash(powershell -Command:*)",
+      "WebFetch(domain:www.youtube.com)",
+      "Bash(find:*)",
+      "Bash(timeout 15 npm run dev:*)",
+      "Bash(curl:*)"
     ]
   }
 }
