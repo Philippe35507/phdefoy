@@ -45,6 +45,7 @@ const altText = imageAlt ?? `Couverture : ${metaTitle}`;
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/manifest.json" />
 <link rel="sitemap" href="/sitemap-index.xml" />
 <link rel="dns-prefetch" href="//www.googletagmanager.com" />
 <link rel="alternate" type="application/rss+xml" title={SITE_TITLE} href={new URL('rss.xml', baseForUrls)} />
@@ -76,6 +77,16 @@ const altText = imageAlt ?? `Couverture : ${metaTitle}`;
 <meta name="twitter:description" content={metaDescription} />
 <meta name="twitter:image" content={imageURL} />
 <meta name="twitter:image:alt" content={altText} />
+
+<!-- Service Worker Registration -->
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js')
+        .catch(() => {});
+    });
+  }
+</script>
 
 <!-- Schema.org WebSite (global) -->
 <script type="application/ld+json" set:html={JSON.stringify({
