@@ -8,12 +8,16 @@ import { h } from 'hastscript';
 import { defineConfig } from 'astro/config';
 import validateFilenames from './src/integrations/validate-filenames';
 
-// Mode server en dev (pour /admin/ et API routes)
-// Pour build statique Netlify : npm run build définit NODE_ENV=production
+// Mode server uniquement en dev (pour /admin/ et API routes)
+// En production (npm run build) → statique pour Netlify
+const isDev = process.env.NODE_ENV !== 'production';
+
 export default defineConfig({
   site: 'https://phdefoy.com',
-  output: 'server',
-  adapter: node({ mode: 'standalone' }),
+  ...(isDev && {
+    output: 'server',
+    adapter: node({ mode: 'standalone' })
+  }),
   trailingSlash: 'always',
   vite: {
     assetsInclude: ['**/*.woff2', '**/*.woff']
