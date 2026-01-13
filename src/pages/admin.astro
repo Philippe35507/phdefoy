@@ -7,7 +7,13 @@
 <body>
 
 <div class="container">
-  <h1>Nouvel Article</h1>
+  <div class="header-row">
+    <h1>Nouvel Article</h1>
+    <div class="header-links">
+      <a href="http://localhost:4321/" target="_blank" class="btn-link">Localhost</a>
+      <a href="https://phdefoy.com/" target="_blank" class="btn-link">Site</a>
+    </div>
+  </div>
   
   <form id="mdx-form">
     <div class="grid-top">
@@ -43,7 +49,7 @@
 
     <div class="field">
       <label>Date (pubDate)</label>
-      <input type="date" id="pubDate" value="2026-01-12" />
+      <input type="date" id="pubDate" value="2026-01-01" />
     </div>
 
     <div class="field">
@@ -64,7 +70,7 @@
       <label>Description Vidéo</label>
       <textarea id="videoDescription" rows="2"></textarea>
       <label>Date vidéo</label>
-      <input type="date" id="videoDate" value="2026-01-12" />
+      <input type="date" id="videoDate" value="2026-01-01" />
     </div>
 
     <button type="submit" id="save-btn">Créer le fichier .mdx</button>
@@ -74,7 +80,11 @@
 <style>
   body { font-family: sans-serif; background: #1a1a2e; color: #eee; padding: 2rem; }
   .container { max-width: 800px; margin: 0 auto; background: #16213e; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.4); }
-  h1 { color: #fff; }
+  h1 { color: #fff; margin: 0; }
+  .header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; }
+  .header-links { display: flex; gap: 0.5rem; }
+  .btn-link { background: #2a3f5f; color: #7dd3fc; padding: 0.4rem 0.8rem; border-radius: 4px; text-decoration: none; font-size: 0.85rem; transition: background 0.2s; }
+  .btn-link:hover { background: #3a5f8f; }
   .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
   .grid-top { display: grid; grid-template-columns: 150px 1fr; gap: 1rem; margin-bottom: 1rem; }
   .field.small select { width: 100%; }
@@ -106,7 +116,7 @@
   const loadImgs = async () => {
     const res = await fetch(`/api/list-images/?category=${catSel.value}`);
     const files = await res.json();
-    imgSel.innerHTML = files.map(f => `<option value="${f}">${f}</option>`).join('');
+    imgSel.innerHTML = '<option value="">-- Aucune image --</option>' + files.map(f => `<option value="${f}">${f}</option>`).join('');
   };
 
   catSel.addEventListener('change', loadImgs);
@@ -132,6 +142,7 @@
 
     const res = await fetch('/api/save-mdx/', {
       method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
     });
 
