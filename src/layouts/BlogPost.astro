@@ -55,6 +55,7 @@ type ExtraProps = {
   hideTitle?: boolean;
   hideBreadcrumb?: boolean;
   tags?: string[];
+  noindex?: boolean;
 };
 
 // → on rend draft optionnel côté layout
@@ -75,6 +76,7 @@ const {
   tags = [],
   draft = false, // valeur par défaut (même si non utilisé)
   lang = 'fr',
+  noindex = false,
 } = Astro.props as Props;
 
 // Titre affiché : displayTitle > pageTitle > title
@@ -226,6 +228,7 @@ if (categoryTag) {
       image={heroImage}
       imageAlt={alt}
       ogType="article"
+      noindex={noindex}
     />
     <!-- Schema.org Article -->
     <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
