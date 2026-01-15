@@ -32,7 +32,8 @@
       "WebFetch(domain:www.youtube.com)",
       "Bash(find:*)",
       "Bash(timeout 15 npm run dev:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(yt-dlp:*)"
     ]
   }
 }
