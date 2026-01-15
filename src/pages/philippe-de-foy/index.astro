@@ -36,6 +36,21 @@ import Layout from '../../layouts/BlogPost.astro';
     </div>
   </section>
 
+  <!-- Section English Resources -->
+  <section class="recursos-section">
+    <div class="recursos-container recursos-container-en">
+      <div class="recursos-content">
+        <span class="recursos-flag" aria-hidden="true">🇬🇧</span>
+        <h3>English Resources</h3>
+        <p>Do you speak English? Download free audio files to improve your listening comprehension.</p>
+        <a href="/downloads/" class="recursos-btn recursos-btn-en" aria-label="Go to English downloads page">
+          View English resources
+          <span class="arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
   <!-- Section message personnel -->
   <section class="message-section">
     <p>Quand on apprend une langue étrangère, on a besoin d'explications claires, dans notre propre langue. C'est ce que j'essaie de vous offrir ici. Vous trouverez des leçons de grammaire, du vocabulaire, des audios pour vous entraîner. Tout est en français, du niveau débutant au niveau avancé.</p>
@@ -219,6 +234,36 @@ import Layout from '../../layouts/BlogPost.astro';
 
   :global(.recursos-btn:hover .arrow) {
     transform: translateX(4px);
+  }
+
+  /* === Section English Resources (variante bleue) === */
+  .recursos-container-en {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(16, 185, 129, 0.08) 100%);
+    border: 2px solid rgba(59, 130, 246, 0.4);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+  }
+
+  .recursos-container-en::before {
+    background: linear-gradient(90deg, #3b82f6, #10b981);
+  }
+
+  .recursos-container-en:hover {
+    border-color: rgba(16, 185, 129, 0.6);
+    box-shadow: 0 12px 30px rgba(59, 130, 246, 0.3);
+  }
+
+  :global(body.blog .post-content .recursos-container-en h3) {
+    color: #3b82f6 !important;
+  }
+
+  :global(.recursos-btn-en) {
+    background: linear-gradient(135deg, #3b82f6, #10b981) !important;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+  }
+
+  :global(.recursos-btn-en:hover),
+  :global(.recursos-btn-en:focus) {
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.4);
   }
 
   /* Responsive */
