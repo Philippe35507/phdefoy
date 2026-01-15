@@ -3,10 +3,10 @@ interface Props {
   id: string;
   title: string;
   description: string;
-  date?: string; // Format YYYY-MM-DD (optionnel)
+  uploadDate?: string; // Format YYYY-MM-DD (requis par Google)
 }
 
-const { id, title, description, date } = Astro.props;
+const { id, title, description, uploadDate } = Astro.props;
 
 const schema: Record<string, unknown> = {
   "@context": "https://schema.org",
@@ -19,8 +19,8 @@ const schema: Record<string, unknown> = {
 };
 
 // Ajouter uploadDate seulement si fourni
-if (date) {
-  schema.uploadDate = date;
+if (uploadDate) {
+  schema.uploadDate = uploadDate;
 }
 ---
 
