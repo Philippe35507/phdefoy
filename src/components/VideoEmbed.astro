@@ -3,7 +3,7 @@ interface Props {
   id: string;
   title: string;
   description: string;
-  uploadDate?: string; // Format YYYY-MM-DD (requis par Google)
+  uploadDate?: string; // Format YYYY-MM-DD (converti automatiquement en ISO 8601 avec fuseau horaire)
 }
 
 const { id, title, description, uploadDate } = Astro.props;
@@ -18,9 +18,10 @@ const schema: Record<string, unknown> = {
   contentUrl: `https://www.youtube.com/watch?v=${id}`
 };
 
-// Ajouter uploadDate seulement si fourni
+// Ajouter uploadDate seulement si fourni (format ISO 8601 avec fuseau horaire)
 if (uploadDate) {
-  schema.uploadDate = uploadDate;
+  // Si la date est au format YYYY-MM-DD, ajouter l'heure et le fuseau horaire UTC
+  schema.uploadDate = uploadDate.includes('T') ? uploadDate : `${uploadDate}T00:00:00+00:00`;
 }
 ---
 
