@@ -204,17 +204,17 @@
     // Active les boutons PAGE DOWNLOADS (EN)
     setupDownloadButton(
       'btn-downloads-russian-a1', 'download-container-downloads-russian-a1',
-      '/protected/audio/descargas/ruso/audio-ruso-nivel-a1.zip',
+      '/protected/audio/downloads/russian/audio-russian-a1.zip',
       'Russian level A1.zip'
     );
     setupDownloadButton(
       'btn-downloads-russian-a2', 'download-container-downloads-russian-a2',
-      '/protected/audio/descargas/ruso/audio-ruso-nivel-a2.zip',
+      '/protected/audio/downloads/russian/audio-russian-a2.zip',
       'Russian level A2.zip'
     );
     setupDownloadButton(
       'btn-downloads-russian-b1', 'download-container-downloads-russian-b1',
-      '/protected/audio/descargas/ruso/audio-ruso-nivel-b1.zip',
+      '/protected/audio/downloads/russian/audio-russian-b1.zip',
       'Russian level B1.zip'
     );
 
