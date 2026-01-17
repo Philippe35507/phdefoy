@@ -60,12 +60,12 @@
 }
 
 .btn-accept {
-  background: #10b981;
+  background: #047857;
   color: #fff;
 }
 
 .btn-accept:hover {
-  background: #059669;
+  background: #065f46;
 }
 
 .btn-reject {
@@ -171,7 +171,7 @@
 }
 
 .btn-save {
-  background: #10b981;
+  background: #047857;
   color: #fff;
   width: 100%;
   padding: 10px 20px;
@@ -184,7 +184,7 @@
 }
 
 .btn-save:hover {
-  background: #059669;
+  background: #065f46;
 }
 
 .btn-save:focus-visible {
